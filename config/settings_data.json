@@ -17,16 +17,29 @@
           "announcement-bar-0": {
             "type": "announcement",
             "settings": {
-              "announcement_icon_text": "",
-              "color_scheme": "accent-2",
-              "link": ""
+              "announcement_block_title": "announcement",
+              "annoucement_icon": "shopify:\/\/shop_images\/LOGO_2x_e978eb8f-dc11-4ea9-8c04-4559fccf9d35.png",
+              "announcement-bar-icon-text": "Icon Text",
+              "announcement-bar-sm-icon-text": "Social Media Link Text"
+            }
+          },
+          "e5866ab9-c730-4610-b9ed-9d8a4feb44d9": {
+            "type": "announcement",
+            "settings": {
+              "announcement_block_title": "What Whats App",
+              "annoucement_icon": "shopify:\/\/shop_images\/spinner.gif",
+              "announcement-bar-icon-text": "Icon Text",
+              "announcement-bar-sm-icon-text": "Social Media Link Text"
             }
           }
         },
         "block_order": [
-          "announcement-bar-0"
+          "announcement-bar-0",
+          "e5866ab9-c730-4610-b9ed-9d8a4feb44d9"
         ],
         "settings": {
+          "announcementbar_bg_color": "#f5f5f5",
+          "announcementbar_text_color": "#000"
         }
       },
       "header": {
