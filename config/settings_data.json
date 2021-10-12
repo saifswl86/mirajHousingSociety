@@ -18,7 +18,7 @@
             "type": "announcement",
             "settings": {
               "announcement_block_title": "announcement",
-              "annoucement_icon": "shopify:\/\/shop_images\/LOGO_2x_e978eb8f-dc11-4ea9-8c04-4559fccf9d35.png",
+              "annoucement_icon": "shopify:\/\/shop_images\/phone.png",
               "announcement-bar-icon-text": "Icon Text",
               "announcement-bar-sm-icon-text": "Social Media Link Text"
             }
