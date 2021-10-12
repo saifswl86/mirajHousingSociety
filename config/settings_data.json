@@ -17,7 +17,7 @@
           "announcement-bar-0": {
             "type": "announcement",
             "settings": {
-              "text": "Welcome to our store",
+              "announcement_icon_text": "",
               "color_scheme": "accent-2",
               "link": ""
             }
@@ -33,6 +33,7 @@
         "type": "header",
         "settings": {
           "color_scheme": "background-1",
+          "logo": "shopify:\/\/shop_images\/LOGO_2x_e978eb8f-dc11-4ea9-8c04-4559fccf9d35.png",
           "logo_width": 100,
           "logo_position": "middle-left",
           "menu": "main-menu",
