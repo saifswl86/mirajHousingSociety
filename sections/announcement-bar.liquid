@@ -30,9 +30,22 @@
       "type": "announcement",
       "name": "t:sections.announcement-bar.blocks.announcement.name",
       "settings": [
+      {
+        "type":"icon_with_text",
+        "name":"Icon with Text",
+        "settings":[
         {
-          "type":"text"
+          "type":"image_picker",
+          "label":"Select Icon",
+          "id":"annoucement_icon_image"
         },
+        {
+          "type":"text",
+          "label":"Icon Text",
+          "id":"announcement_icon_text"
+        }
+        ]
+      },
         {
           "type": "select",
           "id": "color_scheme",
@@ -74,22 +87,6 @@
     "blocks": [
       {
         "type": "announcement"
-      }
-      {
-        "type":"icon_with_text",
-        "name":"Icon with Text",
-        "settings":[
-        {
-          "type":"image_picker",
-          "label":"Select Icon",
-          "id":"annoucement_icon_image"
-        },
-        {
-          "type":"text",
-          "label":"Icon Text",
-          "id":"announcement_icon_text"
-        }
-        ]
       }
     ]
   }
