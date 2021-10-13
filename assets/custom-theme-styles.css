@@ -3,6 +3,9 @@
 Custom Theme Styles 
 ==========================================================================
 */
+.announcement-bar{
+    padding:0px 10px 0px 10px;
+}
 .announcement_Text{
     order:1;
   }
