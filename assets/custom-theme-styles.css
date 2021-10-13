@@ -36,6 +36,10 @@ Custom Theme Styles
     padding: 0px 7px;
     font-size: 15px;
 }
+.icon-with-text-item a img{
+    width: 21px;
+    height: 21px;
+}
 .announcement-bar-icon-text{
     text-align: left;
     font: 500 16px Raleway;
