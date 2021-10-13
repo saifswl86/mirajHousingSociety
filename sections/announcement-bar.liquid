@@ -1,6 +1,6 @@
 {% if section.settings.announcement_check == true %}
  
-<div class="announcement-bar d-flex align-items-center ">
+<div class="announcement-bar d-flex align-items-center justify-content-around ">
   {%if section.settings.announcement_text_check==true%}
     {%if section.settings.announcement_Text!=blank%}
       <div class="announcement_Text">
@@ -13,6 +13,16 @@
         {%endif%}
       </div>
     {%endif%}
+  {%endif%}
+  {%if section.blocks!=blank%}
+      <div class="icon-with-text d-flex">
+        {%for block in section.blocks%}
+            <div class="ann-{{block.settings.announcement_block_title}} d-flex flex-row">
+              <img src="{{block.settings.annoucement_icon | img_url:'32x32'}}" loading="lazy" width="24" height="24">
+              <p>{{block.settings.announcement-bar-icon-text}}</p>
+            </div>
+        {%endfor%}
+      </div>
   {%endif%}
   {%if section.settings.announcement_sm_check==true %}
       <div class="announce-sm-icons d-flex">
@@ -44,16 +54,6 @@
               </a>
             </div>
           {%endif%}
-      </div>
-  {%endif%}
-  {%if section.blocks!=blank%}
-      <div class="icon-with-text d-flex">
-        {%for block in section.blocks%}
-            <div class="ann-{{block.settings.announcement_block_title}} d-flex flex-row">
-              <img src="{{block.settings.annoucement_icon | img_url:'32x32'}}" loading="lazy" width="24" height="24">
-              <p>{{block.settings.announcement-bar-icon-text}}</p>
-            </div>
-        {%endfor%}
       </div>
   {%endif%}
 </div>
