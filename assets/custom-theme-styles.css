@@ -55,3 +55,6 @@ Custom Theme Styles
 .announcement-bar-icon-text p{
     margin-bottom: 0px;
 }
+.header{
+  padding:0 3.8rem;
+}
