@@ -1,6 +1,6 @@
 {% if section.settings.announcement_check == true %}
  
-<div class="announcement-bar d-flex align-items-center justify-content-between {%if settings.announcement_text_check!=true%}flex-row-reverse{%endif%}">
+<div class="announcement-bar d-flex align-items-center  {%if settings.announcement_text_check!=true%}flex-row-reverse {%else%} justify-content-between {%endif%}">
   {%if section.settings.announcement_text_check==true%}
     {%if section.settings.announcement_Text!=blank%}
       <div class="announcement_Text">
