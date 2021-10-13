@@ -3,7 +3,20 @@
 Custom Theme Styles 
 ==========================================================================
 */
-
+.announcement_Text{
+    order:1;
+  }
+  .icon-with-text {
+    order:2;
+  }
+  .announce-sm-icons{
+    order:3;
+    padding-right: 100px;
+  }
+  .announce-sm-icons div{
+    padding: 0px 6px;
+    margin:0px 1px;
+  }
 .icon-with-text-item{
     padding:0px 10px;
 }
