@@ -3,6 +3,9 @@
 Custom Theme Styles 
 ==========================================================================
 */
+.announcement-bar {
+    --bs-gutter-x: 1.5rem;
+}
 .announcement-bar{
     padding:13px 10px;
 }
