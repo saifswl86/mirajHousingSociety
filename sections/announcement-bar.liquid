@@ -1,5 +1,5 @@
 {% if section.settings.announcement_check == true %}
-<div class="announcement-bar d-flex align-items-center">
+<div class="announcement-bar d-flex align-items-center justify-content-between">
   {%if section.settings.announcement_Text!=blank%}
     <div class="announcement_Text">
       {%if section.settings.announcement_link!=blank%}
@@ -44,12 +44,14 @@
       </div>
   {%endif%}
   {%if section.blocks!=blank%}
-    {%for block in section.blocks%}
-        <div class="ann-{{block.settings.announcement_block_title}} d-flex flex-row">
-          <img src="{{block.settings.annoucement_icon | img_url:'32x32'}}" loading="lazy" width="24" height="24">
-          <p>{{block.settings.announcement-bar-icon-text}}</p>
-        </div>
-    {%endfor%}
+      <div class="icon-with-text">
+        {%for block in section.blocks%}
+            <div class="ann-{{block.settings.announcement_block_title}} d-flex flex-row">
+              <img src="{{block.settings.annoucement_icon | img_url:'32x32'}}" loading="lazy" width="24" height="24">
+              <p>{{block.settings.announcement-bar-icon-text}}</p>
+            </div>
+        {%endfor%}
+      </div>
   {%endif%}
 </div>
 {%endif%}
@@ -61,6 +63,15 @@
 }
 .announcement-bar *{
   color:{{section.settings.announcementbar_text_color}};
+}
+.announcement_Text{
+  order:1;
+}
+.announce-sm-icons{
+  order:3;
+}
+.icon-with-text{
+  order:2;
 }
 {%endstyle%}
 {% schema %}
