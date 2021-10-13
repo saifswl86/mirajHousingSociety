@@ -7,3 +7,7 @@ Custom Theme Styles
 .icon-with-text-item{
     padding:0px 10px;
 }
+.icon-with-text-item a{
+    text-decoration: none;
+    padding: 0px 7px;
+}
