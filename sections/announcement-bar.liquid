@@ -11,6 +11,18 @@
       {%endif%}
     </div>
   {%endif%}
+
+  {%if section.settings.announcement_sm_check==true %}
+      <div class="announce-sm-icons">
+         {%if section.settings.sm_link_email!=blank%}
+            <div class="sm_link_email">
+              <a href="{{section.settings.sm_link_email}}">
+                <img src="https://cdn.shopify.com/s/files/1/0593/1987/7820/files/Email.svg?v=1634108379" width="24" height="24">
+              </a>
+            </div>
+         {%endif%}
+      </div>
+  {%endif%}
   {%if section.blocks!=blank%}
     {%for block in section.blocks%}
         <div class="ann-{{block.settings.announcement_block_title}} d-flex flex-row">
@@ -52,6 +64,13 @@
     {
       "type": "header",
       "content": "Announcement Bar Color Scheme"
+    },
+    {
+      "type": "checkbox",
+      "id": "announcement_sm_check",
+      "label": "Show Social Icons",
+      "default": true,
+      "info": "Check if you want to show annoucemment bar"
     },
     {
       "type": "color",
