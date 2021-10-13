@@ -43,6 +43,6 @@ Custom Theme Styles
     opacity: 0.8;
     text-decoration: none;
 }
-announcement-bar-icon-text p{
+.announcement-bar-icon-text p{
     margin-bottom: 0px;
 }
