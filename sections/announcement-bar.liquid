@@ -1,4 +1,7 @@
 <div class="announcement-bar d-flex">
+  <div>
+    
+  </div>
   {%for block in section.blocks%}
       <div class="ann-{{block.settings.announcement_block_title}} d-flex flex-row">
         <img src="{{block.settings.annoucement_icon | img_url:'24x'}}" loading="lazy">
@@ -11,6 +14,23 @@
 {
   "name":"Announcement Bar",
   "settings":[
+    {
+      "type": "header",
+      "content": "Announcement Bar"
+    },
+    {
+      "type": "text",
+      "id": "announcement_Text",
+      "label": "Announcement Text",
+      "info": "Add text for annoucement"
+    },
+    {
+      "type": "text",
+      "id": "announcement_link",
+      "label": "Link",
+      "info": "Add link to announcemnet bar",
+      "placeholder": "www.mirajhousingsociety.com"
+    },
     {
       "type": "header",
       "content": "Announcement Bar Color Scheme"
