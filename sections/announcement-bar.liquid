@@ -1,6 +1,6 @@
+{%if section.settings.announcement_check==true%}
 <div class="announcement-bar d-flex align-items-center">
-  <div class="annout">
-    
+  <div class="announcement-bar-text">
   </div>
   {%for block in section.blocks%}
       <div class="ann-{{block.settings.announcement_block_title}} d-flex flex-row">
@@ -8,8 +8,8 @@
         <p>{{block.settings.announcement-bar-icon-text}}</p>
       </div>
   {%endfor%}
-
 </div>
+{%endif%}
 {% schema %}
 {
   "name":"Announcement Bar",
@@ -17,6 +17,13 @@
     {
       "type": "header",
       "content": "Announcement Bar"
+    },
+    {
+      "type": "checkbox",
+      "id": "announcement_check",
+      "label": "Show announcement",
+      "default": "true",
+      "info": "Check if you want to show annoucemment bar"
     },
     {
       "type": "text",
