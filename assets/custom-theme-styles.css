@@ -58,3 +58,7 @@ Custom Theme Styles
 .header{
   padding:0 3.8rem;
 }
+.header__heading-logo {
+  height: auto;
+  width: 100%;
+}
