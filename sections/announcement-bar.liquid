@@ -1,15 +1,18 @@
 {% if section.settings.announcement_check == true %}
+ 
 <div class="announcement-bar d-flex align-items-center justify-content-between">
-  {%if section.settings.announcement_Text!=blank%}
-    <div class="announcement_Text">
-      {%if section.settings.announcement_link!=blank%}
-        <a href="section.settings.announcement-bar-link">
-      {%endif%}
-          <p>{{section.settings.announcement_Text}}</p>
-      {%if section.settings.announcement_link!=blank%}
-          </a>
-      {%endif%}
-    </div>
+  {%if section.settings.announcement_text_check==true%}
+    {%if section.settings.announcement_Text!=blank%}
+      <div class="announcement_Text">
+        {%if section.settings.announcement_link!=blank%}
+          <a href="section.settings.announcement-bar-link">
+        {%endif%}
+            <p>{{section.settings.announcement_Text}}</p>
+        {%if section.settings.announcement_link!=blank%}
+            </a>
+        {%endif%}
+      </div>
+    {%endif%}
   {%endif%}
   {%if section.settings.announcement_sm_check==true %}
       <div class="announce-sm-icons">
@@ -88,6 +91,17 @@
       "label": "Show announcement",
       "default": true,
       "info": "Check if you want to show annoucemment bar"
+    },
+    {
+      "type": "header",
+      "content": "Announcement Bar Details"
+    },
+    {
+      "type": "checkbox",
+      "id": "announcement_text_check",
+      "label": "Show announcement Text",
+      "default": false,
+      "info": "Check if you want to show annoucemment bar text"
     },
     {
       "type": "text",
