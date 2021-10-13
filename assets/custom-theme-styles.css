@@ -34,6 +34,7 @@ Custom Theme Styles
 .icon-with-text-item a p{
     text-decoration: none;
     padding: 0px 7px;
+    font-size: 15px;
 }
 .announcement-bar-icon-text{
     text-align: left;
