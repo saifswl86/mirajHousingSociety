@@ -1873,6 +1873,8 @@ input[type='checkbox'] {
   .header {
     /* padding-top: 2rem;
     padding-bottom: 2rem; */
+    box-shadow: 4px 0px 6px 1px lightgrey;
+
   }
 
   .header--has-menu:not(.header--middle-left) {
