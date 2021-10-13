@@ -1,6 +1,6 @@
 {% if section.settings.announcement_check == true %}
  
-<div class="announcement-bar d-flex align-items-center justify-content-between">
+<div class="announcement-bar d-flex align-items-center justify-content-between {%if settings.announcement_text_check!=true%}flex-row-reverse{%endif%}">
   {%if section.settings.announcement_text_check==true%}
     {%if section.settings.announcement_Text!=blank%}
       <div class="announcement_Text">
@@ -73,9 +73,15 @@
 .announce-sm-icons{
   order:3;
 }
+{%if settings.announcement_text_check!=true%}
+.announce-sm-icons{
+  order:1;
+}
 .icon-with-text{
   order:2;
 }
+{%endif%}
+
 {%endstyle%}
 {% schema %}
 {
