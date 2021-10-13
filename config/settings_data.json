@@ -29,11 +29,29 @@
               "announcement-bar-icon-text": "+9234582372349",
               "announcement-bar-icon-link": "+9234582372349"
             }
+          },
+          "a1903093-c847-4667-825e-51ae357ab77b": {
+            "type": "announcement",
+            "settings": {
+              "annoucement_icon": "shopify:\/\/shop_images\/spinner.gif",
+              "announcement-bar-icon-text": "+9234582372349",
+              "announcement-bar-icon-link": "+9234582372349"
+            }
+          },
+          "50411522-c13f-4a84-ad97-04d50a26299b": {
+            "type": "announcement",
+            "settings": {
+              "annoucement_icon": "shopify:\/\/shop_images\/LOGO_2x_e978eb8f-dc11-4ea9-8c04-4559fccf9d35.png",
+              "announcement-bar-icon-text": "+9234582372349",
+              "announcement-bar-icon-link": "+9234582372349"
+            }
           }
         },
         "block_order": [
           "announcement-bar-0",
-          "e5866ab9-c730-4610-b9ed-9d8a4feb44d9"
+          "e5866ab9-c730-4610-b9ed-9d8a4feb44d9",
+          "a1903093-c847-4667-825e-51ae357ab77b",
+          "50411522-c13f-4a84-ad97-04d50a26299b"
         ],
         "settings": {
           "announcement_check": true,
