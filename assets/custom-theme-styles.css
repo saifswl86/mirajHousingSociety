@@ -17,6 +17,10 @@ Custom Theme Styles
     padding: 0px 6px;
     margin:0px 1px;
   }
+  .announce-sm-icons div a img{
+    width: 18px;
+    height: 18px;
+  }
 .icon-with-text-item{
     padding:0px 10px;
 }
