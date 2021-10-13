@@ -14,15 +14,15 @@ Custom Theme Styles
   }
   .announce-sm-icons{
     order:3;
-    padding-right: 100px;
+    padding-right: 80px;
   }
   .announce-sm-icons div{
-    padding: 0px 6px;
+    padding: 0px 5px;
     margin:0px 1px;
   }
   .announce-sm-icons div a img{
-    width: 18px;
-    height: 18px;
+    width: 15px;
+    height: 15px;
   }
 .icon-with-text-item{
     padding:0px 10px;
