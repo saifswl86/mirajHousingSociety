@@ -14,7 +14,7 @@
       {%endif%}
     {%endif%}
   </div>
-  <div class="icon-with-text col-4 d-flex align-items-center">
+  <div class="icon-with-text col-4 d-flex justify-content-center align-items-center">
       {%if section.blocks!=blank%}
             {%for block in section.blocks%}
                 <div class="ann-{{block.settings.announcement_block_title}} d-flex flex-row">
@@ -24,7 +24,7 @@
             {%endfor%}
       {%endif%}
   </div>
-  <div class="announce-sm-icons col-4 d-flex align-items-center">
+  <div class="announce-sm-icons col-4 d-flex justify-content-end align-items-center">
     {%if section.settings.announcement_sm_check==true %}
           {%if section.settings.sm_link_email!=blank%}
               <div class="sm_link_email">
@@ -68,7 +68,7 @@
 
 {%style%}
 .announcement-bar{
-  padding:10px;
+  padding:10px 10px 0px 10px;
   background-color:{{section.settings.announcementbar_bg_color}};
 }
 .announcement-bar *{
