@@ -19,7 +19,7 @@
             "settings": {
               "annoucement_icon": "shopify:\/\/shop_images\/phone.png",
               "announcement-bar-icon-text": "+9234582372349",
-              "announcement-bar-icon-link": "+9234582372349"
+              "announcement-bar-icon-link": "tel:9234582372349"
             }
           },
           "e5866ab9-c730-4610-b9ed-9d8a4feb44d9": {
@@ -37,6 +37,7 @@
         ],
         "settings": {
           "announcement_check": true,
+          "announcement_text_check": false,
           "announcement_Text": "Announcement Text",
           "announcement_link": "www.facebook.com",
           "announcement_sm_check": true,
