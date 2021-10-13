@@ -19,10 +19,10 @@
             {%for block in section.blocks%}
                 <div class="icon-with-text-item d-flex">
                   {%if block.settings.announcement-bar-icon-link!=blank%}
-                    <a class="d-flex justify-content-between align-items-center" href="{{block.settings.announcement-bar-icon-link}}">
+                    <a class="d-flex announcement-bar-icon-text justify-content-between align-items-center" href="{{block.settings.announcement-bar-icon-link}}">
                   {%endif%}
                     <img src="{{block.settings.annoucement_icon | img_url:'32x32'}}" loading="lazy" width="24" height="24">
-                    <p class="announcement-bar-icon-text">{{block.settings.announcement-bar-icon-text}}</p>
+                    <p class="">{{block.settings.announcement-bar-icon-text}}</p>
                   {%if block.settings.announcement-bar-icon-link!=blank%}
                     </a>
                   {%endif%}
