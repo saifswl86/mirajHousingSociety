@@ -170,7 +170,9 @@ html.no-js .no-js-inline {
 html.no-js .no-js-hidden {
   display: none !important;
 }
-
+*{
+  font-family: 'Raleway', sans-serif;
+}
 .page-width {
   max-width: var(--page-width);
   margin: 0 auto;

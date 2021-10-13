@@ -14,7 +14,7 @@
       {%endif%}
     {%endif%}
   </div>
-  <div class="icon-with-text col-4 d-flex">
+  <div class="icon-with-text col-4 d-flex align-items-center">
       {%if section.blocks!=blank%}
             {%for block in section.blocks%}
                 <div class="ann-{{block.settings.announcement_block_title}} d-flex flex-row">
@@ -24,7 +24,7 @@
             {%endfor%}
       {%endif%}
   </div>
-  <div class="announce-sm-icons col-4 d-flex">
+  <div class="announce-sm-icons col-4 d-flex align-items-center">
     {%if section.settings.announcement_sm_check==true %}
           {%if section.settings.sm_link_email!=blank%}
               <div class="sm_link_email">
@@ -50,6 +50,13 @@
             {%if section.settings.sm_link_twitter!=blank%}
               <div class="sm_link_twitter">
                 <a href="{{section.settings.sm_link_twitter}}">
+                  <img src="https://cdn.shopify.com/s/files/1/0593/1987/7820/files/Twitter.svg?v=1634108379" width="20" height="21">
+                </a>
+              </div>
+            {%endif%}
+            {%if section.settings.sm_link_instagram!=blank%}
+              <div class="sm_link_instagram">
+                <a href="{{section.settings.sm_link_instagram}}">
                   <img src="https://cdn.shopify.com/s/files/1/0593/1987/7820/files/Twitter.svg?v=1634108379" width="20" height="21">
                 </a>
               </div>
