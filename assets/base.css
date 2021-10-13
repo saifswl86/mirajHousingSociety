@@ -2206,10 +2206,10 @@ details[open] > .header__icon--menu .icon-hamburger {
 }
 
 .header__menu-item {
-  padding: 1.2rem;
-    margin: 0px 1.2rem;
-    text-decoration: none;
-    color: rgba(var(--color-foreground),.75);
+  padding: 1.5rem;
+  margin: 0 1.2rem;
+  text-decoration: none;
+  color: rgba(var(--color-foreground),.75);
 }
 
 .header__menu-item:hover {
