@@ -1872,7 +1872,9 @@ input[type='checkbox'] {
     padding-top: 2rem;
     padding-bottom: 2rem;
   }
-
+  .header__icons{
+    display: none;
+  }
   .header--has-menu:not(.header--middle-left) {
     padding-bottom: 0;
   }
@@ -1901,7 +1903,11 @@ input[type='checkbox'] {
     margin-top: 1.05rem;
   }
 }
-
+@media screen and (max-width: 990px){
+  .header__icons{
+    display:flex ;
+  }
+}
 .header *[tabindex='-1']:focus {
   outline: none;
 }
