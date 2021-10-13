@@ -334,8 +334,8 @@
         <a href="{{ routes.root_url }}" class="header__heading-link link link--text focus-inset">
           {%- if section.settings.logo != blank -%}
             {%- assign image_size = section.settings.logo_width | append: 'x' -%}
-            <img srcset="{{ section.settings.logo | img_url: image_size }} 1x, {{ section.settings.logo | img_url: image_size, scale: 2 }} 2x"
-              src="{{ section.settings.logo | img_url: image_size }}"
+            <img srcset="{{ section.settings.logo | img_url:'master' }} 1x, {{ section.settings.logo | img_url: 'master', scale: 2 }} 2x"
+              src="{{ section.settings.logo | img_url: 'master' }}"
               loading="lazy"
               class="header__heading-logo"
               width="{{ section.settings.logo.width }}"
@@ -611,7 +611,7 @@
     "name": {{ shop.name | json }},
     {% if section.settings.logo %}
       {% assign image_size = section.settings.logo.width | append: 'x' %}
-      "logo": {{ section.settings.logo | img_url: image_size | prepend: "https:" | json }},
+      "logo": {{ section.settings.logo | img_url: 'master' | prepend: "https:" | json }},
     {% endif %}
     "sameAs": [
       {{ settings.social_twitter_link | json }},
