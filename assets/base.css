@@ -1873,7 +1873,7 @@ input[type='checkbox'] {
     padding-bottom: 2rem;
   }
   .header__icons{
-    display: none;
+    display: none!important;
   }
   .header--has-menu:not(.header--middle-left) {
     padding-bottom: 0;
