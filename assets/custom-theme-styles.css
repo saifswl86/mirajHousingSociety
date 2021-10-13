@@ -32,3 +32,10 @@ Custom Theme Styles
     text-decoration: none;
     padding: 0px 7px;
 }
+.announcement-bar-icon-text{
+    text-align: left;
+    font: normal normal medium 20px/24px Raleway;
+    letter-spacing: 1px;
+    color: #2B2B2B;
+    opacity: 0.8;
+}

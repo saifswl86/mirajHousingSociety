@@ -18,11 +18,11 @@
       {%if section.blocks!=blank%}
             {%for block in section.blocks%}
                 <div class="icon-with-text-item d-flex flex-row">
-                  <img src="{{block.settings.annoucement_icon | img_url:'32x32'}}" loading="lazy" width="24" height="24">
                   {%if block.settings.announcement-bar-icon-link!=blank%}
                     <a href="{{announcement-bar-icon-link}}">
                   {%endif%}
-                    <p>{{block.settings.announcement-bar-icon-text}}</p>
+                  <img src="{{block.settings.annoucement_icon | img_url:'32x32'}}" loading="lazy" width="24" height="24">
+                    <p class="announcement-bar-icon-text">{{block.settings.announcement-bar-icon-text}}</p>
                   {%if block.settings.announcement-bar-icon-link!=blank%}
                     </a>
                   {%endif%}
@@ -79,15 +79,6 @@
 }
 .announcement-bar *{
   color:{{section.settings.announcementbar_text_color}};
-}
-.announcement_Text{
-  order:1;
-}
-.icon-with-text {
-  order:2;
-}
-.announce-sm-icons{
-  order:3;
 }
 
 {%endstyle%}
