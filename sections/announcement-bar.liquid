@@ -20,6 +20,24 @@
                 <img src="https://cdn.shopify.com/s/files/1/0593/1987/7820/files/Email.svg?v=1634108379" width="24" height="24">
               </a>
             </div>
+            {%elsif section.settings.sm_link_facebook!=blank%}
+            <div class="sm_link_facebook">
+              <a href="{{section.settings.sm_link_facebook}}">
+                <img src="https://cdn.shopify.com/s/files/1/0593/1987/7820/files/facebook-app-symbol.svg?v=1634108379" width="24" height="24">
+              </a>
+            </div>
+            {%elsif section.settings.sm_link_youtube!=blank%}
+            <div class="sm_link_youtube">
+              <a href="{{section.settings.sm_link_youtube}}">
+                <img src="https://cdn.shopify.com/s/files/1/0593/1987/7820/files/YouTube.svg?v=1634108379" width="24" height="24">
+              </a>
+            </div>  
+            {%elsif section.settings.sm_link_twitter!=blank%}
+            <div class="sm_link_twitter">
+              <a href="{{section.settings.sm_link_twitter}}">
+                <img src="https://cdn.shopify.com/s/files/1/0593/1987/7820/files/Twitter.svg?v=1634108379" width="24" height="24">
+              </a>
+            </div>
          {%endif%}
       </div>
   {%endif%}
