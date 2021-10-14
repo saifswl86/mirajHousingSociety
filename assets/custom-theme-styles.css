@@ -118,3 +118,6 @@ Custom Theme Styles
   top: 9%;
   opacity: 0.47;
 }
+.cstm-line:empty{
+  display: block!important;
+}
