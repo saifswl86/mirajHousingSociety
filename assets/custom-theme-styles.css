@@ -41,6 +41,7 @@ Custom Theme Styles
 .icon-with-text-item p{
     text-decoration: none;
     padding: 0px 7px;
+    font-weight: 500;
     font-size: 14px;
     margin: 0px;
 }
