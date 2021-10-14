@@ -134,6 +134,9 @@ Custom Theme Styles
   .announcement_Text {
     order: 3;
   }
+  .cstm-line{
+    display: none;
+  }
   .header{
     grid-template-columns: 2fr 1fr;
   }
