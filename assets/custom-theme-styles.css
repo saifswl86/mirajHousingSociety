@@ -83,9 +83,14 @@ img.annoucement-bar-icon{
   }
 }
 
-@media screen and (min-width:678px){
+@media screen and (min-width:768px){
   .cstm-line:empty{
     display: block!important;
+  }
+}
+@media screen and (max-width:768px){
+  .cstm-line:empty{
+    display: none!important;
   }
   .cstm-hero-section{
     position: relative;
@@ -136,7 +141,6 @@ img.annoucement-bar-icon{
     opacity: 0.47;
   }
 }
-
 @media screen and (max-width:990px){
   .icon-with-text{
     order: 1;
