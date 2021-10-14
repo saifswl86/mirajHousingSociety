@@ -74,6 +74,7 @@ Custom Theme Styles
 }
 .cstm-hero-section{
   position: relative;
+  padding:23px 0px;
 }
 .hs_background_image{
   width: 61%;
@@ -82,7 +83,6 @@ Custom Theme Styles
   width: 100%;
   display: flex;
   justify-content: flex-end;
-  padding:23px 0px;
   height: 100%;
 }
 .about_herosection{
