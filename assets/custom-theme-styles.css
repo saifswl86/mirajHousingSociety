@@ -52,6 +52,9 @@ Custom Theme Styles
     opacity: 0.8;
     text-decoration: none;
 }
+.icon-with-text-item a p{
+  display: none;
+}
 .announcement-bar-icon-text p{
     margin-bottom: 0px;
 }
