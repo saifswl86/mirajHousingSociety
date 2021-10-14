@@ -30,6 +30,7 @@ Custom Theme Styles
   }
 .icon-with-text-item{
     padding:0px 8px;
+    align-items: center;
     margin-left: 25px;
 }
 /* .icon-with-text-item{
@@ -41,7 +42,7 @@ Custom Theme Styles
     padding: 0px 7px;
     font-size: 14px;
 }
-.icon-with-text-item a img{
+img.annoucement-bar-icon{
     width: 21px;
     height: 21px;
 }
