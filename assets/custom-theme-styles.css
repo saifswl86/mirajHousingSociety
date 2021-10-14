@@ -169,11 +169,14 @@ Custom Theme Styles
   transform: rotate(0deg);
   letter-spacing: normal;
   margin: 0px;
-  line-height: 0px;
+  text-align: center;
+  line-height: normal;
   font-size: 21.5px;
   font-weight: 500;
 }
 .heading_image{
   height: 80px;
+  right:0px;
+
 }
 }
