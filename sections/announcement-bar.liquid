@@ -14,11 +14,10 @@
       {%endif%}
     {%endif%}
   </div>
-  <div class="icon-with-text col-6 col-lg-4 d-flex justify-content-center align-items-center">
+  <div class="icon-with-text col-6 col-lg-4 d-flex justify-content-md-center align-items-center">
       {%if section.blocks!=blank%}
             {%for block in section.blocks%}
                 <div class="icon-with-text-item d-flex">
-<<<<<<< HEAD
                     {%if section.settings.announcement-bar-whatsapp!=blank%}
                       <a class="d-flex announcement-bar-icon-text justify-content-between align-items-center" href="{{theme.settings.}}">
                     {%endif%}
@@ -31,10 +30,6 @@
                 <div class="icon-with-text-item d-flex">
                   {%if section.settings.announcement-bar-icon-link!=blank%}
                     <a class="d-flex announcement-bar-icon-text justify-content-between align-items-center" href="{{section.settings.announcement-bar-icon-link}}">
-=======
-                  {%if block.settings.announcement-bar-icon-link!=blank%}
-                    <a class="d-flex announcement-bar-icon-text justify-content-between align-items-center" href="{{block.settings.announcement-bar-icon-link}}">
->>>>>>> a8ba5781284fc5a0345545b2ae22065f5c16f70b
                   {%endif%}
                     <img src="{{block.settings.annoucement_icon | img_url:'master'}}" loading="lazy">
                     <p class="">{{block.settings.announcement-bar-icon-text}}</p>
