@@ -1,10 +1,63 @@
-<div class="cstm-con">
+<div class="cstm-hero-section">
+  <div class="hs_background">
+    {%if section.settings.background_image!=blank%}
+      <img src="{{section.settings.background_image |img_url:'master'}}">
+    {%endif%}
+  </div>
+  {%if section.settings.about_herosection!=blank%}
+    <div class="about_herosection">
+        <p class="about_herosection_text">{{section.settings.about_herosection}}</p>
+    </div>
+    <div class="cstm-line"></div>
+    {%if section.settings.image_check!=true%}
+      {%if section.settings.hero-section-heading!=blank%}
+        <p class="hero-section-heading">{{section.settings.hero-section-heading}}</p>
+      {%endif%}
+      {%else%}
+        <img src="{{section.settings.heading_image |img_url:'master'}}" class="heading_image">
+    {%endif%}
+  {%endif%}
   
 </div>
 {% schema %}
   {
-    "name": "Section name",
-    "settings": [	],
+    "name": "Hero Section",
+    "settings": [	
+    {
+      "type": "header",
+      "content": "Section Settings",
+      "info": "Use these settings to customize hero seciton",
+    },
+    {
+      "type": "text",
+      "id": "about_herosection",
+      "label": "About",
+      "default": "A project by Miraj Housing Scheme",
+      "placeholder": "A project by Miraj Housing Scheme"
+    },
+    {
+      "type": "checkbox",
+      "id": "image_check",
+      "label": "Show Image",
+      "default": true,
+      "info": "Select if you want to show image instead title text"
+    },
+    {
+      "type": "text",
+      "id": "hero-section-heading",
+      "label": "Heading"
+    },
+    {
+      "type": "image_picker",
+      "id": "heading_image",
+      "label": "Heading Image"
+    },
+    {
+      "type": "image_picker",
+      "id": "background_image",
+      "label": "Background Image"
+    }
+    ],
 "presets":[
 	{
 		"name":"hero-section"
