@@ -89,7 +89,8 @@ Custom Theme Styles
   position: absolute;
   top: 0px;
   display: flex;
-  justify-content: space-between;
+  /* justify-content: space-between; */
+  align-items: center;
   height: 100%;
   width: 70%;
   background: rgba(217, 216, 211, 0.67);
