@@ -15,26 +15,20 @@
     {%endif%}
   </div>
   <div class="icon-with-text col-6 col-lg-4 d-flex justify-content-center align-items-center">
+      {%if section.blocks!=blank%}
+            {%for block in section.blocks%}
                 <div class="icon-with-text-item d-flex">
-                    {%if section.settings.announcement-bar-whatsapp!=blank%}
-                      <a class="d-flex announcement-bar-icon-text justify-content-between align-items-center" href="{{section.settings.announcement-bar-whatsapp}}">
-                    {%endif%}
-                      {%render 'icon-whatsapp'%}
-                      <p class="">{{section.settings.announcement-bar-icon-text}}</p>
-                    {%if section.settings.announcement-bar-icon-link!=blank%}
-                      </a>
-                    {%endif%}
-                </div>
-                <div class="icon-with-text-item d-flex">
-                  {%if section.settings.announcement-bar-icon-link!=blank%}
-                    <a class="d-flex announcement-bar-icon-text justify-content-between align-items-center" href="{{section.settings.announcement-bar-icon-link}}">
+                  {%if block.settings.announcement-bar-icon-link!=blank%}
+                    <a class="d-flex announcement-bar-icon-text justify-content-between align-items-center" href="{{block.settings.announcement-bar-icon-link}}">
                   {%endif%}
-                    <img src="{{section.settings.annoucement_icon | img_url:'master'}}" loading="lazy">
-                    <p class="">{{section.settings.announcement-bar-icon-text}}</p>
-                  {%if section.settings.announcement-bar-icon-link!=blank%}
+                    <img src="{{block.settings.annoucement_icon | img_url:'master'}}" loading="lazy">
+                    <p class="">{{block.settings.announcement-bar-icon-text}}</p>
+                  {%if block.settings.announcement-bar-icon-link!=blank%}
                     </a>
                   {%endif%}
-              </div>
+                </div>
+            {%endfor%}
+      {%endif%}
   </div>
   <div class="announce-sm-icons col-6 col-lg-4 d-flex justify-content-end align-items-center">
     {%if section.settings.announcement_sm_check==true %}
@@ -151,7 +145,70 @@
       "label": "Text Color Color",
       "default": "#000",
       "info": "Set Text color for announcement bar"
+    },
+    {
+      "type": "header",
+      "content": "Social Media Links"
+    },
+    {
+      "type": "text",
+      "id": "sm_link_email",
+      "label": "Email",
+      "info": "example@email.com"
+    },  
+  {
+    "type": "text",
+    "id": "sm_link_facebook",
+    "label": "Facebook",
+    "info": "www.facebook.com"
+  },
+  {
+    "type": "text",
+    "id": "sm_link_youtube",
+    "label": "YouTube",
+    "info": "www.youtube.com"
+  },
+  {
+    "type": "text",
+    "id": "sm_link_twitter",
+    "label": "Twitter",
+    "info": "www.twitter.com"
+  },
+  {
+    "type": "text",
+    "id": "sm_link_instagram",
+    "label": "Instagram",
+    "info": "www.instagram.com"
+  }
+  ],
+  "blocks":[
+  {
+    "type":"announcement",
+    "name":"Icon with Text",
+    "settings":[
+    {
+      "type": "header",
+      "content": "Icon With Text Settings"
+    },
+    {
+      "type": "image_picker",
+      "id": "annoucement_icon",
+      "label": "Icon",
+      "info":"Select Icon image"
+    },
+    {
+      "type": "text",
+      "id": "announcement-bar-icon-text",
+      "label": "Icon Text"
+    },
+    {
+      "type": "text",
+      "id": "announcement-bar-icon-link",
+      "label": "Icon Link"
     }
+      
+    ]
+  }
 ]}  
   
 {% endschema %}
