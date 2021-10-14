@@ -1,7 +1,7 @@
 {% if section.settings.announcement_check == true %}
  
 <div class="announcement-bar row">
-  <div class="announcement_Text col-4">
+  <div class="announcement_Text col-6 col-lg-4">
     {%if section.settings.announcement_text_check==true%}
       {%if section.settings.announcement_Text!=blank%}
           {%if section.settings.announcement_link!=blank%}
@@ -14,7 +14,7 @@
       {%endif%}
     {%endif%}
   </div>
-  <div class="icon-with-text col-4 d-flex justify-content-center align-items-center">
+  <div class="icon-with-text col-6 col-lg-4 d-flex justify-content-center align-items-center">
       {%if section.blocks!=blank%}
             {%for block in section.blocks%}
                 <div class="icon-with-text-item d-flex">
@@ -30,7 +30,7 @@
             {%endfor%}
       {%endif%}
   </div>
-  <div class="announce-sm-icons col-4 d-flex justify-content-end align-items-center">
+  <div class="announce-sm-icons col-6 col-lg-4 d-flex justify-content-end align-items-center">
     {%if section.settings.announcement_sm_check==true %}
           {%if section.settings.sm_link_email!=blank%}
               <div class="sm_link_email">
@@ -120,6 +120,7 @@
       "info": "Add link to announcemnet bar",
       "placeholder": "www.mirajhousingsociety.com"
     },
+    
     {
       "type": "header",
       "content": "Announcement Bar Color Scheme"
@@ -179,6 +180,26 @@
     "label": "Instagram",
     "info": "www.instagram.com"
   }
+  {
+      "type": "header",
+      "content": "Icon With Text Settings"
+    },
+    {
+      "type": "image_picker",
+      "id": "annoucement_icon",
+      "label": "Icon",
+      "info":"Select Icon image"
+    },
+    {
+      "type": "text",
+      "id": "announcement-bar-icon-text",
+      "label": "Icon Text"
+    },
+    {
+      "type": "text",
+      "id": "announcement-bar-icon-link",
+      "label": "Icon Link"
+    }
   ]}  
   
 {% endschema %}
