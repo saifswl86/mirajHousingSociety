@@ -120,9 +120,12 @@ Custom Theme Styles
   top: 9%;
   opacity: 0.47;
 }
-.cstm-line:empty{
-  display: block!important;
+@media screen and (min-width:678px){
+  .cstm-line:empty{
+    display: block!important;
+  }
 }
+
 @media screen and (max-width:768px){
   .icon-with-text{
     order: 1;
@@ -135,9 +138,6 @@ Custom Theme Styles
     order: 3;
   }
   .cstm-line{
-    display: none;
-  }
-  .cstm-line:empty{
     display: none;
   }
   .header{
