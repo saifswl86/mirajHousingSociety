@@ -104,4 +104,8 @@ Custom Theme Styles
     font-size: 25px;
     letter-spacing: 3.6px;
     font-weight: 300;
+    text-transform: capitalize;
+    margin-left: -53%;
+    margin-top: -26%;
+    line-height: 45px;
 }
