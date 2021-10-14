@@ -3,6 +3,11 @@
     "16341940431b323a02": {
       "type": "cstm-hero-section",
       "settings": {
+        "about_herosection": "A project by Miraj Housing Scheme",
+        "image_check": true,
+        "hero-section-heading": "",
+        "heading_image": "shopify:\/\/shop_images\/LOGO_2x_e978eb8f-dc11-4ea9-8c04-4559fccf9d35.png",
+        "background_image": "shopify:\/\/shop_images\/pexels-binyamin-mellish-106399.png"
       }
     },
     "image_banner": {
