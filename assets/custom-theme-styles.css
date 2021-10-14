@@ -73,6 +73,9 @@ img.annoucement-bar-icon{
   .header__inline-menu{
     display: none!important;;
   }
+  .cstm-line{
+    display: none;
+  }
   .header__heading,
   .header__heading-link{
     left:0;
@@ -147,9 +150,7 @@ img.annoucement-bar-icon{
   .announcement_Text {
     order: 3;
   }
-  .cstm-line{
-    display: none;
-  }
+ 
   .header{
     grid-template-columns: 2fr 1fr;
   }
