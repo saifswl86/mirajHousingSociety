@@ -137,6 +137,9 @@ Custom Theme Styles
   .cstm-line{
     display: none;
   }
+  .cstm-line:empty{
+    display: none;
+  }
   .header{
     grid-template-columns: 2fr 1fr;
   }
