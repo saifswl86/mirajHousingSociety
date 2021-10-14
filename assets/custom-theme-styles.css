@@ -186,7 +186,10 @@ img.annoucement-bar-icon{
   right:0px;
 
 }
-.header--middle-left{
-  grid-template-columns: 0.5fr 3fr 0fr;
+
 }
+@media screen and (max-width:1024px){
+  .header--middle-left{
+    grid-template-columns: 0.5fr 3fr 0fr;
+  }
 }
