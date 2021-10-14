@@ -6,16 +6,17 @@
   </div>
   {%if section.settings.about_herosection!=blank%}
     <div class="about_herosection">
-        <p class="about_herosection_text">{{section.settings.about_herosection}}</p>
+        <div class="about_herosection_text">
+          <p>{{section.settings.about_herosection}}</p><div class="cstm-line"></div>
+        </div>
+        {%if section.settings.image_check!=true%}
+        {%if section.settings.hero-section-heading!=blank%}
+          <p class="hero-section-heading">{{section.settings.hero-section-heading}}</p>
+        {%endif%}
+        {%else%}
+          <img src="{{section.settings.heading_image |img_url:'master'}}" class="heading_image">
+        {%endif%}
     </div>
-    <div class="cstm-line"></div>
-    {%if section.settings.image_check!=true%}
-      {%if section.settings.hero-section-heading!=blank%}
-        <p class="hero-section-heading">{{section.settings.hero-section-heading}}</p>
-      {%endif%}
-      {%else%}
-        <img src="{{section.settings.heading_image |img_url:'master'}}" class="heading_image">
-    {%endif%}
   {%endif%}
   
 </div>
