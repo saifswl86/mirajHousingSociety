@@ -136,7 +136,7 @@ img.annoucement-bar-icon{
   }
 }
 
-@media screen and (max-width:768px){
+@media screen and (max-width:990px){
   .icon-with-text{
     order: 1;
   }
