@@ -73,9 +73,6 @@ img.annoucement-bar-icon{
   .header__inline-menu{
     display: none!important;;
   }
-  .cstm-line{
-    display: none;
-  }
   .header__heading,
   .header__heading-link{
     left:0;
@@ -85,57 +82,58 @@ img.annoucement-bar-icon{
     box-shadow: 4px 0 6px 1px #d3d3d3;
   }
 }
-.cstm-hero-section{
-  position: relative;
-  padding:23px 0px;
-}
-.hs_background_image{
-  width: 61%;
-}
-.hs_background{
-  width: 100%;
-  display: flex;
-  justify-content: flex-end;
-  height: 100%;
-}
-.about_herosection{
-  position: absolute;
-  top: 0px;
-  display: flex;
-  /* justify-content: space-between; */
-  align-items: center;
-  height: 110%;
-  padding: 23px 0px;
-  width: 60%;
-  background: rgba(217, 216, 211, 0.67);
-}
-.heading_image{
-  height: 142px;
-  position: relative;
-  right: 38%;
-}
-.about_herosection_text p{
-  transform: rotate(270deg);
-  font-size: 27.5px;
-  letter-spacing: 3px;
-  font-weight: 300;
-  text-transform: capitalize;
-  margin-left: -53%;
-  margin-top: -32%;
-  line-height: 45px;
-}
-.cstm-line{
-  background: #2b2b2b;
-  height: 550px;
-  width: 1px;
-  position: absolute;
-  left: 23%;
-  top: 9%;
-  opacity: 0.47;
-}
+
 @media screen and (min-width:678px){
   .cstm-line:empty{
     display: block!important;
+  }
+  .cstm-hero-section{
+    position: relative;
+    padding:23px 0px;
+  }
+  .hs_background_image{
+    width: 61%;
+  }
+  .hs_background{
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    height: 100%;
+  }
+  .about_herosection{
+    position: absolute;
+    top: 0px;
+    display: flex;
+    /* justify-content: space-between; */
+    align-items: center;
+    height: 110%;
+    padding: 23px 0px;
+    width: 60%;
+    background: rgba(217, 216, 211, 0.67);
+  }
+  .heading_image{
+    height: 142px;
+    position: relative;
+    right: 38%;
+  }
+  .about_herosection_text p{
+    transform: rotate(270deg);
+    font-size: 27.5px;
+    letter-spacing: 3px;
+    font-weight: 300;
+    text-transform: capitalize;
+    margin-left: -53%;
+    margin-top: -32%;
+    line-height: 45px;
+  }
+  .cstm-line{
+    background: #2b2b2b;
+    height: 550px;
+    width: 1px;
+    position: absolute;
+    left: 23%;
+    top: 9%;
+    opacity: 0.47;
   }
 }
 
