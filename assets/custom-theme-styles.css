@@ -91,7 +91,8 @@ Custom Theme Styles
   display: flex;
   /* justify-content: space-between; */
   align-items: center;
-  height: 100%;
+  height: 110%;
+  padding: 23px 0px;
   width: 60%;
   background: rgba(217, 216, 211, 0.67);
 }
