@@ -93,6 +93,27 @@
           "enable_language_selector": true,
           "payment_enable": true
         }
+      },
+      "custom-announcement-bar": {
+        "type": "custom-announcement-bar",
+        "settings": {
+          "announcement_check": true,
+          "announcement_text_check": false,
+          "announcement_Text": "",
+          "announcement_link": "",
+          "whatsapp_image": "shopify:\/\/shop_images\/Layer_2.png",
+          "whatsapp_number": "+923049712197",
+          "telephone_image": "shopify:\/\/shop_images\/phone.png",
+          "telephone_number": "+923049712197",
+          "announcement_sm_check": true,
+          "announcementbar_bg_color": "#f5f5f5",
+          "announcementbar_text_color": "#000",
+          "sm_link_email": "example@email.com",
+          "sm_link_facebook": "www.facebook.com",
+          "sm_link_youtube": "www.youtube.com",
+          "sm_link_twitter": "www.twitter.com",
+          "sm_link_instagram": ""
+        }
       }
     },
     "content_for_index": [
