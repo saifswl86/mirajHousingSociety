@@ -1,12 +1,188 @@
+{% if section.settings.announcement_check == true %}
+ 
+<div class="announcement-bar row">
+  <div class="announcement_Text col-6 col-lg-4 ">
+    {%if section.settings.announcement_text_check==true%}
+      {%if section.settings.announcement_Text!=blank%}
+          {%if section.settings.announcement_link!=blank%}
+            <a href="section.settings.announcement-bar-link">
+          {%endif%}
+              <p>{{section.settings.announcement_Text}}</p>
+          {%if section.settings.announcement_link!=blank%}
+              </a>
+          {%endif%}
+      {%endif%}
+    {%endif%}
+  </div>
+  <div class="icon-with-text col-6 col-lg-4 d-flex justify-content-lg-center align-items-center"> 
+    
+      {%if section.blocks!=blank%}
+            {%for block in section.blocks%}
+                <div class="icon-with-text-item d-flex">
+                    {%if block.settings.announcement-bar-whatsapp!=blank%}
+                      <a class="d-flex announcement-bar-icon-text justify-content-between align-items-center" href="{{block.settings.announcement-bar-icon-link}}">
+                    {%endif%}
+                    {%if block.settings.annoucement-bar-icon!=blank%}
+                        <img class="annoucement-bar-icon" src="{{block.settings.annoucement-bar-icon | img_url:'master'}}">
+                    {%endif%}
+                      <p class="">{{block.settings.announcement-bar-icon-text}}</p>
+                    {%if section.settings.announcement-bar-icon-link!=blank%}
+                      </a>
+                    {%endif%}
+                </div>
+            {%endfor%}
+      {%endif%}
+  </div> 
+  <div class="announce-sm-icons col-6 col-lg-4 d-flex justify-content-end align-items-center">
+    {%if section.settings.announcement_sm_check==true %}
+          {%if section.settings.sm_link_email!=blank%}
+              <div class="sm_link_email">
+                <a href="{{section.settings.sm_link_email}}">
+                  <img src="https://cdn.shopify.com/s/files/1/0593/1987/7820/files/Email.svg?v=1634108379" width="20" height="21">
+                </a> 
+              </div>
+          {%endif%}
+          {%if section.settings.sm_link_facebook!=blank%}
+              <div class="sm_link_facebook">
+                <a href="{{section.settings.ssm_link_facebook}}">
+                  <img src="https://cdn.shopify.com/s/files/1/0593/1987/7820/files/facebook-app-symbol.svg?v=1634108379" width="20" height="21">
+                </a>
+              </div>
+            {%endif%}
+            {%if section.settings.sm_link_youtube!=blank%}
+              <div class="sm_link_youtube">
+                <a href="{{section.settings.sm_link_youtube}}">
+                  <img src="https://cdn.shopify.com/s/files/1/0593/1987/7820/files/YouTube.svg?v=1634108379" width="20" height="21">
+                </a>
+              </div> 
+            {%endif%}   
+            {%if section.settings.sm_link_twitter!=blank%}
+              <div class="sm_link_twitter">
+                <a href="{{section.settings.sm_link_twitter}}">
+                  <img src="https://cdn.shopify.com/s/files/1/0593/1987/7820/files/Twitter.svg?v=1634108379" width="20" height="21">
+                </a>
+              </div>
+            {%endif%}
+            {%if section.settings.sm_link_instagram!=blank%}
+              <div class="sm_link_instagram">
+                <a href="{{section.settings.sm_link_instagram}}">
+                  <img src="https://cdn.shopify.com/s/files/1/0593/1987/7820/files/Twitter.svg?v=1634108379" width="20" height="21">
+                </a>
+              </div>
+            {%endif%}
+    {%endif%}
+  </div>
+</div>
+{%endif%}
+
+{%style%}
+.announcement-bar{
+  background-color:{{section.settings.announcementbar_bg_color}};
+}
+.announcement-bar *{
+  color:{{section.settings.announcementbar_text_color}};
+}
+
+{%endstyle%}
 {% schema %}
+
+{
+  "name":"Announcement Bar",
+  "settings":[
+    {
+      "type": "header",
+      "content": "Announcement Bar"
+    },
+    {
+      "type": "checkbox",
+      "id": "announcement_check",
+      "label": "Show announcement",
+      "default": true,
+      "info": "Check if you want to show annoucemment bar"
+    },
+    {
+      "type": "header",
+      "content": "Announcement Bar Details"
+    },
+    {
+      "type": "checkbox",
+      "id": "announcement_text_check",
+      "label": "Show announcement Text",
+      "default": false,
+      "info": "Check if you want to show annoucemment bar text"
+    },
+    {
+      "type": "text",
+      "id": "announcement_Text",
+      "label": "Announcement Text",
+      "info": "Add text for annoucement"
+    },
+    {
+      "type": "text",
+      "id": "announcement_link",
+      "label": "Link",
+      "info": "Add link to announcemnet bar",
+      "placeholder": "www.mirajhousingsociety.com"
+    },
+    {
+      "type": "header",
+      "content": "Announcement Bar Color Scheme"
+    },
+    {
+      "type": "checkbox",
+      "id": "announcement_sm_check",
+      "label": "Show Social Icons",
+      "default": true,
+      "info": "Check if you want to show annoucemment bar"
+    },
+    {
+      "type": "color",
+      "id": "announcementbar_bg_color",
+      "label": "Background Color",
+      "default": "#f5f5f5",
+      "info": "Set background color for announcement bar"
+    },
+    {
+      "type": "color",
+      "id": "announcementbar_text_color",
+      "label": "Text Color Color",
+      "default": "#000",
+      "info": "Set Text color for announcement bar"
+    },
+    {
+      "type": "header",
+      "content": "Social Media Links"
+    },
+    {
+      "type": "text",
+      "id": "sm_link_email",
+      "label": "Email",
+      "info": "example@email.com"
+    },  
   {
-    "name": "Section name",
-    "settings": []
+    "type": "text",
+    "id": "sm_link_facebook",
+    "label": "Facebook",
+    "info": "www.facebook.com"
+  },
+  {
+    "type": "text",
+    "id": "sm_link_youtube",
+    "label": "YouTube",
+    "info": "www.youtube.com"
+  },
+  {
+    "type": "text",
+    "id": "sm_link_twitter",
+    "label": "Twitter",
+    "info": "www.twitter.com"
+  },
+  {
+    "type": "text",
+    "id": "sm_link_instagram",
+    "label": "Instagram",
+    "info": "www.instagram.com"
   }
+ ]}  
+  
 {% endschema %}
-
-{% stylesheet %}
-{% endstylesheet %}
-
-{% javascript %}
-{% endjavascript %}
