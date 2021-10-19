@@ -19,7 +19,7 @@
     <div class="icon-with-text-item telephone d-flex">
       <a class="d-flex announcement-bar-icon-text justify-content-between align-items-center" href="">
         {%if section.settings.telephone_image!=blank%}
-        <img class="annoucement-bar-icon" src="section.settings.telephone_image">
+       	 <img class="annoucement-bar-icon" src="{{section.settings.telephone_image | img_url:'master'}}">
         {%endif%}
         <p class=""></p>
       </a>
