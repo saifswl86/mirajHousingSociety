@@ -30,7 +30,14 @@
           {%endif%}
     
     	{%if section.settings.overlay_check!="false" %}
-    
+    		<div class="banner-overlay">
+    			{%if section.settings.tagline_banner!=blank%}
+              		<div class="banner-overlay-tagline">
+                      	<p class="banner-overlay-tagline-text">{{section.settings.tagline_banner}}</p>
+                      	<div class="banner-overlay-tagline-underline"></div>
+              		</div>
+              	{%endif%}
+    		</div>
     	{%endif%}
   </div>
 {%endif%}
