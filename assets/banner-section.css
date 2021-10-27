@@ -3,6 +3,9 @@
   position:relative;
   
 }
+.banner-section img{
+	max-width:100%;
+}
 div.banner_half_image{
 	display:flex;
   	justify-content:flex-end;
