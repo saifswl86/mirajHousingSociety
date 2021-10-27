@@ -16,5 +16,8 @@ img.banner_image_half_width {
 }
 
 .banner-overlay{
-	background-color: rgba(0,0,0,0.5)
+	background-color: rgba(0,0,0,0.5);
+  	width:61.25%;
+    height:100%;
+      
 }
