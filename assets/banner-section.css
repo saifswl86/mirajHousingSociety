@@ -31,3 +31,8 @@ p.banner-overlay-tagline-text{
     font-size: 26px;
     left: -100px;
 }
+div.banner-overlay-tagline-underline{
+	width:2px;
+  	background:#f1f1f1;
+  	height:100%;
+}
