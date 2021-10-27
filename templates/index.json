@@ -1,14 +1,16 @@
 {
   "sections": {
-    "16341940431b323a02": {
-      "type": "cstm-hero-section",
+    "1635319388585f341a": {
+      "type": "banner-section",
       "settings": {
-        "about_herosection": "A project by Miraj Housing Scheme",
-        "image_check": true,
-        "hero-section-heading": "",
-        "heading_image": "shopify:\/\/shop_images\/LOGO_2x_e978eb8f-dc11-4ea9-8c04-4559fccf9d35.png",
+        "overlay_check": true,
+        "tagline_banner": "A project by Miraj Housing Scheme",
+        "banner-overlay-image_check": true,
+        "banner-overlay-heading": "",
+        "banner-overlay_image": "shopify:\/\/shop_images\/LOGO_2x_e978eb8f-dc11-4ea9-8c04-4559fccf9d35.png",
         "banner-section-content": "half_width_image",
-        "background_image": "shopify:\/\/shop_images\/pexels-binyamin-mellish-106399.png"
+        "half_background_image": "shopify:\/\/shop_images\/pexels-binyamin-mellish-106399.png",
+        "banner_video": ""
       }
     },
     "image_banner": {
@@ -46,6 +48,18 @@
         "color_scheme": "background-1",
         "stack_images_on_mobile": true,
         "show_text_below": true
+      }
+    },
+    "16341940431b323a02": {
+      "type": "cstm-hero-section",
+      "disabled": true,
+      "settings": {
+        "about_herosection": "A project by Miraj Housing Scheme",
+        "image_check": true,
+        "hero-section-heading": "",
+        "heading_image": "shopify:\/\/shop_images\/LOGO_2x_e978eb8f-dc11-4ea9-8c04-4559fccf9d35.png",
+        "banner-section-content": "half_width_image",
+        "background_image": "shopify:\/\/shop_images\/pexels-binyamin-mellish-106399.png"
       }
     },
     "rich_text": {
@@ -193,29 +207,16 @@
         "button_link": "",
         "swipe_on_mobile": false
       }
-    },
-    "1635319388585f341a": {
-      "type": "banner-section",
-      "settings": {
-        "overlay_check": true,
-        "tagline_banner": "A project by Miraj Housing Scheme",
-        "banner-overlay-image_check": true,
-        "banner-overlay-heading": "",
-        "banner-overlay_image": "shopify:\/\/shop_images\/LOGO_2x_e978eb8f-dc11-4ea9-8c04-4559fccf9d35.png",
-        "banner-section-content": "half_width_image",
-        "half_background_image": "shopify:\/\/shop_images\/pexels-binyamin-mellish-106399.png",
-        "banner_video": ""
-      }
     }
   },
   "order": [
-    "16341940431b323a02",
+    "1635319388585f341a",
     "image_banner",
+    "16341940431b323a02",
     "rich_text",
     "featured_products",
     "collage",
     "video",
-    "multi_column",
-    "1635319388585f341a"
+    "multi_column"
   ]
 }
