@@ -15,13 +15,17 @@
                {%endif%}
     		{%elsif section.settings.banner-section-content=='banner_gif'%}
               {%if section.settings.banner_gif!=blank%}
-                    <img src="{{section.settings.banner_gif | img_url:'master'}}" class="banner_video">
+                  <div class="banner_gif">  
+    				<img src="{{section.settings.banner_gif | img_url:'master'}}" class="banner_video">
+    			  </div>
               {%endif%}
     	  {%elsif section.settings.banner-section-content=='banner_video'%}
               {%if section.settings.banner_video!=blank%}
-                  <video autoplay="true" loop="true" class="banner_gif">
-                     <source src="{{section.settings.banner_video}}" type="video/mp4">
-                  </video>
+    			<div class="banner_video">
+                    <video autoplay="true" loop="true" class="banner_gif">
+                       <source src="{{section.settings.banner_video}}" type="video/mp4">
+                    </video>
+				 </div>
               {%endif%}
           {%endif%}
   </div>
