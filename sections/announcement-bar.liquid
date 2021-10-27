@@ -34,46 +34,7 @@
       {%endif%}
   </div> 
   <div class="announce-sm-icons col-6 col-lg-4 d-flex justify-content-end align-items-center">
-    {%if section.settings.announcement_sm_check==true %}
-    
-      {%comment%}
-      {%if section.settings.sm_link_email!=blank%}
-      <div class="sm_link_email">
-        <a href="{{section.settings.sm_link_email}}">
-          <img src="https://cdn.shopify.com/s/files/1/0593/1987/7820/files/Email.svg?v=1634108379" width="20" height="21">
-        </a> 
-      </div>
-      {%endif%}
-      {%if section.settings.sm_link_facebook!=blank%}
-      <div class="sm_link_facebook">
-        <a href="{{section.settings.ssm_link_facebook}}">
-          <img src="https://cdn.shopify.com/s/files/1/0593/1987/7820/files/facebook-app-symbol.svg?v=1634108379" width="20" height="21">
-        </a>
-      </div>
-      {%endif%}
-      {%if section.settings.sm_link_youtube!=blank%}
-      <div class="sm_link_youtube">
-        <a href="{{section.settings.sm_link_youtube}}">
-          <img src="https://cdn.shopify.com/s/files/1/0593/1987/7820/files/YouTube.svg?v=1634108379" width="20" height="21">
-        </a>
-      </div> 
-      {%endif%}   
-      {%if section.settings.sm_link_twitter!=blank%}
-      <div class="sm_link_twitter">
-        <a href="{{section.settings.sm_link_twitter}}">
-          <img src="https://cdn.shopify.com/s/files/1/0593/1987/7820/files/Twitter.svg?v=1634108379" width="20" height="21">
-        </a>
-      </div>
-      {%endif%}
-      {%if section.settings.sm_link_instagram!=blank%}
-      <div class="sm_link_instagram">
-        <a href="{{section.settings.sm_link_instagram}}">
-          <img src="https://cdn.shopify.com/s/files/1/0593/1987/7820/files/Twitter.svg?v=1634108379" width="20" height="21">
-        </a>
-      </div>
-      {%endif%}
-      {%endcomment%}
-    
+    {%if section.settings.announcement_sm_check==true %}    
       <ul class="footer__list-social list-unstyled list-social" role="list">
             {%- if settings.social_twitter_link != blank -%}
               <li class="list-social__item">
