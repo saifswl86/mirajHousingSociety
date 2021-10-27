@@ -22,10 +22,12 @@ img.banner_image_half_width {
   	position: absolute;
     top: 0px;
 }
+div.banner-overlay-tagline{
+    transform: rotate(270deg);
+}
 p.banner-overlay-tagline-text{
 	position: absolute;
     top: 50%;
-    transform: rotate(270deg);
     font-size: 26px;
     left: -100px;
 }
