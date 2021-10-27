@@ -1,7 +1,19 @@
 {
   "sections": {
+    "1635323921c7b5c708": {
+      "type": "cstm-hero-section",
+      "settings": {
+        "about_herosection": "A project by Miraj Housing Scheme",
+        "image_check": true,
+        "hero-section-heading": "",
+        "heading_image": "shopify:\/\/shop_images\/LOGO_2x_e978eb8f-dc11-4ea9-8c04-4559fccf9d35.png",
+        "banner-section-content": "half_width_image",
+        "background_image": "shopify:\/\/shop_images\/pexels-binyamin-mellish-106399.png"
+      }
+    },
     "1635319388585f341a": {
       "type": "banner-section",
+      "disabled": true,
       "settings": {
         "overlay_check": true,
         "tagline_banner": "A project by Miraj Housing Scheme",
@@ -15,7 +27,6 @@
     },
     "image_banner": {
       "type": "image-banner",
-      "disabled": true,
       "blocks": {
         "heading": {
           "type": "heading",
@@ -211,6 +222,7 @@
     }
   },
   "order": [
+    "1635323921c7b5c708",
     "1635319388585f341a",
     "image_banner",
     "16341940431b323a02",
