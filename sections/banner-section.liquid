@@ -1,31 +1,23 @@
+
 {% if section.settings.tagline_banner!=blank%}
-  <div class="row">
+  <div class="banner-section">
           {%if section.settings.banner-section-content=='half_width_image'%}
               {%if section.settings.half_background_image!=blank%}
-                <div class="col-5" style="display:hidden">.</div>
-                  <div class="col-7">
                       <img src="{{section.settings.half_background_image | img_url:'master'}}" class="w-100">
-                  </div>
               {%endif%}
           {%elsif section.settings.banner-section-content=='full_width_image'%}
               {%if section.settings.full_background_image!=blank%}
-                <div class="col-12">
                     <img src="{{section.settings.full_background_image | img_url:'master'}}" class="w-100">
-                </div>
               {%endif%}
     		{%elsif section.settings.banner-section-content=='banner_gif'%}
               {%if section.settings.banner_gif!=blank%}
-                <div class="col-12">
                     <img src="{{section.settings.banner_gif | img_url:'master'}}" class="w-100">
-                </div>
               {%endif%}
     	  {%elsif section.settings.banner-section-content=='banner_video'%}
               {%if section.settings.banner_video!=blank%}
-                <div class="col-12">
                   <video autoplay="true" loop="true">
                      <source src="{{section.settings.banner_video}}" type="video/mp4">
                   </video>
-                </div>
               {%endif%}
           {%endif%}
   </div>
