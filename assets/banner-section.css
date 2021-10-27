@@ -29,12 +29,9 @@ div.banner-overlay-tagline{
     left: -100px;
     transform: rotate(270deg);
 }
-/* p.banner-overlay-tagline-text{
-	position: absolute;
-    top: 50%;
-    font-size: 26px;
-    left: -100px;
-} */
+p.banner-overlay-tagline-text{
+	margin:0px;
+}
 div.banner-overlay-tagline-underline{
 	width: 430px;
     background: grey;
