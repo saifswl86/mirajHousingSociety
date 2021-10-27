@@ -10,6 +10,9 @@
     "type_header_font": "assistant_n4",
     "type_body_font": "assistant_n4",
     "social_twitter_link": "https:\/\/twitter.com\/shopify",
+    "social_facebook_link": "https:\/\/twitter.com\/shopify",
+    "social_youtube_link": "https:\/\/twitter.com\/shopify",
+    "social_email_address": "https:\/\/twitter.com\/shopify",
     "sections": {
       "announcement-bar": {
         "type": "announcement-bar",
@@ -107,7 +110,7 @@
           "telephone_number": "+9234582372349",
           "announcement_sm_check": true,
           "announcementbar_bg_color": "#f5f5f5",
-          "announcementbar_text_color": "#000",
+          "announcementbar_text_color": "#000000",
           "sm_link_email": "example@email.com",
           "sm_link_facebook": "www.facebook.com",
           "sm_link_youtube": "www.youtube.com",
