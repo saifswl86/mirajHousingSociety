@@ -67,6 +67,9 @@ img.annoucement-bar-icon{
   height: auto;
   width: 100%;
 }
+  .announce-sm-icons > ul >li> a{
+  	padding:0px 6px;
+  }
 .announce-sm-icons > ul >li> a> svg {
     width: 15px;
     height: 16px;
