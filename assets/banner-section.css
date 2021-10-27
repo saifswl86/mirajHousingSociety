@@ -38,3 +38,9 @@ div.banner-overlay-tagline-underline{
     height: 1.5px;
   	display:block;
 }
+div.banner-overlay-title_image, div.banner-overlay-title_text{
+	position:absolute;
+  	top:50%;
+  	left:40%;
+  	
+}
