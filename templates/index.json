@@ -7,6 +7,7 @@
         "image_check": true,
         "hero-section-heading": "",
         "heading_image": "shopify:\/\/shop_images\/LOGO_2x_e978eb8f-dc11-4ea9-8c04-4559fccf9d35.png",
+        "banner-section-content": "half_width_image",
         "background_image": "shopify:\/\/shop_images\/pexels-binyamin-mellish-106399.png"
       }
     },
@@ -192,6 +193,16 @@
         "button_link": "",
         "swipe_on_mobile": false
       }
+    },
+    "1635319388585f341a": {
+      "type": "banner-section",
+      "settings": {
+        "tagline_banner": "A project by Miraj Housing Scheme",
+        "image_check": true,
+        "hero-section-heading": "",
+        "banner-section-content": "half_width_image",
+        "banner_video": ""
+      }
     }
   },
   "order": [
@@ -201,6 +212,7 @@
     "featured_products",
     "collage",
     "video",
-    "multi_column"
+    "multi_column",
+    "1635319388585f341a"
   ]
 }
