@@ -2,6 +2,7 @@
   "sections": {
     "1635323921c7b5c708": {
       "type": "cstm-hero-section",
+      "disabled": true,
       "settings": {
         "about_herosection": "A project by Miraj Housing Scheme",
         "image_check": true,
@@ -13,16 +14,16 @@
     },
     "1635319388585f341a": {
       "type": "banner-section",
-      "disabled": true,
       "settings": {
         "overlay_check": true,
         "tagline_banner": "A project by Miraj Housing Scheme",
         "banner-overlay-image_check": true,
         "banner-overlay-heading": "",
         "banner-overlay_image": "shopify:\/\/shop_images\/LOGO_2x_e978eb8f-dc11-4ea9-8c04-4559fccf9d35.png",
-        "banner-section-content": "half_width_image",
+        "banner-section-content": "banner_video",
         "half_background_image": "shopify:\/\/shop_images\/pexels-binyamin-mellish-106399.png",
-        "banner_video": ""
+        "full_background_image": "shopify:\/\/shop_images\/pexels-binyamin-mellish-106399.png",
+        "banner_video": "https:\/\/cdn.shopify.com\/s\/files\/1\/0593\/1987\/7820\/files\/Lake_-_67201.mp4?v=1635320476"
       }
     },
     "image_banner": {
