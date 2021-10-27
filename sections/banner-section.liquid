@@ -13,6 +13,14 @@
                     <img src="{{section.settings.full_background_image | img_url:'master'}}" class="w-100">
                 </div>
               {%endif%}
+    	  {%elsif section.settings.banner-section-content=='banner_video'%}
+              {%if section.settings.banner_video!=blank%}
+                <div class="col-12">
+                  <video autoplay="true" loop="true">
+                    <src href="{{section.settings.banner_video}}"></src>
+                  </video>
+                </div>
+              {%endif%}
           {%endif%}
   </div>
 {%endif%}
