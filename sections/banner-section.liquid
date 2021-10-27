@@ -37,7 +37,7 @@
                       	<div class="banner-overlay-tagline-underline"></div>
               		</div>
               	{%endif%}
-              	{%if section.settings.banner-overlay-heading!=blank%}
+              	{%if section.settings.banner-overlay-heading!=blank or section.settings.banner-overlay_image!=blank%}
               		<div class="banner-overlay-title">
                        {%if section.settings.banner-overlay-image_check==true%}
                           {%if section.settings.banner-overlay_image!=blank%}
