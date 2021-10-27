@@ -29,7 +29,7 @@
               {%endif%}
           {%endif%}
     
-    	{%if section.settings.overlay_check!="false" %}
+    	{%if section.settings.overlay_check!=false %}
     		<div class="banner-overlay">
     			{%if section.settings.tagline_banner!=blank%}
               		<div class="banner-overlay-tagline">
@@ -39,7 +39,7 @@
               	{%endif%}
               	{%if section.settings.banner-overlay-heading!=blank%}
               		<div class="banner-overlay-title">
-                       {%if section.settings.banner-overlay-image_check=='true'%}
+                       {%if section.settings.banner-overlay-image_check==true%}
                           {%if section.settings.banner-overlay_image!=blank%}
                               <img class="banner-overlay-title_image" src="{{section.settings.banner-overlay_image |img_url:'master'}}">
                           {%endif%}
