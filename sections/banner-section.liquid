@@ -11,11 +11,11 @@
               {%endif%}
     		{%elsif section.settings.banner-section-content=='banner_gif'%}
               {%if section.settings.banner_gif!=blank%}
-                    <img src="{{section.settings.banner_gif | img_url:'master'}}" class="w-100">
+                    <img src="{{section.settings.banner_gif | img_url:'master'}}" class="banner_video">
               {%endif%}
     	  {%elsif section.settings.banner-section-content=='banner_video'%}
               {%if section.settings.banner_video!=blank%}
-                  <video autoplay="true" loop="true">
+                  <video autoplay="true" loop="true" class="banner_gif">
                      <source src="{{section.settings.banner_video}}" type="video/mp4">
                   </video>
               {%endif%}
