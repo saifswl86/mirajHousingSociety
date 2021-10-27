@@ -45,12 +45,7 @@
           "announcement_link": "www.facebook.com",
           "announcement_sm_check": true,
           "announcementbar_bg_color": "#eae9e5",
-          "announcementbar_text_color": "#000000",
-          "sm_link_email": "example@email.com",
-          "sm_link_facebook": "www.facebook.com",
-          "sm_link_youtube": "www.youtube.com",
-          "sm_link_twitter": "www.twitter.com",
-          "sm_link_instagram": ""
+          "announcementbar_text_color": "#000000"
         }
       },
       "header": {
@@ -99,23 +94,36 @@
       },
       "custom-announcement-bar": {
         "type": "custom-announcement-bar",
+        "blocks": {
+          "1476ae89-8d3d-40b0-ae01-b791d890d9ce": {
+            "type": "announcement",
+            "settings": {
+              "annoucement-bar-icon": "shopify:\/\/shop_images\/Layer_2.png",
+              "announcement-bar-icon-text": "03454545045",
+              "announcement-bar-icon-link": "te:03454545045"
+            }
+          },
+          "2b149933-a9dc-4f7b-9dcb-92782f38dbc0": {
+            "type": "announcement",
+            "settings": {
+              "annoucement-bar-icon": "shopify:\/\/shop_images\/phone.png",
+              "announcement-bar-icon-text": "03454545045",
+              "announcement-bar-icon-link": "wa.me\/03454545045"
+            }
+          }
+        },
+        "block_order": [
+          "1476ae89-8d3d-40b0-ae01-b791d890d9ce",
+          "2b149933-a9dc-4f7b-9dcb-92782f38dbc0"
+        ],
         "settings": {
           "announcement_check": true,
           "announcement_text_check": false,
           "announcement_Text": "",
           "announcement_link": "",
-          "whatsapp_image": "shopify:\/\/shop_images\/Layer_2.png",
-          "whatsapp_number": "+9234582372349",
-          "telephone_image": "shopify:\/\/shop_images\/phone.png",
-          "telephone_number": "+9234582372349",
           "announcement_sm_check": true,
           "announcementbar_bg_color": "#f5f5f5",
-          "announcementbar_text_color": "#000000",
-          "sm_link_email": "example@email.com",
-          "sm_link_facebook": "www.facebook.com",
-          "sm_link_youtube": "www.youtube.com",
-          "sm_link_twitter": "www.twitter.com",
-          "sm_link_instagram": ""
+          "announcementbar_text_color": "#000000"
         }
       }
     },
