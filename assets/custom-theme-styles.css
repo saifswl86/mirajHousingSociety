@@ -67,6 +67,11 @@ img.annoucement-bar-icon{
   height: auto;
   width: 100%;
 }
+.announce-sm-icons > ul >li> a> svg {
+    width: 15px;
+    height: 16px;
+    fill: #000!important;
+}
 @media screen and (max-width:768px){
   .header__inline-menu{
     display: none!important;;
