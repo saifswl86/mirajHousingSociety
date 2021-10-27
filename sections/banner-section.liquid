@@ -1,23 +1,20 @@
 {% if section.settings.tagline_banner!=blank%}
-	
-<div class="row">
- 		{%if section.settings.banner-section-content=='half_width_image'%}
-  			{%if section.settings.half_background_image!=blank%}
-  			  <div class="col-5"></div>
-              <div class="col-7">
-                  <img src="{{section.settings.half_background_image | img_url:'master'}}" class="w-100">
-              </div>
-  			{%endif%}
-      	{%else if section.settings.banner-section-content=='full_width_image'%}
-			{%if section.settings.full_background_image!=blank%}
-              <div class="col-12">
-                  <img src="{{section.settings.full_background_image | img_url:'master'}}" class="w-100">
-              </div>
-  			{%endif%}
-      	{%endif%}
-  	
-</div>
-
+  <div class="row">
+          {%if section.settings.banner-section-content=='half_width_image'%}
+              {%if section.settings.half_background_image!=blank%}
+                <div class="col-5"></div>
+                <div class="col-7">
+                    <img src="{{section.settings.half_background_image | img_url:'master'}}" class="w-100">
+                </div>
+              {%endif%}
+          {%elsif section.settings.banner-section-content=='full_width_image'%}
+              {%if section.settings.full_background_image!=blank%}
+                <div class="col-12">
+                    <img src="{{section.settings.full_background_image | img_url:'master'}}" class="w-100">
+                </div>
+              {%endif%}
+          {%endif%}
+  </div>
 {%endif%}
 {% schema %}
 
