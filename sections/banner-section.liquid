@@ -2,10 +2,11 @@
 	
 <div class="row">
  		{%if section.settings.banner-section-content=='half_width_image'%}
-      		<div class="{%if section.settings.banner-section-content=='half_width_image'%} col-6 {%else%} col-12 {%endif%}">
-  			<img src="{{section.settings.half_background_image | img_url:'master'}}" class="w-100"></div>
+      		<div class="col-6">
+  				<img src="{{section.settings.half_background_image | img_url:'master'}}" class="w-100">
+  			</div>
       	{%else if section.settings.banner-section-content=='full_width_image'%}
-			<div class="{%if section.settings.banner-section-content=='half_width_image'%} col-6 {%else%} col-12 {%endif%}"><img src="{{section.settings.full_background_image | img_url:'master'}}" class="w-100"></div>  
+			<div class="{%if section.settings.banner-section-content=='half_width_image'%} col-6 {%else%} col-12 {%endif%}"><img src="{{section.settings.full_background_image | img_url:'master'}}" class="w-100"></div>
       	{%endif%}
   	
 </div>
