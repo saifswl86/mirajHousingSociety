@@ -1,7 +1,11 @@
 {% if section.settings.tagline_banner!=blank%}
 	
 <div class="row">
-	
+	<div class="{%if section.settings.banner-section-content=='half_width_image'%} col-6 {%else%} col-12 {%endif%}">
+ 		{%if section.settings.banner-section-content=='full_width_image'%}
+      		
+      	{%endif%}
+  	</div>  
 </div>
 
 {%endif%}
@@ -48,11 +52,11 @@
                 "options": [
                     {
                     "value": "full_width_image",
-                    "label": "Image with full width"
+                    "label": "Full Width Image with Text "
                     },
                     {
                     "value": "half_width_image",
-                    "label": "Image with half width"
+                    "label": "Half Width Image with Text"
                     },
                     {
                     "value": "banner_video",
