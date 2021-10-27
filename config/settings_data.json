@@ -118,7 +118,7 @@
         ],
         "settings": {
           "announcement_check": true,
-          "announcement_text_check": false,
+          "announcement_text_check": true,
           "announcement_Text": "",
           "announcement_link": "",
           "announcement_sm_check": true,
