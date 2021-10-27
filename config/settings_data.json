@@ -119,7 +119,7 @@
         "settings": {
           "announcement_check": true,
           "announcement_text_check": true,
-          "announcement_Text": "",
+          "announcement_Text": "50% OFF ON ALL PRODUCTS",
           "announcement_link": "",
           "announcement_sm_check": true,
           "announcementbar_bg_color": "#eae9e5",
