@@ -37,6 +37,17 @@
                       	<div class="banner-overlay-tagline-underline"></div>
               		</div>
               	{%endif%}
+              	{%if section.settings.banner-overlay-heading!=blank%}
+              		<div class="banner-overlay-title">
+                       {%if section.settings.banner-overlay-image_check=='true'%}
+                          {%if section.settings.banner-overlay_image!=blank%}
+                              <img class="banner-overlay-title_image" src="{{section.settings.banner-overlay_image |img_url:'master'}}">
+                          {%endif%}
+                       {%else%}
+                      		  <h2 class="banner-overlay-title_text">{{section.settings.banner-overlay-heading}}</h2>
+                       {%endif%}
+                     </div>
+				{%endif%}
     		</div>
     	{%endif%}
   </div>
@@ -66,19 +77,19 @@
     },
     {
       "type": "checkbox",
-      "id": "image_check",
+      "id": "banner-overlay-image_check",
       "label": "Show Image",
       "default": true,
       "info": "Select if you want to show image instead title text"
     },
     {
       "type": "text",
-      "id": "hero-section-heading",
+      "id": "banner-overlay-heading",
       "label": "Heading"
     },
     {
       "type": "image_picker",
-      "id": "heading_image",
+      "id": "banner-overlay_image",
       "label": "Heading Image"
     },
 	{
