@@ -13,6 +13,12 @@
                     <img src="{{section.settings.full_background_image | img_url:'master'}}" class="w-100">
                 </div>
               {%endif%}
+    		{%elsif section.settings.banner-section-content=='banner_gif'%}
+              {%if section.settings.banner_gif!=blank%}
+                <div class="col-12">
+                    <img src="{{section.settings.banner_gif | img_url:'master'}}" class="w-100">
+                </div>
+              {%endif%}
     	  {%elsif section.settings.banner-section-content=='banner_video'%}
               {%if section.settings.banner_video!=blank%}
                 <div class="col-12">
