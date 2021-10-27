@@ -3,9 +3,9 @@
 <div class="row">
 	<div class="{%if section.settings.banner-section-content=='half_width_image'%} col-6 {%else%} col-12 {%endif%}">
  		{%if section.settings.banner-section-content=='half_width_image'%}
-      		<img src="{{section.settings.half_background_image | img_ul:'master'}}" class="w-100">
+      		<img src="{{section.settings.half_background_image | img_url:'master'}}" class="w-100">
       	{%else if section.settings.banner-section-content=='full_width_image'%}
-			<img src="{{section.settings.full_background_image | img_ul:'master'}}" class="w-100">
+			<img src="{{section.settings.full_background_image | img_url:'master'}}" class="w-100">
       	{%endif%}
   	</div>  
 </div>
