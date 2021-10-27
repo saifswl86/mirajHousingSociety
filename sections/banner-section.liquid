@@ -17,7 +17,7 @@
               {%if section.settings.banner_video!=blank%}
                 <div class="col-12">
                   <video autoplay="true" loop="true">
-                    <src href="{{section.settings.banner_video}}"></src>
+                     <source src="{{section.settings.banner_video}}" type="video/mp4">
                   </video>
                 </div>
               {%endif%}
