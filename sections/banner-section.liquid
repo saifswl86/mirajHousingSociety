@@ -3,7 +3,7 @@
   <div class="banner-section">
           {%if section.settings.banner-section-content=='half_width_image'%}
               {%if section.settings.half_background_image!=blank%}
-			    <div class="banner_half_image">
+			    <div class="banner_half_image d-flex justify-content-end">
                   	<img src="{{section.settings.half_background_image | img_url:'master'}}" class="banner_image_half_width">
     			</div>
               {%endif%}
