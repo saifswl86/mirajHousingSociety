@@ -198,7 +198,7 @@
       "type": "banner-section",
       "settings": {
         "tagline_banner": "A project by Miraj Housing Scheme",
-        "image_check": true,
+        "image_check": false,
         "hero-section-heading": "",
         "banner-section-content": "half_width_image",
         "half_background_image": "shopify:\/\/shop_images\/pexels-binyamin-mellish-106399.png",
