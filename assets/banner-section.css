@@ -3,6 +3,11 @@
   position:relative;
   
 }
+div.banner_half_image{
+	display:flex;
+  	justify-content:flex-end;
+}
 img.banner_image_half_width {
   width: 61.25%;
+  max-width:100%;
 }
