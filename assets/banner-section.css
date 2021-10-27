@@ -35,6 +35,6 @@ div.banner-overlay-tagline{
 div.banner-overlay-tagline-underline{
 	width: 430px;
     background: grey;
-    height: 2px;
-  	display:inline-block;
+    height: 1.5px;
+  	display:block;
 }
