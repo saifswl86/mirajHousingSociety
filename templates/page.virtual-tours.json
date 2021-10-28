@@ -64,7 +64,7 @@
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/pexels-david-mcbee-1486785_2x_36f1a74f-8139-4930-bab0-d11d3fcda79e.png",
-        "height": "small",
+        "height": "adapt",
         "color_scheme": "background-1",
         "layout": "image_first"
       }
