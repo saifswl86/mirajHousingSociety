@@ -12,9 +12,20 @@
         "half_background_image": "shopify:\/\/shop_images\/pexels-binyamin-mellish-106399.png",
         "banner_video": ""
       }
+    },
+    "163540502488940eb4": {
+      "type": "video",
+      "settings": {
+        "heading": "",
+        "cover_image": "shopify:\/\/shop_images\/pexels-the-lazy-artist-gallery-1642125_2x_e92653a6-3c4a-421a-8131-4755f92b1a9b.png",
+        "video_url": "",
+        "description": "",
+        "full_width": true
+      }
     }
   },
   "order": [
-    "banner-section"
+    "banner-section",
+    "163540502488940eb4"
   ]
 }
