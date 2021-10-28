@@ -36,7 +36,7 @@
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/pexels-zachary-debottis-1838640_2x_3e7d6584-f579-4a89-a2b5-b60b2dd9fbcb.png",
-        "height": "small",
+        "height": "adapt",
         "color_scheme": "background-2",
         "layout": "text_first"
       }
