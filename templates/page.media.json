@@ -83,21 +83,12 @@
             "title": "",
             "text": ""
           }
-        },
-        "82077293-b286-40ed-b8d6-629b1e2c81cc": {
-          "type": "column",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/pexels-jonas-ferlin-1963557_2x_2faae8fa-bb01-4cc8-9670-d43d33f3f5e8.png",
-            "title": "",
-            "text": ""
-          }
         }
       },
       "block_order": [
         "1635409337c33c579b-0",
         "1635409337c33c579b-1",
-        "1635409337c33c579b-2",
-        "82077293-b286-40ed-b8d6-629b1e2c81cc"
+        "1635409337c33c579b-2"
       ],
       "settings": {
         "title": "Gallery",
