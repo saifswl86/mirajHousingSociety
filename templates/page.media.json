@@ -100,11 +100,47 @@
         "button_link": "",
         "swipe_on_mobile": false
       }
+    },
+    "1635409348940d8c04": {
+      "type": "image-with-text",
+      "blocks": {
+        "1635409348940d8c04-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Careers"
+          }
+        },
+        "1635409348940d8c04-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod<\/p>"
+          }
+        },
+        "1635409348940d8c04-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "Apply Now",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "1635409348940d8c04-0",
+        "1635409348940d8c04-1",
+        "1635409348940d8c04-2"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/pexels-fauxels-3184465.png",
+        "height": "adapt",
+        "color_scheme": "background-1",
+        "layout": "text_first"
+      }
     }
   },
   "order": [
     "banner-section",
     "163540915845df9a26",
-    "1635409337c33c579b"
+    "1635409337c33c579b",
+    "1635409348940d8c04"
   ]
 }
