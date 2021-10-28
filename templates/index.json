@@ -58,7 +58,7 @@
         "desktop_text_box_position": "flex-end",
         "show_text_box": true,
         "image_overlay_opacity": 0,
-        "color_scheme": "background-1",
+        "color_scheme": "background-2",
         "stack_images_on_mobile": true,
         "show_text_below": true
       }
@@ -75,12 +75,54 @@
         "background_image": "shopify:\/\/shop_images\/pexels-binyamin-mellish-106399.png"
       }
     },
+    "multi_column": {
+      "type": "multicolumn",
+      "blocks": {
+        "column1": {
+          "type": "column",
+          "settings": {
+            "title": "Column",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>"
+          }
+        },
+        "column2": {
+          "type": "column",
+          "settings": {
+            "title": "Column",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>"
+          }
+        },
+        "column3": {
+          "type": "column",
+          "settings": {
+            "title": "Column",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "column1",
+        "column2",
+        "column3"
+      ],
+      "settings": {
+        "title": "Multicolumn",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "column_alignment": "left",
+        "background_style": "primary",
+        "button_label": "Button label",
+        "button_link": "",
+        "swipe_on_mobile": false
+      }
+    },
     "rich_text": {
       "type": "rich-text",
       "disabled": true,
       "blocks": {
         "heading": {
           "type": "heading",
+          "disabled": true,
           "settings": {
             "heading": "Talk about your brand",
             "heading_size": "h1"
@@ -179,46 +221,31 @@
         "full_width": false
       }
     },
-    "multi_column": {
-      "type": "multicolumn",
-      "disabled": true,
+    "16353974993095a4ab": {
+      "type": "image-with-text",
       "blocks": {
-        "column1": {
-          "type": "column",
+        "16353974993095a4ab-0": {
+          "type": "heading",
           "settings": {
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>"
+            "heading": "About Miraj"
           }
         },
-        "column2": {
-          "type": "column",
+        "16353974993095a4ab-1": {
+          "type": "text",
           "settings": {
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>"
-          }
-        },
-        "column3": {
-          "type": "column",
-          "settings": {
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>"
+            "text": "<p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt u.<\/p>"
           }
         }
       },
       "block_order": [
-        "column1",
-        "column2",
-        "column3"
+        "16353974993095a4ab-0",
+        "16353974993095a4ab-1"
       ],
       "settings": {
-        "title": "Multicolumn",
-        "image_width": "full",
-        "image_ratio": "adapt",
-        "column_alignment": "left",
-        "background_style": "primary",
-        "button_label": "Button label",
-        "button_link": "",
-        "swipe_on_mobile": false
+        "image": "shopify:\/\/shop_images\/pexels-binyamin-mellish-106399.png",
+        "height": "adapt",
+        "color_scheme": "background-2",
+        "layout": "text_first"
       }
     }
   },
@@ -227,10 +254,11 @@
     "1635319388585f341a",
     "image_banner",
     "16341940431b323a02",
+    "multi_column",
     "rich_text",
     "featured_products",
     "collage",
     "video",
-    "multi_column"
+    "16353974993095a4ab"
   ]
 }
