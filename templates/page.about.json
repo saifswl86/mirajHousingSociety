@@ -12,9 +12,36 @@
         "half_background_image": "shopify:\/\/shop_images\/pexels-binyamin-mellish-106399.png",
         "banner_video": ""
       }
+    },
+    "16354038495db5607e": {
+      "type": "image-with-text",
+      "blocks": {
+        "16354038495db5607e-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Image with text"
+          }
+        },
+        "16354038495db5607e-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "16354038495db5607e-0",
+        "16354038495db5607e-1"
+      ],
+      "settings": {
+        "height": "adapt",
+        "color_scheme": "background-1",
+        "layout": "image_first"
+      }
     }
   },
   "order": [
-    "banner-section"
+    "banner-section",
+    "16354038495db5607e"
   ]
 }
