@@ -37,8 +37,8 @@
       "settings": {
         "image": "shopify:\/\/shop_images\/pexels-zachary-debottis-1838640_2x_3e7d6584-f579-4a89-a2b5-b60b2dd9fbcb.png",
         "height": "small",
-        "color_scheme": "background-1",
-        "layout": "image_first"
+        "color_scheme": "background-2",
+        "layout": "text_first"
       }
     },
     "16354061217cef6a5c": {
@@ -70,7 +70,8 @@
         "16354061217cef6a5c-2"
       ],
       "settings": {
-        "height": "adapt",
+        "image": "shopify:\/\/shop_images\/pexels-david-mcbee-1486785_2x_36f1a74f-8139-4930-bab0-d11d3fcda79e.png",
+        "height": "small",
         "color_scheme": "background-1",
         "layout": "image_first"
       }
@@ -81,13 +82,7 @@
         "163540612410eefa12-0": {
           "type": "heading",
           "settings": {
-            "heading": "Image with text"
-          }
-        },
-        "163540612410eefa12-1": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>"
+            "heading": "Take a virtual tour of our Society Gardens"
           }
         },
         "163540612410eefa12-2": {
@@ -100,7 +95,6 @@
       },
       "block_order": [
         "163540612410eefa12-0",
-        "163540612410eefa12-1",
         "163540612410eefa12-2"
       ],
       "settings": {
