@@ -73,7 +73,7 @@
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/joseph-gonzalez-iFgRcqHznqg-unsplash.png",
-        "height": "adapt",
+        "height": "small",
         "color_scheme": "background-2",
         "layout": "text_first"
       }
