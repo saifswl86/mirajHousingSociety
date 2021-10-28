@@ -56,10 +56,64 @@
         "button_link": "",
         "swipe_on_mobile": false
       }
+    },
+    "1635409337c33c579b": {
+      "type": "multicolumn",
+      "blocks": {
+        "1635409337c33c579b-0": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/pexels-zachary-debottis-1838640_2x_3e7d6584-f579-4a89-a2b5-b60b2dd9fbcb.png",
+            "title": "",
+            "text": ""
+          }
+        },
+        "1635409337c33c579b-1": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/architecture-1845689_1920_2x_1a72eda2-0232-427d-af2f-99217264e416.png",
+            "title": "",
+            "text": ""
+          }
+        },
+        "1635409337c33c579b-2": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/pexels-the-lazy-artist-gallery-1642125_2x_e92653a6-3c4a-421a-8131-4755f92b1a9b.png",
+            "title": "",
+            "text": ""
+          }
+        },
+        "82077293-b286-40ed-b8d6-629b1e2c81cc": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/pexels-jonas-ferlin-1963557_2x_2faae8fa-bb01-4cc8-9670-d43d33f3f5e8.png",
+            "title": "",
+            "text": ""
+          }
+        }
+      },
+      "block_order": [
+        "1635409337c33c579b-0",
+        "1635409337c33c579b-1",
+        "1635409337c33c579b-2",
+        "82077293-b286-40ed-b8d6-629b1e2c81cc"
+      ],
+      "settings": {
+        "title": "Gallery",
+        "image_width": "full",
+        "image_ratio": "portrait",
+        "column_alignment": "left",
+        "background_style": "primary",
+        "button_label": "Button label",
+        "button_link": "",
+        "swipe_on_mobile": false
+      }
     }
   },
   "order": [
     "banner-section",
-    "163540915845df9a26"
+    "163540915845df9a26",
+    "1635409337c33c579b"
   ]
 }
