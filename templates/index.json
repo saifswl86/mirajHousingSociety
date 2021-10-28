@@ -226,6 +226,12 @@
         "button_link": "",
         "swipe_on_mobile": true
       }
+    },
+    "163540339504d3c5a8": {
+      "type": "contact-form",
+      "settings": {
+        "heading": "Let's get in touch"
+      }
     }
   },
   "order": [
@@ -235,6 +241,7 @@
     "16354022688ca05399",
     "16354022714f1c3f6b",
     "1635402593e18befe8",
-    "1635403202a150d42e"
+    "1635403202a150d42e",
+    "163540339504d3c5a8"
   ]
 }
