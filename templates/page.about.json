@@ -66,11 +66,39 @@
         "color_scheme": "background-1",
         "layout": "image_first"
       }
+    },
+    "1635404308fa9b3af3": {
+      "type": "image-with-text",
+      "blocks": {
+        "1635404308fa9b3af3-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Values"
+          }
+        },
+        "1635404308fa9b3af3-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "1635404308fa9b3af3-0",
+        "1635404308fa9b3af3-1"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/pexels-jonas-ferlin-1963557_2x_2faae8fa-bb01-4cc8-9670-d43d33f3f5e8.png",
+        "height": "adapt",
+        "color_scheme": "background-1",
+        "layout": "text_first"
+      }
     }
   },
   "order": [
     "banner-section",
     "16354038495db5607e",
-    "163540386639e164d5"
+    "163540386639e164d5",
+    "1635404308fa9b3af3"
   ]
 }
