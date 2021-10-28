@@ -98,17 +98,16 @@
           "1476ae89-8d3d-40b0-ae01-b791d890d9ce": {
             "type": "announcement",
             "settings": {
-              "annoucement-bar-icon": "shopify:\/\/shop_images\/phone.png",
-              "announcement-bar-icon-text": "03454545045",
-              "announcement-bar-icon-link": "te:03454545045"
+              "annoucement_bar_icon": "shopify:\/\/shop_images\/phone.png",
+              "announcement_bar_icon_text": "+9234582372349",
+              "announcement_bar_icon_link": "tel:9234582372349"
             }
           },
           "2b149933-a9dc-4f7b-9dcb-92782f38dbc0": {
             "type": "announcement",
             "settings": {
-              "annoucement-bar-icon": "shopify:\/\/shop_images\/Layer_2.png",
-              "announcement-bar-icon-text": "03454545045",
-              "announcement-bar-icon-link": "wa.me\/03454545045"
+              "announcement_bar_icon_text": "",
+              "announcement_bar_icon_link": ""
             }
           }
         },
