@@ -106,8 +106,9 @@
           "2b149933-a9dc-4f7b-9dcb-92782f38dbc0": {
             "type": "announcement",
             "settings": {
-              "announcement_bar_icon_text": "",
-              "announcement_bar_icon_link": ""
+              "annoucement_bar_icon": "shopify:\/\/shop_images\/Layer_2.png",
+              "announcement_bar_icon_text": "+9234582372349",
+              "announcement_bar_icon_link": "wa.me\/9234582372349"
             }
           }
         },
