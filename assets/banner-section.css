@@ -16,11 +16,12 @@ img.banner_image_half_width {
 }
 
 .banner-overlay{
-	background-color: rgba(0,0,0,0.1);
+	background:#D9D8D3; 
   	width:61.25%;
     height:100%;
   	position: absolute;
     top: 0px;
+  	opacity:0.67;
 }
 div.banner-overlay-tagline{
     position: absolute;
