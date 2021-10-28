@@ -34,9 +34,10 @@
         "16354038495db5607e-1"
       ],
       "settings": {
-        "height": "adapt",
+        "image": "shopify:\/\/shop_images\/pexels-timur-saglambilek-87223.png",
+        "height": "small",
         "color_scheme": "background-1",
-        "layout": "image_first"
+        "layout": "text_first"
       }
     }
   },
