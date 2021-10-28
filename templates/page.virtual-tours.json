@@ -47,26 +47,19 @@
         "16354061217cef6a5c-0": {
           "type": "heading",
           "settings": {
-            "heading": "Take a virtual tour of our Model Houses"
-          }
-        },
-        "16354061217cef6a5c-1": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>"
+            "heading": "Take a virtual tour of our Society Gardens"
           }
         },
         "16354061217cef6a5c-2": {
           "type": "button",
           "settings": {
-            "button_label": "Button label",
+            "button_label": "Lets Get Started",
             "button_link": ""
           }
         }
       },
       "block_order": [
         "16354061217cef6a5c-0",
-        "16354061217cef6a5c-1",
         "16354061217cef6a5c-2"
       ],
       "settings": {
