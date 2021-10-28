@@ -12,9 +12,54 @@
         "half_background_image": "shopify:\/\/shop_images\/pexels-mentatdgt-1569076_2x_74bc18d5-e7a0-4e65-a353-7ba922b2360c.png",
         "banner_video": ""
       }
+    },
+    "163540915845df9a26": {
+      "type": "multicolumn",
+      "blocks": {
+        "163540915845df9a26-0": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/pexels-polina-zimmerman-3747505_2x_64e4efab-3376-4762-8133-00a38fc034c8.png",
+            "title": "Blog 1 Heading",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>"
+          }
+        },
+        "163540915845df9a26-1": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/pexels-michael-tuszynski-2157401.png",
+            "title": "Blog 2 Heading",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>"
+          }
+        },
+        "163540915845df9a26-2": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/pexels-timur-saglambilek-87223.png",
+            "title": "Blog 3 Heading",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "163540915845df9a26-0",
+        "163540915845df9a26-1",
+        "163540915845df9a26-2"
+      ],
+      "settings": {
+        "title": "Multicolumn",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "column_alignment": "left",
+        "background_style": "primary",
+        "button_label": "Button label",
+        "button_link": "",
+        "swipe_on_mobile": false
+      }
     }
   },
   "order": [
-    "banner-section"
+    "banner-section",
+    "163540915845df9a26"
   ]
 }
