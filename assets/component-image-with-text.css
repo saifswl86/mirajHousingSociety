@@ -132,3 +132,6 @@
 
 .image-with-text__media.image-with-text__media--small.media {
     padding: 5rem 0rem;}
+.image-with-text__media.image-with-text__media--small.media >img{
+	position:static;
+}
