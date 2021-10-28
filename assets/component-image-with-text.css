@@ -134,4 +134,5 @@
     padding: 5rem 0rem;}
 .image-with-text__media.image-with-text__media--small.media >img{
 	position:static;
+  	object-fit:contain;
 }
