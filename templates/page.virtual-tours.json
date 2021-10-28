@@ -75,13 +75,13 @@
         "163540612410eefa12-0": {
           "type": "heading",
           "settings": {
-            "heading": "Take a virtual tour of our Society Gardens"
+            "heading": "Take a virtual tour of our Infrastructure"
           }
         },
         "163540612410eefa12-2": {
           "type": "button",
           "settings": {
-            "button_label": "Button label",
+            "button_label": "Lets Get Started",
             "button_link": ""
           }
         }
