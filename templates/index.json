@@ -155,6 +155,33 @@
         "color_scheme": "background-2",
         "layout": "image_first"
       }
+    },
+    "1635402593e18befe8": {
+      "type": "image-with-text",
+      "blocks": {
+        "1635402593e18befe8-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Education"
+          }
+        },
+        "1635402593e18befe8-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt u.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "1635402593e18befe8-0",
+        "1635402593e18befe8-1"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/pexels-polina-zimmerman-3747505_2x_64e4efab-3376-4762-8133-00a38fc034c8.png",
+        "height": "adapt",
+        "color_scheme": "background-2",
+        "layout": "text_first"
+      }
     }
   },
   "order": [
@@ -162,6 +189,7 @@
     "image_banner",
     "16353974993095a4ab",
     "16354022688ca05399",
-    "16354022714f1c3f6b"
+    "16354022714f1c3f6b",
+    "1635402593e18befe8"
   ]
 }
