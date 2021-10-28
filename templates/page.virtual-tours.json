@@ -96,12 +96,19 @@
         "color_scheme": "background-2",
         "layout": "text_first"
       }
+    },
+    "1635406128063511a0": {
+      "type": "contact-form",
+      "settings": {
+        "heading": "Let's get in touch"
+      }
     }
   },
   "order": [
     "banner-section",
     "16354061120242f8a0",
     "16354061217cef6a5c",
-    "163540612410eefa12"
+    "163540612410eefa12",
+    "1635406128063511a0"
   ]
 }
