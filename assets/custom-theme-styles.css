@@ -145,6 +145,8 @@ img.annoucement-bar-icon{
   .multicolumn_btn{
   	text-decoration:none;
     color:#2B2B2B;
+    letter-spacing: 2.5px;
+    font-size:25px;
   }
 @media screen and (min-width:768px){
   .cstm-line:empty{
