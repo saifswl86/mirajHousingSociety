@@ -78,7 +78,7 @@ img.annoucement-bar-icon{
   	    fill: #000!important;
 
   }
-  .angle-right{
+  .angle-right>svg{
   	width:8px;
     height:10px;
     fill:#2b2b2b;
