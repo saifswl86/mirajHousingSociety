@@ -142,6 +142,9 @@ img.annoucement-bar-icon{
   top: 9%;
   opacity: 0.47;
 }
+  .multicolumn-card__info>.rte>p{
+  	margin-bottom:10px;
+  }
   .multicolumn_btn{
   	text-decoration:none;
     color:#2B2B2B;
