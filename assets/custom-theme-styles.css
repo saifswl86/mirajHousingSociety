@@ -142,6 +142,9 @@ img.annoucement-bar-icon{
   top: 9%;
   opacity: 0.47;
 }
+  .multicolumn_btn{
+  	text-decoration:none;
+  }
 @media screen and (min-width:768px){
   .cstm-line:empty{
     display: block!important;
