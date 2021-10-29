@@ -56,7 +56,35 @@
 
   {
     "name": "Banner Section",
-    "settings": [	
+    "settings": [
+	{
+      "type": "header",
+      "content": "Banner Type"
+    },
+	{
+        "type": "select",
+        "id": "banner-section-content",
+        "label": "Display below as background:",
+        "default": "half_width_image",
+        "options": [
+        {
+        "value": "full_width_image",
+        "label": "Full Width Image with Text "
+        },
+        {
+        "value": "half_width_image",
+        "label": "Half Width Image with Text"
+        },
+        {
+        "value": "banner_video",
+        "label": "Video"
+        },	
+        {
+        "value": "banner_gif",
+        "label": "GIF"
+        }
+        ]
+		},
     {
       "type": "header",
       "content": "Banner Overlay Settings"
@@ -96,30 +124,6 @@
       "type": "header",
       "content": "Banner Background Settings"
     },
-	{
-        "type": "select",
-        "id": "banner-section-content",
-        "label": "Display below as background:",
-        "default": "half_width_image",
-        "options": [
-        {
-        "value": "full_width_image",
-        "label": "Full Width Image with Text "
-        },
-        {
-        "value": "half_width_image",
-        "label": "Half Width Image with Text"
-        },
-        {
-        "value": "banner_video",
-        "label": "Video"
-        },	
-        {
-        "value": "banner_gif",
-        "label": "GIF"
-        }
-        ]
-		},
         {
           "type": "image_picker",
           "id": "half_background_image",
