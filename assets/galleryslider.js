@@ -6,7 +6,7 @@ $slickEl.on('init reInit afterChange', function (event, slick, currentSlide, nex
   $st.text(i + ' of ' + slick.slideCount);
 });
 
-$slickEl.slick({
+$('.slider').slick({
   centerMode: true,
   centerPadding: '200px',
   slidesToShow: 1,
