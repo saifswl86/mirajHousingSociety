@@ -96,7 +96,7 @@
             "image": "shopify:\/\/shop_images\/pexels-binyamin-mellish-106399.png",
             "title": "Residential",
             "text": "<p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit <\/p>",
-            "buttonText": "Learn More",
+            "buttonText": "Learn Mmore",
             "buttonLink": "#"
           }
         },
@@ -106,7 +106,7 @@
             "image": "shopify:\/\/shop_images\/pexels-chris-goodwin-32870.png",
             "title": "Commercial",
             "text": "<p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit <\/p>",
-            "buttonText": "Learn More",
+            "buttonText": "Learn more",
             "buttonLink": "#"
           }
         }
@@ -121,7 +121,7 @@
         "image_ratio": "adapt",
         "column_alignment": "left",
         "background_style": "primary",
-        "button_label": "Learn More",
+        "button_label": "",
         "button_link": "",
         "swipe_on_mobile": false
       }
