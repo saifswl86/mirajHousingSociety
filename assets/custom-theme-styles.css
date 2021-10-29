@@ -144,6 +144,7 @@ img.annoucement-bar-icon{
 }
   .multicolumn_btn{
   	text-decoration:none;
+    color:#2B2B2B;
   }
 @media screen and (min-width:768px){
   .cstm-line:empty{
