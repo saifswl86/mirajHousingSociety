@@ -78,6 +78,11 @@ img.annoucement-bar-icon{
   	    fill: #000!important;
 
   }
+  .angle-right{
+  	width:8px;
+    height:10px;
+    fill:#2b2b2b;
+  }
 @media screen and (max-width:768px){
   .header__inline-menu{
     display: none!important;;
