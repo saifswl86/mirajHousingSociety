@@ -62,6 +62,15 @@
                 {%- if block.settings.text != blank -%}
                   <div class="rte">{{ block.settings.text }}</div>
                 {%- endif -%}
+                {%if block.settings.buttonLink!=blank%}
+                	<a href="{{block.settings.buttonLink}}">
+                {%endif%}
+				{%if block.settings.buttonText!=blank%}
+                      <span>{{block.settings.buttonText}}</span> 
+                {%endif%}
+                {%if block.settings.buttonLink!=blank%}
+                	</a>
+				{%endif%}
               </div>
             </div>
           </li>
