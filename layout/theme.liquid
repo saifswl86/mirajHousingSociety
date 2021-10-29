@@ -113,7 +113,8 @@
         }
       }
     {% endstyle %}
-
+	{{ 'slick.css' | asset_url | stylesheet_tag }}
+    {{ 'slick-theme.css' | asset_url | stylesheet_tag }}
     {{ 'base.css' | asset_url | stylesheet_tag }}
     {{ 'custom-theme-styles.css' | asset_url | stylesheet_tag }}
     {{ 'banner-section.css' | asset_url | stylesheet_tag }}
