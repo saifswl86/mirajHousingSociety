@@ -1,4 +1,5 @@
-var $st = $('.pagination');
+$(document).ready(()=>{
+	var $st = $('.pagination');
 var $slickEl = $('.center');
 
 $slickEl.on('init reInit afterChange', function (event, slick, currentSlide, nextSlide) {
@@ -34,4 +35,5 @@ $('.slider').slick({
       }
     }
   ]
-});
+});                
+})
