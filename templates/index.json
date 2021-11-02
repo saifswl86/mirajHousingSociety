@@ -243,6 +243,41 @@
       "settings": {
         "heading": "Let's get in touch"
       }
+    },
+    "1635832385c0094007": {
+      "type": "text-with-image_slider",
+      "blocks": {
+        "48370d30-7302-4719-a069-996d3fd88690": {
+          "type": "Image",
+          "settings": {
+            "slider_image": "shopify:\/\/shop_images\/craig-mckay-jmURdhtm7Ng-unsplash_2x_896385c4-2578-4c8f-a34b-02c4fe234f49.png"
+          }
+        },
+        "76c739c5-dc39-4a18-88f9-3e12aec69112": {
+          "type": "Image",
+          "settings": {
+            "slider_image": "shopify:\/\/shop_images\/pexels-mentatdgt-1569076_2x_74bc18d5-e7a0-4e65-a353-7ba922b2360c.png"
+          }
+        },
+        "a9befd32-2c5e-46dd-846b-13c78908c79b": {
+          "type": "Image",
+          "settings": {
+            "slider_image": "shopify:\/\/shop_images\/pexels-mentatdgt-1569076_2x_74bc18d5-e7a0-4e65-a353-7ba922b2360c.png"
+          }
+        }
+      },
+      "block_order": [
+        "48370d30-7302-4719-a069-996d3fd88690",
+        "76c739c5-dc39-4a18-88f9-3e12aec69112",
+        "a9befd32-2c5e-46dd-846b-13c78908c79b"
+      ],
+      "settings": {
+        "isImageOnLeftSide": false,
+        "title": "Hello World",
+        "description": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt u.",
+        "button_text": "Button",
+        "button_link": "Button"
+      }
     }
   },
   "order": [
@@ -253,6 +288,7 @@
     "16354022714f1c3f6b",
     "1635402593e18befe8",
     "1635403202a150d42e",
-    "163540339504d3c5a8"
+    "163540339504d3c5a8",
+    "1635832385c0094007"
   ]
 }
