@@ -10,7 +10,14 @@
         {%endif%}
       </div>
     </div>
-    <div class="col-6"></div>
+    <div class="col-6">
+		{%if section.blocks!=blank%}
+      		<div class="Image_with_text-Image-Slider-Area">
+      		{%for block in section.blocks%}
+      			
+      		{%endfor%}
+      	{%endif%}
+    </div>
   </div>
 </div>
 
