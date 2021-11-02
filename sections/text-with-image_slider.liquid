@@ -18,7 +18,7 @@
       		<div class="Image_with_text-Image-Slider-Area iwt-slider">
       			{%for block in section.blocks%}
               		<div class="iwt-slide">
-                      <img src="{{block.settings.slider_image | img_url:'295x475'}}" class="iwt-slide-img">
+                      <img src="{{block.settings.slider_image | img_url:'master'}}" class="iwt-slide-img">
                     </div>
       			{%endfor%}
       		</div>
@@ -106,7 +106,7 @@
 }
 .iwt-slide-img{
 	width:100%;
-	height:100%;
+	height:495px;
 	object-fit:cover;
 	
 }
