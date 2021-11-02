@@ -8,6 +8,9 @@
         {%if section.settings.description!=blank%}
         	<p>{{section.settings.description}}</p>
         {%endif%}
+        {%if section.settings.button_link!=blank%}
+        <a href="{{section.settings.button_link}}">{{section.settings.button_text}}</a>
+        {%endif%}
       </div>
     </div>
     <div class="col-6">
