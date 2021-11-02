@@ -17,8 +17,8 @@
 		{%if section.blocks!=blank%}
       		<div class="Image_with_text-Image-Slider-Area iwt-slider">
       			{%for block in section.blocks%}
-              		<div class="iwt-slide" style="background:url('{{block.settings.slider_image | img_url:'295x475'}}')">
-                    {%comment%}  <img src="{{block.settings.slider_image | img_url:'295x475'}}" class="iwt-slide-img">{%endcomment%}
+              		<div class="iwt-slide">
+                      <img src="{{block.settings.slider_image | img_url:'295x475'}}" class="iwt-slide-img">
                     </div>
       			{%endfor%}
       		</div>
