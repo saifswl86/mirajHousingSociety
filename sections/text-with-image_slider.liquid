@@ -17,7 +17,7 @@
 		{%if section.blocks!=blank%}
       		<div class="Image_with_text-Image-Slider-Area">
       			{%for block in section.blocks%}
-                      <img src="{{block.settings.slider_image | img_url:'master'}}">      			
+                      <img src="{{block.settings.slider_image | img_url:'master'}}" width="395" height="575">      			
       			{%endfor%}
       		</div>
       	{%endif%}
