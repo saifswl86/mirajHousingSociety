@@ -13,9 +13,10 @@
     <div class="col-6">
 		{%if section.blocks!=blank%}
       		<div class="Image_with_text-Image-Slider-Area">
-      		{%for block in section.blocks%}
-      			
-      		{%endfor%}
+      			{%for block in section.blocks%}
+                      <img src="{{block.settings.slider_image | img_url:'master'}}">      			
+      			{%endfor%}
+      		</div>
       	{%endif%}
     </div>
   </div>
