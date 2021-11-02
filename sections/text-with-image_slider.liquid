@@ -17,7 +17,9 @@
 		{%if section.blocks!=blank%}
       		<div class="Image_with_text-Image-Slider-Area iwt-slider">
       			{%for block in section.blocks%}
-                      <img src="{{block.settings.slider_image | img_url:'295x475'}}">      			
+              		<div class="iwt-slide">
+                      <img src="{{block.settings.slider_image | img_url:'295x475'}}">
+                    </div>
       			{%endfor%}
       		</div>
       	{%endif%}
@@ -83,6 +85,11 @@
 {% endschema %}
 
 {% stylesheet %}
+
+.iwt-slide{
+	height:200px;
+  padding:10px;
+}
 .slick-active { 
   padding: 20px 0; 
 }
