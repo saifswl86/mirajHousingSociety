@@ -30,15 +30,18 @@ div.banner-overlay-tagline{
     left: -100px;
     transform: rotate(270deg);
 }
+div.banner-overlay-tagline::after{
+	content: '';
+    width: 100%;
+    background: grey;
+    height: 1.5px;
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+}
 /* p.banner-overlay-tagline-text{
 	margin:0px;
 } */
-div.banner-overlay-tagline-underline{
-	width: 430px;
-    background: grey;
-    height: 1.5px;
-  	display:block;
-}
 div.banner-overlay-title{
 	position:absolute;
   	top:50%;
