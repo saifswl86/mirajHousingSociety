@@ -13,7 +13,7 @@
         {%endif%}
       </div>
     </div>
-    <div class="col-6 image-slider">
+    <div class="col-6 ">
 		{%if section.blocks!=blank%}
       		<div class="Image_with_text-Image-Slider-Area iwt-slider">
       			{%for block in section.blocks%}
@@ -93,9 +93,8 @@
 .slick-slide:not(.slick-active) { 
   margin: 20px 0; 
 }
-
-.child { 
-  width:100%; 
+.Image_with_text-Image-Slider-Area{
+	max-width:500px;
 }
 
 .slide:not(.slick-active) { 
