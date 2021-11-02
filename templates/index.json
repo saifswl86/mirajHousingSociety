@@ -250,13 +250,13 @@
         "48370d30-7302-4719-a069-996d3fd88690": {
           "type": "Image",
           "settings": {
-            "slider_image": "shopify:\/\/shop_images\/joseph-gonzalez-iFgRcqHznqg-unsplash.png"
+            "slider_image": "shopify:\/\/shop_images\/craig-mckay-jmURdhtm7Ng-unsplash_2x_896385c4-2578-4c8f-a34b-02c4fe234f49.png"
           }
         },
         "76c739c5-dc39-4a18-88f9-3e12aec69112": {
           "type": "Image",
           "settings": {
-            "slider_image": "shopify:\/\/shop_images\/craig-mckay-jmURdhtm7Ng-unsplash_2x_896385c4-2578-4c8f-a34b-02c4fe234f49.png"
+            "slider_image": "shopify:\/\/shop_images\/joseph-gonzalez-iFgRcqHznqg-unsplash.png"
           }
         },
         "a9befd32-2c5e-46dd-846b-13c78908c79b": {
@@ -264,19 +264,12 @@
           "settings": {
             "slider_image": "shopify:\/\/shop_images\/pexels-the-lazy-artist-gallery-1642125_2x_e92653a6-3c4a-421a-8131-4755f92b1a9b.png"
           }
-        },
-        "56d62d96-86e1-4ec3-a384-2fc7c0279ad9": {
-          "type": "Image",
-          "settings": {
-            "slider_image": "shopify:\/\/shop_images\/pexels-david-mcbee-1486785_2x_36f1a74f-8139-4930-bab0-d11d3fcda79e.png"
-          }
         }
       },
       "block_order": [
         "48370d30-7302-4719-a069-996d3fd88690",
         "76c739c5-dc39-4a18-88f9-3e12aec69112",
-        "a9befd32-2c5e-46dd-846b-13c78908c79b",
-        "56d62d96-86e1-4ec3-a384-2fc7c0279ad9"
+        "a9befd32-2c5e-46dd-846b-13c78908c79b"
       ],
       "settings": {
         "isImageOnLeftSide": false,
