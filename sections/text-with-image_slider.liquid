@@ -15,7 +15,7 @@
     </div>
     <div class="col-6">
 		{%if section.blocks!=blank%}
-      		<div class="Image_with_text-Image-Slider-Area d-flex">
+      		<div class="Image_with_text-Image-Slider-Area iwt-slider d-flex">
       			{%for block in section.blocks%}
                       <img src="{{block.settings.slider_image | img_url:'master'}}" width="395" height="575">      			
       			{%endfor%}
@@ -86,4 +86,9 @@
 {% endstylesheet %}
 
 {% javascript %}
+$(document).ready(()=>{
+	$('.iwt-slider').slick();
+})
+
+
 {% endjavascript %}
