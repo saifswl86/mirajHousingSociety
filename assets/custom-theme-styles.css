@@ -377,6 +377,8 @@ img.annoucement-bar-icon{
   .btn-link{
   	color: #2b2b2b;
     font-size: 22px;
+    text-decoration:none;
+    
   }
 .cstm-project-item-text span{
     font-weight: 200;
