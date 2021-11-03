@@ -16,11 +16,11 @@
           	{%endif%}
           
             <div class="cstm-project-item-text">
-              {% if block.settings.project_title!=blank%}
+              {% if block.settings.project_text!=blank%}
               	{%if block.settings.button_link!=blank%}
               		<a href="{{block.settings.button_link}}" class="btn_link">
               	{%endif%}
-              	  <h3>{{block.settings.project_title}}</h3>
+              	  <h3>{{block.settings.project_text}}</h3>
 				{%if block.settings.button_link!=blank%}
               		</a>
                 {%endif%}
