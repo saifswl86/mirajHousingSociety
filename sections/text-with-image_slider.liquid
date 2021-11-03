@@ -112,36 +112,37 @@
 
 {% javascript %}
 $(document).ready(()=>{
-$('.iwt-slider').slick({
-  centerMode: true,
-  centerPadding:'150px',
-  slidesToShow: 1,
-  focusOnSelect: true,
-  arrows:false,
-  dots: false, 
-   responsive: [
-    {
-      breakpoint: 768,
-      settings: {
-        arrows: false,
-        centerMode: true,
-        centerPadding: '50px',
-        slidesToShow: 1
-      }
-    },
-    {
-      breakpoint: 480,
-      settings: {
-        arrows: false,
-        centerMode: true,
-        centerPadding: '50px',
-        slidesToShow: 1
-      }
-    }
-  ]
-});
+    $('.iwt-slider').slick({
+      centerMode: true,
+      centerPadding:'150px',
+      slidesToShow: 1,
+      focusOnSelect: true,
+      arrows:false,
+      dots: false, 
+       responsive: [
+        {
+          breakpoint: 768,
+          settings: {
+            arrows: false,
+            centerMode: true,
+            centerPadding: '100px',
+            slidesToShow: 1
+          }
+        },
+        {
+          breakpoint: 480,
+          settings: {
+            arrows: false,
+            centerMode: true,
+            centerPadding: '30px',
+            slidesToShow: 1
+          }
+        }
+      ]
+    })
+})
 
-})	
+
 
 
 {% endjavascript %}
