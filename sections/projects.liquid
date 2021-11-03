@@ -1,8 +1,10 @@
 {%if section.settings.title!=blank%}
 <div class="cstm-projects">
+  	{%if section.settings.title!=blank%}
     <h3 class="cstm-projects-title">
-        Projects
+        {{section.settings.title}}
     </h3>
+  	{%endif%}
     <div class="projects-list">
         <div class="cstm-project-item">
             <div class="cstm-project-item-img">
