@@ -275,8 +275,12 @@ img.annoucement-bar-icon{
 }
 .Image_with_text-textArea{
 	padding:3rem 3.5rem;
+  	display:flex;
+  	flex-direciton:column;
+  	justify-content:center;
 }
 .cstm-btn{
+  	align-self:flex-start;
 	padding:10px 20px;
 	border-radius:5px;
 	background:#E6E5E2;
