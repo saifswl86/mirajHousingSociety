@@ -14,44 +14,6 @@
         "banner_video": "https:\/\/cdn.shopify.com\/s\/files\/1\/0593\/1987\/7820\/files\/Lake_-_67201.mp4?v=1635320476"
       }
     },
-    "image_banner": {
-      "type": "image-banner",
-      "disabled": true,
-      "blocks": {
-        "heading": {
-          "type": "heading",
-          "settings": {
-            "heading": "Heading 2",
-            "heading_size": "medium"
-          }
-        },
-        "button": {
-          "type": "buttons",
-          "settings": {
-            "button_label_1": "Shop all",
-            "button_link_1": "shopify:\/\/collections\/all",
-            "button_style_secondary_1": false,
-            "button_label_2": "Main Heading",
-            "button_link_2": "",
-            "button_style_secondary_2": false
-          }
-        }
-      },
-      "block_order": [
-        "heading",
-        "button"
-      ],
-      "settings": {
-        "image_height": "medium",
-        "adapt_height_first_image": false,
-        "desktop_text_box_position": "flex-end",
-        "show_text_box": true,
-        "image_overlay_opacity": 0,
-        "color_scheme": "background-2",
-        "stack_images_on_mobile": true,
-        "show_text_below": true
-      }
-    },
     "1635832385c0094007": {
       "type": "text-with-image_slider",
       "blocks": {
@@ -282,7 +244,6 @@
   },
   "order": [
     "1635319388585f341a",
-    "image_banner",
     "1635832385c0094007",
     "16353974993095a4ab",
     "16354022688ca05399",
