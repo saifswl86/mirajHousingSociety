@@ -1,31 +1,27 @@
-<div class="Image_with_text container-fluid">
-  <div class="row">
-    <div class="col-12 col-md-6">
-      <div class="Image_with_text-textArea">
-      	{%if section.settings.title!=blank%}
-        	<h3>{{section.settings.title}}</h3>
-        {%endif%}
-        {%if section.settings.description!=blank%}
-        	<p>{{section.settings.description}}</p>
-        {%endif%}
-        {%if section.settings.button_link!=blank%}
-        <a href="{{section.settings.button_link}}">{{section.settings.button_text}}</a>
-        {%endif%}
-      </div>
-    </div>
-    <div class="col-12 col-md-6 d-flex justify-content-center">
-		{%if section.blocks!=blank%}
-      		<div class="Image_with_text-Image-Slider-Area iwt-slider">
-      			{%for block in section.blocks%}
-              		<div class="iwt-slide">
-                      <img src="{{block.settings.slider_image | img_url:'master'}}" class="iwt-slide-img">
+{%if section.settings.title!=blank%}
+	<div class="Image_with_text container-fluid">
+        <div class="row d-flex flex-row-reverse flex-lg-row">
+          <div class="col-12 col-lg-6">
+            <div class="Image_with_text-textArea">
+              	{%if section.settings.title!=blank%}
+                  <h3 class="cstm-heading">{{section.settings.title}}</h3>
+              	{%endif%}
+              	{%if section.settings.description!=blank%}
+                  <p class="cstm-desc">{{section.settings.description}}</p>
+                {%endif%}  
+              		<a href="#" class="cstm-btn">Read More</a>
+            </div>
+          </div>
+          <div class="col-12 col-lg-6 d-flex justify-content-center">
+                <div class="Image_with_text-Image-Slider-Area iwt-slider">
+                    <div class="iwt-slide">
+                        <img src="/1.png" class="iwt-slide-img">
                     </div>
-      			{%endfor%}
-      		</div>
-      	{%endif%}
-    </div>
-  </div>
-</div>
+                </div>
+          </div>
+        </div>
+      </div>
+{%endif%}
 
 {% schema %}
   {
