@@ -1,0 +1,114 @@
+{
+  "sections": {
+    "banner-section": {
+      "type": "banner-section",
+      "settings": {
+        "banner-section-content": "half_width_image",
+        "overlay_check": true,
+        "tagline_banner": "A project by Miraj Housing Scheme",
+        "banner-overlay-image_check": true,
+        "banner-overlay-heading": "",
+        "banner-overlay_image": "shopify:\/\/shop_images\/LOGO_2x_e978eb8f-dc11-4ea9-8c04-4559fccf9d35.png",
+        "half_background_image": "shopify:\/\/shop_images\/villa-house-model-key-drawing-retro-desktop-real-estate-sale-concept_2x_e8d70101-34b6-493a-aa77-1e29fb64c3a9.png",
+        "banner_video": ""
+      }
+    },
+    "16354061120242f8a0": {
+      "type": "image-with-text",
+      "blocks": {
+        "16354061120242f8a0-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Take a virtual tour of our Model Houses"
+          }
+        },
+        "16354061120242f8a0-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "Lets Get Started",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "16354061120242f8a0-0",
+        "16354061120242f8a0-2"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/pexels-zachary-debottis-1838640_2x_3e7d6584-f579-4a89-a2b5-b60b2dd9fbcb.png",
+        "height": "adapt",
+        "color_scheme": "background-2",
+        "layout": "text_first"
+      }
+    },
+    "16354061217cef6a5c": {
+      "type": "image-with-text",
+      "blocks": {
+        "16354061217cef6a5c-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Take a virtual tour of our Society Gardens"
+          }
+        },
+        "16354061217cef6a5c-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "Lets Get Started",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "16354061217cef6a5c-0",
+        "16354061217cef6a5c-2"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/pexels-david-mcbee-1486785_2x_36f1a74f-8139-4930-bab0-d11d3fcda79e.png",
+        "height": "adapt",
+        "color_scheme": "background-1",
+        "layout": "image_first"
+      }
+    },
+    "163540612410eefa12": {
+      "type": "image-with-text",
+      "blocks": {
+        "163540612410eefa12-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Take a virtual tour of our Infrastructure"
+          }
+        },
+        "163540612410eefa12-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "Lets Get Started",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "163540612410eefa12-0",
+        "163540612410eefa12-2"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/pexels-david-mcbee-1486785_2x_36f1a74f-8139-4930-bab0-d11d3fcda79e.png",
+        "height": "adapt",
+        "color_scheme": "background-2",
+        "layout": "text_first"
+      }
+    },
+    "1635406128063511a0": {
+      "type": "contact-form",
+      "settings": {
+        "heading": "Let's get in touch"
+      }
+    }
+  },
+  "order": [
+    "banner-section",
+    "16354061120242f8a0",
+    "16354061217cef6a5c",
+    "163540612410eefa12",
+    "1635406128063511a0"
+  ]
+}
