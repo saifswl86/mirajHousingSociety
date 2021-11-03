@@ -171,7 +171,7 @@ html.no-js .no-js-hidden {
   display: none !important;
 }
 *{
-  font-family: 'Raleway', sans-serif;
+  font-family: 'Raleway', sans-serif !important;
 }
 .page-width {
   max-width: var(--page-width);
