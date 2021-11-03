@@ -9,7 +9,9 @@
               	{%if section.settings.description!=blank%}
                   <p class="cstm-desc">{{section.settings.description}}</p>
                 {%endif%}  
-              		<a href="#" class="cstm-btn">Read More</a>
+              	{%if section.settings.btn_text!=blank%}
+              		<a href="{{section.settings.btn_link}}" class="cstm-btn">{{section.settings.btn_text}}</a>
+              	{%endif%}
             </div>
           </div>
           <div class="col-12 col-lg-6 d-flex justify-content-center">
