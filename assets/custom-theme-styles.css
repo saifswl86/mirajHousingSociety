@@ -315,7 +315,7 @@ img.annoucement-bar-icon{
 	color: #2B2B2B;	
 }
 
-@media screen and (max-width: 980px) {
+@media screen and (max-width: 1200px) {
 	.Image_with_text{
 		padding: 2rem;
 	}
