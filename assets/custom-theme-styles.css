@@ -380,10 +380,7 @@ img.annoucement-bar-icon{
     text-decoration:none;
     
   }
-.cstm-project-item-text span{
-    font-weight: 200;
-  	font-size:22px;
-}
+
 .cstm-project-item-text p{
     font-weight: 200;
     letter-spacing: 2.2px;
@@ -394,6 +391,10 @@ img.annoucement-bar-icon{
     color:#2b2b2b;
     font-size: 18px;
     padding: 0px 5px;
+}
+  .cstm-project-item-text span{
+    font-weight: 200;
+  	font-size:22px;
 }
 .cstm-project-item-text a:hover{
     color: #2b2b2b;
