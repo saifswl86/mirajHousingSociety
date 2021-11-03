@@ -289,7 +289,7 @@ img.annoucement-bar-icon{
 	font-size:14px;
 	font-weight:bold;
 	border:1px solid #2B2B2B;
-	margin-top:20px;
+/* 	margin-top:20px; */
 	text-decoration: none;
 	transition: 0.2s ease-in-out;
 }
