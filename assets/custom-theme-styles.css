@@ -402,9 +402,10 @@ img.annoucement-bar-icon{
     padding: 0px;
 }
   .cstm-project-item-text span{
-    font-weight: 200;
+    font-weight: 300;
   	font-size:22px;
     padding:0px;
+    
 }
 .cstm-project-item-text a:hover{
     color: #2b2b2b;
