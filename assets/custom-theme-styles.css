@@ -278,6 +278,7 @@ img.annoucement-bar-icon{
   	display:flex;
   	flex-direction:column;
   	justify-content:center;
+  	height:100%;
 }
 .cstm-btn{
   	align-self:flex-start;
