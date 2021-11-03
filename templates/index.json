@@ -247,19 +247,19 @@
     "1635832385c0094007": {
       "type": "text-with-image_slider",
       "blocks": {
-        "48370d30-7302-4719-a069-996d3fd88690": {
+        "a919a894-4b38-4b23-9bbe-eabc8734117b": {
           "type": "Image",
           "settings": {
             "slider_image": "shopify:\/\/shop_images\/1.png"
           }
         },
-        "76c739c5-dc39-4a18-88f9-3e12aec69112": {
+        "26425a41-57c5-47ed-af40-3bfca57a94bf": {
           "type": "Image",
           "settings": {
             "slider_image": "shopify:\/\/shop_images\/2.png"
           }
         },
-        "a9befd32-2c5e-46dd-846b-13c78908c79b": {
+        "d9fa4a14-b104-4923-a954-212ca0c5fbf2": {
           "type": "Image",
           "settings": {
             "slider_image": "shopify:\/\/shop_images\/3.png"
@@ -267,15 +267,15 @@
         }
       },
       "block_order": [
-        "48370d30-7302-4719-a069-996d3fd88690",
-        "76c739c5-dc39-4a18-88f9-3e12aec69112",
-        "a9befd32-2c5e-46dd-846b-13c78908c79b"
+        "a919a894-4b38-4b23-9bbe-eabc8734117b",
+        "26425a41-57c5-47ed-af40-3bfca57a94bf",
+        "d9fa4a14-b104-4923-a954-212ca0c5fbf2"
       ],
       "settings": {
         "isImageOnLeftSide": false,
-        "title": "Hello World",
+        "title": "About Miraj",
         "description": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt u.",
-        "button_text": "Button",
+        "button_text": "Read More",
         "button_link": "Button"
       }
     }
