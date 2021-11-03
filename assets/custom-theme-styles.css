@@ -227,3 +227,106 @@ img.annoucement-bar-icon{
     grid-template-columns: 0.5fr 3fr 0fr;
   }
 }
+  
+  
+  
+  
+/*
+============================================================================================
+  STYLES FOR ====>>Text with Images Slider Goes Here
+============================================================================================
+*/
+
+*{font-family: 'Raleway', sans-serif;}
+.Image_with_text{
+	padding:5rem;
+	margin:10rem 0rem;
+	background:#E6E5E2;
+ }
+.slick-center { 
+  transform: scale(1.08) 
+}
+.iwt-slide{ 
+	margin:30px 0px;
+}
+.Image_with_text-Image-Slider-Area{
+	max-width:80%;
+}
+
+.iwt-slide:not(.slick-active) { 
+  cursor: pointer; 
+}
+.Image_with_text-Image-Slider-Area{
+	max-width:100%; 
+}
+.iwt-slide-img{
+	width:295px;
+	height:330px;
+	object-fit:contain;
+}
+.slick-active .iwt-slide{
+	margin-top:0px; 
+}
+.slick-active .iwt-slide .iwt-slide-img{
+	height:410px;
+}
+.iwt-slider .slick-slide{
+	margin:20px 0px;
+}
+.Image_with_text-textArea{
+	padding:3rem 3.5rem;
+}
+.cstm-btn{
+	padding:10px 20px;
+	border-radius:5px;
+	background:#E6E5E2;
+	color:#2B2B2B;
+	font-size:14px;
+	font-weight:bold;
+	border:1px solid #2B2B2B;
+	margin-top:20px;
+	text-decoration: none;
+	transition: 0.2s ease-in-out;
+}
+.cstm-btn:hover{
+	color: #fff;
+	background-color: #2B2B2B;
+}
+.cstm-heading{
+	font-size:42px;
+	font-weight:200;
+	margin-bottom:15px;
+	letter-spacing: 5px;
+	color: #2B2B2B;	
+	font-style: normal;
+
+}
+.cstm-desc{
+	font-size:18px;
+	font-weight:200;
+	margin-bottom:30px;
+	letter-spacing: 1px;
+	line-height: 1.4;
+	color: #2B2B2B;	
+}
+
+@media screen and (max-width: 980px) {
+	.Image_with_text{
+		padding: 2rem;
+	}
+	.Image_with_text-textArea
+	{
+		padding:0rem;
+	}
+	.cstm-heading{
+		font-size: 32px;
+	}
+	.cstm-desc{
+		font-size: 16px;
+	}
+	.Image_with_text-textArea{
+		margin-bottom:20px;
+	}
+}
+
+  
