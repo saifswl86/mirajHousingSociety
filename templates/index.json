@@ -52,6 +52,41 @@
         "show_text_below": true
       }
     },
+    "1635832385c0094007": {
+      "type": "text-with-image_slider",
+      "blocks": {
+        "a919a894-4b38-4b23-9bbe-eabc8734117b": {
+          "type": "Image",
+          "settings": {
+            "slider_image": "shopify:\/\/shop_images\/1.png"
+          }
+        },
+        "26425a41-57c5-47ed-af40-3bfca57a94bf": {
+          "type": "Image",
+          "settings": {
+            "slider_image": "shopify:\/\/shop_images\/2.png"
+          }
+        },
+        "d9fa4a14-b104-4923-a954-212ca0c5fbf2": {
+          "type": "Image",
+          "settings": {
+            "slider_image": "shopify:\/\/shop_images\/3.png"
+          }
+        }
+      },
+      "block_order": [
+        "a919a894-4b38-4b23-9bbe-eabc8734117b",
+        "26425a41-57c5-47ed-af40-3bfca57a94bf",
+        "d9fa4a14-b104-4923-a954-212ca0c5fbf2"
+      ],
+      "settings": {
+        "isImageOnLeftSide": false,
+        "title": "About Miraj",
+        "description": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt u.",
+        "button_text": "Read More",
+        "button_link": "Button"
+      }
+    },
     "16353974993095a4ab": {
       "type": "image-with-text",
       "blocks": {
@@ -243,52 +278,17 @@
       "settings": {
         "heading": "Let's get in touch"
       }
-    },
-    "1635832385c0094007": {
-      "type": "text-with-image_slider",
-      "blocks": {
-        "a919a894-4b38-4b23-9bbe-eabc8734117b": {
-          "type": "Image",
-          "settings": {
-            "slider_image": "shopify:\/\/shop_images\/1.png"
-          }
-        },
-        "26425a41-57c5-47ed-af40-3bfca57a94bf": {
-          "type": "Image",
-          "settings": {
-            "slider_image": "shopify:\/\/shop_images\/2.png"
-          }
-        },
-        "d9fa4a14-b104-4923-a954-212ca0c5fbf2": {
-          "type": "Image",
-          "settings": {
-            "slider_image": "shopify:\/\/shop_images\/3.png"
-          }
-        }
-      },
-      "block_order": [
-        "a919a894-4b38-4b23-9bbe-eabc8734117b",
-        "26425a41-57c5-47ed-af40-3bfca57a94bf",
-        "d9fa4a14-b104-4923-a954-212ca0c5fbf2"
-      ],
-      "settings": {
-        "isImageOnLeftSide": false,
-        "title": "About Miraj",
-        "description": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt u.",
-        "button_text": "Read More",
-        "button_link": "Button"
-      }
     }
   },
   "order": [
     "1635319388585f341a",
     "image_banner",
+    "1635832385c0094007",
     "16353974993095a4ab",
     "16354022688ca05399",
     "16354022714f1c3f6b",
     "1635402593e18befe8",
     "1635403202a150d42e",
-    "163540339504d3c5a8",
-    "1635832385c0094007"
+    "163540339504d3c5a8"
   ]
 }
