@@ -49,6 +49,38 @@
         "button_link": "Button"
       }
     },
+    "163594017842fe1cab": {
+      "type": "projects",
+      "blocks": {
+        "8ff36677-a4b7-4614-859c-9205673a4fb3": {
+          "type": "projects",
+          "settings": {
+            "project_text": "Residential",
+            "project_image": "shopify:\/\/shop_images\/pexels-binyamin-mellish-106399.png",
+            "project_desc": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore",
+            "button_text": "Read More",
+            "button_link": "#"
+          }
+        },
+        "499ee4f2-27d8-42b9-af95-9d915120666e": {
+          "type": "projects",
+          "settings": {
+            "project_text": "Commercial",
+            "project_image": "shopify:\/\/shop_images\/pexels-chris-goodwin-32870.png",
+            "project_desc": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore",
+            "button_text": "Read More",
+            "button_link": "#"
+          }
+        }
+      },
+      "block_order": [
+        "8ff36677-a4b7-4614-859c-9205673a4fb3",
+        "499ee4f2-27d8-42b9-af95-9d915120666e"
+      ],
+      "settings": {
+        "title": "Projects"
+      }
+    },
     "16354022688ca05399": {
       "type": "multicolumn",
       "blocks": {
@@ -205,48 +237,16 @@
       "settings": {
         "heading": "Let's get in touch"
       }
-    },
-    "163594017842fe1cab": {
-      "type": "projects",
-      "blocks": {
-        "8ff36677-a4b7-4614-859c-9205673a4fb3": {
-          "type": "projects",
-          "settings": {
-            "project_text": "Residential",
-            "project_image": "shopify:\/\/shop_images\/pexels-binyamin-mellish-106399.png",
-            "project_desc": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore",
-            "button_text": "Read More",
-            "button_link": "#"
-          }
-        },
-        "499ee4f2-27d8-42b9-af95-9d915120666e": {
-          "type": "projects",
-          "settings": {
-            "project_text": "Commercial",
-            "project_image": "shopify:\/\/shop_images\/pexels-chris-goodwin-32870.png",
-            "project_desc": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore",
-            "button_text": "Read More",
-            "button_link": "#"
-          }
-        }
-      },
-      "block_order": [
-        "8ff36677-a4b7-4614-859c-9205673a4fb3",
-        "499ee4f2-27d8-42b9-af95-9d915120666e"
-      ],
-      "settings": {
-        "title": "Projects"
-      }
     }
   },
   "order": [
     "1635319388585f341a",
     "1635832385c0094007",
+    "163594017842fe1cab",
     "16354022688ca05399",
     "1635924263743f36bf",
     "1635402593e18befe8",
     "1635403202a150d42e",
-    "163540339504d3c5a8",
-    "163594017842fe1cab"
+    "163540339504d3c5a8"
   ]
 }
