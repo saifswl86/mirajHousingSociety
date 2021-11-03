@@ -123,41 +123,6 @@
         "button_link": "#"
       }
     },
-    "16354022714f1c3f6b": {
-      "type": "image-with-text",
-      "blocks": {
-        "16354022714f1c3f6b-0": {
-          "type": "heading",
-          "settings": {
-            "heading": "Location"
-          }
-        },
-        "16354022714f1c3f6b-1": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt u.<\/p>"
-          }
-        },
-        "16354022714f1c3f6b-2": {
-          "type": "button",
-          "settings": {
-            "button_label": "Read More",
-            "button_link": ""
-          }
-        }
-      },
-      "block_order": [
-        "16354022714f1c3f6b-0",
-        "16354022714f1c3f6b-1",
-        "16354022714f1c3f6b-2"
-      ],
-      "settings": {
-        "image": "shopify:\/\/shop_images\/pexels-michael-tuszynski-2157401.png",
-        "height": "small",
-        "color_scheme": "background-2",
-        "layout": "image_first"
-      }
-    },
     "1635402593e18befe8": {
       "type": "image-with-text",
       "blocks": {
@@ -230,7 +195,7 @@
         "image_ratio": "adapt",
         "column_alignment": "left",
         "background_style": "primary",
-        "button_label": "Read More",
+        "button_label": "",
         "button_link": "",
         "swipe_on_mobile": true
       }
@@ -247,7 +212,6 @@
     "1635832385c0094007",
     "16354022688ca05399",
     "1635924263743f36bf",
-    "16354022714f1c3f6b",
     "1635402593e18befe8",
     "1635403202a150d42e",
     "163540339504d3c5a8"
