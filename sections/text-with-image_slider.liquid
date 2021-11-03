@@ -14,13 +14,19 @@
               	{%endif%}
             </div>
           </div>
-          <div class="col-12 col-lg-6 d-flex justify-content-center">
-                <div class="Image_with_text-Image-Slider-Area iwt-slider">
-                    <div class="iwt-slide">
-                        <img src="/1.png" class="iwt-slide-img">
-                    </div>
-                </div>
-          </div>
+          {%if section.blocks!=blank%}
+            <div class="col-12 col-lg-6 d-flex justify-content-center">
+                  <div class="Image_with_text-Image-Slider-Area iwt-slider">
+                    {%for block in section.blocks%}
+                    	{%if section.settings.slider_image!=blank%}
+                          <div class="iwt-slide">
+                              <img src="{{block.settings.slider_image}}" class="iwt-slide-img">
+                          </div>
+                    	{%endif%}
+                    {%endfor%}
+                  </div>
+            </div>
+          {%endif%}
         </div>
       </div>
 {%endif%}
