@@ -28,8 +28,57 @@
 
 {% schema %}
   {
-    "name": "Section name",
-    "settings": []
+    "name": "Projects List",
+    "settings": [
+	{
+		"type":"text",
+		"label":"Title",
+		"id":"title",
+		"default":"Projects"
+	}
+	],
+	"blocks":[
+	{
+		"type":"projects",
+		"name":"Project",
+		"settings":[
+			{
+				"type":"text",
+				"label":"Project Title",
+				"id":"project_text",
+				"default":"Project Title"
+			},
+			{
+				"type":"image_picker",
+				"label":"Project Image",
+				"id":"project_image"
+			},
+			{
+				"type":"textarea",
+				"label":"Project Description",
+				"id":"project_desc"
+			},
+			{
+				"type":"text",
+				"label":"Button Text",
+				"id":"button_text",
+				"default":"Read More"
+			},
+			{
+				"type":"text",
+				"label":"Button Link",
+				"id":"button_link",
+				"default":"#"
+	
+			}
+		]
+	}
+	],
+	"presets":[
+		{
+			"name":"Projects List"
+		}
+	]
   }
 {% endschema %}
 
