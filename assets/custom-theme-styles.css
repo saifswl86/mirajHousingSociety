@@ -276,7 +276,7 @@ img.annoucement-bar-icon{
 .Image_with_text-textArea{
 	padding:3rem 3.5rem;
   	display:flex;
-  	flex-direciton:column;
+  	flex-direction:column;
   	justify-content:center;
 }
 .cstm-btn{
