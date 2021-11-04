@@ -1,12 +1,228 @@
+<footer>
+<div class="announcement-bar row">
+  <div class="announcement_Text col-6 col-lg-4 ">
+    {%if section.settings.announcement_text_check==true%}
+      {%if section.settings.announcement_Text!=blank%}
+          {%if section.settings.announcement_link!=blank%}
+            <a href="section.settings.announcement-bar-link">
+          {%endif%}
+              <p>{{section.settings.announcement_Text}}</p>
+          {%if section.settings.announcement_link!=blank%}
+              </a>
+          {%endif%}
+      {%endif%}
+    {%endif%}
+  </div>
+  <div class="icon-with-text col-6 col-lg-4 d-flex justify-content-lg-center align-items-center"> 
+    
+      {%if section.blocks!=blank%}
+            {%for block in section.blocks%}
+                <div class="icon-with-text-item d-flex">
+                    {%if block.settings.announcement_bar_icon_link!=blank%}
+                      <a class="d-flex announcement-bar-icon-text justify-content-between align-items-center" href="{{block.settings.announcement_bar_icon_link}}">
+                    {%endif%}
+                    {%if block.settings.annoucement_bar_icon!=blank%}
+                        <img class="annoucement-bar-icon" src="{{block.settings.annoucement_bar_icon | img_url:'master'}}">
+                    {%endif%}
+                      <p class="">{{block.settings.announcement_bar_icon_text}}</p>
+                    {%if section.settings.announcement_bar_icon_link!=blank%}
+                      </a>
+                    {%endif%}
+                </div>
+            {%endfor%}
+      {%endif%}
+  </div> 
+  <div class="announce-sm-icons col-6 col-lg-4 d-flex justify-content-end align-items-center">
+    {%if section.settings.announcement_sm_check==true %}    
+      <ul class="list-unstyled list-social" role="list">
+        	{%- if settings.social_email_address != blank -%}
+              <li class="list-social__item">
+                <a href="{{ settings.social_email_address }}" class="link list-social__link" >
+                  {%- render 'icon-email' -%}
+                </a>
+              </li>
+            {%- endif -%}
+            {%- if settings.social_facebook_link != blank -%}
+              <li class="list-social__item">
+                <a href="{{ settings.social_facebook_link }}" class="link list-social__link" >
+                  {%- render 'icon-facebook' -%}
+                  <span class="visually-hidden">{{ 'general.social.links.facebook' | t }}</span>
+                </a>
+              </li>
+            {%- endif -%}
+        	{%- if settings.social_youtube_link != blank -%}
+              <li class="list-social__item">
+                <a href="{{ settings.social_youtube_link }}" class="link list-social__link" >
+                  {%- render 'icon-youtube' -%}
+                  <span class="visually-hidden">{{ 'general.social.links.youtube' | t }}</span>
+                </a>
+              </li>
+            {%- endif -%}
+        	{%- if settings.social_twitter_link != blank -%}
+              <li class="list-social__item">
+                <a href="{{ settings.social_twitter_link }}" class="link list-social__link" >
+                  {%- render 'icon-twitter' -%}
+                  <span class="visually-hidden">{{ 'general.social.links.twitter' | t }}</span>
+                </a>
+              </li>
+            {%- endif -%}
+            {%- if settings.social_pinterest_link != blank -%}
+              <li class="list-social__item">
+                <a href="{{ settings.social_pinterest_link }}" class="link list-social__link" >
+                  {%- render 'icon-pinterest' -%}
+                  <span class="visually-hidden">{{ 'general.social.links.pinterest' | t }}</span>
+                </a>
+              </li>
+            {%- endif -%}
+            {%- if settings.social_instagram_link != blank -%}
+              <li class="list-social__item">
+                <a href="{{ settings.social_instagram_link }}" class="link list-social__link" >
+                  {%- render 'icon-instagram' -%}
+                  <span class="visually-hidden">{{ 'general.social.links.instagram' | t }}</span>
+                </a>
+              </li>
+            {%- endif -%}
+            {%- if settings.social_tiktok_link != blank -%}
+              <li class="list-social__item">
+                <a href="{{ settings.social_tiktok_link }}" class="link list-social__link" >
+                  {%- render 'icon-tiktok' -%}
+                  <span class="visually-hidden">{{ 'general.social.links.tiktok' | t }}</span>
+                </a>
+              </li>
+            {%- endif -%}
+            {%- if settings.social_tumblr_link != blank -%}
+              <li class="list-social__item">
+                <a href="{{ settings.social_tumblr_link }}" class="link list-social__link" >
+                  {%- render 'icon-tumblr' -%}
+                  <span class="visually-hidden">{{ 'general.social.links.tumblr' | t }}</span>
+                </a>
+              </li>
+            {%- endif -%}
+            {%- if settings.social_snapchat_link != blank -%}
+              <li class="list-social__item">
+                <a href="{{ settings.social_snapchat_link }}" class="link list-social__link" >
+                  {%- render 'icon-snapchat' -%}
+                  <span class="visually-hidden">{{ 'general.social.links.snapchat' | t }}</span>
+                </a>
+              </li>
+            {%- endif -%}
+            {%- if settings.social_vimeo_link != blank -%}
+              <li class="list-social__item">
+                <a href="{{ settings.social_vimeo_link }}" class="link list-social__link" >
+                  {%- render 'icon-vimeo' -%}
+                  <span class="visually-hidden">{{ 'general.social.links.vimeo' | t }}</span>
+                </a>
+              </li>
+            {%- endif -%}
+          </ul>
+    {%endif%}
+  </div>
+</div>
+</footer>
+{%style%}
+.announcement-bar{
+  background-color:{{section.settings.announcementbar_bg_color}};
+}
+.announcement-bar *{
+  color:{{section.settings.announcementbar_text_color}};
+}
+
+{%endstyle%}
 {% schema %}
+
+{
+  "name":"Announcement Bar",
+  "settings":[
+    {
+      "type": "header",
+      "content": "Announcement Bar"
+    },
+    {
+      "type": "checkbox",
+      "id": "announcement_check",
+      "label": "Show announcement",
+      "default": true,
+      "info": "Check if you want to show annoucemment bar"
+    },
+    {
+      "type": "header",
+      "content": "Announcement Bar Details"
+    },
+    {
+      "type": "checkbox",
+      "id": "announcement_text_check",
+      "label": "Show announcement Text",
+      "default": false,
+      "info": "Check if you want to show annoucemment bar text"
+    },
+    {
+      "type": "text",
+      "id": "announcement_Text",
+      "label": "Announcement Text",
+      "info": "Add text for annoucement"
+    },
+    {
+      "type": "text",
+      "id": "announcement_link",
+      "label": "Link",
+      "info": "Add link to announcemnet bar",
+      "placeholder": "www.mirajhousingsociety.com"
+    },
+    {
+      "type": "header",
+      "content": "Announcement Bar Color Scheme"
+    },
+    {
+      "type": "checkbox",
+      "id": "announcement_sm_check",
+      "label": "Show Social Icons",
+      "default": true,
+      "info": "Check if you want to show Social media icons"
+    },
+    {
+      "type": "color",
+      "id": "announcementbar_bg_color",
+      "label": "Background Color",
+      "default": "#f5f5f5",
+      "info": "Set background color for announcement bar"
+    },
+    {
+      "type": "color",
+      "id": "announcementbar_text_color",
+      "label": "Text Color Color",
+      "default": "#000",
+      "info": "Set Text color for announcement bar"
+    }
+   
+  ],
+  "blocks":[
   {
-    "name": "Section name",
-    "settings": []
+    "type":"announcement",
+    "name":"Icon with Text",
+    "settings":[
+    {
+      "type": "header",
+      "content": "Icon With Text Settings"
+    },
+    {
+      "type": "image_picker",
+      "id": "annoucement_bar_icon",
+      "label": "Icon",
+      "info":"Select Icon image"
+    },
+    {
+      "type": "text",
+      "id": "announcement_bar_icon_text",
+      "label": "Icon Text"
+    },
+    {
+      "type": "text",
+      "id": "announcement_bar_icon_link",
+      "label": "Icon Link"
+    }
+      
+    ]
   }
+]}  
+  
 {% endschema %}
-
-{% stylesheet %}
-{% endstylesheet %}
-
-{% javascript %}
-{% endjavascript %}
