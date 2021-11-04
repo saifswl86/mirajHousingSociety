@@ -34,7 +34,7 @@
   </div> 
   <div class="announce-sm-icons col-6 col-lg-4 d-flex justify-content-end align-items-center">
     {%if section.settings.announcement_sm_check==true %}    
-      <ul class="list-unstyled list-social" role="list">
+      <ul class="list-unstyled d-flex list-social" role="list">
         	{%- if settings.social_email_address != blank -%}
               <li class="list-social__item">
                 <a href="{{ settings.social_email_address }}" class="link list-social__link" >
