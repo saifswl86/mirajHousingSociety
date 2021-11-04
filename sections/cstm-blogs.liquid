@@ -4,11 +4,8 @@
         {{section.settings.title}}
       
     </h3>
-  	{%assign blog=blogs[section.settings.blog]%}
-  	{%for article in blog.articles%} 
-  		{{article.title}}
-  	{%endfor%}
   	{%endif%}
+  	{%assign blog=blogs[section.settings.blog]%}
   	{%if blog.articles_count!=0%}
     <div class="projects-list">
       {%for article in blog.articles limit:3%}
