@@ -196,67 +196,17 @@
         "title": "Amenities"
       }
     },
-    "1635403202a150d42e": {
-      "type": "multicolumn",
-      "blocks": {
-        "1635403202a150d42e-0": {
-          "type": "column",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/pexels-polina-zimmerman-3747505_2x_64e4efab-3376-4762-8133-00a38fc034c8.png",
-            "title": "Blog 1 Heading",
-            "text": "<p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta <\/p>",
-            "buttonText": "Learn More",
-            "buttonLink": "#"
-          }
-        },
-        "1635403202a150d42e-1": {
-          "type": "column",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/pexels-chris-goodwin-32870.png",
-            "title": "Blog 2 Heading",
-            "text": "<p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta <\/p>",
-            "buttonText": "Learn More",
-            "buttonLink": "#"
-          }
-        },
-        "1635403202a150d42e-2": {
-          "type": "column",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/pexels-michael-tuszynski-2157401.png",
-            "title": "Blog 3 Heading",
-            "text": "<p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta <\/p>",
-            "buttonText": "Learn More",
-            "buttonLink": "#"
-          }
-        }
-      },
-      "block_order": [
-        "1635403202a150d42e-0",
-        "1635403202a150d42e-1",
-        "1635403202a150d42e-2"
-      ],
+    "1636013166fee5fdff": {
+      "type": "cstm-blogs",
       "settings": {
-        "title": "Latest",
-        "image_width": "full",
-        "image_ratio": "adapt",
-        "column_alignment": "left",
-        "background_style": "primary",
-        "button_label": "",
-        "button_link": "",
-        "swipe_on_mobile": true
+        "title": "The latest",
+        "blog": "news"
       }
     },
     "163540339504d3c5a8": {
       "type": "contact-form",
       "settings": {
         "heading": "Let's get in touch"
-      }
-    },
-    "1636013166fee5fdff": {
-      "type": "cstm-blogs",
-      "settings": {
-        "title": "The latest",
-        "blog": "news"
       }
     }
   },
@@ -267,8 +217,7 @@
     "16354022688ca05399",
     "1635924263743f36bf",
     "1636008819cf5258f8",
-    "1635403202a150d42e",
-    "163540339504d3c5a8",
-    "1636013166fee5fdff"
+    "1636013166fee5fdff",
+    "163540339504d3c5a8"
   ]
 }
