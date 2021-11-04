@@ -513,7 +513,7 @@ STYLES FOR : Amenities
 button.slick-prev.cstm-prev-icon.slick-arrow{
     left: 4%;
 /*     top: 92%; */
-    	transform:translateY(40px)
+    transform:translateY(40px);
     z-index: 1;
     /* bottom:10%; */
 }
