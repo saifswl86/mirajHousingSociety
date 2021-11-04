@@ -636,6 +636,9 @@ STYLES FOR : Custom Blogs
     font-size: 18px;
     padding: 0px;
 }
+.cstm-blogs-item-text a span {
+    font-weight: 300;
+}
   .cstm-blogs-item-text span{
     font-weight: 200;
   	font-size:22px;
