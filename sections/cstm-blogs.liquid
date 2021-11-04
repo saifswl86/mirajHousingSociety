@@ -2,7 +2,11 @@
   	{%if section.settings.title!=blank%}
     <h3 class="cstm-projects-title">
         {{section.settings.title}}
+      
     </h3>
+  	{%for article in blog[news].articles%}
+  		{{article.title}}
+  	{%endfor%}
   	{%endif%}
   	{%if blog.articles_count!=0%}
     <div class="projects-list">
