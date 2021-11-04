@@ -154,7 +154,7 @@
         "settings": {
           "announcement_check": true,
           "announcement_text_check": true,
-          "announcement_Text": "All copyrights reserved",
+          "announcement_Text": "©All rights reserved. Terms of use and Privacy Policy",
           "announcement_link": "#",
           "announcement_sm_check": true,
           "announcementbar_bg_color": "#eae9e5",
