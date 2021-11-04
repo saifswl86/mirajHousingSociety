@@ -484,6 +484,8 @@ STYLES FOR : Amenities
   
   .Amenities img{
     max-width: 100%;
+    min-height: 100%;
+    object-fit: cover;
 }
 .Amenities{
     margin: 2rem 0rem;
