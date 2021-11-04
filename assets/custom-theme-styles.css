@@ -476,5 +476,85 @@ img.annoucement-bar-icon{
 }
   
 
-
+/*
+==========================================================================
+STYLES FOR : Amenities 
+==========================================================================
+*/
   
+  .Amenities img{
+    max-width: 100%;
+}
+.Amenities{
+    margin: 2rem 0rem;
+}
+.Amenities_item{
+    display: flex!important;
+    justify-content: space-between;
+    background-color: #EAE9E5;
+}
+.Amenities_item_about{
+    flex:0.4;
+    padding:6rem 0rem;
+    padding-left: 6rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.Amenities_item_image{
+    flex:0.53;
+}
+.cstm-next-icon{
+    position: absolute;
+    left: -100rem;
+}
+button.slick-prev.cstm-prev-icon.slick-arrow{
+    left: 7%;
+    top: 90%;
+    z-index: 1;
+    /* bottom:10%; */
+}
+button.slick-next.cstm-next-icon.slick-arrow{
+    left: 10%;
+    top:   90%;
+    /* bottom:10%; */
+    z-index: 1;
+}
+button.slick-prev.cstm-prev-icon.slick-arrow:before,
+button.slick-next.cstm-next-icon.slick-arrow:before{
+    display: none;
+}
+.AmenitiesTitle img{
+    width: 62px;
+    margin: 10px 0px;
+}
+.AmenitiesTitle h1{
+    letter-spacing: 2.1px;
+    color:#2B2B2B;
+    margin: 10px 0px;
+    font-weight: normal;
+}
+.education-desc p{
+    color: #2B2B2B;
+    letter-spacing: 2.4px;
+    font-size: 16px;
+    font-weight: normal;
+}
+.Amenities_title-text{
+    text-align: center;
+    padding: 1rem 0rem;
+    font-weight: 300;
+    font-size: 2.3rem;
+}
+@media screen and (max-width:767px) {
+    .Amenities_item{
+        flex-direction: column-reverse;
+    }
+    .Amenities_item_about,.Amenities_item_image{
+        flex:1;
+    }
+    .Amenities_item_about{
+        padding:1rem 0rem;
+        padding-left: 1rem;
+    }
+}
