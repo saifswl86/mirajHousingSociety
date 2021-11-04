@@ -60,7 +60,10 @@ img.annoucement-bar-icon{
 .announcement-bar-icon-text p{
     margin-bottom: 0px;
 }
-  .announcement-bar a{
+  .announcement_Text{
+  	padding-left:none;
+  }
+  .announcement_Text a{
   	text-decoration:none;
   }
 .header{
