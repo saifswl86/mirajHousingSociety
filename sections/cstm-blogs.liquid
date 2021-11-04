@@ -1,22 +1,22 @@
-<div class="cstm-projects">
+<div class="cstm-blogs">
   	{%if section.settings.title!=blank%}
-    <h3 class="cstm-projects-title">
+    <h3 class="cstm-blogs-title">
         {{section.settings.title}}
       
     </h3>
   	{%endif%}
   	{%assign blog=blogs[section.settings.blog]%}
   	{%if blog.articles_count!=0%}
-    <div class="projects-list">
+    <div class="blogs-list">
       {%for article in blog.articles limit:3%}
-        <div class="cstm-project-item">
+        <div class="cstm-blogs-item">
           	{%if article.image!=blank%}
-            <div class="cstm-project-item-img">
+            <div class="cstm-blogs-item-img">
             	<img src="{{article.image|img_url:'master'}}">
           	</div>
           	{%endif%}
           
-            <div class="cstm-project-item-text">
+            <div class="cstm-blogs-item-text">
               {% if article.title!=blank%}
               		<a href="{{article.url}}" class="btn_link">
 	              	  <span>{{article.title}}</span>
