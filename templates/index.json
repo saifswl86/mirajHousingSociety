@@ -203,12 +203,6 @@
         "blog": "news"
       }
     },
-    "163540339504d3c5a8": {
-      "type": "contact-form",
-      "settings": {
-        "heading": "Let's get in touch"
-      }
-    },
     "163602917372e7d7c8": {
       "type": "cstm-contact-form",
       "settings": {
@@ -232,7 +226,6 @@
     "1635924263743f36bf",
     "1636008819cf5258f8",
     "1636013166fee5fdff",
-    "163540339504d3c5a8",
     "163602917372e7d7c8"
   ]
 }
