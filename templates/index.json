@@ -259,11 +259,21 @@
             "am_desc": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt u.",
             "am_image": "shopify:\/\/shop_images\/pexels-the-lazy-artist-gallery-1642125_2x_e92653a6-3c4a-421a-8131-4755f92b1a9b.png"
           }
+        },
+        "01767111-f4c4-4b4d-bc5d-69c1e7c665f2": {
+          "type": "Amenities",
+          "settings": {
+            "am_icon": "shopify:\/\/shop_images\/education.png",
+            "am_title": "Education",
+            "am_desc": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt u.",
+            "am_image": "shopify:\/\/shop_images\/after_3_large_2x_68cd6439-312c-4457-bb81-b7e3824eabd2.png"
+          }
         }
       },
       "block_order": [
         "dfa1f4a8-3ddf-4e2e-9a4e-08dea02cbd94",
-        "5b8411f8-ee92-4029-a2b9-e4f46302c391"
+        "5b8411f8-ee92-4029-a2b9-e4f46302c391",
+        "01767111-f4c4-4b4d-bc5d-69c1e7c665f2"
       ],
       "settings": {
         "title": "Amenities"
