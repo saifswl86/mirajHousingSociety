@@ -31,9 +31,11 @@
             </div>
             <div class="col-5">
                 <div class="contactInfo">
+                  {% if section.settings.contact_title!=blank%}
                    <div class="contactInfo_title">
-                        <h1>Information</h1>
+                        <h1>{{section.settings.contact_title}}</h1>
                    </div>
+                  {%endif%}
                    <div class="contactInfo_desc">
                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit officia minima itaque dolorum vero ratione!</p>
                    </div>
