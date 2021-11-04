@@ -4,7 +4,7 @@
         {{section.settings.title}}
       
     </h3>
-  	{%assign blog=blogs[News]%}
+  	{%assign blog=blogs[section.settings.blog]%}
   	{%for article in blog.article%}
   		{{article.title}}
   	{%endfor%}
@@ -44,7 +44,12 @@
 		"label":"Title",
 		"id":"title",
 		"default":"Projects"
-	}
+	},
+	{
+      "id": "blog",
+      "type": "blog",
+      "label": "Blog"
+    }
 	],
 	"presets":[
 		{
