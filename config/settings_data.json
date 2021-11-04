@@ -126,6 +126,40 @@
           "announcementbar_bg_color": "#eae9e5",
           "announcementbar_text_color": "#000000"
         }
+      },
+      "cstm-footer": {
+        "type": "cstm-footer",
+        "blocks": {
+          "22636594-bd3e-4e57-b4d9-71ec099710b0": {
+            "type": "announcement",
+            "settings": {
+              "annoucement_bar_icon": "shopify:\/\/shop_images\/phone.png",
+              "announcement_bar_icon_text": "+9234582372349",
+              "announcement_bar_icon_link": "+9234582372349"
+            }
+          },
+          "353694cc-5478-462c-a129-1a69a40e25bf": {
+            "type": "announcement",
+            "settings": {
+              "annoucement_bar_icon": "shopify:\/\/shop_images\/Layer_2.png",
+              "announcement_bar_icon_text": "+9234582372349",
+              "announcement_bar_icon_link": "+9234582372349"
+            }
+          }
+        },
+        "block_order": [
+          "22636594-bd3e-4e57-b4d9-71ec099710b0",
+          "353694cc-5478-462c-a129-1a69a40e25bf"
+        ],
+        "settings": {
+          "announcement_check": true,
+          "announcement_text_check": true,
+          "announcement_Text": "All copyrights reserved",
+          "announcement_link": "#",
+          "announcement_sm_check": true,
+          "announcementbar_bg_color": "#f5f5f5",
+          "announcementbar_text_color": "#000"
+        }
       }
     },
     "content_for_index": [
