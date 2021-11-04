@@ -1,8 +1,14 @@
 <div class="cstm_contact_form">
-        <div class="contact_form_header">
-            <h3>Let's get in touch</h3>
-            <p>Call us at: +923049712197</p>
-        </div>
+  		{%if section.settings.title!=blank or section.settings.sub_title!=blank%}
+          <div class="contact_form_header">
+            	{%if section.settings.title!=blank%}
+              		<h3>Let's get in touch</h3>
+            	{%endif%}
+            	{%if section.settings.sub_title!=blank%}
+			        <p>Call us at: +923049712197</p>            
+            	{%endif%}
+          </div>
+  		{%endif%}
         <div class="row">
             <div class="col-7">
                 <div class="cstm_contact_form_content">
