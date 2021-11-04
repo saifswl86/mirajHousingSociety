@@ -514,14 +514,14 @@ STYLES FOR : Amenities
 button.slick-prev.cstm-prev-icon.slick-arrow{
     left: 4%;
 /*     top: 92%; */
-    transform:translateY(220px); 
+    transform:translateY(230px); 
     z-index: 1;
     /* bottom:10%; */
 }
 button.slick-next.cstm-next-icon.slick-arrow{
     left: 7%;
 /*     top:   92%; */
-  	transform:translateY(220px);
+  	transform:translateY(23s0px);
     /* bottom:10%; */
     z-index: 1;
 }
