@@ -23,7 +23,7 @@
                   </div>
                 {%if block.settings.am_image!=blank%}
                   <div class="Amenities_item_image">
-                      <img src="{{block.settings.am_image}}" >
+                      <img src="{{block.settings.am_image |img_url:'master'}}" >
                   </div>
                 {%endif%}
               </div>
