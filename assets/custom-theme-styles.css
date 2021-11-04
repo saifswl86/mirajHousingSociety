@@ -556,6 +556,7 @@ button.slick-next.cstm-next-icon.slick-arrow:before{
     max-height: 320px;
     overflow: scroll;
     overflow-x: hidden;
+  	overflow-y: hidden;
 }
 @media screen and (max-width:767px) {
     .Amenities_item{
