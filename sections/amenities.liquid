@@ -1,23 +1,35 @@
 <div class="Amenities">
-        <div class="Amenities_title">
-            <h1 class="Amenities_title-text">Amenities</h1>
-        </div>
-        <div class="Amenities_content d-flex">
-            <div class="Amenities_item">
-                <div class="Amenities_item_about">
-                    <div class="AmenitiesTitle">
-                        <img src="./education.png" alt="">
-                        <h1>Education</h1>
-                    </div>
-                    <div class="education-desc">
-                        <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt u.</p>
-                    </div>
-                </div>
-                <div class="Amenities_item_image">
-                    <img src="./pexels-polina-zimmerman-3747505.png" alt="education">
-                </div>
-            </div>
-        </div>
+  		{%if section.settings.title!=blank%}
+          <div class="Amenities_title">
+              <h1 class="Amenities_title-text">{{section.settings.title}}</h1>
+          </div>
+		{%endif%}
+  		{%if section.blocks!=blank%}
+          <div class="Amenities_content d-flex">
+            {%for block in section.blocks%}
+              <div class="Amenities_item">
+                  <div class="Amenities_item_about">
+                    {%if block.settings.am_title !=blank and block.settings.am_icon!=blank%}
+                      <div class="AmenitiesTitle">
+                          <img src="{{block.settings.am_icon |img_url:'master'}}" alt="">
+                          <h1>{{block.settings.am_title}}</h1>
+                      </div>
+                    {%endif%}
+                    {%if section.settings.am_desc!=blank%}
+                      <div class="education-desc">
+                          <p>{{block.settings.am_desc}}</p>
+                      </div>
+                    {%endif%}
+                  </div>
+                {%if block.settings.am_image!=blank%}
+                  <div class="Amenities_item_image">
+                      <img src="{{block.settings.am_image}}" >
+                  </div>
+                {%endif%}
+              </div>
+            {%endfor%}
+          </div>
+  		{%endif%}
     </div>
 
 {%schema%}
@@ -27,7 +39,8 @@
 		{
 			"type":"text",
 			"id":"title",
-			"label":"Title"
+			"label":"Title",
+			"default":"Amenities"
 		}
 	],
 	"blocks":[
