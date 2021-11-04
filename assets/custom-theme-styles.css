@@ -511,14 +511,14 @@ STYLES FOR : Amenities
     left: -100rem;
 }
 button.slick-prev.cstm-prev-icon.slick-arrow{
-    left: 7%;
-    top: 90%;
+    left: 4%;
+    top: 92%;
     z-index: 1;
     /* bottom:10%; */
 }
 button.slick-next.cstm-next-icon.slick-arrow{
-    left: 10%;
-    top:   90%;
+    left: 8%;
+    top:   92%;
     /* bottom:10%; */
     z-index: 1;
 }
