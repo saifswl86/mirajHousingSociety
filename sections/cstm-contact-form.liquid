@@ -42,10 +42,12 @@
                    </div>
                   {%endif%}
                    <div class="contactInfo_items">
+                     	{%if section.settings.address!=blank%}
                         <div class="contactInfo_item my-3">
                             <i class="fas fa-thumbtack "></i>
-                            <span>Miraj Housing Society, Lahore</span>
+                            <span>{{section.settings.address}}</span>
                         </div>
+                     	{%endif%}
                         <div class="contactInfo_item my-3">
                             <i class="fas fa-phone-alt"></i>
                             <span>+92 304 9712197</span>
