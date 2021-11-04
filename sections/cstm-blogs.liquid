@@ -2,7 +2,6 @@
   	{%if section.settings.title!=blank%}
     <h3 class="cstm-blogs-title">
         {{section.settings.title}}
-      
     </h3>
   	{%endif%}
   	{%assign blog=blogs[section.settings.blog]%}
@@ -12,7 +11,7 @@
         <div class="cstm-blogs-item">
           	{%if article.image!=blank%}
             <div class="cstm-blogs-item-img">
-            	<img src="{{article.image|img_url:'master'}}">
+              <a href="{{article.url}}"><img src="{{article.image|img_url:'master'}}"></a>
           	</div>
           	{%endif%}
           
