@@ -12,7 +12,7 @@
         <div class="row">
             <div class="col-7">
                 <div class="cstm_contact_form_content">
-                    <form action="#">
+                  {%- form 'contact', id: 'ContactForm' -%}
                         <div class="cstm_contact_form_content-item cstm_contact_form_content_email">
                             <label for="cstm_email">Email</label>
                             <input placeholder="Your email" type="email" name="email" id="cstm_email">
@@ -26,7 +26,7 @@
                             <textarea rows="5" placeholder="Type here" id="cstm_message" ></textarea>
                         </div>
                         <a href="#" type="submit" class="s">Send</a>
-                    </form>
+                    {%endform%}
                 </div>
             </div>
             <div class="col-5">
