@@ -48,24 +48,30 @@
                             <span>{{section.settings.address}}</span>
                         </div>
                      	{%endif%}
-                     	{%if section.settings.phone%}
+                     	{%if section.settings.phone!=blank%}
                         <div class="contactInfo_item my-3">
                             <i class="fas fa-phone-alt"></i>
                             <span>{{section.settings.phone}}</span>
                         </div>
                      	{%endif%}
-                        <div class="contactInfo_item my-3">
-                            <i class="fas fa-fax"></i>
-                            <span>FAX: +92 304 9712197</span>
-                        </div>
+                     	{%if section.settings.fax!=blank%}
+                          <div class="contactInfo_item my-3">
+                              <i class="fas fa-fax"></i>
+                              <span>{{section.settings.fax}}</span>
+                          </div>
+                     	{%endif%}
+                     	{%if section.settings.time!=blank%}
                         <div class="contactInfo_item my-3">
                             <i class="far fa-clock"></i>
-                            <span>MON - FRIDAY 07:00 AM to 09:00PM</span>
+                            <span>{{section.settings.time}}</span>
                         </div>
+                     	{%endif%}
+                     	{%if section.settings.email!=blank%}
                         <div class="contactInfo_item my-3">
                             <i class="far fa-envelope"></i>
-                            <span>info@mirajhousingsociety.com</span>
+                            <span>{{section.settings.email}}</span>
                         </div>
+                     	{%endif%}
                    </div>
                 </div>
             </div>
