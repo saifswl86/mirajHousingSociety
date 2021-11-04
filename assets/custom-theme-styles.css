@@ -812,8 +812,8 @@ STYLES FOR : Custom Blogs
 .contactForm_btn{
 	padding:10px 40px;
 	border-radius:5px;
-	background:#2B2B2B;
-	color:#fff;
+	background:#fff;
+	color:#2B2B2B;
 	font-size:14px;
 	font-weight:bold;
 	border:1px solid #2B2B2B;
@@ -822,6 +822,6 @@ STYLES FOR : Custom Blogs
 	transition: 0.2s ease-in-out;
 }
 .contactForm_btn:hover{
-	color: #2B2B2B;
-	background-color:#fff ;
+	color:#fff;
+	background-color: #2B2B2B ;
 }  
