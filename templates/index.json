@@ -251,6 +251,12 @@
       "settings": {
         "heading": "Let's get in touch"
       }
+    },
+    "1636013166fee5fdff": {
+      "type": "cstm-blogs",
+      "settings": {
+        "title": "Projects"
+      }
     }
   },
   "order": [
@@ -261,6 +267,7 @@
     "1635924263743f36bf",
     "1636008819cf5258f8",
     "1635403202a150d42e",
-    "163540339504d3c5a8"
+    "163540339504d3c5a8",
+    "1636013166fee5fdff"
   ]
 }

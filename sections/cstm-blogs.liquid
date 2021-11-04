@@ -4,7 +4,7 @@
         {{section.settings.title}}
     </h3>
   	{%endif%}
-  	{%if blog.articles!=blank%}
+  	{%if blog.articles_count!=0%}
     <div class="projects-list">
       {%for article in blog.articles%}
         <div class="cstm-project-item">
