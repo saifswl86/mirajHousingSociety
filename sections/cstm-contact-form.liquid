@@ -15,15 +15,15 @@
                   {%- form 'contact', id: 'ContactForm' -%}
                         <div class="cstm_contact_form_content-item cstm_contact_form_content_email">
                             <label for="cstm_email">Email</label>
-                            <input placeholder="Your email" type="email" name="email" id="cstm_email">
+                            <input placeholder="Your email" type="email" name="email" id="cstm_email" required>
                         </div>
                         <div class="cstm_contact_form_content_email cstm_contact_form_content-item">
                             <label for="cstm_fullname">Full Name</label>
-                            <input type="text" placeholder="Your name" name="fullName" id="cstm_fullname">
+                            <input type="text" placeholder="Your name" name="fullName" id="cstm_fullname" required>
                         </div>
                         <div class="cstm_contact_form_content_message cstm_contact_form_content-item">
                             <label for="cstm_message">Message</label>
-                            <textarea rows="5" placeholder="Type here" id="cstm_message" ></textarea>
+                            <textarea rows="5" placeholder="Type here" id="cstm_message" required></textarea>
                         </div>
                         <a href="#" type="submit" class="contactForm_btn">Send</a>
                     {%endform%}
