@@ -4,7 +4,8 @@
         {{section.settings.title}}
       
     </h3>
-  	{%for article in blogs[News].article%}
+  	{%assign blog=blogs[News]%}
+  	{%for article in blog.article%}
   		{{article.title}}
   	{%endfor%}
   	{%endif%}
