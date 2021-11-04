@@ -584,7 +584,7 @@ STYLES FOR : Custom Blogs
     display: flex;
     justify-content: center;
 }
-.cstm-blogs-item-img img{
+.cstm-blogs-item-img a img{
     max-width: 100%;
     border-radius: 10px 10px 0px 0px;
  	height: 300px;
