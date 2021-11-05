@@ -123,4 +123,8 @@ h2.banner-overlay-title_text {
   	transform:translateX(30%);
     padding-right:0px;
   }
+  .banner-overlay-tagline-text{
+  	font-size:18px;
+
+  }
 }
