@@ -78,6 +78,8 @@ h2.banner-overlay-title_text {
   }
   div.banner-overlay-title{
   	position:static;
+    display:flex;
+    justify-content:center;
   }
   img.banner_image_half_width{
   	width:100%;
@@ -105,4 +107,5 @@ h2.banner-overlay-title_text {
     width:50%;
     position:static;
   }
+  
 }
