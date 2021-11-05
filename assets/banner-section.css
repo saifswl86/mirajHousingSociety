@@ -68,7 +68,7 @@ h2.banner-overlay-title_text {
 }
 @media screen and (max-width:768px){
   ..banner-overlay{
-  	position:static;
+  	position:static; 
   }
 	  .banner-overlay-tagline-text{
   	font-size:20px;
