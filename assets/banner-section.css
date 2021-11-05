@@ -103,5 +103,6 @@ h2.banner-overlay-title_text {
   }
   .banner-overlay-tagline-text::after{
   	display:none;
+    width:50%;
   }
 }
