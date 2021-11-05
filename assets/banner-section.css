@@ -120,6 +120,6 @@ h2.banner-overlay-title_text {
 @media screen and (max-width:520px)
 {
   .header__heading, .header__heading-link{
-  	transform:translateX(25%)
+  	transform:translateX(30%);
   }
 }
