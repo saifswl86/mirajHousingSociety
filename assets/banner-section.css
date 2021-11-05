@@ -58,6 +58,8 @@ h2.banner-overlay-title_text {
 @media screen and (max-width:1024px){
   h2.banner-overlay-title_text{
   	font-size:22px;
-    
+  }
+  div.banner-overlay-tagline{
+  	top:40%;
   }
 }
