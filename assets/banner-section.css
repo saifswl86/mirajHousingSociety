@@ -62,7 +62,7 @@ h2.banner-overlay-title_text {
   div.banner-overlay-tagline{
   	top:45%;
   }
-  .banner-section img{
+  .banner-overlay-title_image{
   	width:85%;
   }
 }
@@ -73,7 +73,7 @@ h2.banner-overlay-title_text {
   div.banner-overlay-tagline{
   	top:40%;
   }
-  .banner-section img{
+  .banner-overlay-title_image{
   	width:75%;
   }
 }
