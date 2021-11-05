@@ -47,3 +47,10 @@ div.banner-overlay-title{
   	top:50%;
   	left:20%;
 }
+h2.banner-overlay-title_text {
+    transform: translateX(45px);
+    font-size: 36px;
+    font-weight: 200;
+    letter-spacing: 6px;
+    color: #2B2B2B;
+}
