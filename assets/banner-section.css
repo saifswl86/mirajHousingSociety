@@ -96,4 +96,8 @@ h2.banner-overlay-title_text {
   .header__heading, .header__heading-link{
   	transform:translateX(100%)
   }
+  .banner-overlay-tagline-text{
+  	text-align:center;
+    font-size:22px;
+  }
 }
