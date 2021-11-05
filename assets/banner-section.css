@@ -121,5 +121,6 @@ h2.banner-overlay-title_text {
 {
   .header__heading, .header__heading-link{
   	transform:translateX(30%);
+    padding-right:0px;
   }
 }
