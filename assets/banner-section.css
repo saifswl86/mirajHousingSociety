@@ -101,7 +101,7 @@ h2.banner-overlay-title_text {
   	text-align:center;
     font-size:22px;
   }
-  .banner-overlay-tagline-text::after{
+  div.banner-overlay-tagline::after{
     width:50%;
   }
 }
