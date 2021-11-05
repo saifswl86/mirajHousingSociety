@@ -55,6 +55,9 @@ h2.banner-overlay-title_text {
     letter-spacing: 6px;
     color: #2B2B2B;
 }
+.banner_gif img{
+	width:100%;
+}
 @media screen and (max-width:1024px){
   .banner-overlay-tagline-text{
   	font-size:24px;
