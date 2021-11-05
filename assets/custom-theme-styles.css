@@ -236,9 +236,6 @@ img.annoucement-bar-icon{
   .header--middle-left{
     grid-template-columns: 0.5fr 3fr 0fr;
   }
-  .header__heading, .header__heading-link{
-  	transform:translateX(37px)
-  }
 }
 
   
