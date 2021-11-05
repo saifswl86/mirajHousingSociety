@@ -103,5 +103,6 @@ h2.banner-overlay-title_text {
   }
   div.banner-overlay-tagline::after{
     width:50%;
+    position:static;
   }
 }
