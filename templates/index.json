@@ -3,7 +3,7 @@
     "1635319388585f341a": {
       "type": "banner-section",
       "settings": {
-        "banner-section-content": "banner_gif",
+        "banner-section-content": "half_width_image",
         "overlay_check": true,
         "tagline_banner": "A project by Miraj Housing Scheme",
         "banner-overlay-image_check": false,
