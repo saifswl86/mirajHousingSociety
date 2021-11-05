@@ -71,14 +71,14 @@ h2.banner-overlay-title_text {
   	position:static; 
     width:100%;
   }
-  .div.banner-overlay-tagline{
+  div.banner-overlay-tagline{
   	position:static;
     transform:rotate(0deg);
   }
-  .div.banner-overlay-title{
+  div.banner-overlay-title{
   	position:static;
   }
-  .img.banner_image_half_width{
+  img.banner_image_half_width{
   	width:100%;
   }
 	  .banner-overlay-tagline-text{
