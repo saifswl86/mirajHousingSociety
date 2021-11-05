@@ -74,6 +74,9 @@ h2.banner-overlay-title_text {
   	position:static;
     transform:rotate(0deg);
   }
+  .div.banner-overlay-title{
+  	position:static;
+  }
 	  .banner-overlay-tagline-text{
   	font-size:20px;
   }
