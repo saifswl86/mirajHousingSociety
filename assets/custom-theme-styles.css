@@ -234,14 +234,14 @@ img.annoucement-bar-icon{
 }
 @media screen and (max-width:1030px){
   .header--middle-left{
-    grid-template-columns: 0.5fr 3fr 0fr;
-  }
-}
-@media screen and (max-width:990px){
-  .header--middle-left{
     grid-template-columns: 0.5fr 3fr fr;
   }
 }
+/* @media screen and (max-width:990px){
+  .header--middle-left{
+    grid-template-columns: 0.5fr 3fr fr;
+  }
+} */
   
   
   
