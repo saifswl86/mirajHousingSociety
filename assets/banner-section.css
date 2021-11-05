@@ -66,4 +66,14 @@ h2.banner-overlay-title_text {
   	width:85%;
   }
 }
-@media screen and (max-width:768px)
+@media screen and (max-width:768px){
+	  .banner-overlay-tagline-text{
+  	font-size:20px;
+  }
+  div.banner-overlay-tagline{
+  	top:40%;
+  }
+  .banner-section img{
+  	width:75%;
+  }
+}
