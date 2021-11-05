@@ -33,6 +33,7 @@ div.banner-overlay-tagline{
 div.banner-overlay-tagline::after{
 	content: '';
     width: 100%;
+  
     background: grey;
     height: 1.5px;
     position: absolute;
@@ -53,4 +54,10 @@ h2.banner-overlay-title_text {
     font-weight: 200;
     letter-spacing: 6px;
     color: #2B2B2B;
+}
+@media screen and (max-width:1024px){
+  h2.banner-overlay-title_text{
+  	font-size:22px;
+    
+  }
 }
