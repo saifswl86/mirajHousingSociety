@@ -107,5 +107,7 @@ h2.banner-overlay-title_text {
     width:50%;
     position:static;
   }
-  
+  .banner-overlay-title_image{
+  	width:25%;
+  }
 }
