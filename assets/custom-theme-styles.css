@@ -342,6 +342,11 @@ img.annoucement-bar-icon{
 		margin-bottom:20px;
 	}
 }
+  @media screen and (min-width:1320px){
+    .slick-list.draggable{
+    	padding:0px 185px!important;
+    }
+  }
   @media screen and (max-width:1024px){
     .Image_with_text{
     	padding:5rem;
