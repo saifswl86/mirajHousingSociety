@@ -116,7 +116,7 @@ h2.banner-overlay-title_text {
   }
   h2.banner-overlay-title_text{
   	transform:translateX(0px);
-    color:#2b2b2b;
+    opacity:1;
   }
 }
 
