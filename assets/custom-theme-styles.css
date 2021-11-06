@@ -348,11 +348,14 @@ img.annoucement-bar-icon{
     }
   }
   @media screen and (min-width:1440px){
-    
+    {
+    	height:90%;
+      	width:100%;
+    }
     .slick-list.draggable{
     	padding:0px 170px;
     }
-    .slick-active .iwt-slide .iwt-slide-img,.iwt-slide-img{
+    .slick-active .iwt-slide .iwt-slide-img{
     	height:100%;
       	width:100%;
     }
