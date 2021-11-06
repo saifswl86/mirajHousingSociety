@@ -136,6 +136,8 @@ h2.banner-overlay-title_text {
   }
   .banner-overlay-tagline-text{
   	font-size:18px;
-
+  }
+  h2.banner-overlay-title_text{
+  	font-size:32px;
   }
 }
