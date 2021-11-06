@@ -342,6 +342,11 @@ img.annoucement-bar-icon{
 		margin-bottom:20px;
 	}
 }
+  @media screen and (max-width:1024px){
+    .Image_with_text{
+    	padding:5rem;
+    }
+  }
   
 /*
 ============================================================================================
