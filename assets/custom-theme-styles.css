@@ -355,6 +355,9 @@ img.annoucement-bar-icon{
     .slick-list.draggable{
     	padding:0px 170px;
     }
+    .iwt-slide{
+    	margin:10px 0px;
+    }
     .slick-active .iwt-slide .iwt-slide-img{
     	height:100%;
       	width:100%;
