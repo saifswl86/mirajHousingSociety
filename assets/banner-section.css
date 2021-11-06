@@ -114,6 +114,9 @@ h2.banner-overlay-title_text {
   .banner-overlay-title_image{
   	width:25%;
   }
+  h2.banner-overlay-title_text{
+  	transform:translateX(0px)
+  }
 }
 
 
