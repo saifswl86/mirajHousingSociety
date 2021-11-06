@@ -352,6 +352,9 @@ img.annoucement-bar-icon{
     	height:100%;
       	width:90%;
     }
+    .slick-list.draggable{
+    	padding:0px 170px;
+    }
     .slick-active .iwt-slide .iwt-slide-img{
     	height:100%;
       	width:100%;
