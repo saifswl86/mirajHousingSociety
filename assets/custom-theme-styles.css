@@ -343,18 +343,18 @@ img.annoucement-bar-icon{
 	}
 }
   @media screen and (min-width:1320px){
-/*     .slick-list.draggable{
+    .Image_with_text.container-fluid .slick-list.draggable{
     	padding:0px 185px;
-    } */
+    }
   }
   @media screen and (min-width:1440px){
     .iwt-slide-img{
     	height:90%;
       	width:100%;
     }
-/*     .slick-list.draggable{
+    .Image_with_text.container-fluid .slick-list.draggable{
     	padding:0px 170px;
-    } */
+    }
     .iwt-slide{
     	margin:10px 0px;
     }
