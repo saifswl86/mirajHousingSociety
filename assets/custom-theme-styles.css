@@ -357,7 +357,10 @@ img.annoucement-bar-icon{
     }
     .slick-list.draggable {
     padding: 0px 90px !important;
-}
+	}
+    .iwt-slide-img {
+    	height:300px;
+    }
   }
   
 /*
