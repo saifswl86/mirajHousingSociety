@@ -876,4 +876,7 @@ STYLES FOR : Custom Contact Form
     .cstm_contact_form{
     	padding:0rem 2rem;
     }
+    .banner-section{
+    	padding-bottom:0px;
+    }
   }
