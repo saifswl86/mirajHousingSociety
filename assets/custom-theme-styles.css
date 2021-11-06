@@ -347,7 +347,7 @@ img.annoucement-bar-icon{
     	padding:0px 185px!important;
     }
   }
-  @media screen and (max-width:1440px){
+  @media screen and (min-width:1440px){
     .iwt-slide-img{
     	height:100%;
       	width:90%;
