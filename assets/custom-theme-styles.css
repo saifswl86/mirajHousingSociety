@@ -361,6 +361,9 @@ img.annoucement-bar-icon{
     .iwt-slide-img {
     	height:300px;
     }
+    .slick-active .iwt-slide .iwt-slide-img{
+	height:350px;
+	}
   }
   
 /*
