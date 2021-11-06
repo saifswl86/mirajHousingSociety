@@ -388,7 +388,12 @@ img.annoucement-bar-icon{
       width:auto
 	}
   }
-  
+  @media screen and (max-width:520px)
+  {
+    .cstm-heading{
+    	font-size:32px;
+    }
+  }
 /*
 ============================================================================================
   STYLES FOR ====>> Projects Section
