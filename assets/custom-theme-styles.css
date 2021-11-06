@@ -347,6 +347,16 @@ img.annoucement-bar-icon{
     	padding:0px 185px!important;
     }
   }
+  @media screen and (max-width:1440px){
+    .iwt-slide-img{
+    	height:100%;
+      	width:90%;
+    }
+    .slick-active .iwt-slide .iwt-slide-img{
+    	height:100%;
+      	width:100%;
+    }
+  }
   @media screen and (max-width:1024px){
     .Image_with_text{
     	padding:5rem;
