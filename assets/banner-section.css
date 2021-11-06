@@ -73,6 +73,7 @@ h2.banner-overlay-title_text {
   .banner-overlay{
   	position:static; 
     width:100%;
+    background:#fff;
     padding:30px 0px;
   }
   div.banner-overlay-tagline{
