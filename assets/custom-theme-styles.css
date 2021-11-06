@@ -773,7 +773,7 @@ STYLES FOR : Custom Blogs
   
 /*
 ==========================================================================
-STYLES FOR : Custom Blogs  
+STYLES FOR : Custom Contact Form  
 ==========================================================================
 */   
   
@@ -871,3 +871,7 @@ STYLES FOR : Custom Blogs
 	color:#fff;
 	background-color: #2B2B2B ;
 }  
+  
+  @media screen and (max-width:768px){
+  	padding:5rem;
+  }
