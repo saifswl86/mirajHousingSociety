@@ -118,6 +118,12 @@ h2.banner-overlay-title_text {
   	transform:translateX(0px);
     opacity:1;
   }
+  .banner-overlay{
+    	padding:15px 10px;
+    }
+    .banner-section,.banner-overlay{
+    	padding-bottom:0px;
+    }
 }
 
 
