@@ -359,10 +359,12 @@ img.annoucement-bar-icon{
     padding: 0px 90px !important;
 	}
     .iwt-slide-img {
-    	height:300px;
+    	height:auto;
+      width:auto;
     }
     .slick-active .iwt-slide .iwt-slide-img{
-	height:350px;
+	height:auto;
+      width:auto
 	}
   }
   
