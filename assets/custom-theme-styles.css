@@ -344,7 +344,7 @@ img.annoucement-bar-icon{
 }
   @media screen and (min-width:1320px){
     .slick-list.draggable{
-    	padding:0px 185px!important;
+    	padding:0px 185px;
     }
   }
   @media screen and (min-width:1440px){
