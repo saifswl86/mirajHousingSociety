@@ -965,7 +965,7 @@ STYLES FOR : Custom Contact Form
     right:10px;
     z-index: 1;
 }
-.cstm-iwt-text-img .cstm-prev-icon::before,.cstm-iwt-text-img .cstm-next-icon::before{
+.cstm-iwt-text-img .iwt3-cstm-prev-icon::before,.cstm-iwt-text-img .iwt3-cstm-next-icon::before{
     display: none;
 }
 @media screen and (max-width:520px){
