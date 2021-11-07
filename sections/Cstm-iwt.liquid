@@ -16,15 +16,17 @@
                 </div>
             </div>
           {%endif%}
+          {%if section.blocks!=blank%}
             <div class="col-12 col-sm-4">
-                <div class="cstm-iwt-text-img">
-                    <img src="./img/1.png" alt="">
-                    <img src="./img/2.png" alt="">
-                    <img src="./img/3.png" alt="">
-                    
+                <div class="cstm-iwt-text-img"> 
+                  {%for block in section.blocks%}
+                  	{%if block.settings.image!=blank%}
+                  		<img src="{{block.settings.image|img_url:'master'}}">
+                  	{%endif%}
+                  {%endfor%}
                 </div>
             </div>
-          
+		  {%endif%}          
         </div>
 </div>
 
