@@ -324,7 +324,7 @@ img.annoucement-bar-icon{
 	color: #2B2B2B;	
 }
   @media screen and (max-width:768px){
-  	.Image_with_textP
+  	.Image_with_text row
     {
     	flex-direction:column-reverse;
     }
