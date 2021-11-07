@@ -42,11 +42,26 @@
         "imgOnLeft": false,
         "bgColor": "#eae9e5"
       }
+    },
+    "1636311236b5e4b205": {
+      "type": "cstm-contact-form",
+      "settings": {
+        "title": "Let's get in touch",
+        "sub_title": "",
+        "contact_title": "Information",
+        "contact_desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit officia minima itaque dolorum vero ratione!",
+        "address": "Miraj Housing Society, Lahore",
+        "phone": "+9234582372349",
+        "fax": "Fax: +9234582372349",
+        "time": "Mon - Friday 07:00 AM to 09:00PM",
+        "email": "info@mirajhousingsociety.com"
+      }
     }
   },
   "order": [
     "banner-section",
     "163540502488940eb4",
-    "1636311156b03df062"
+    "1636311156b03df062",
+    "1636311236b5e4b205"
   ]
 }
