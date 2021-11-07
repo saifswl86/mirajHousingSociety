@@ -3,12 +3,12 @@
     "banner-section": {
       "type": "banner-section",
       "settings": {
+        "banner-section-content": "half_width_image",
         "overlay_check": true,
         "tagline_banner": "A project by Miraj Housing Scheme",
         "banner-overlay-image_check": true,
         "banner-overlay-heading": "",
         "banner-overlay_image": "shopify:\/\/shop_images\/LOGO_2x_e978eb8f-dc11-4ea9-8c04-4559fccf9d35.png",
-        "banner-section-content": "half_width_image",
         "half_background_image": "shopify:\/\/shop_images\/pexels-binyamin-mellish-106399.png",
         "banner_video": ""
       }
@@ -23,37 +23,30 @@
         "full_width": true
       }
     },
-    "163540503287cb995d": {
-      "type": "image-with-text",
+    "1636311156b03df062": {
+      "type": "Cstm-iwt",
       "blocks": {
-        "163540503287cb995d-1": {
-          "type": "text",
+        "5166ed4e-b1e9-4013-85f0-b76d68b14b7f": {
+          "type": "Image",
           "settings": {
-            "text": "<p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod<\/p>"
+            "image": "shopify:\/\/shop_images\/pexels-timur-saglambilek-87223.png"
           }
         }
       },
       "block_order": [
-        "163540503287cb995d-1"
+        "5166ed4e-b1e9-4013-85f0-b76d68b14b7f"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/pexels-timur-saglambilek-87223.png",
-        "height": "large",
-        "color_scheme": "background-1",
-        "layout": "image_first"
-      }
-    },
-    "16354051912f128308": {
-      "type": "contact-form",
-      "settings": {
-        "heading": "Let's get in touch"
+        "title": "",
+        "desc": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr,",
+        "imgOnLeft": false,
+        "bgColor": ""
       }
     }
   },
   "order": [
     "banner-section",
     "163540502488940eb4",
-    "163540503287cb995d",
-    "16354051912f128308"
+    "1636311156b03df062"
   ]
 }
