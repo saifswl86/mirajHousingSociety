@@ -3,7 +3,7 @@
           {%if section.settings.image!=blank%}
             <div class="col-12">
                 <div class="iwt4-img">
-                    <img src="{{section.settings.image}}" alt="">                    
+                    <img src="{{section.settings.image |img_url:'master'}}" alt="">                    
                 </div>
             </div>
           {%endif%}
