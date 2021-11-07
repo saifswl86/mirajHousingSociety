@@ -922,7 +922,7 @@ STYLES FOR : Custom Contact Form
 */
 
 .img-with-text{
-    padding:0rem 5rem;
+    padding:0rem 10rem;
     margin:3rem 0rem;  
 }
 .cstm-iwt-text{
@@ -976,7 +976,7 @@ STYLES FOR : Custom Contact Form
         padding:0px!important;
     }
     .img-with-text{
-        padding: 0rem 2rem;
+        padding: 0rem 5rem;
     }
     .cstm-iwt-text{
         padding:2rem;
