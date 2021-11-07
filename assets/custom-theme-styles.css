@@ -403,7 +403,7 @@ img.annoucement-bar-icon{
       	height:auto;
     }
     .slick-center { 
-  	transform: scale(1.12) 
+  	transform: scale(1.1,1.3) 
 	}
     
   }
