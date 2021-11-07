@@ -1,6 +1,6 @@
 {%if section.settings.title!=blank%}
 	<div class="Image_with_text container-fluid">
-        <div class="row d-flex {%if section.settings.isImageOnLeftSide==true%} iwt_left{%endif%}">
+        <div class="row d-flex {%if section.settings.isImageOnLeftSide==true%} iwt_left {%else %} iwt_right{%endif%}">
           {%if section.settings.isImageOnLeftSide==true%}
           	{%if section.blocks!=blank%}
             <div class="col-12 col-lg-6 d-flex justify-content-center">
