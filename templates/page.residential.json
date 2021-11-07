@@ -3,18 +3,39 @@
     "banner-section": {
       "type": "banner-section",
       "settings": {
+        "banner-section-content": "half_width_image",
         "overlay_check": true,
         "tagline_banner": "A project by Miraj Housing Scheme",
         "banner-overlay-image_check": true,
         "banner-overlay-heading": "",
         "banner-overlay_image": "shopify:\/\/shop_images\/LOGO_2x_e978eb8f-dc11-4ea9-8c04-4559fccf9d35.png",
-        "banner-section-content": "half_width_image",
         "half_background_image": "shopify:\/\/shop_images\/architecture-1845689_1920_2x_1a72eda2-0232-427d-af2f-99217264e416.png",
         "banner_video": ""
+      }
+    },
+    "16363117973411b4fd": {
+      "type": "Cstm-iwt",
+      "blocks": {
+        "64850e45-0233-4409-8dfe-45e31b305493": {
+          "type": "Image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/pexels-zachary-debottis-1838640_2x_c81c5476-0c7a-48a0-8043-dcbf8f7971a0.png"
+          }
+        }
+      },
+      "block_order": [
+        "64850e45-0233-4409-8dfe-45e31b305493"
+      ],
+      "settings": {
+        "title": "Model Houses",
+        "desc": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr,",
+        "imgOnLeft": true,
+        "bgColor": "#eae9e5"
       }
     }
   },
   "order": [
-    "banner-section"
+    "banner-section",
+    "16363117973411b4fd"
   ]
 }
