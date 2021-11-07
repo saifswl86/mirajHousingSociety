@@ -397,6 +397,13 @@ img.annoucement-bar-icon{
     	padding:2rem;
     }
   }
+  @media screen and (max-width:768px)
+  {
+    .row.d-flex{
+    	flex-direction:column-reverse;
+    }
+  }
+  
 /*
 ============================================================================================
   STYLES FOR ====>> Projects Section
