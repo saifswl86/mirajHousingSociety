@@ -117,12 +117,63 @@
         "button_text": "Lets Get Started",
         "button_link": "#"
       }
+    },
+    "1636312401e91e8264": {
+      "type": "text-with-image_slider",
+      "blocks": {
+        "9889509b-b085-4510-95ba-848a26cb7d92": {
+          "type": "Image",
+          "settings": {
+            "slider_image": "shopify:\/\/shop_images\/pexels-david-mcbee-1486785_2x_36f1a74f-8139-4930-bab0-d11d3fcda79e.png"
+          }
+        },
+        "71ef3a68-758c-4466-a182-ecbeaddae4a0": {
+          "type": "Image",
+          "settings": {
+            "slider_image": "shopify:\/\/shop_images\/pexels-vecislavas-popa-1571470_2x_12ecded4-9b2b-499b-8289-04d5d8d51182.png"
+          }
+        },
+        "50678011-4a51-47ba-82d2-458e7ed7c1c4": {
+          "type": "Image",
+          "settings": {
+            "slider_image": "shopify:\/\/shop_images\/after_3_large_2x_68cd6439-312c-4457-bb81-b7e3824eabd2.png"
+          }
+        }
+      },
+      "block_order": [
+        "9889509b-b085-4510-95ba-848a26cb7d92",
+        "71ef3a68-758c-4466-a182-ecbeaddae4a0",
+        "50678011-4a51-47ba-82d2-458e7ed7c1c4"
+      ],
+      "settings": {
+        "isImageOnLeftSide": true,
+        "title": "Take a virtual tour of our Infrastructure",
+        "description": "",
+        "button_text": "Lets Get Started",
+        "button_link": "#"
+      }
+    },
+    "1636312463c45278d8": {
+      "type": "cstm-contact-form",
+      "settings": {
+        "title": "Let's get in touch",
+        "sub_title": "",
+        "contact_title": "Information",
+        "contact_desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit officia minima itaque dolorum vero ratione!",
+        "address": "Miraj Housing Society, Lahore",
+        "phone": "+9234582372349",
+        "fax": "Fax: +9234582372349",
+        "time": "Mon - Friday 07:00 AM to 09:00PM",
+        "email": "info@mirajhousingsociety.com"
+      }
     }
   },
   "order": [
     "banner-section",
     "1636312055929e27be",
     "163631216952e6b15c",
-    "16363122801ff25b60"
+    "16363122801ff25b60",
+    "1636312401e91e8264",
+    "1636312463c45278d8"
   ]
 }
