@@ -1,7 +1,45 @@
 {% schema %}
-  {
-    "name": "Section name",
-    "settings": []
+   {
+    "name": "IWT Style 3",
+    "settings": 
+	[
+	{
+		"type":"text",
+		"label":"Enter Title",
+		"id":"title"
+	},
+	{
+		"type":"textarea",
+		"label":"Description",
+		"id":"desc"
+	},
+	{
+				"type":"image_picker",
+				"id":"image",
+				"label":"Choose Image"
+	},
+	{
+		"type":"header",
+		"content":"Settings"
+	},
+	{
+		"type":"checkbox",
+		"id":"imgOnLeft",
+		"label":"Image on left side"
+	},
+	{
+		"type":"color",
+		"id":"bgColor",
+		"label":"Select Background Color"
+	}
+
+	],
+	"presets":[
+		{
+			"name":"Image with Text Style 4"
+		}
+	]
+
   }
 {% endschema %}
 
