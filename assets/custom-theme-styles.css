@@ -402,6 +402,9 @@ img.annoucement-bar-icon{
     	width:250px;
       	height:auto;
     }
+    .slick-center { 
+  	transform: scale(1.12) 
+	}
     
   }
   
