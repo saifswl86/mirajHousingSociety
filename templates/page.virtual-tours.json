@@ -82,11 +82,47 @@
         "button_text": "Lets Get Started",
         "button_link": "#"
       }
+    },
+    "16363122801ff25b60": {
+      "type": "text-with-image_slider",
+      "blocks": {
+        "84780419-03b3-4000-8096-afc89ab44cdd": {
+          "type": "Image",
+          "settings": {
+            "slider_image": "shopify:\/\/shop_images\/pexels-chris-goodwin-32870.png"
+          }
+        },
+        "489b7510-b50d-4005-9dee-114b8b286079": {
+          "type": "Image",
+          "settings": {
+            "slider_image": "shopify:\/\/shop_images\/pexels-vecislavas-popa-1571470_2x_12ecded4-9b2b-499b-8289-04d5d8d51182.png"
+          }
+        },
+        "54e213eb-5983-4237-952a-1c3b4683dff5": {
+          "type": "Image",
+          "settings": {
+            "slider_image": "shopify:\/\/shop_images\/after_3_large_2x_68cd6439-312c-4457-bb81-b7e3824eabd2.png"
+          }
+        }
+      },
+      "block_order": [
+        "84780419-03b3-4000-8096-afc89ab44cdd",
+        "489b7510-b50d-4005-9dee-114b8b286079",
+        "54e213eb-5983-4237-952a-1c3b4683dff5"
+      ],
+      "settings": {
+        "isImageOnLeftSide": false,
+        "title": "Take a virtual tour of our Farm Houses",
+        "description": "",
+        "button_text": "Lets Get Started",
+        "button_link": "#"
+      }
     }
   },
   "order": [
     "banner-section",
     "1636312055929e27be",
-    "163631216952e6b15c"
+    "163631216952e6b15c",
+    "16363122801ff25b60"
   ]
 }
