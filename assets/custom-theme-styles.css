@@ -989,3 +989,56 @@ STYLES FOR : Custom Contact Form
   	padding-left:auto;
   }
 }
+  /*
+==========================================================================
+	Theme Styles For| Text with Image style 4
+==========================================================================
+*/
+  
+.iwt4{
+    padding: 0rem 10rem;
+    margin: 3rem 0rem;
+}
+.cstm-iwt4{
+    background-color: #EAE9E5;
+}
+.iwt4-img{
+    width: 100%;
+    padding: 2rem;
+    padding-bottom: 0px;
+    height: auto;
+}
+.iwt4-img img{
+    max-width: 100%;    
+}
+.iwt4-text{
+    padding: 3rem;
+    display: flex;
+    align-items: center;
+}
+.iwt4-text-heading{
+    flex:0.3;
+}
+.iwt4-text-heading h1{
+    font-weight: 200;
+}
+.iwt4-text-desc{
+    flex:0.7;
+    padding: 0rem 0.5rem;    
+}
+@media screen and (max-width: 520px){
+    .iwt4{
+        padding: 0rem 2rem; 
+    }
+    .iwt4-img{
+        padding: 0px;
+        padding-top: 1rem;
+    }
+    .iwt4-text{
+        padding:0rem;
+        padding-top: 1rem;
+        align-items: flex-start;
+        flex-direction: column;
+    }
+    
+}
