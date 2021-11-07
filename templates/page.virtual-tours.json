@@ -3,112 +3,54 @@
     "banner-section": {
       "type": "banner-section",
       "settings": {
+        "banner-section-content": "half_width_image",
         "overlay_check": true,
         "tagline_banner": "A project by Miraj Housing Scheme",
         "banner-overlay-image_check": true,
         "banner-overlay-heading": "",
         "banner-overlay_image": "shopify:\/\/shop_images\/LOGO_2x_e978eb8f-dc11-4ea9-8c04-4559fccf9d35.png",
-        "banner-section-content": "half_width_image",
         "half_background_image": "shopify:\/\/shop_images\/villa-house-model-key-drawing-retro-desktop-real-estate-sale-concept_2x_e8d70101-34b6-493a-aa77-1e29fb64c3a9.png",
         "banner_video": ""
       }
     },
-    "16354061120242f8a0": {
-      "type": "image-with-text",
+    "1636312055929e27be": {
+      "type": "text-with-image_slider",
       "blocks": {
-        "16354061120242f8a0-0": {
-          "type": "heading",
+        "914813de-7abf-427c-917e-81614a8fbd3d": {
+          "type": "Image",
           "settings": {
-            "heading": "Take a virtual tour of our Model Houses"
+            "slider_image": "shopify:\/\/shop_images\/pexels-zachary-debottis-1838640_2x_c81c5476-0c7a-48a0-8043-dcbf8f7971a0.png"
           }
         },
-        "16354061120242f8a0-2": {
-          "type": "button",
+        "f56bbc11-e88a-4773-bec5-118af3fed730": {
+          "type": "Image",
           "settings": {
-            "button_label": "Lets Get Started",
-            "button_link": ""
+            "slider_image": "shopify:\/\/shop_images\/pexels-vecislavas-popa-1571470_2x_12ecded4-9b2b-499b-8289-04d5d8d51182.png"
+          }
+        },
+        "445872de-4f38-4ca3-9292-b3114cc99bb3": {
+          "type": "Image",
+          "settings": {
+            "slider_image": "shopify:\/\/shop_images\/after_3_large_2x_68cd6439-312c-4457-bb81-b7e3824eabd2.png"
           }
         }
       },
       "block_order": [
-        "16354061120242f8a0-0",
-        "16354061120242f8a0-2"
+        "914813de-7abf-427c-917e-81614a8fbd3d",
+        "f56bbc11-e88a-4773-bec5-118af3fed730",
+        "445872de-4f38-4ca3-9292-b3114cc99bb3"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/pexels-zachary-debottis-1838640_2x_3e7d6584-f579-4a89-a2b5-b60b2dd9fbcb.png",
-        "height": "adapt",
-        "color_scheme": "background-2",
-        "layout": "text_first"
-      }
-    },
-    "16354061217cef6a5c": {
-      "type": "image-with-text",
-      "blocks": {
-        "16354061217cef6a5c-0": {
-          "type": "heading",
-          "settings": {
-            "heading": "Take a virtual tour of our Society Gardens"
-          }
-        },
-        "16354061217cef6a5c-2": {
-          "type": "button",
-          "settings": {
-            "button_label": "Lets Get Started",
-            "button_link": ""
-          }
-        }
-      },
-      "block_order": [
-        "16354061217cef6a5c-0",
-        "16354061217cef6a5c-2"
-      ],
-      "settings": {
-        "image": "shopify:\/\/shop_images\/pexels-david-mcbee-1486785_2x_36f1a74f-8139-4930-bab0-d11d3fcda79e.png",
-        "height": "adapt",
-        "color_scheme": "background-1",
-        "layout": "image_first"
-      }
-    },
-    "163540612410eefa12": {
-      "type": "image-with-text",
-      "blocks": {
-        "163540612410eefa12-0": {
-          "type": "heading",
-          "settings": {
-            "heading": "Take a virtual tour of our Infrastructure"
-          }
-        },
-        "163540612410eefa12-2": {
-          "type": "button",
-          "settings": {
-            "button_label": "Lets Get Started",
-            "button_link": ""
-          }
-        }
-      },
-      "block_order": [
-        "163540612410eefa12-0",
-        "163540612410eefa12-2"
-      ],
-      "settings": {
-        "image": "shopify:\/\/shop_images\/pexels-david-mcbee-1486785_2x_36f1a74f-8139-4930-bab0-d11d3fcda79e.png",
-        "height": "adapt",
-        "color_scheme": "background-2",
-        "layout": "text_first"
-      }
-    },
-    "1635406128063511a0": {
-      "type": "contact-form",
-      "settings": {
-        "heading": "Let's get in touch"
+        "isImageOnLeftSide": false,
+        "title": "Take a virtual tour of our Model Houses",
+        "description": "",
+        "button_text": "Lets Get Started",
+        "button_link": "#"
       }
     }
   },
   "order": [
     "banner-section",
-    "16354061120242f8a0",
-    "16354061217cef6a5c",
-    "163540612410eefa12",
-    "1635406128063511a0"
+    "1636312055929e27be"
   ]
 }
