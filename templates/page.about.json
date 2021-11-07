@@ -66,11 +66,32 @@
         "imgOnLeft": true,
         "bgColor": ""
       }
+    },
+    "163631073671b37d83": {
+      "type": "Cstm-iwt",
+      "blocks": {
+        "6db65a5c-3149-4ca8-838b-b6b45b09d0b4": {
+          "type": "Image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/pexels-jonas-ferlin-1963557_2x_2faae8fa-bb01-4cc8-9670-d43d33f3f5e8.png"
+          }
+        }
+      },
+      "block_order": [
+        "6db65a5c-3149-4ca8-838b-b6b45b09d0b4"
+      ],
+      "settings": {
+        "title": "Values",
+        "desc": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr,",
+        "imgOnLeft": false,
+        "bgColor": ""
+      }
     }
   },
   "order": [
     "banner-section",
     "16363092117d78f789",
-    "163631023895bb4fd1"
+    "163631023895bb4fd1",
+    "163631073671b37d83"
   ]
 }
