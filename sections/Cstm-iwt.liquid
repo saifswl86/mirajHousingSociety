@@ -3,7 +3,7 @@
           {%if section.settings.imgOnLeft==true%}
           	{%if section.blocks!=blank%}
               <div class="col-12 col-sm-4">
-                  <div class="cstm-iwt-text-img iwt3Left"> 
+                  <div class="cstm-iwt-text-img "> 
                     {%for block in section.blocks%}
                       {%if block.settings.image!=blank%}
                           <img src="{{block.settings.image|img_url:'master'}}">
