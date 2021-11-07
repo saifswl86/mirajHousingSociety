@@ -32,10 +32,20 @@
         "imgOnLeft": false,
         "bgColor": "#eae9e5"
       }
+    },
+    "163631023895bb4fd1": {
+      "type": "Cstm-iwt",
+      "settings": {
+        "title": "",
+        "desc": "",
+        "imgOnLeft": false,
+        "bgColor": ""
+      }
     }
   },
   "order": [
     "banner-section",
-    "16363092117d78f789"
+    "16363092117d78f789",
+    "163631023895bb4fd1"
   ]
 }
