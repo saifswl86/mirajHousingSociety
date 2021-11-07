@@ -951,6 +951,7 @@ STYLES FOR : Custom Contact Form
 }
 .cstm-iwt-text-img .slick-dots li button:before{
     font-size:34px;
+  	font-family:slick!important;
     color: #EAE9E5!important;
     opacity: 1;
 }
