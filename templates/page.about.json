@@ -86,12 +86,27 @@
         "imgOnLeft": false,
         "bgColor": ""
       }
+    },
+    "1636310807f589b8be": {
+      "type": "cstm-contact-form",
+      "settings": {
+        "title": "Let's get in touch",
+        "sub_title": "",
+        "contact_title": "Information",
+        "contact_desc": "",
+        "address": "",
+        "phone": "",
+        "fax": "",
+        "time": "",
+        "email": ""
+      }
     }
   },
   "order": [
     "banner-section",
     "16363092117d78f789",
     "163631023895bb4fd1",
-    "163631073671b37d83"
+    "163631073671b37d83",
+    "1636310807f589b8be"
   ]
 }
