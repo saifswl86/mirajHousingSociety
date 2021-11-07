@@ -53,12 +53,19 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/3_ea99d26b-d4e2-473f-92aa-789da1273f52.png"
           }
+        },
+        "e167ceb5-5267-4241-883d-7d9fa31c2b2c": {
+          "type": "Image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Untitled_design.png"
+          }
         }
       },
       "block_order": [
         "77ad7064-b91c-4748-95ea-395fdb608d6c",
         "72dee019-e49e-487f-9578-7f143c87b9e9",
-        "49ff90b5-cd9f-4008-9105-4ab08a718d92"
+        "49ff90b5-cd9f-4008-9105-4ab08a718d92",
+        "e167ceb5-5267-4241-883d-7d9fa31c2b2c"
       ],
       "settings": {
         "title": "Our Team",
