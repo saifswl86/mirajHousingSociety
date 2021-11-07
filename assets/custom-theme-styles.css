@@ -970,7 +970,7 @@ STYLES FOR : Custom Contact Form
     display: none;
 }
   .iwt3Left{
-  	padding-left:2rem;
+  	padding-left:5rem;
   }
 @media screen and (max-width:520px){
     .cstm-img-with-text{
@@ -985,4 +985,7 @@ STYLES FOR : Custom Contact Form
     .cstm-iwt-text{
         padding:2rem;
     }
+  .iwt3Left{
+  	padding-left:auto;
+  }
 }
