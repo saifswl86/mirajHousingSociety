@@ -1,22 +1,30 @@
 <div class="iwt4">
         <div class="row cstm-iwt4">
+          {%if section.settings.image!=blank%}
             <div class="col-12">
                 <div class="iwt4-img">
-                    <img src="./img/pexels-casper-starenda-2224933.png" alt="">                    
+                    <img src="{{section.settings.image}}" alt="">                    
                 </div>
             </div>
+          {%endif%}
+          {%if section.settings.title!=blank or section.settings.desc!=blank%}
             <div class="col-12">
                 <div class="iwt4-text">
-                    <div class="iwt4-text-heading">
-                        <h1>Vision & Mission</h1>
-                    </div>
+                  	{%if section.settings.title!=blank%}
+                      <div class="iwt4-text-heading">
+                          <h1>{{section.settings.title}}</h1>
+                      </div>
+                  	{%endif%}
+                    {%if section.settings.desc!=blank%}
                     <div class="iwt4-text-desc">
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus quisquam dolor commodi enim facere voluptates dolore. Placeat officia culpa molestiae.</p>
+                        <p>{{section.settings.desc}}</p>
                     </div>
+                  	{%endif%}
                 </div>
             </div>
+          {%endif%}
         </div>
-    </div>
+</div>
 {% schema %}
    {
     "name": "IWT Style 4",
