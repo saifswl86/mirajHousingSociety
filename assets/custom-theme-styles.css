@@ -323,12 +323,7 @@ img.annoucement-bar-icon{
 	line-height: 1.4;
 	color: #2B2B2B;	
 }
-  @media screen and (max-width:768px){
-  	.Image_with_text row
-    {
-    	flex-direction:column-reverse;
-    }
-  }
+ 
 @media screen and (max-width: 980px) {
 	.Image_with_text{
 		padding: 2rem;
