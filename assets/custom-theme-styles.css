@@ -914,3 +914,71 @@ STYLES FOR : Custom Contact Form
     	padding:0rem 2rem;
     }
   }
+  
+/*
+==========================================================================
+	Theme Styles For| Text with Image style 3 
+==========================================================================
+*/
+
+.img-with-text{
+    padding:0rem 5rem;
+    margin:3rem 0rem;  
+}
+.cstm-iwt-text{
+    background: #EAE9E5;
+    padding: 0rem 2rem;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column
+}
+.cstm-iwt-text-img img{
+    max-width: 100%;
+}
+.cstm-iwt-text-heading h1{
+    font-weight: 300;
+    font-size:36px;
+    color: #2b2b2b;
+    letter-spacing: 6px;
+}
+.cstm-iwt-text-img .slick-dots{
+    bottom: 10px;
+}
+.cstm-iwt-text-img .slick-dots li.slick-active button:before{
+    color:white!important;
+    opacity: 1;    
+}
+.cstm-iwt-text-img .slick-dots li button:before{
+    font-size:12px;
+    color: #EAE9E5!important;
+    opacity: 1;
+}
+.cstm-iwt-text-img.slick-dotted.slick-slider{
+    margin-bottom: 0px;
+}
+.cstm-iwt-text-img .cstm-prev-icon{
+    left:10px;
+    z-index:1
+}
+.cstm-iwt-text-img .cstm-next-icon{
+    right:10px;
+    z-index: 1;
+}
+.cstm-iwt-text-img .cstm-prev-icon::before,.cstm-iwt-text-img .cstm-next-icon::before{
+    display: none;
+}
+@media screen and (max-width:520px){
+    .cstm-img-with-text{
+        flex-direction:column-reverse;
+    }
+    .cstm-iwt-text-img .slick-list.draggable{
+        padding:0px!important;
+    }
+    .img-with-text{
+        padding: 0rem 2rem;
+    }
+    .cstm-iwt-text{
+        padding:2rem;
+    }
+}
