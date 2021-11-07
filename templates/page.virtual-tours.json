@@ -47,10 +47,21 @@
         "button_text": "Lets Get Started",
         "button_link": "#"
       }
+    },
+    "163631216952e6b15c": {
+      "type": "text-with-image_slider",
+      "settings": {
+        "isImageOnLeftSide": true,
+        "title": "Take a virtual tour of our Society Gardens",
+        "description": "",
+        "button_text": "Lets Get Started",
+        "button_link": "#"
+      }
     }
   },
   "order": [
     "banner-section",
-    "1636312055929e27be"
+    "1636312055929e27be",
+    "163631216952e6b15c"
   ]
 }
