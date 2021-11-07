@@ -399,7 +399,7 @@ img.annoucement-bar-icon{
   }
   @media screen and (max-width:768px)
   {
-    .row.d-flex{
+    .Image_with_text .row.d-flex{
     	flex-direction:column-reverse;
     }
   }
