@@ -50,6 +50,31 @@
     },
     "163631216952e6b15c": {
       "type": "text-with-image_slider",
+      "blocks": {
+        "1a563846-3ea8-4aed-a050-da57dc60bef0": {
+          "type": "Image",
+          "settings": {
+            "slider_image": "shopify:\/\/shop_images\/pexels-david-mcbee-1486785_2x_36f1a74f-8139-4930-bab0-d11d3fcda79e.png"
+          }
+        },
+        "dd034ee2-514a-46b3-aeca-1a341c0a958a": {
+          "type": "Image",
+          "settings": {
+            "slider_image": "shopify:\/\/shop_images\/pexels-vecislavas-popa-1571470_2x_12ecded4-9b2b-499b-8289-04d5d8d51182.png"
+          }
+        },
+        "f26ae600-6fd6-4de3-9f33-fc06e03fa229": {
+          "type": "Image",
+          "settings": {
+            "slider_image": "shopify:\/\/shop_images\/after_3_large_2x_68cd6439-312c-4457-bb81-b7e3824eabd2.png"
+          }
+        }
+      },
+      "block_order": [
+        "1a563846-3ea8-4aed-a050-da57dc60bef0",
+        "dd034ee2-514a-46b3-aeca-1a341c0a958a",
+        "f26ae600-6fd6-4de3-9f33-fc06e03fa229"
+      ],
       "settings": {
         "isImageOnLeftSide": true,
         "title": "Take a virtual tour of our Society Gardens",
