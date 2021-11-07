@@ -4,13 +4,15 @@
             <div class="col-12 col-sm-8">
                 <div class="cstm-iwt-text">
                   	{%if sction.settings.title!=blank%}
-                    <div class="cstm-iwt-text-heading">
-                        <h1>Hello World</h1>
-                    </div>
-                  {%endif%}
+                      <div class="cstm-iwt-text-heading">
+                          <h1>{{section.settings.title}}</h1>
+                      </div>
+                    {%endif%}
+                  	{%if section.settings.desc!=blank%}
                     <div class="cstm-iwt-text-desc">
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus quisquam dolor commodi enim facere voluptates dolore. Placeat officia culpa molestiae.</p>
+                        <p>{{seciton.settings.desc}}</p>
                     </div>
+                  	{%endif%}
                 </div>
             </div>
           {%endif%}
