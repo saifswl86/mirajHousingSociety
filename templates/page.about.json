@@ -3,109 +3,28 @@
     "banner-section": {
       "type": "banner-section",
       "settings": {
+        "banner-section-content": "half_width_image",
         "overlay_check": true,
         "tagline_banner": "A project by Miraj Housing Scheme",
-        "banner-overlay-image_check": true,
-        "banner-overlay-heading": "",
+        "banner-overlay-image_check": false,
+        "banner-overlay-heading": "About Us",
         "banner-overlay_image": "shopify:\/\/shop_images\/LOGO_2x_e978eb8f-dc11-4ea9-8c04-4559fccf9d35.png",
-        "banner-section-content": "half_width_image",
         "half_background_image": "shopify:\/\/shop_images\/pexels-binyamin-mellish-106399.png",
         "banner_video": ""
       }
     },
-    "16354038495db5607e": {
-      "type": "image-with-text",
-      "blocks": {
-        "16354038495db5607e-0": {
-          "type": "heading",
-          "settings": {
-            "heading": "Company"
-          }
-        },
-        "16354038495db5607e-1": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod<\/p>"
-          }
-        }
-      },
-      "block_order": [
-        "16354038495db5607e-0",
-        "16354038495db5607e-1"
-      ],
+    "16363092117d78f789": {
+      "type": "Cstm-iwt",
       "settings": {
-        "image": "shopify:\/\/shop_images\/pexels-timur-saglambilek-87223.png",
-        "height": "small",
-        "color_scheme": "background-1",
-        "layout": "text_first"
-      }
-    },
-    "163540386639e164d5": {
-      "type": "image-with-text",
-      "blocks": {
-        "163540386639e164d5-0": {
-          "type": "heading",
-          "settings": {
-            "heading": "Our Team"
-          }
-        },
-        "163540386639e164d5-1": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod<\/p>"
-          }
-        }
-      },
-      "block_order": [
-        "163540386639e164d5-0",
-        "163540386639e164d5-1"
-      ],
-      "settings": {
-        "image": "shopify:\/\/shop_images\/craig-mckay-jmURdhtm7Ng-unsplash_2x_896385c4-2578-4c8f-a34b-02c4fe234f49.png",
-        "height": "small",
-        "color_scheme": "background-1",
-        "layout": "image_first"
-      }
-    },
-    "1635404308fa9b3af3": {
-      "type": "image-with-text",
-      "blocks": {
-        "1635404308fa9b3af3-0": {
-          "type": "heading",
-          "settings": {
-            "heading": "Values"
-          }
-        },
-        "1635404308fa9b3af3-1": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod<\/p>"
-          }
-        }
-      },
-      "block_order": [
-        "1635404308fa9b3af3-0",
-        "1635404308fa9b3af3-1"
-      ],
-      "settings": {
-        "image": "shopify:\/\/shop_images\/pexels-jonas-ferlin-1963557_2x_2faae8fa-bb01-4cc8-9670-d43d33f3f5e8.png",
-        "height": "small",
-        "color_scheme": "background-1",
-        "layout": "text_first"
-      }
-    },
-    "16354044608fdffdd3": {
-      "type": "contact-form",
-      "settings": {
-        "heading": "Let's get in touch"
+        "title": "Company",
+        "desc": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod",
+        "imgOnLeft": false,
+        "bgColor": ""
       }
     }
   },
   "order": [
     "banner-section",
-    "16354038495db5607e",
-    "163540386639e164d5",
-    "1635404308fa9b3af3",
-    "16354044608fdffdd3"
+    "16363092117d78f789"
   ]
 }
