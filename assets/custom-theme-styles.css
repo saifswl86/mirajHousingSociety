@@ -957,11 +957,11 @@ STYLES FOR : Custom Contact Form
 .cstm-iwt-text-img.slick-dotted.slick-slider{
     margin-bottom: 0px;
 }
-.cstm-iwt-text-img .cstm-prev-icon{
+.cstm-iwt-text-img .iwt3-cstm-prev-icon{
     left:10px;
     z-index:1;
 }
-.cstm-iwt-text-img .cstm-next-icon{
+.cstm-iwt-text-img .iwt3-cstm-next-icon{
     right:10px;
     z-index: 1;
 }
