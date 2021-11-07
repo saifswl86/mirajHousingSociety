@@ -67,6 +67,16 @@
         "bgColor": ""
       }
     },
+    "163631447129da4b87": {
+      "type": "image-with-text-4",
+      "settings": {
+        "title": "Vision & Mission",
+        "desc": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod",
+        "image": "shopify:\/\/shop_images\/pexels-casper-starenda-2224933.png",
+        "imgOnLeft": false,
+        "bgColor": ""
+      }
+    },
     "163631073671b37d83": {
       "type": "Cstm-iwt",
       "blocks": {
@@ -106,6 +116,7 @@
     "banner-section",
     "16363092117d78f789",
     "163631023895bb4fd1",
+    "163631447129da4b87",
     "163631073671b37d83",
     "1636310807f589b8be"
   ]
