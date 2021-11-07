@@ -35,10 +35,35 @@
     },
     "163631023895bb4fd1": {
       "type": "Cstm-iwt",
+      "blocks": {
+        "77ad7064-b91c-4748-95ea-395fdb608d6c": {
+          "type": "Image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/2_79a8ebd5-fa4c-4ae2-bf82-1d5f0edfa6c0.png"
+          }
+        },
+        "72dee019-e49e-487f-9578-7f143c87b9e9": {
+          "type": "Image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/1_2df47308-0696-46d8-821f-e55ce3df764a.png"
+          }
+        },
+        "49ff90b5-cd9f-4008-9105-4ab08a718d92": {
+          "type": "Image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/3_ea99d26b-d4e2-473f-92aa-789da1273f52.png"
+          }
+        }
+      },
+      "block_order": [
+        "77ad7064-b91c-4748-95ea-395fdb608d6c",
+        "72dee019-e49e-487f-9578-7f143c87b9e9",
+        "49ff90b5-cd9f-4008-9105-4ab08a718d92"
+      ],
       "settings": {
-        "title": "",
-        "desc": "",
-        "imgOnLeft": false,
+        "title": "Our Team",
+        "desc": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr,",
+        "imgOnLeft": true,
         "bgColor": ""
       }
     }
