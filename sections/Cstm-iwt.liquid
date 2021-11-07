@@ -2,16 +2,16 @@
         <div class="row cstm-img-with-text">
           {%if section.settings.imgOnLeft==true%}
           	{%if section.blocks!=blank%}
-            <div class="col-12 col-sm-4">
-                <div class="cstm-iwt-text-img"> 
-                  {%for block in section.blocks%}
-                  	{%if block.settings.image!=blank%}
-                  		<img src="{{block.settings.image|img_url:'master'}}">
-                  	{%endif%}
-                  {%endfor%}
-                </div>
-            </div>
-		  {%endif%}
+              <div class="col-12 col-sm-4">
+                  <div class="cstm-iwt-text-img"> 
+                    {%for block in section.blocks%}
+                      {%if block.settings.image!=blank%}
+                          <img src="{{block.settings.image|img_url:'master'}}">
+                      {%endif%}
+                    {%endfor%}
+                  </div>
+              </div>
+		  	{%endif%}
           {%endif%}
           {%if section.settings.title!=blank or section.settings.desc!=blank %}
             <div class="col-12 col-sm-8">
@@ -30,17 +30,17 @@
             </div>
           {%endif%}
           {%if section.settings.imgOnLeft==false%}
-          {%if section.blocks!=blank%}
-            <div class="col-12 col-sm-4">
-                <div class="cstm-iwt-text-img"> 
-                  {%for block in section.blocks%}
-                  	{%if block.settings.image!=blank%}
-                  		<img src="{{block.settings.image|img_url:'master'}}">
-                  	{%endif%}
-                  {%endfor%}
-                </div>
-            </div>
-		  {%endif%}          
+            {%if section.blocks!=blank%}
+              <div class="col-12 col-sm-4">
+                  <div class="cstm-iwt-text-img"> 
+                    {%for block in section.blocks%}
+                      {%if block.settings.image!=blank%}
+                          <img src="{{block.settings.image|img_url:'master'}}">
+                      {%endif%}
+                    {%endfor%}
+                  </div>
+              </div>
+            {%endif%}          
           {%endif%}
         </div>
 </div>
