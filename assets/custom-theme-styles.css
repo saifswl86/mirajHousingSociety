@@ -1074,6 +1074,7 @@ STYLES FOR : Testimonials
     text-align: center;
     font-weight: normal;
     font-size: 20px;
+  	letter-spacing:0xp;
 }
 .testimonial-item-img{
     display: flex;
