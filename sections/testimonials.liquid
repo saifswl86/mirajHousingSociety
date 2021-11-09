@@ -1,7 +1,46 @@
 {% schema %}
   {
-    "name": "Section name",
-    "settings": []
+    "name": "Testimonials",
+    "settings": [
+		{
+			"type":"text",
+			"label":"Title",
+			"id":"title"
+		}
+	],
+	"blocks":[
+	{
+		"type":"testimonial",
+		"name":"Testimonial",
+		"settings":[
+			{
+				"type":"text",
+				"label":"Person Name",
+				"id":"name"
+			},
+			{
+				"type":"text",
+				"label":"Job Title",
+				"id":"job_title"
+			},
+			{
+				"type":"textarea",
+				"label":"Testimonial Description",
+				"id":"testimonial"
+			},
+			{
+				"type":"image_picker",
+				"label":"Choose Person Image",
+				"id":"person_image"
+			},
+			{
+				"type":"checkbox",
+				"label":"Show Quotes",
+				"id":"show_quotes"
+			}
+		]
+	}
+	]
   }
 {% endschema %}
 
