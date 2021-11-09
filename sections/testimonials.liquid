@@ -1,3 +1,44 @@
+<div class="testimonials">
+  	{%if section.settings.bg_image!=blank%}
+        <div class="testimonials-bg">
+            <img src="{{section.settings.bg_image|img_url:'master'}}">
+        </div>
+  	{%endif%}
+  	{%if section.blocks!=blank%}
+  		{%for block in section.blocks%}
+          <div class="testimonial-item">
+              <div class="testimonial-item-bg">
+                	{%if block.settings.person_image!=blank%}
+                      <div class="testimonial-item-img">
+                          <img src="{{block.settings.person_image|img_url:'master'}}">
+                      </div>
+                	{%endif%}
+                	{%if block.settings.testimonial!=blank or block.settings.name!=blank or block.settings.job_title!=blank%}
+                      <div class="testimonial-item-text">
+                        {%if block.settings.testimonial!=blank%}
+                          <p>
+                             {{block.settings.testimonial}} 
+                          </p>
+                        {%endif%}
+                          <div class="testimonial-about">
+                            {%if block.settings.name!=blank%}
+                             <p>{{block.settings.name}}</p>
+                            {%endif%}
+                            {%if block.settings.job_titl!=blank%}
+                             <p>{{block.settings.job_title}}</p>
+                            {%endif%}
+                          </div>
+                      </div>
+                	{%endif%}
+                  <div class="quotes">
+                      <img src="./img/leftQuotes.png" alt="" class="leftQoute">
+                      <img src="./img/rightQuotes.png" alt="" class="rightQoute">
+                  </div>
+              </div>
+          </div>
+  		{%endfor%}
+  	{%endif%}
+</div>
 {% schema %}
   {
     "name": "Testimonials",
