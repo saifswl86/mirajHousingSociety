@@ -115,10 +115,21 @@
             "person_image": "shopify:\/\/shop_images\/5.png",
             "show_quotes": true
           }
+        },
+        "9464acaf-1c20-4ce4-accb-a4c5dfaebf45": {
+          "type": "testimonial",
+          "settings": {
+            "name": "Imran",
+            "job_title": "Intern",
+            "testimonial": "lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsumlorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum",
+            "person_image": "shopify:\/\/shop_images\/1_2df47308-0696-46d8-821f-e55ce3df764a.png",
+            "show_quotes": true
+          }
         }
       },
       "block_order": [
-        "a2c61247-0fe8-4dd7-b91e-98a5a6d70fd7"
+        "a2c61247-0fe8-4dd7-b91e-98a5a6d70fd7",
+        "9464acaf-1c20-4ce4-accb-a4c5dfaebf45"
       ],
       "settings": {
         "title": "Testimonials",
