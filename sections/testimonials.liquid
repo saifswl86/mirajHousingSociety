@@ -30,10 +30,12 @@
                           </div>
                       </div>
                 	{%endif%}
+                {%if block.settings.show_quotes==true%}
                   <div class="quotes">
                       <img src="./img/leftQuotes.png" alt="" class="leftQoute">
                       <img src="./img/rightQuotes.png" alt="" class="rightQoute">
                   </div>
+                {%endif%}
               </div>
           </div>
   		{%endfor%}
