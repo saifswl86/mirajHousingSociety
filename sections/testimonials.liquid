@@ -5,6 +5,7 @@
         </div>
   	{%endif%}
   	{%if section.blocks!=blank%}
+  	<div class="testimonials_slider">
   		{%for block in section.blocks%}
           <div class="testimonial-item">
               <div class="testimonial-item-bg">
@@ -39,6 +40,7 @@
               </div>
           </div>
   		{%endfor%}
+  </div>
   	{%endif%}
 </div>
 {% schema %}
@@ -101,7 +103,7 @@
 {% endstylesheet %}
 
 {% javascript %}
-$('.testimonials').slick({
+$('.testimonials_slider').slick({
         slidesToShow: 1,
         slidesToScroll: 1,
         arrows: true,
