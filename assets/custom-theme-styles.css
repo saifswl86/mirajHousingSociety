@@ -1056,11 +1056,7 @@ STYLES FOR : Testimonials
     background-position: center!important;
 }
 .testimonial-item {
-    position: absolute;
-    top: 50%;
     background: white;
-    left: 50%;
-    transform: translate(-50%, -50%);
     width: 50%;
     border-radius: 5px;
     box-shadow: 2px 2px 14px 0px grey;
