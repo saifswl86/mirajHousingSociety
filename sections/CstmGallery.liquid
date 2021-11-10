@@ -1,7 +1,29 @@
 {% schema %}
   {
-    "name": "Section name",
-    "settings": []
+    "name": "MHS Gallery",
+    "settings": [
+		{
+			"type":"text",
+			"label":"Title",
+			"id":"title"
+}],
+	"blocks":[
+	{
+		"type":"announcement",
+		"name":"Announcement",
+		"settings":[
+		{
+			"type":"image_picker",
+			"label":"Choose Image",
+			"id":"image"
+		}			
+]}
+	],
+	"presets":[
+		{
+			"name":"MHS Gallery"
+		}
+	]
   }
 {% endschema %}
 
