@@ -4,7 +4,7 @@
     </div>
    {%endif%}
 	{%if section.blocks!=blank%}
-      <div class="row testimonials_bg">
+      <div class="row testimonials_bg" {%if section.settings.bg_image!=blank%} style=" background:url('{{section.settings.bg_image|img_url}}');" {%endif%}>
           <div class="col-3"></div>
           <div class="col-6">
               <div class="testimonials">
