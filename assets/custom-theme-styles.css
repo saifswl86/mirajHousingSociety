@@ -1150,7 +1150,7 @@ STYLES FOR : Testimonials
 .ann_bg{
     padding:5rem 0rem;
     margin: 3rem 0rem;
-    background:url('./img/4.png');
+/*     background:url('./img/4.png'); */
     /* display: flex; */
     /* justify-content: center; */
     max-width: 100%;
