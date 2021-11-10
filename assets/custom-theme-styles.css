@@ -1128,3 +1128,9 @@ STYLES FOR : Testimonials
     	right:20px;
     }
   }
+  @media screen and (max-width:768px)
+  {
+    .testimonial_cmnt p{
+    	font-size:14px;
+    }
+  }
