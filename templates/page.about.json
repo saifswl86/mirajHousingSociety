@@ -115,21 +115,10 @@
             "person_image": "shopify:\/\/shop_images\/5.png",
             "show_quotes": true
           }
-        },
-        "336b9ab9-c63d-4ad9-ae6e-2df53aa6110e": {
-          "type": "testimonial",
-          "settings": {
-            "name": "Imran",
-            "job_title": "Intern",
-            "testimonial": "Lorem ipsumL  orem ipsum Lorem ipsumL  orem ipsumLorem ipsumL  orem ipsumLorem ipsumL  orem ipsum",
-            "person_image": "shopify:\/\/shop_images\/1_2df47308-0696-46d8-821f-e55ce3df764a.png",
-            "show_quotes": true
-          }
         }
       },
       "block_order": [
-        "a2c61247-0fe8-4dd7-b91e-98a5a6d70fd7",
-        "336b9ab9-c63d-4ad9-ae6e-2df53aa6110e"
+        "a2c61247-0fe8-4dd7-b91e-98a5a6d70fd7"
       ],
       "settings": {
         "title": "",
