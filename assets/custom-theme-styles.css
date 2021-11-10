@@ -1119,4 +1119,8 @@ STYLES FOR : Testimonials
     .testimonial_cmnt{
     	padding:5rem 1rem;
     }
+    .testimonial_quotes_lt{
+    	left:20px;
+      	top:50px;
+    }
   }
