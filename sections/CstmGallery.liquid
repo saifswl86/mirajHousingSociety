@@ -45,7 +45,8 @@
 {% endstylesheet %}
 
 {% javascript %}
-$('.cstm_images_List').slick({
+$(document).ready(function(){
+	$('.cstm_images_List').slick({
     arrows:true,
     dots: false,
     slidesToShow: 4,
@@ -67,4 +68,6 @@ $('.cstm_images_List').slick({
       }
     ]    
   });
+})
+
 {% endjavascript %}
