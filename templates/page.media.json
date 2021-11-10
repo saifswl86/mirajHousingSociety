@@ -13,6 +13,13 @@
         "banner_video": ""
       }
     },
+    "163654258043a9bdf9": {
+      "type": "cstm-blogs",
+      "settings": {
+        "title": "Latest",
+        "blog": "news"
+      }
+    },
     "1636541604b1971514": {
       "type": "Announcements-slider",
       "blocks": {
@@ -41,6 +48,7 @@
   },
   "order": [
     "banner-section",
+    "163654258043a9bdf9",
     "1636541604b1971514"
   ]
 }
