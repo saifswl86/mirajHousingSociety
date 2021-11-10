@@ -1112,3 +1112,6 @@ STYLES FOR : Testimonials
     font-weight:400;
     font-size:18px;
 }
+  .testimonials_bg col-3{
+  	display:block!important;
+  }
