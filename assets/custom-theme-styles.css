@@ -1049,3 +1049,67 @@ STYLES FOR : Testimonials
 ==========================================================================
 */
   
+.testimonials_bg{
+    padding:5rem 0rem;
+    margin: 3rem 0rem;
+    background:url('./img/4.png');
+    /* display: flex; */
+    /* justify-content: center; */
+    max-width: 100%;
+}
+.testminals_title{
+    text-align: center;
+}
+.testimonial_item{
+    /* width:50%; */
+    background-color: #fff;;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem;
+    position: relative;
+}
+.testimonial_quotes img{
+    width: 35px;
+
+}
+.testimonial_quotes_lt{
+    position:absolute;
+    left:35px;
+    top:65px;
+}
+.testimonial_quotes_rt{
+    position:absolute;
+    right:35px;
+    bottom:65px;
+}
+.testimonial_img img{
+    width: 105px;
+    height: 105px;
+    border-radius: 50%;
+    position: absolute;
+    top: -50px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.testimonial_cmnt{
+    padding: 3rem;
+    padding-bottom:0px;
+}
+.testimonial_cmnt p{
+    text-align: center;
+    font-size: 18px;
+}
+.testimonial_info{
+    text-align:center;
+}
+.testimonials .slick-list{
+    padding-top:3.1rem;
+}
+.iwt3-cstm-prev-icon:before,.iwt3-cstm-next-icon:before{
+    display:none;
+}
+.testimonial_info h3{
+    font-weight:400;
+    font-size:18px;
+}
