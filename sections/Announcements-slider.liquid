@@ -64,6 +64,13 @@
  
 {% javascript %}
 
-
+$(document).ready(function(){
+$('.ann').slick({
+    arrows:true,
+    dots: false,
+    prevArrow:'<button class="slick-prev ann-cstm-prev-icon"><img src="https://cdn.shopify.com/s/files/1/0593/1987/7820/files/Lt-Circle.svg?v=1636530315" width="30" height="30"></button>',
+    nextArrow:'<button class="slick-next ann-cstm-next-icon"><img src="https://cdn.shopify.com/s/files/1/0593/1987/7820/files/rt-circle.svg?v=1636530315" width="30" height="30"></button>',    
+  });
+})
 
 {% endjavascript %}
