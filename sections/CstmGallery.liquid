@@ -1,10 +1,16 @@
   <div class="cstm-gallery">
+     {%if section.settings.title!=blank%}
         <div class="cstm-gallery-title">
-            <h1>Gallery</h1>
+            <h1>{{section.settings.title}}</h1>
         </div>
+    {%endif%}
+    {%if section.blocks!=blank%}
         <div class="cstm_images_List">
-            <img src="./img/3.png" alt="" class="cstmImageItem">
+          {%for block in section.blocks%}
+            <img src="{{block.settings.image|img_url:'master'}}" alt="" class="cstmImageItem">
+          {%endfor%}
         </div>
+    {%endif%}
     </div>
 {% schema %}
   {
