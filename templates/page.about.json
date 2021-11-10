@@ -115,21 +115,10 @@
             "person_image": "shopify:\/\/shop_images\/5.png",
             "show_quotes": true
           }
-        },
-        "68e77ec8-8d9b-4044-8528-5a8cd4d0a157": {
-          "type": "testimonial",
-          "settings": {
-            "name": "John Doe",
-            "job_title": "CEO",
-            "testimonial": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit officia minima itaque dolorum vero ratione!",
-            "person_image": "shopify:\/\/shop_images\/1_2df47308-0696-46d8-821f-e55ce3df764a.png",
-            "show_quotes": true
-          }
         }
       },
       "block_order": [
-        "a2c61247-0fe8-4dd7-b91e-98a5a6d70fd7",
-        "68e77ec8-8d9b-4044-8528-5a8cd4d0a157"
+        "a2c61247-0fe8-4dd7-b91e-98a5a6d70fd7"
       ],
       "settings": {
         "title": "Testimonials",
