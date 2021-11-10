@@ -1067,6 +1067,7 @@ STYLES FOR : Testimonials
     align-items: center;
     padding: 2rem;
     position: relative;
+  border-radius:10px;
 }
 .testimonial_quotes img{
     width: 35px;
