@@ -21,10 +21,17 @@
           "settings": {
             "announcement": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed eos quod at, itaque voluptates iusto impedit est maiores nisi facilis sunt architecto minima amet obcaecati!"
           }
+        },
+        "d1494f24-bac4-468b-8306-3a71212c6615": {
+          "type": "announcement",
+          "settings": {
+            "announcement": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed eos quod at, itaque voluptates iusto impedit est maiores nisi facilis sunt architecto minima amet obcaecati!"
+          }
         }
       },
       "block_order": [
-        "ee901c74-c7b0-443e-9e6b-1fb911dca561"
+        "ee901c74-c7b0-443e-9e6b-1fb911dca561",
+        "d1494f24-bac4-468b-8306-3a71212c6615"
       ],
       "settings": {
         "title": "Announcemnts",
