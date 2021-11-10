@@ -1086,17 +1086,20 @@ STYLES FOR : Testimonials
 .testimonial-item-text{
     padding: 0rem 4rem;
 }
+  .quotes{
+  	position:absolute;
+  }
 .leftQoute{
     width:35px;
-    position: absolute;
+/*     position: absolute;
     top:65px;
-    left:20px;
+    left:20px; */
 }
 .rightQoute{
     width:35px;
-    position: absolute;
+/*     position: absolute;
     bottom:65px;
-    right:20px;
+    right:20px; */
 }
   .testimonials_slider{
   	display: flex;
