@@ -1140,3 +1140,84 @@ STYLES FOR : Testimonials
     }
   }
   
+  
+  /*
+==========================================================================
+	Theme Styles For| Announcement Sections
+==========================================================================
+*/
+    
+.ann_bg{
+    padding:5rem 0rem;
+    margin: 3rem 0rem;
+    background:url('./img/4.png');
+    /* display: flex; */
+    /* justify-content: center; */
+    max-width: 100%;
+}
+.ann_title{
+    text-align: center;
+}
+.ann_item{
+    /* width:50%; */
+    background-color: #fff;;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem;
+    position: relative;
+}
+.ann_cmnt{
+    padding: 3rem;
+    padding-bottom:0px;
+}
+.ann_cmnt p{
+    text-align: center;
+    font-size: 18px;
+}
+.ann_info{
+    text-align:center;
+}
+/* .testimonials .slick-list{
+    padding-top:3.1rem;
+} */
+/* .iwt3-cstm-prev-icon:before,.iwt3-cstm-next-icon:before{
+    display:none;
+} */
+.ann_info h3{
+    font-weight:400;
+    font-size:18px;
+}
+.col-6.ann-simple {
+    background: white;
+}
+.ann-title{
+    padding:1rem 0rem;
+}
+.ann-title{
+    font-size:34px;
+    font-weight:200;
+    letter-spacing: 4.2px;
+}
+.ann .slick-list{
+    /* padding-top:1rem; */
+    padding-bottom:3rem;
+}
+.ann_cmnt{
+    letter-spacing: 2.2px;
+}
+button.slick-prev.ann-cstm-prev-icon.slick-arrow {
+    left: 45%;
+    z-index: 1;
+    transform:translateY(40px)
+
+}
+button.slick-next.ann-cstm-next-icon.slick-arrow {
+    right: 45%;
+    z-index: 1;
+    transform:translateY(40px)
+}
+button.slick-prev.ann-cstm-prev-icon.slick-arrow::before,button.slick-next.ann-cstm-next-icon.slick-arrow::before{
+    display: none;
+}  
+  
