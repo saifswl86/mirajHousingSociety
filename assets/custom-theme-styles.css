@@ -1050,13 +1050,17 @@ STYLES FOR : Testimonials
 */
   
   .testimonials{
-    padding:10rem 0rem;
+    padding:3rem 0rem;
     margin:3rem 0rem;
     position: relative;
     background-position: center!important;
 }
 .testimonial-item {
+    position: absolute;
+    top: 50%;
     background: white;
+    left: 50%;
+    transform: translate(-50%, -50%);
     width: 50%;
     border-radius: 5px;
     box-shadow: 2px 2px 14px 0px grey;
@@ -1086,26 +1090,18 @@ STYLES FOR : Testimonials
 .testimonial-item-text{
     padding: 0rem 4rem;
 }
-  .quotes{
-  	position:absolute;
-  }
 .leftQoute{
     width:35px;
-/*     position: absolute;
+    position: absolute;
     top:65px;
-    left:20px; */
+    left:20px;
 }
 .rightQoute{
     width:35px;
-/*     position: absolute;
+    position: absolute;
     bottom:65px;
-    right:20px; */
+    right:20px;
 }
-  .testimonials_slider{
-  	display: flex;
-    justify-content: center;
-    align-items: center;
-  }
 @media screen and (max-width:920px){
     .testimonial-item{
         width:70%
