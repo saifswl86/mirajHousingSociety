@@ -1220,4 +1220,6 @@ button.slick-next.ann-cstm-next-icon.slick-arrow {
 button.slick-prev.ann-cstm-prev-icon.slick-arrow::before,button.slick-next.ann-cstm-next-icon.slick-arrow::before{
     display: none;
 }  
-  
+  .ann_bg .col-3:empty{
+  	display:block;
+  }
