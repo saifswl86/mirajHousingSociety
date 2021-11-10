@@ -1091,6 +1091,7 @@ STYLES FOR : Testimonials
     top: -50px;
     left: 50%;
     transform: translateX(-50%);
+  	object-fit:cover;
 }
 .testimonial_cmnt{
     padding: 5rem;
