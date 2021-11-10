@@ -5,8 +5,8 @@
    {%endif%}
 	{%if section.blocks!=blank%}
       <div class="row testimonials_bg" {%if section.settings.bg_image!=blank%} style=" background:url('{{section.settings.bg_image|img_url:'master'}}');" {%endif%}>
-          <div class="col-3"></div>
-          <div class="col-6">
+          <div class="col-1 col-sm-3"></div>
+          <div class="col-10 col-sm-6">
               <div class="testimonials">
                 {%for block in section.blocks%}
                   <div class="testimonial_item">
@@ -40,7 +40,7 @@
                 {%endfor%}
               </div>
           </div>
-          <div class="col-3"></div>
+          <div class="col-1 col-sm-3"></div>
       </div>
 	{%endif%}
 {% schema %}
