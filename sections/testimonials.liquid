@@ -1,6 +1,30 @@
-<div class="testimonials" {%if section.settings.bg_image!=blank%}style="background:url('{{section.settings.bg_image |img_url:'master'}}')"{%endif%}>
-  	
-</div>
+    <div class="testimonials_title">
+        <h1>Testimonials</h1>
+    </div>
+    <div class="row testimonials_bg">
+        <div class="col-3"></div>
+        <div class="col-6">
+            <div class="testimonials">
+                <div class="testimonial_item">
+                    <div class="testimonial_quotes">
+                        <img src="./img/leftQuotes.png" alt="" class="testimonial_quotes_lt">
+                        <img src="./img/rightQuotes.png" alt="" class="testimonial_quotes_rt">
+                    </div>
+                    <div class="testimonial_img">
+                        <img src="./img/5.png" alt="">
+                    </div>
+                    <div class="testimonial_cmnt">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed eos quod at, itaque voluptates iusto impedit est maiores nisi facilis sunt architecto minima amet obcaecati!</p>
+                    </div>
+                    <div class="testimonial_info">
+                        <h3>John Doe</h3>
+                        <p>CEO</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-3"></div>
+    </div>
 {% schema %}
   {
     "name": "Testimonials",
