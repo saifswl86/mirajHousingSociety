@@ -3,30 +3,36 @@
         <h1>{{section.settings.title}}</h1>
     </div>
    {%endif%}
-    <div class="row testimonials_bg">
-        <div class="col-3"></div>
-        <div class="col-6">
-            <div class="testimonials">
-                <div class="testimonial_item">
-                    <div class="testimonial_quotes">
-                        <img src="./img/leftQuotes.png" alt="" class="testimonial_quotes_lt">
-                        <img src="./img/rightQuotes.png" alt="" class="testimonial_quotes_rt">
-                    </div>
-                    <div class="testimonial_img">
-                        <img src="./img/5.png" alt="">
-                    </div>
-                    <div class="testimonial_cmnt">
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed eos quod at, itaque voluptates iusto impedit est maiores nisi facilis sunt architecto minima amet obcaecati!</p>
-                    </div>
-                    <div class="testimonial_info">
-                        <h3>John Doe</h3>
-                        <p>CEO</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="col-3"></div>
-    </div>
+	{%if section.blocks!=blank%}
+      <div class="row testimonials_bg">
+          <div class="col-3"></div>
+          <div class="col-6">
+              <div class="testimonials">
+                {%for block in section.blocks%}
+                  <div class="testimonial_item">
+                    {%if section.show_quotes==true%}
+                      <div class="testimonial_quotes">
+                          <img src="https://cdn.shopify.com/s/files/1/0593/1987/7820/files/leftQuotes.png?v=1636460776" alt="" class="testimonial_quotes_lt">
+                          <img src="https://cdn.shopify.com/s/files/1/0593/1987/7820/files/rightQuotes.png?v=1636460776" alt="" class="testimonial_quotes_rt">
+                      </div>
+                    {%endif%}
+                      <div class="testimonial_img">
+                          <img src="./img/5.png" alt="">
+                      </div>
+                      <div class="testimonial_cmnt">
+                          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed eos quod at, itaque voluptates iusto impedit est maiores nisi facilis sunt architecto minima amet obcaecati!</p>
+                      </div>
+                      <div class="testimonial_info">
+                          <h3>John Doe</h3>
+                          <p>CEO</p>
+                      </div>
+                  </div>
+                {%endfor%}
+              </div>
+          </div>
+          <div class="col-3"></div>
+      </div>
+	{%endif%}
 {% schema %}
   {
     "name": "Testimonials",
