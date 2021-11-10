@@ -1,48 +1,30 @@
-   {%if section.settings.title!=blank%}
-	<div class="testimonials_title">
-        <h1>{{section.settings.title}}</h1>
-    </div>
-   {%endif%}
-	{%if section.blocks!=blank%}
-      <div class="row testimonials_bg" {%if section.settings.bg_image!=blank%} style=" background:url('{{section.settings.bg_image|img_url:'master'}}');" {%endif%}>
-          <div class="col-1 col-sm-3"></div>
-          <div class="col-10 col-sm-6">
-              <div class="testimonials">
-                {%for block in section.blocks%}
-                  <div class="testimonial_item">
-                    {%if block.settings.show_quotes==true%}
-                      <div class="testimonial_quotes">
-                          <img src="https://cdn.shopify.com/s/files/1/0593/1987/7820/files/leftQuotes.png?v=1636460776" alt="" class="testimonial_quotes_lt">
-                          <img src="https://cdn.shopify.com/s/files/1/0593/1987/7820/files/rightQuotes.png?v=1636460776" alt="" class="testimonial_quotes_rt">
+<div class="row ann_bg">
+        <div class="col-3"></div>
+        <div class="col-6 ann-simple">
+          {%if section.settings.title!=blank%}
+            <div class="w-100">
+                <p class="text-center ann-title">
+                    {{section.settings.title}}
+                </p>
+            </div>
+          {%endif%}
+          {%if section.blocks!=blank%}
+            <div class="ann py-0">
+              {%for block in section.blocks%}
+                {%if block.settings.announcement!=blank%}
+                  <div class="ann_item py-0">
+                      <div class="ann_cmnt py-0">
+                        <p>{{block.settings.announcement}}</p>
                       </div>
-                    {%endif%}
-                    {%if block.settings.person_image!=blank%}
-                      <div class="testimonial_img">
-                          <img src="{{block.settings.person_image |img_url:'master'}}" alt="">
-                      </div>
-                    {%endif%}
-                    {%if block.settings.testimonial!=blank%}
-                      <div class="testimonial_cmnt">
-                          <p>{{block.settings.testimonial}}</p>
-                      </div>
-                    {%endif%}
-                    {%if block.settings.name!=blank or block.settings.job_title!=blank%}
-                      <div class="testimonial_info">
-                          {%if block.settings.name!=blank%}
-                        	<h3>{{block.settings.name}}</h3>
-                          {%endif%}
-                        {%if block.settings.job_title!=blank%}
-                          <p>{{block.settings.job_title}}</p>
-                        {%endif%}
-                      </div>
-                    {%endif%}
                   </div>
-                {%endfor%}
-              </div>
-          </div>
-          <div class="col-1 col-sm-3"></div>
-      </div>
-	{%endif%}
+                {%endif%}
+              {%endfor%}
+            </div>
+          {%endif%}
+        </div>
+        <div class="col-3"></div>
+    </div>
+
 {% schema %}
   {
     "name": "Announcements",
