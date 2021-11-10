@@ -1118,6 +1118,7 @@ STYLES FOR : Testimonials
   @media screen and (max-width:1024px){
     .testimonial_cmnt{
     	padding:5rem 1rem;
+      	padding-bottom:0px;
     }
     .testimonial_quotes_lt{
     	left:20px;
