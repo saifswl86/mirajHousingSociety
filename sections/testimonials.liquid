@@ -10,22 +10,32 @@
               <div class="testimonials">
                 {%for block in section.blocks%}
                   <div class="testimonial_item">
-                    {%if section.show_quotes==true%}
+                    {%if block.settings.show_quotes==true%}
                       <div class="testimonial_quotes">
                           <img src="https://cdn.shopify.com/s/files/1/0593/1987/7820/files/leftQuotes.png?v=1636460776" alt="" class="testimonial_quotes_lt">
                           <img src="https://cdn.shopify.com/s/files/1/0593/1987/7820/files/rightQuotes.png?v=1636460776" alt="" class="testimonial_quotes_rt">
                       </div>
                     {%endif%}
+                    {%if block.settings.person_image!=blank%}
                       <div class="testimonial_img">
-                          <img src="./img/5.png" alt="">
+                          <img src="{{block.settings.person_image |img_url:'master'}}" alt="">
                       </div>
+                    {%endif%}
+                    {%if block.settings.testimonial!=blank%}
                       <div class="testimonial_cmnt">
-                          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed eos quod at, itaque voluptates iusto impedit est maiores nisi facilis sunt architecto minima amet obcaecati!</p>
+                          <p>{{block.settings.testimonial}}</p>
                       </div>
+                    {%endif%}
+                    {%if block.settings.name!=blank or block.settings.job_title!=blank%}
                       <div class="testimonial_info">
-                          <h3>John Doe</h3>
-                          <p>CEO</p>
+                          {%if block.settings.name!=blank%}
+                        	<h3>{{block.settings.name}}</h3>
+                          {%endif%}
+                        {%if block.settings.job_title!=blank%}
+                          <p>{{block.settings.job_title}}</p>
+                        {%endif%}
                       </div>
+                    {%endif%}
                   </div>
                 {%endfor%}
               </div>
