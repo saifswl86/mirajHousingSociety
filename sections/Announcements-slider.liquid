@@ -1,6 +1,6 @@
 <div class="row ann_bg" {%if section.settings.bg_image!=blank%} style=" background:url('{{section.settings.bg_image|img_url:'master'}}');" {%endif%}>
-        <div class="col-3"></div>
-        <div class="col-6 ann-simple">
+        <div class="col-1 col-sm-3"></div>
+        <div class="col-10 col-sm-6 ann-simple">
           {%if section.settings.title!=blank%}
             <div class="w-100">
                 <p class="text-center ann-title">
@@ -22,7 +22,7 @@
             </div>
           {%endif%}
         </div>
-        <div class="col-3"></div>
+        <div class="col-1 col-sm-3"></div>
     </div>
 
 {% schema %}
