@@ -23,71 +23,43 @@
     "16365475452874519c": {
       "type": "CstmGallery",
       "blocks": {
-        "f5dee89f-84a9-4947-9ba7-06d32ad2d1b4": {
-          "type": "announcement",
+        "9f97725a-e170-4beb-98f6-12deda1b4edd": {
+          "type": "image",
           "settings": {
             "image": "shopify:\/\/shop_images\/after_3_large_2x_68cd6439-312c-4457-bb81-b7e3824eabd2.png"
           }
         },
-        "78410ebf-d17c-4e25-af87-16456349656d": {
-          "type": "announcement",
+        "ce2a73b9-1cf8-492e-8073-c5c825811210": {
+          "type": "image",
           "settings": {
             "image": "shopify:\/\/shop_images\/after_1_large_5f20a60b-3c8a-421a-85b5-cff38c03939c.png"
           }
         },
-        "c5fdc286-780c-4ddb-ae41-c8f317f1f9c8": {
-          "type": "announcement",
+        "787ca7be-caf2-485a-b9cd-1164a4771cc2": {
+          "type": "image",
           "settings": {
             "image": "shopify:\/\/shop_images\/pexels-adil-alimbetov-599477.png"
           }
         },
-        "8116e649-4385-4efc-ace2-5930c0c6797c": {
-          "type": "announcement",
+        "e45a9a38-acb9-420f-90f1-76411f005e09": {
+          "type": "image",
           "settings": {
             "image": "shopify:\/\/shop_images\/pexels-david-mcbee-1486785_2x_36f1a74f-8139-4930-bab0-d11d3fcda79e.png"
           }
         },
-        "cd2af427-3ee6-45c3-bab5-4a52d4897ca4": {
-          "type": "announcement",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/after_1_large_5f20a60b-3c8a-421a-85b5-cff38c03939c.png"
-          }
-        },
-        "a084f99c-e0cc-4e15-8b9e-7512cf8875e7": {
-          "type": "announcement",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/pexels-adil-alimbetov-599477.png"
-          }
-        },
-        "6f7a96b8-eb42-4979-b3c7-b9f31232df02": {
-          "type": "announcement",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/after_3_large_2x_68cd6439-312c-4457-bb81-b7e3824eabd2.png"
-          }
-        },
-        "40b624f9-3d21-47e5-94e4-dfd26802a100": {
-          "type": "announcement",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/pexels-david-mcbee-1486785_2x_36f1a74f-8139-4930-bab0-d11d3fcda79e.png"
-          }
-        },
-        "5cb79495-a5be-42d5-9f70-0bfdaf3749e9": {
-          "type": "announcement",
+        "54f4041d-269a-4b47-abaf-272b70462f81": {
+          "type": "image",
           "settings": {
             "image": "shopify:\/\/shop_images\/after_1_large_5f20a60b-3c8a-421a-85b5-cff38c03939c.png"
           }
         }
       },
       "block_order": [
-        "f5dee89f-84a9-4947-9ba7-06d32ad2d1b4",
-        "78410ebf-d17c-4e25-af87-16456349656d",
-        "c5fdc286-780c-4ddb-ae41-c8f317f1f9c8",
-        "8116e649-4385-4efc-ace2-5930c0c6797c",
-        "cd2af427-3ee6-45c3-bab5-4a52d4897ca4",
-        "a084f99c-e0cc-4e15-8b9e-7512cf8875e7",
-        "6f7a96b8-eb42-4979-b3c7-b9f31232df02",
-        "40b624f9-3d21-47e5-94e4-dfd26802a100",
-        "5cb79495-a5be-42d5-9f70-0bfdaf3749e9"
+        "9f97725a-e170-4beb-98f6-12deda1b4edd",
+        "ce2a73b9-1cf8-492e-8073-c5c825811210",
+        "787ca7be-caf2-485a-b9cd-1164a4771cc2",
+        "e45a9a38-acb9-420f-90f1-76411f005e09",
+        "54f4041d-269a-4b47-abaf-272b70462f81"
       ],
       "settings": {
         "title": "Gallery"
