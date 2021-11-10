@@ -1115,3 +1115,8 @@ STYLES FOR : Testimonials
   .testimonials_bg div:empty{
   	display:block!important;
   }
+  @media screen and (max-width:1024px){
+    .testimonial_cmnt{
+    	padding:5rem 1rem;
+    }
+  }
