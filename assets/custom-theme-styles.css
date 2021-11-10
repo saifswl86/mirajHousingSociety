@@ -1228,6 +1228,7 @@ button.slick-prev.ann-cstm-prev-icon.slick-arrow::before,button.slick-next.ann-c
   }
   .ann-simple{
 	background:white;
+    border-radius:10px;
   }
 @media screen and (max-width:1024px){
     .ann_cmnt{
