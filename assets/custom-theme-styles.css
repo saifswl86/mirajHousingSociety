@@ -1229,11 +1229,11 @@ button.slick-prev.ann-cstm-prev-icon.slick-arrow::before,button.slick-next.ann-c
     	padding:5rem 1rem;
       	padding-bottom:0px;
     }
-  button.slick-prev.ann-cstm-prev-icon.slick-arrow{
+  button.slick-next.ann-cstm-next-icon.slick-arrow{
   	right: 43%;
     transform:translateY(55px)
   }
-  button.slick-prev.ann-cstm-next-icon.slick-arrow {
+  button.slick-prev.ann-cstm-prev-icon.slick-arrow {
     left: 43%;
     transform:translateY(55px)
 
