@@ -1223,3 +1223,16 @@ button.slick-prev.ann-cstm-prev-icon.slick-arrow::before,button.slick-next.ann-c
   .ann_bg .col-3:empty{
   	display:block;
   }
+
+@media screen and (max-width:1024px){
+    .ann_cmnt{
+    	padding:5rem 1rem;
+      	padding-bottom:0px;
+    }
+  }
+  @media screen and (max-width:768px)
+  {
+    .ann_cmnt p{
+    	font-size:14px;
+    }
+  }
