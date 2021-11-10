@@ -1233,7 +1233,7 @@ button.slick-prev.ann-cstm-prev-icon.slick-arrow::before,button.slick-next.ann-c
   	right: 43%;
     transform:translateY(55px)
   }
-  button.slick-prev.ann-cstm-prev-icon.slick-arrow {
+  button.slick-prev.ann-cstm-next-icon.slick-arrow {
     left: 43%;
     transform:translateY(55px)
 
