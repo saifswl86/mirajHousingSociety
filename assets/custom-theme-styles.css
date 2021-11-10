@@ -1201,7 +1201,7 @@ STYLES FOR : Testimonials
 }
 .ann .slick-list{
     /* padding-top:1rem; */
-    padding-bottom:3rem;
+    padding-bottom:5rem;
 }
 .ann_cmnt{
     letter-spacing: 2.2px;
@@ -1209,13 +1209,13 @@ STYLES FOR : Testimonials
 button.slick-prev.ann-cstm-prev-icon.slick-arrow {
     left: 45%;
     z-index: 1;
-    transform:translateY(40px)
+    transform:translateY(45px)
 
 }
 button.slick-next.ann-cstm-next-icon.slick-arrow {
     right: 45%;
     z-index: 1;
-    transform:translateY(40px)
+    transform:translateY(45px)
 }
 button.slick-prev.ann-cstm-prev-icon.slick-arrow::before,button.slick-next.ann-cstm-next-icon.slick-arrow::before{
     display: none;
