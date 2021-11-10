@@ -1226,7 +1226,9 @@ button.slick-prev.ann-cstm-prev-icon.slick-arrow::before,button.slick-next.ann-c
   .ann_bg .col-1:empty{
   	display:block;
   }
-
+  .ann-simple{
+	background:white;
+  }
 @media screen and (max-width:1024px){
     .ann_cmnt{
     	padding:5rem 1rem;
