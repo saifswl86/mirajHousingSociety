@@ -13,6 +13,50 @@
         "banner_video": ""
       }
     },
+    "163661072041b0a1f5": {
+      "type": "IWT-Icons",
+      "blocks": {
+        "710e093b-70b6-43d9-922e-18cc631fc6d3": {
+          "type": "icons",
+          "settings": {
+            "icon": "shopify:\/\/shop_images\/hospital.png",
+            "icon_text": "Medical Facility"
+          }
+        },
+        "8909ebb5-48c8-49bd-a937-58da62314523": {
+          "type": "icons",
+          "settings": {
+            "icon": "shopify:\/\/shop_images\/airport.png",
+            "icon_text": "Near to Airport"
+          }
+        },
+        "0e933d76-e39b-4069-bb65-e3c8c037ca33": {
+          "type": "icons",
+          "settings": {
+            "icon": "shopify:\/\/shop_images\/apple.png",
+            "icon_text": "Best Education"
+          }
+        },
+        "648c887a-68e8-4f60-9461-df931ed0eae7": {
+          "type": "icons",
+          "settings": {
+            "icon": "shopify:\/\/shop_images\/apple.png",
+            "icon_text": "Best Education"
+          }
+        }
+      },
+      "block_order": [
+        "710e093b-70b6-43d9-922e-18cc631fc6d3",
+        "8909ebb5-48c8-49bd-a937-58da62314523",
+        "0e933d76-e39b-4069-bb65-e3c8c037ca33",
+        "648c887a-68e8-4f60-9461-df931ed0eae7"
+      ],
+      "settings": {
+        "title": "5 10 Marla, 1 2 Canal Plots",
+        "desc": "Lorem ipsum dolor sit amet, At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur ed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo.",
+        "image": "shopify:\/\/shop_images\/architecture-1477041.png"
+      }
+    },
     "16363117973411b4fd": {
       "type": "Cstm-iwt",
       "blocks": {
@@ -50,6 +94,7 @@
   },
   "order": [
     "banner-section",
+    "163661072041b0a1f5",
     "16363117973411b4fd",
     "1636311937165b6259"
   ]
