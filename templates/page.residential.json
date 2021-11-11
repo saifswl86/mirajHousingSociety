@@ -83,13 +83,20 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/pexels-binyamin-mellish-106399.png"
           }
+        },
+        "c03a1aac-4514-4b21-8153-15b83ef59c3c": {
+          "type": "gallery",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/pexels-timur-saglambilek-87223.png"
+          }
         }
       },
       "block_order": [
         "b47320eb-3d25-479b-8a11-91a4138a6526",
         "46083548-ad42-4f5b-9b8e-773e0c4ac3fe",
         "711a2b55-0daf-40ca-b01c-289adf585fcf",
-        "a0c54ee8-be48-4094-b301-b6fd9f61bdd3"
+        "a0c54ee8-be48-4094-b301-b6fd9f61bdd3",
+        "c03a1aac-4514-4b21-8153-15b83ef59c3c"
       ],
       "settings": {
         "title": "Gallery",
