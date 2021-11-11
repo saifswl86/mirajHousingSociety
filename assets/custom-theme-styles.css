@@ -1371,7 +1371,7 @@ button.slick-prev.ann-cstm-prev-icon.slick-arrow::before,button.slick-next.ann-c
     max-width: 100%;
     object-fit: cover;
     padding: 1rem;
-    width: 25%;
+    width: 20%;
   }
   .iwb_button a{
     padding:10px 20px;
