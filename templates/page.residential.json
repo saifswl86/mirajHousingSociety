@@ -57,6 +57,46 @@
         "image": "shopify:\/\/shop_images\/architecture-1477041.png"
       }
     },
+    "16366123979d17f3ac": {
+      "type": "Images-with-button",
+      "blocks": {
+        "b47320eb-3d25-479b-8a11-91a4138a6526": {
+          "type": "gallery",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/pexels-vecislavas-popa-1571470_2x_12ecded4-9b2b-499b-8289-04d5d8d51182.png"
+          }
+        },
+        "46083548-ad42-4f5b-9b8e-773e0c4ac3fe": {
+          "type": "gallery",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/pexels-binyamin-mellish-106399.png"
+          }
+        },
+        "711a2b55-0daf-40ca-b01c-289adf585fcf": {
+          "type": "gallery",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/pexels-timur-saglambilek-87223.png"
+          }
+        },
+        "a0c54ee8-be48-4094-b301-b6fd9f61bdd3": {
+          "type": "gallery",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/pexels-binyamin-mellish-106399.png"
+          }
+        }
+      },
+      "block_order": [
+        "b47320eb-3d25-479b-8a11-91a4138a6526",
+        "46083548-ad42-4f5b-9b8e-773e0c4ac3fe",
+        "711a2b55-0daf-40ca-b01c-289adf585fcf",
+        "a0c54ee8-be48-4094-b301-b6fd9f61bdd3"
+      ],
+      "settings": {
+        "title": "Gallery",
+        "btn_text": "Book Now",
+        "btn_link": "#"
+      }
+    },
     "16363117973411b4fd": {
       "type": "Cstm-iwt",
       "blocks": {
@@ -95,6 +135,7 @@
   "order": [
     "banner-section",
     "163661072041b0a1f5",
+    "16366123979d17f3ac",
     "16363117973411b4fd",
     "1636311937165b6259"
   ]
