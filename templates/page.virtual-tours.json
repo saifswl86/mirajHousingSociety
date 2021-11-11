@@ -42,6 +42,7 @@
       ],
       "settings": {
         "isImageOnLeftSide": false,
+        "bgColor": "#E6E5E2",
         "title": "Take a virtual tour of our Model Houses",
         "description": "",
         "button_text": "Lets Get Started",
@@ -77,6 +78,7 @@
       ],
       "settings": {
         "isImageOnLeftSide": true,
+        "bgColor": "#ffffff",
         "title": "Take a virtual tour of our Society Gardens",
         "description": "",
         "button_text": "Lets Get Started",
@@ -112,6 +114,7 @@
       ],
       "settings": {
         "isImageOnLeftSide": false,
+        "bgColor": "#E6E5E2",
         "title": "Take a virtual tour of our Farm Houses",
         "description": "",
         "button_text": "Lets Get Started",
@@ -147,6 +150,7 @@
       ],
       "settings": {
         "isImageOnLeftSide": true,
+        "bgColor": "#ffffff",
         "title": "Take a virtual tour of our Infrastructure",
         "description": "",
         "button_text": "Lets Get Started",
