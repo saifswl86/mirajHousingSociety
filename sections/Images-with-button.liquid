@@ -12,8 +12,43 @@
 </div>
 {% schema %}
   {
-    "name": "Section name",
-    "settings": []
+    "name": "Simple Gallery",
+    "settings": [
+    {
+    "type":"text",
+    "id":"title",
+    "label":"Title"
+    },
+    {
+    "type":"text",
+    "id":"btn_text",
+    "label":"Button Text"
+    },
+	{
+	"type":"text",
+	"id":"btn_link",
+	"label":"Button Link"
+	}
+	],
+	"blocks":[
+	{
+	"type":"gallery",
+	"name":"Image",
+	"settings":[
+	{
+			"type":"image_picker",
+			"id":"image",
+			"label":"Choose Image"
+	}
+	]
+
+	}
+	],
+	"presets":[
+		{
+		 "name":"Simple Image Gallery"
+		}
+	]
   }
 {% endschema %}
 
