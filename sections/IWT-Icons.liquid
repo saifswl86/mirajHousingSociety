@@ -1,9 +1,16 @@
 <div class="res">
         <div class="res-content ">
+          {%if section.settings.title!=blank or section.settings.desc!=blank%}
             <div class="res-info">
-                <h1>5 10 Marla, 1 2 Canal Plots</h1>
-                <p>Lorem ipsum dolor sit amet, At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur ed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem </p>
-            </div>
+              {%if section.settings.title!=blank%}
+                <h1>{{section.settings.title}}</h1>
+              {%endif%}
+              {%if section.settings.desc!=blank%}
+                <p>{{section.settings.desc}}</p>
+          	  {%endif%}
+          	</div>
+          
+          {%endif%}
             <div class="res-icons">
                     <div class="res-iconItem">
                         <img src="./img/hospital/hospital.png" alt="">
