@@ -1374,11 +1374,11 @@ button.slick-prev.ann-cstm-prev-icon.slick-arrow::before,button.slick-next.ann-c
     width: 20%;
   }
   .iwb_button a{
-    padding:10px 20px;
+    padding:15px 30px;
     border-radius:5px;
     background:#fff;
     color:#2B2B2B;
-    font-size:14px;
+    font-size:16px;
     font-weight:bold;
     border:1px solid #2B2B2B;
     margin-top:20px;
