@@ -250,7 +250,7 @@ img.annoucement-bar-icon{
 .Image_with_text{
 	padding:10rem; 
 	margin:3rem 0rem;
-	background:#E6E5E2;
+/* 	background:#E6E5E2; */
  }
 .slick-center { 
   transform: scale(1.08) 

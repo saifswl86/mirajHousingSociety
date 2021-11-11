@@ -1,5 +1,5 @@
 {%if section.settings.title!=blank%}
-	<div class="Image_with_text container-fluid">
+	<div class="Image_with_text container-fluid" {%if section.settings.bgColor!=blank%}style="background:{{section.settings.bgColor}}" {%endif%}>
         <div class="row d-flex {%if section.settings.isImageOnLeftSide==true%} iwt_left {%else %} iwt_right{%endif%}">
           {%if section.settings.isImageOnLeftSide==true%}
           	{%if section.blocks!=blank%}
@@ -60,6 +60,11 @@
 		"type":"checkbox",
 		"label":"Show Image on Left Side",
 		"id":"isImageOnLeftSide"
+		},
+		{
+		"type":"color",
+		"id":"bgColor",
+		"label":"Choose Background Color"
 		},
 		{
 			"type":"text",
