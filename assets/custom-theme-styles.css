@@ -1260,29 +1260,93 @@ button.slick-prev.ann-cstm-prev-icon.slick-arrow::before,button.slick-next.ann-c
 */
 
   .cstm-gallery{
-            margin:3rem 0rem;
-        }
-        .cstm-gallery-title h1{
-            font-weight: 200;
-            font-size: 34px;
-            text-align: center;
-        }
-        .cstm_images_List{
-            display:flex;
-            padding:2rem 5rem;
-        }
-        .cstmImageItem{
-            max-width: 100%;
-            border-radius:40px;
-            padding:1rem;
-            transition: 0.3s ease-in-out;
-        }
-        .cstm_images_List .slick-slide.slick-current.slick-active{
-            transform: scale(1.1);
-        }
-        button.slick-prev.glry-cstm-prev-icon.slick-arrow{
-            left:15px;
-        }
-        button.slick-next.glry-cstm-next-icon.slick-arrow{
-            right:25px;
-        }
+    margin:3rem 0rem;
+  }
+  .cstm-gallery-title h1{
+    font-weight: 200;
+    font-size: 34px;
+    text-align: center;
+  }
+  .cstm_images_List{
+    display:flex;
+    padding:2rem 5rem;
+  }
+  .cstmImageItem{
+    max-width: 100%;
+    border-radius:40px;
+    padding:1rem;
+    transition: 0.3s ease-in-out;
+  }
+  .cstm_images_List .slick-slide.slick-current.slick-active{
+    transform: scale(1.1);
+  }
+  button.slick-prev.glry-cstm-prev-icon.slick-arrow{
+    left:15px;
+  }
+  button.slick-next.glry-cstm-next-icon.slick-arrow{
+    right:25px;
+  }
+ /*
+============================================================================================
+  STYLES FOR ====>>Image With Text With Icons
+============================================================================================
+*/ 
+  
+  .res{
+    display: flex;
+    padding: 0rem 5rem;
+    margin:3rem;
+  }
+
+  .res-content{
+    /* height: 100%; */
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    flex: 0.5;
+  }
+  .res-iconItem{
+    background: #EAE9E5;
+    margin-right: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 150px;
+    height: 105px;
+  }
+  .res-info{
+    padding: 3rem 0rem;
+    padding-right: 3rem;
+  }
+  .res-info h1{
+    letter-spacing: 6px;
+    font-weight: 200;
+    font-size: 36px;
+  }
+  .res-info p{
+    letter-spacing: 2.5px;
+    font-size: 16px;
+    padding: 1rem 0rem;
+    color: #2b2b2b;
+  }
+  .res-icons{
+    align-self: flex-start;
+
+    display: flex;
+    justify-content: space-evenly;
+  }
+  .res-iconItem img{
+    width: 45px;
+  }
+  .res-iconItem p{
+    margin: 0px;
+    padding:10px 0px;
+  }
+  .res_img{
+    flex: 0.5;
+  }
+  .res_img img{
+    max-width: 100%;
+    height: 100%;
+  }
