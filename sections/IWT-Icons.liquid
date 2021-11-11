@@ -9,30 +9,27 @@
                 <p>{{section.settings.desc}}</p>
           	  {%endif%}
           	</div>
-          
           {%endif%}
+          {%if section.blocks!=blank%}
             <div class="res-icons">
+              {%for block in section.blocks%}
                     <div class="res-iconItem">
-                        <img src="./img/hospital/hospital.png" alt="">
-                        <p>Hospital Doe</p>
+                      {%if block.settings.icon!=blank%}
+                        <img src="{{block.settings.icon|img_url:'master'}}" alt="">
+                      {%endif%}
+                      {%if block.settings.icon_text!=blank%}
+                        <p>{{block.settings.icon_text}}</p>
+                      {%endif%}
                     </div>
-                    <div class="res-iconItem">
-                        <img src="./img/hospital/hospital.png" alt="">
-                        <p>Hospital Doe</p>
-                    </div>
-                    <div class="res-iconItem">
-                        <img src="./img/hospital/hospital.png" alt="">
-                        <p>Hospital Doe</p>
-                    </div>
-                    <div class="res-iconItem">
-                        <img src="./img/hospital/hospital.png" alt="">
-                        <p>Hospital Doe</p>
-                    </div>
+              {%endfor%}
             </div>
+          {%endif%}
         </div>
+  		{%if section.settings.image!=blank%}
         <div class="res_img">
-            <img src="./img/hospital/architecture-1477041.png" alt="">
+            <img src="{{section.settings.image|img_url:'master'}}" alt="">
         </div>
+  		{%endif%}
 </div>
 {% schema %}
   {
