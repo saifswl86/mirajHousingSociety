@@ -1260,32 +1260,32 @@ button.slick-prev.ann-cstm-prev-icon.slick-arrow::before,button.slick-next.ann-c
 */
 
   .cstm-gallery{
-    margin:3rem 0rem;
-  }
-  .cstm-gallery-title h1{
-    font-weight: 200;
-    font-size: 34px;
-    text-align: center;
-  }
-  .cstm_images_List{
-    display:flex;
-    padding:2rem 5rem;
-  }
-  .cstmImageItem{
-    max-width: 100%;
-    border-radius:40px;
-    padding:1rem;
-    transition: 0.3s ease-in-out;
-  }
-  .cstm_images_List .slick-slide.slick-current.slick-active{
-    transform: scale(1.1);
-  }
-  button.slick-prev.glry-cstm-prev-icon.slick-arrow{
-    left:15px;
-  }
-  button.slick-next.glry-cstm-next-icon.slick-arrow{
-    right:25px;
-  }
+            margin:3rem 0rem;
+        }
+        .cstm-gallery-title h1{
+            font-weight: 200;
+            font-size: 34px;
+            text-align: center;
+        }
+        .cstm_images_List{
+            display:flex;
+            padding:2rem 5rem;
+        }
+        .cstmImageItem{
+            max-width: 100%;
+            border-radius:40px;
+            padding:1rem;
+            transition: 0.3s ease-in-out;
+        }
+        .cstm_images_List .slick-slide.slick-current.slick-active{
+            transform: scale(1.1);
+        }
+        button.slick-prev.glry-cstm-prev-icon.slick-arrow{
+            left:15px;
+        }
+        button.slick-next.glry-cstm-next-icon.slick-arrow{
+            right:25px;
+        }
  /*
 ============================================================================================
   STYLES FOR ====>>Image With Text With Icons
