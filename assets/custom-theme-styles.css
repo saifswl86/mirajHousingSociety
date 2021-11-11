@@ -1294,8 +1294,8 @@ button.slick-prev.ann-cstm-prev-icon.slick-arrow::before,button.slick-next.ann-c
   
   .res{
     display: flex;
-    padding: 0rem 5rem;
-    margin:3rem;
+    padding: 0rem 10rem;
+    margin:3rem 0rem;
   }
 
   .res-content{
@@ -1361,17 +1361,20 @@ button.slick-prev.ann-cstm-prev-icon.slick-arrow::before,button.slick-next.ann-c
   .images_with_button{
     display: flex;
     flex-direction: column;
+    padding:0rem 10rem;
   }
   .iwb_gallery{
+    
     display: flex;
-    justify-content: space-evenly;
+/*     justify-content: space-evenly; */
+    
     max-width: 100%;
   }
   .iwb_gallery img{
     max-width: 100%;
     object-fit: cover;
-    padding: 1rem;
-    width: 20%;
+    margin-right: 1rem;
+    width: 19.3%;
   }
   .iwb_button a{
     padding:15px 30px;
