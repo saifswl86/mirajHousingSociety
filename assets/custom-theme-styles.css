@@ -990,6 +990,10 @@ STYLES FOR : Custom Contact Form
     color: #2b2b2b;
     letter-spacing: 6px;
 }
+.cstm-iwt-text-desc p {
+    letter-spacing: 2.8px;
+    color: #2B2B2B;
+}
 .cstm-iwt-text-img .slick-dots{
     bottom: 10px;
 }
