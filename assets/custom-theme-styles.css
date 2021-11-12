@@ -250,7 +250,7 @@ img.annoucement-bar-icon{
   a.link.list-social__link.Email:hover .c, a.link.list-social__link.Email .c:hover{
   	fill:orange;
   }
-  a.link.list-social__link.Facebook:hover .c, a.link.list-social__link.Facebook .c:hover{
+  a.link.list-social__link.Facebook:hover .a, a.link.list-social__link.Facebook .a:hover{
   	fill:blue;
   }
   a.link.list-social__link.Twitter:hover .c, a.link.list-social__link.Twitter .c:hover{
