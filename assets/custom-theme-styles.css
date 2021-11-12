@@ -242,7 +242,7 @@ img.annoucement-bar-icon{
     color:#000;
   }
   a.link.list-social__link .c{
-  transition:0.3s ease-in-out;
+  transition:0.2s ease-in-out;
   }
   a.link.list-social__link.YouTube .c:hover{
   	fill:red;
