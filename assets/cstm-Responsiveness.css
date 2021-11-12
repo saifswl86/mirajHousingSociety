@@ -144,5 +144,11 @@
   	transform: translateX(40%);
   }
 }
+
+@media screen and (max-width:375px){
+  .Image_with_text-Image-Slider-Area .slick-list.draggable{
+  	padding:0px 55px!important;
+  }
+}
   
 
