@@ -45,6 +45,7 @@ Custom Theme Styles
     font-weight: 500;
     font-size: 14px;
     margin: 0px;
+  	transition:0.3s ease-in-out;
 }
 img.annoucement-bar-icon{
     width: 21px;
