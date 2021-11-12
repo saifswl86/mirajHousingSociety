@@ -57,6 +57,9 @@
     height:270px;
     object-fit:cover;
   }
+  .Amenities_item{
+  	flex-direction:column-reverse;
+  }
 
 }
 
