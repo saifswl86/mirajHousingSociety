@@ -140,6 +140,9 @@
   button.slick-next.cstm-next-icon.slick-arrow{
     left:18%;
   }
+  .header__heading, .header__heading-link {
+  	transform: translateX(40%);
+  }
 }
   
 
