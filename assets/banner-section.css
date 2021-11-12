@@ -11,13 +11,13 @@ div.banner_half_image{
   	justify-content:flex-end;
 }
 img.banner_image_half_width {
-  width: 60%;
+  width: 61.25%;
   max-width:100%;
 }
 
 .banner-overlay{
 	background:#D9D8D3; 
-  	width:61.25%;
+  	width:60%;
     height:100%;
   	position: absolute;
     top: 0px;
