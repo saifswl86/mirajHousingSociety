@@ -49,6 +49,9 @@
     width: 300px;
     object-fit: cover;
   }
+  .slick-active .iwt-slide .iwt-slide-img{
+  	height:310px;
+  }
 
 }
 
