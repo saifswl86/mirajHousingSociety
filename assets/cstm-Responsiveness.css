@@ -160,5 +160,19 @@
     height:200px;
   }
 }
+
+@media screen and (max-width:320px)
+{
+  .iwt-slide-img, .slick-active .iwt-slide .iwt-slide-img{
+  	width:135px;
+  }
+  .slick-active .iwt-slide .iwt-slide-img{
+  	height:200px;
+  }
+  .iwt-slide-img{
+  	width:135px;
+    height:190px;
+  }
+}
   
 
