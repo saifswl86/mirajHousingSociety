@@ -102,6 +102,10 @@
   .Amenities_item_about{
   	padding:5rem 1rem 5rem 5rem;
   }
+  button.slick-next.cstm-next-icon.slick-arrow{
+  	transform:translateY(515px);
+    left:18%;
+  }
 }
 
   
