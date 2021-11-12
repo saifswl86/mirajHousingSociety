@@ -7,4 +7,7 @@
     height: 350px;
     object-fit: cover;
   }
+  button.slick-prev.cstm-prev-icon.slick-arrow {
+    left: 6%;
+    transform: translateY(250px);
 }
