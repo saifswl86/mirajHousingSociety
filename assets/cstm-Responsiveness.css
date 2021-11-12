@@ -94,7 +94,6 @@
   }
   .iwt-slide-img, .slick-active .iwt-slide .iwt-slide-img{
   	width:200px;
-    height:240px;
    	object-fit:cover;
   }
 }
