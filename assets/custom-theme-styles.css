@@ -763,8 +763,9 @@ STYLES FOR : Custom Blogs
 .cstm-blogs-item-text .btn_link{
     text-decoration: none;
     color:#2b2b2b;
-    font-size: 18px;
+    font-size: 16px;
     padding: 0px;
+  	transition:0.1s ease-in-out;
 }
 .cstm-blogs-item-text a span {
     font-weight: 300;
@@ -817,6 +818,7 @@ STYLES FOR : Custom Blogs
     }
     .cstm-blogs-item-text .btn_link:hover{
       color:#2b2b2b;
+      font-weight:600;
     }	
     .cstm-blogs-item-text p{
         font-weight: 200;
