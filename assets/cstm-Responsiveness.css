@@ -19,19 +19,7 @@
     transform: translateY(250px);
 
   }
-  .blogs-list{
-  	flex-wrap:wrap-reverse;
-  }
-
-
-
-
-
-
-
-
-
-
+ 
 }
 
 
@@ -78,6 +66,13 @@
   	  	    transform: translateY(485px) scale(1.1);
 
   }
+   .blogs-list{
+  	flex-wrap:wrap-reverse;
+  }
+  .cstm-blogs-item {
+  	margin:1rem 5rem;
+  }
+
 
 }
 
