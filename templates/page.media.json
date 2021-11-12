@@ -138,6 +138,41 @@
         "time": "Mon - Friday 07:00 AM to 09:00PM",
         "email": "info@mirajhousingsociety.com"
       }
+    },
+    "163671085415c4802c": {
+      "type": "image-with-text",
+      "blocks": {
+        "163671085415c4802c-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Careers"
+          }
+        },
+        "163671085415c4802c-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit officia minima itaque dolorum vero ratione! Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit officia minima itaque dolorum <\/p>"
+          }
+        },
+        "163671085415c4802c-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "Apply Now",
+            "button_link": "#"
+          }
+        }
+      },
+      "block_order": [
+        "163671085415c4802c-0",
+        "163671085415c4802c-1",
+        "163671085415c4802c-2"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/pexels-fauxels-3184465.png",
+        "height": "adapt",
+        "color_scheme": "background-1",
+        "layout": "text_first"
+      }
     }
   },
   "order": [
@@ -146,6 +181,7 @@
     "16365475452874519c",
     "1636541604b1971514",
     "163670488256724f9c",
-    "163654273140f882cf"
+    "163654273140f882cf",
+    "163671085415c4802c"
   ]
 }
