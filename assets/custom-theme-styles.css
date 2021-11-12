@@ -1379,6 +1379,10 @@ button.slick-prev.ann-cstm-prev-icon.slick-arrow::before,button.slick-next.ann-c
     width: 150px;
     height: 125px;
     cursor:pointer;
+    transition:0.2s ease-in-out;
+  }
+  .res-iconItem:hover{
+  	transform:translateY(-5px)
   }
   
   .res-info{
