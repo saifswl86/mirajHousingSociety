@@ -1460,6 +1460,8 @@ button.slick-prev.ann-cstm-prev-icon.slick-arrow::before,button.slick-next.ann-c
     margin: 3rem 0rem;
     align-self: center;
   }
+  .iwb_gallery:nth-last-child(1){
+  display:none}
   
   
   
