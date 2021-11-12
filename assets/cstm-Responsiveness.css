@@ -121,6 +121,9 @@
   	min-height:325px;
     max-height:325px;
   }
+  .cstm-blogs{
+  	padding:2rem;
+  }
   .cstm-blogs-item{
   	margin:0rem;
   }
