@@ -39,6 +39,7 @@ Custom Theme Styles
     height: 20px;
 } */
 .icon-with-text-item p{
+  color:#2b2b2b;
     text-decoration: none;
     padding: 0px 7px;
     font-weight: 500;
