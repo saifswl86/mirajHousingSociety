@@ -515,6 +515,7 @@ img.annoucement-bar-icon{
     font-size: 16px;
     letter-spacing:2.5px;
     padding: 0px 5px;
+    transition:0.2s ease-in-out;
   }
 .cstm-project-item-text .btn_link{
     text-decoration: none;
