@@ -244,6 +244,9 @@ img.annoucement-bar-icon{
   a.link.list-social__link .c{
   transition:0.2s ease-in-out;
   }
+  a.link.list-social__link.YouTube:hover svg{
+  transform:scale(1.1);
+  }  
  	a.link.list-social__link.YouTube:hover .c, a.link.list-social__link.YouTube .c:hover{
   	fill:red;
   }
