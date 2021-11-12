@@ -11,7 +11,7 @@ div.banner_half_image{
   	justify-content:flex-end;
 }
 img.banner_image_half_width {
-  width: 61.25%;
+  width: 60%;
   max-width:100%;
 }
 
