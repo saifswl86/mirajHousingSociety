@@ -46,7 +46,8 @@
   	padding:0px 140px!important;
   }
   .iwt-slide-img, .slick-active .iwt-slide .iwt-slide-img{
-  	
+    width: 300px;
+    object-fit: cover;
   }
 
 }
