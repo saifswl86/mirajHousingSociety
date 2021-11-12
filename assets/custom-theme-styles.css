@@ -244,6 +244,18 @@ img.annoucement-bar-icon{
   	font-weight:600;
     color:#000;
   }
+  a.link.list-social__link.Email:hover a.link.list-social__link.Email svg .c{
+  	fill:red;
+  }
+  
+  
+  
+  
+  
+  
+  
+  
+  
   
 /*
 ============================================================================================
