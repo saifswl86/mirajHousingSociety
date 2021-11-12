@@ -324,7 +324,7 @@ img.annoucement-bar-icon{
   	align-self:flex-start;
 	padding:10px 20px;
 	border-radius:5px;
-	background:#fff;
+	background:transparent;
 	color:#2B2B2B;
 	font-size:14px;
 	font-weight:bold;
