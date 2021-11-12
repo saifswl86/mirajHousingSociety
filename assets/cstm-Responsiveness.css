@@ -60,6 +60,10 @@
   .Amenities_item{
   	flex-direction:column-reverse;
   }
+  button.slick-prev.cstm-prev-icon.slick-arrow{
+  	transform:translateY(485px);
+    left:8%;
+  }
 
 }
 
