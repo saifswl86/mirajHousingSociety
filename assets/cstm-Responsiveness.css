@@ -149,6 +149,9 @@
   .Image_with_text-Image-Slider-Area .slick-list.draggable{
   	padding:0px 55px!important;
   }
+  .iwt-slide-img, .slick-active .iwt-slide .iwt-slide-img{
+  	width:165px;
+  }
 }
   
 
