@@ -759,13 +759,14 @@ STYLES FOR : Custom Blogs
     color:#2b2b2b;
     font-size: 18px;
     padding: 0px 5px;
+      	transition:0.1s ease-in-out;
+
   }
 .cstm-blogs-item-text .btn_link{
     text-decoration: none;
     color:#2b2b2b;
     font-size: 16px;
     padding: 0px;
-  	transition:0.1s ease-in-out;
 }
   .cstm-blogs-item-text:hover .cstm-blogs-item-text a span{
   	font-weight:600; 
