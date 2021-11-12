@@ -247,6 +247,15 @@ img.annoucement-bar-icon{
  	a.link.list-social__link.YouTube:hover .c, a.link.list-social__link.YouTube .c:hover{
   	fill:red;
   }
+  a.link.list-social__link.Email:hover .c, a.link.list-social__link.Email .c:hover{
+  	fill:orange;
+  }
+  a.link.list-social__link.Facebook:hover .c, a.link.list-social__link.Facebook .c:hover{
+  	fill:blue;
+  }
+  a.link.list-social__link.Twitter:hover .c, a.link.list-social__link.Twitter .c:hover{
+  	fill:blue;
+  }
   
   
   
