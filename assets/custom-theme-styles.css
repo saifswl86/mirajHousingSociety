@@ -1382,9 +1382,9 @@ button.slick-prev.ann-cstm-prev-icon.slick-arrow::before,button.slick-next.ann-c
     transition:0.2s ease-in-out;
     border-radius:2px;
   }
-/*   .res-iconItem:hover{
-  	transform:translateY(-5px)
-  } */
+  .res-iconItem:hover{
+  	transform:scale(0.9)
+  }
   
   .res-info{
     padding: 3rem 0rem;
