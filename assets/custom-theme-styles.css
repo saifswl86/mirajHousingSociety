@@ -1380,6 +1380,9 @@ button.slick-prev.ann-cstm-prev-icon.slick-arrow::before,button.slick-next.ann-c
     height: 125px;
     transition:0.2s ease-in-out;
   }
+  .res-iconItem{
+  	transform:scale(1.1);
+  }
   .res-info{
     padding: 3rem 0rem;
     padding-right: 3rem;
