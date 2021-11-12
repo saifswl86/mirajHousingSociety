@@ -1378,7 +1378,6 @@ button.slick-prev.ann-cstm-prev-icon.slick-arrow::before,button.slick-next.ann-c
     justify-content: center;
     width: 150px;
     height: 125px;
-    transition:0.2s ease-in-out;
   }
   .res-iconItem:hover .res-iconItem img{
   	transform:scale(1.1);
