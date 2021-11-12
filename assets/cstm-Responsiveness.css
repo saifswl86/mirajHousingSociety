@@ -19,6 +19,9 @@
     transform: translateY(250px);
 
   }
+  .blogs-list{
+  	flex-wrap:wrap-reverse;
+  }
 
 
 
