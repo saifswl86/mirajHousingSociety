@@ -82,10 +82,10 @@ img.annoucement-bar-icon{
   .announce-sm-icons > ul >li> a{
   	padding:0px 6px;
   }
-.announce-sm-icons > ul >li> a> svg {
+/* .announce-sm-icons > ul >li> a> svg {
     width: 14px;
     height: 15px;
-}
+} */
 
   .angle-right{
   	padding-left:7px;
