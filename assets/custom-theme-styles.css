@@ -1155,7 +1155,8 @@ STYLES FOR : Testimonials
 .testimonial_cmnt p{
     text-align: center;
     font-size: 18px;
-}
+    line-height: 1.25;
+  	color:#2b2b2b;
 .testimonial_info{
     text-align:center;
 }
