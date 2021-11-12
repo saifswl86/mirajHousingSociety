@@ -1379,9 +1379,7 @@ button.slick-prev.ann-cstm-prev-icon.slick-arrow::before,button.slick-next.ann-c
     width: 150px;
     height: 125px;
   }
-  .res-iconItem:hover .res-iconItem img{
-  	transform:scale(1.1);
-  }
+  
   .res-info{
     padding: 3rem 0rem;
     padding-right: 3rem;
@@ -1406,7 +1404,9 @@ button.slick-prev.ann-cstm-prev-icon.slick-arrow::before,button.slick-next.ann-c
   .res-iconItem img{
     width: 45px;
     transition:0.2s ease-in-out;
-
+  }
+  .res-iconItem:hover img{
+  	transform:scale(1.1);
   }
   .res-iconItem p{
     margin: 0px;
