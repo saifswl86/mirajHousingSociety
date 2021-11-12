@@ -1076,6 +1076,7 @@ STYLES FOR : Custom Contact Form
 }
 .iwt4-text-heading h1{
     font-weight: 200;
+  	letter-spacing: 6px;
 }
 .iwt4-text-desc{
     flex:0.7;
