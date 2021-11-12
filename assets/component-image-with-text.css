@@ -140,3 +140,8 @@
 	position:static;
   	object-fit:contain;
 }
+.image-with-text__content .rte p {
+    font-size: 18px;
+    font-weight: 300;
+    color: #2b2b2b;
+}
