@@ -70,6 +70,8 @@ img.annoucement-bar-icon{
   }
   .announcement_Text p{
   	margin:0px;
+    font-size:14px;
+    letter-spacing:2px;
   }
 .header{
   padding:0 3.8rem;
