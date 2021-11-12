@@ -78,6 +78,13 @@
 
 
 
+@media screen and (max-width:540px)
+{
+.header__heading, .header__heading-link {
+	transform: translateX(65%);
+}
+
+}
 
   
 
