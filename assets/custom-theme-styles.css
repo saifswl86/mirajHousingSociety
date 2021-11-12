@@ -1081,6 +1081,12 @@ STYLES FOR : Custom Contact Form
     flex:0.7;
     padding: 0rem 0.5rem;    
 }
+.iwt4-text-desc p {
+    letter-spacing: 2px;
+    line-height: 1.25;
+    font-size: 18px;
+    color: #2b2b2b;
+}
 @media screen and (max-width: 520px){
     .iwt4{
         padding: 0rem 2rem; 
