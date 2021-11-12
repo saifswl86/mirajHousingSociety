@@ -250,7 +250,7 @@ img.annoucement-bar-icon{
   transform:scale(1.1);
   }  
  	a.link.list-social__link.YouTube:hover .c, a.link.list-social__link.YouTube .c:hover{
-  	fill:red;
+  	fill:#ff0000;
   }
   a.link.list-social__link.Email:hover .c, a.link.list-social__link.Email .c:hover{
   	fill:tomato;
