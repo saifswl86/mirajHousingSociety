@@ -134,6 +134,12 @@
   .Image_with_text-Image-Slider-Area .slick-list.draggable{
   	padding:0px 50px!important;
   }
+  button.slick-prev.cstm-prev-icon.slick-arrow{
+    left:10%;
+  }
+  button.slick-next.cstm-next-icon.slick-arrow{
+    left:18%;
+  }
 }
   
 
