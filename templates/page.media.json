@@ -108,8 +108,8 @@
         "163670488256724f9c-2": {
           "type": "button",
           "settings": {
-            "button_label": "Button label",
-            "button_link": ""
+            "button_label": "Apply Now",
+            "button_link": "#"
           }
         }
       },
