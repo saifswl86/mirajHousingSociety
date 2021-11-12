@@ -993,6 +993,7 @@ STYLES FOR : Custom Contact Form
 .cstm-iwt-text-desc p {
     letter-spacing: 2.8px;
     color: #2B2B2B;
+  	font-weight:200;
 }
 .cstm-iwt-text-img .slick-dots{
     bottom: 10px;
