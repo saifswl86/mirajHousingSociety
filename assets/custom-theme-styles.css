@@ -768,7 +768,7 @@ STYLES FOR : Custom Blogs
     font-size: 16px;
     padding: 0px;
 }
-  .cstm-blogs-item-text:hover .cstm-blogs-item-text a span{
+  .cstm-blogs-item-text a:hover{
   	font-weight:600; 
   }
 .cstm-blogs-item-text a span {
