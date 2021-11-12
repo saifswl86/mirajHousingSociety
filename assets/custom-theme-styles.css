@@ -767,7 +767,7 @@ STYLES FOR : Custom Blogs
     padding: 0px;
   	transition:0.1s ease-in-out;
 }
-  .cstm-blogs-item-text .btn_link:hover .cstm-blogs-item-text a span{
+  .cstm-blogs-item-text:hover .cstm-blogs-item-text a span{
   	font-weight:600; 
   }
 .cstm-blogs-item-text a span {
