@@ -1378,6 +1378,7 @@ button.slick-prev.ann-cstm-prev-icon.slick-arrow::before,button.slick-next.ann-c
     justify-content: center;
     width: 150px;
     height: 125px;
+    cursor:pointer;
   }
   
   .res-info{
