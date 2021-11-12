@@ -106,6 +106,9 @@
   	transform:translateY(515px);
     left:18%;
   }
+  button.slick-next.cstm-next-icon.slick-arrow:hover, button.slick-prev.cstm-prev-icon.slick-arrow:hover{
+  	transform: translateY(515px) scale(1.1);
+  }
 }
 
   
