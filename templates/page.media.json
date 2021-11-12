@@ -90,6 +90,41 @@
         "bg_image": "shopify:\/\/shop_images\/4.png"
       }
     },
+    "163670488256724f9c": {
+      "type": "cstm-image-with-text",
+      "blocks": {
+        "163670488256724f9c-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Careers"
+          }
+        },
+        "163670488256724f9c-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.<\/p>"
+          }
+        },
+        "163670488256724f9c-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "Button label",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "163670488256724f9c-0",
+        "163670488256724f9c-1",
+        "163670488256724f9c-2"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/pexels-fauxels-3184465.png",
+        "height": "adapt",
+        "color_scheme": "background-1",
+        "layout": "text_first"
+      }
+    },
     "163654273140f882cf": {
       "type": "cstm-contact-form",
       "settings": {
@@ -110,6 +145,7 @@
     "163654258043a9bdf9",
     "16365475452874519c",
     "1636541604b1971514",
+    "163670488256724f9c",
     "163654273140f882cf"
   ]
 }
