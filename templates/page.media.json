@@ -90,55 +90,6 @@
         "bg_image": "shopify:\/\/shop_images\/4.png"
       }
     },
-    "163670488256724f9c": {
-      "type": "cstm-image-with-text",
-      "blocks": {
-        "163670488256724f9c-0": {
-          "type": "heading",
-          "settings": {
-            "heading": "Careers"
-          }
-        },
-        "163670488256724f9c-1": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.<\/p>"
-          }
-        },
-        "163670488256724f9c-2": {
-          "type": "button",
-          "settings": {
-            "button_label": "Apply Now",
-            "button_link": "#"
-          }
-        }
-      },
-      "block_order": [
-        "163670488256724f9c-0",
-        "163670488256724f9c-1",
-        "163670488256724f9c-2"
-      ],
-      "settings": {
-        "image": "shopify:\/\/shop_images\/pexels-fauxels-3184465.png",
-        "height": "adapt",
-        "color_scheme": "background-1",
-        "layout": "text_first"
-      }
-    },
-    "163654273140f882cf": {
-      "type": "cstm-contact-form",
-      "settings": {
-        "title": "Let's get in touch",
-        "sub_title": "",
-        "contact_title": "Information",
-        "contact_desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit officia minima itaque dolorum vero ratione!",
-        "address": "Miraj Housing Society, Lahore",
-        "phone": "+92 304 9712197",
-        "fax": "Fax: +92 304 9712197",
-        "time": "Mon - Friday 07:00 AM to 09:00PM",
-        "email": "info@mirajhousingsociety.com"
-      }
-    },
     "163671085415c4802c": {
       "type": "image-with-text",
       "blocks": {
@@ -173,6 +124,20 @@
         "color_scheme": "background-1",
         "layout": "text_first"
       }
+    },
+    "163654273140f882cf": {
+      "type": "cstm-contact-form",
+      "settings": {
+        "title": "Let's get in touch",
+        "sub_title": "",
+        "contact_title": "Information",
+        "contact_desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit officia minima itaque dolorum vero ratione!",
+        "address": "Miraj Housing Society, Lahore",
+        "phone": "+92 304 9712197",
+        "fax": "Fax: +92 304 9712197",
+        "time": "Mon - Friday 07:00 AM to 09:00PM",
+        "email": "info@mirajhousingsociety.com"
+      }
     }
   },
   "order": [
@@ -180,8 +145,7 @@
     "163654258043a9bdf9",
     "16365475452874519c",
     "1636541604b1971514",
-    "163670488256724f9c",
-    "163654273140f882cf",
-    "163671085415c4802c"
+    "163671085415c4802c",
+    "163654273140f882cf"
   ]
 }
