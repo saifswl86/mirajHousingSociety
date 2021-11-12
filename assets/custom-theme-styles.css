@@ -1405,6 +1405,8 @@ button.slick-prev.ann-cstm-prev-icon.slick-arrow::before,button.slick-next.ann-c
   }
   .res-iconItem img{
     width: 45px;
+    transition:0.2s ease-in-out;
+
   }
   .res-iconItem p{
     margin: 0px;
