@@ -643,7 +643,7 @@ button.slick-prev.cstm-prev-icon.slick-arrow{
   transition:0.1s ease-in-out;
 }
   button.slick-prev.cstm-prev-icon.slick-arrow:hover{
-  	transform:scale(1.1);
+  	transform:translateY(230px )scale(1.1);
   }
 button.slick-next.cstm-next-icon.slick-arrow{
     left: 7%;
