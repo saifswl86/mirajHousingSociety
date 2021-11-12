@@ -1086,6 +1086,7 @@ STYLES FOR : Custom Contact Form
     line-height: 1.25;
     font-size: 18px;
     color: #2b2b2b;
+  	font-weight:200;
 }
 @media screen and (max-width: 520px){
     .iwt4{
