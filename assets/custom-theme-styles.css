@@ -640,6 +640,7 @@ button.slick-prev.cstm-prev-icon.slick-arrow{
     transform:translateY(230px); 
     z-index: 1;
     /* bottom:10%; */
+  transition:0.1s ease-in-out;
 }
 button.slick-next.cstm-next-icon.slick-arrow{
     left: 7%;
