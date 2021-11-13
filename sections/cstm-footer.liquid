@@ -1,39 +1,36 @@
 <footer>
-<div class="announcement-bar row">
-  <div class="announcement_Text col-7 ">
-    {%if section.settings.announcement_text_check==true%}
-      {%if section.settings.announcement_Text!=blank%}
-          {%if section.settings.announcement_link!=blank%}
-            <a href="section.settings.announcement-bar-link">
+<div class="cstm_footer row">
+  <div class="cstm_footer_Text col-7 ">
+      {%if section.settings.cstm_footer_Text!=blank%}
+          {%if section.settings.cstm_footer_link!=blank%}
+            <a href="{{section.settings.cstm_footer_link}}">
           {%endif%}
-              <p>{{section.settings.announcement_Text}}</p>
-          {%if section.settings.announcement_link!=blank%}
+              <p>{{section.settings.cstm_footer_Text}}</p>
+          {%if section.settings.cstm_footer_link!=blank%}
               </a>
           {%endif%}
       {%endif%}
-    {%endif%}
   </div>
-  <div class="icon-with-text col-3 d-flex justify-content-lg-center align-items-center"> 
-    
+  <div class="cstm_footer_icon-with-text col-3 d-flex justify-content-lg-center align-items-center"> 
       {%if section.blocks!=blank%}
             {%for block in section.blocks%}
                 <div class="icon-with-text-item d-flex">
-                    {%if block.settings.announcement_bar_icon_link!=blank%}
-                      <a class="d-flex announcement-bar-icon-text justify-content-between align-items-center" href="{{block.settings.announcement_bar_icon_link}}">
+                    {%if block.settings.cstm_footer_bar_icon_link!=blank%}
+                      <a class="d-flex cstm_footer-bar-icon-text justify-content-between align-items-center" href="{{block.settings.announcement_bar_icon_link}}">
                     {%endif%}
-                    {%if block.settings.annoucement_bar_icon!=blank%}
-                        <img class="annoucement-bar-icon" src="{{block.settings.annoucement_bar_icon | img_url:'master'}}">
+                    {%if block.settings.cstm_footer_bar_icon!=blank%}
+                        <img class="cstm_footer-bar-icon" src="{{block.settings.cstm_footer_bar_icon | img_url:'master'}}">
                     {%endif%}
-                      <p class="">{{block.settings.announcement_bar_icon_text}}</p>
-                    {%if section.settings.announcement_bar_icon_link!=blank%}
+                      <p class="">{{block.settings.cstm_footer_bar_icon_text}}</p>
+                    {%if section.settings.cstm_footer_bar_icon_link!=blank%}
                       </a>
                     {%endif%}
                 </div>
             {%endfor%}
       {%endif%}
   </div> 
-  <div class="announce-sm-icons col-2 d-flex justify-content-end align-items-center">
-    {%if section.settings.announcement_sm_check==true %}    
+  <div class="cstm_footer-sm-icons col-2 d-flex justify-content-end align-items-center">
+    {%if section.settings.cstm_footer_sm_check==true %}    
       <ul class="list-unstyled d-flex list-social" role="list">
         	{%- if settings.social_email_address != blank -%}
               <li class="list-social__item">
@@ -120,11 +117,11 @@
 </div>
 </footer>
 {%style%}
-.announcement-bar{
-  background-color:{{section.settings.announcementbar_bg_color}};
+.cstm_footer-bar{
+  background-color:{{section.settings.cstm_footer_bg_color}};
 }
-.announcement-bar *{
-  color:{{section.settings.announcementbar_text_color}};
+.cstm_footer-bar *{
+  color:{{section.settings.cstm_footer_text_color}};
 }
 
 {%endstyle%}
@@ -135,14 +132,7 @@
   "settings":[
     {
       "type": "header",
-      "content": "Announcement Bar"
-    },
-    {
-      "type": "checkbox",
-      "id": "announcement_check",
-      "label": "Show announcement",
-      "default": true,
-      "info": "Check if you want to show annoucemment bar"
+      "content": "Footer Settings"
     },
     {
       "type": "header",
