@@ -107,7 +107,9 @@
   .row.cstm-img-with-text{
   	flex-direction:column;
   }
-
+  .iwt3Left{
+  padding:2rem;
+  }
 }
 
 
