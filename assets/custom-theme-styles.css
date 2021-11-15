@@ -545,6 +545,7 @@ img.annoucement-bar-icon{
     background-color: #EAE9E5;
     width: 40%;
     border-radius: 10px;
+  	box-shadow:1px  1px 5px 1px lightgrey;
     transition: 0.3s ease-in-out;
 }
 .cstm-project-item:hover{
