@@ -24,7 +24,7 @@ Custom Theme Styles
 }
  .styled_btn [class^="btn__text"] {
 	 font-size: 16px;
-   	  font-weight:600;
+   	  font-weight:400;
 }
  .styled_btn .btn__text-dynamic, .styled_btn .btn__text-dynamic-inner {
     text-decoration:none;
