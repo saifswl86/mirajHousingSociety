@@ -118,11 +118,11 @@
   }
  button.slick-prev.cstm-prev-icon.slick-arrow{
   	transform:translateY(330px);
-    left:5%;
+    left:4%;
   }
   button.slick-next.cstm-next-icon.slick-arrow{
   	transform:translateY(330px);
-    left:9%;
+    left:8%;
   }
   button.slick-next.cstm-next-icon.slick-arrow:hover, button.slick-prev.cstm-prev-icon.slick-arrow:hover{
   	    transform: translateY(330px) scale(1.1);
