@@ -580,7 +580,7 @@ img.annoucement-bar-icon{
     font-size: 16px;
     letter-spacing:2.5px;
     padding: 0px 5px;
-    transition:0.1s ease-in-out;
+/*     transition:0.1s ease-in-out; */
   }
 .cstm-project-item-text .btn_link{
     text-decoration: none;
@@ -693,7 +693,7 @@ STYLES FOR : Amenities
     justify-content: center;
 }
 .Amenities_item_image{
-    flex:0.53;
+    flex:0.6;
 }
 .cstm-next-icon{
     position: absolute;
