@@ -15,6 +15,7 @@ Custom Theme Styles
   }
   .icon-with-text {
     order:2;
+    padding-top:3px;
   }
   .announce-sm-icons{
     order:3;
@@ -29,7 +30,7 @@ Custom Theme Styles
     height: 15px;
   }
 .icon-with-text-item{
-    padding: 3px 12px 0px 12px;
+    padding: 0px 12px 0px 12px;
     align-items: center;
     margin-left: 25px;
     
