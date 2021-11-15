@@ -104,6 +104,9 @@
     height:325px;
     object-fit:cover;
   }
+  .row.cstm-img-with-text{
+  	flex-direction:column;
+  }
 
 }
 
