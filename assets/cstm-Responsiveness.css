@@ -33,7 +33,9 @@
   div.banner-overlay-tagline::after{
   	top:70px;
   }
-  
+  .res{
+  	padding:3rem;
+  }
 }
 
 
