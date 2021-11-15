@@ -48,11 +48,11 @@ Custom Theme Styles
 }
  .styled_btn:hover .btn__text-dynamic {
 	 transform: translateX(-101%);
-   text-decoration:none;
+     text-decoration:none;
 }
  .styled_btn:hover .btn__text-dynamic-inner {
 	 transform: translateX(100%);
-   text-decoration:none
+     text-decoration:none
 }
 
  
