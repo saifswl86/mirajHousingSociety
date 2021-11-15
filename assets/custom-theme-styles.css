@@ -135,6 +135,9 @@ img.annoucement-bar-icon{
   .icon-with-text-item.\31 .d-flex{
   	padding-left:26px;
   }
+  .icon-with-text-item.\32 .d-flex{
+  	padding-left:4px;
+  }
 .announcement-bar-icon-text{
     text-align: left;
     font: 500 16px Raleway;
