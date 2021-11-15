@@ -66,6 +66,7 @@ a.styled_btn.btn--animation-from-right:hover{
     position: relative;
     left: 50%;
     transform: translateX(-50%);
+  	margin-top:25px;
 }
 
  
