@@ -2,7 +2,7 @@
         <div class="row cstm-img-with-text">
           {%if section.settings.imgOnLeft==true%}
           	{%if section.blocks!=blank%}
-              <div class="col-12 col-md-4">
+              <div class="col-12 col-lg-4">
                   <div class="cstm-iwt-text-img "> 
                     {%for block in section.blocks%}
                       {%if block.settings.image!=blank%}
@@ -14,7 +14,7 @@
 		  	{%endif%}
           {%endif%}
           {%if section.settings.title!=blank or section.settings.desc!=blank %}
-            <div class="col-12 col-md-8">
+            <div class="col-12 col-lg-8">
                 <div class="cstm-iwt-text {%if section.settings.imgOnLeft==true%} iwt3Left{%endif%}" style="background-color:{{section.settings.bgColor}}">
                   	{%if section.settings.title!=blank%}
                       <div class="cstm-iwt-text-heading">
