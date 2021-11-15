@@ -69,12 +69,12 @@
   	padding:5rem 3rem;
   }
   button.slick-prev.cstm-prev-icon.slick-arrow{
-  	transform:translateY(485px);
-    left:8%;
+  	transform:translateY(440px);
+    left:4%;
   }
   button.slick-next.cstm-next-icon.slick-arrow{
   	transform:translateY(485px);
-    left:14%;
+    left:10%;
   }
   button.slick-next.cstm-next-icon.slick-arrow:hover, button.slick-prev.cstm-prev-icon.slick-arrow:hover{
   	    transform: translateY(485px) scale(1.1);
