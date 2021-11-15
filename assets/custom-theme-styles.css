@@ -739,7 +739,7 @@ button.slick-next.cstm-next-icon.slick-arrow:before{
     color: #2B2B2B;
     letter-spacing: 2.4px;
     font-size: 16px;
-    font-weight: normal;
+    font-weight: 300;
   	line-height:1.25;
 }
 .Amenities_title-text{
