@@ -27,7 +27,10 @@
   div.banner-overlay-title{
   	left:22%;
   }
- 
+  .banner-overlay-tagline-text{
+  	fonts-size:21px;
+  }
+  
 }
 
 
