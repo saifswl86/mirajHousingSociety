@@ -4,7 +4,7 @@
     {%if section.settings.announcement_text_check==true%}
       {%if section.settings.announcement_Text!=blank%}
           {%if section.settings.announcement_link!=blank%}
-            <a href="section.settings.announcement-bar-link">
+            <a href="{{section.settings.announcement_link}}">
           {%endif%}
               <p>{{section.settings.announcement_Text}}</p>
           {%if section.settings.announcement_link!=blank%}
