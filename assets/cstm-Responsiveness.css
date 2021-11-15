@@ -151,6 +151,7 @@
   .announce-sm-icons{
   	padding-right:10px;
   }
+
   .Image_with_text-Image-Slider-Area .slick-list.draggable{
   	padding:0px 50px!important;
   }
@@ -166,6 +167,12 @@
 }
 
 @media screen and (max-width:375px){
+    button.slick-prev.cstm-prev-icon.slick-arrow{
+  	left:4%;
+    }
+  button.slick-prev.cstm-prev-icon.slick-arrow{
+  	transform:translateY(380px)
+  }
   .Image_with_text-Image-Slider-Area .slick-list.draggable{
   	padding:0px 55px!important;
   }
