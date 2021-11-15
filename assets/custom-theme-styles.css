@@ -1584,6 +1584,7 @@ button.slick-prev.ann-cstm-prev-icon.slick-arrow::before,button.slick-next.ann-c
   }
   footer .announcement_Text p{
   	font-size:11px;
+    letter-spacing:1px;
   }
   footer img.annoucement-bar-icon{
     width:20px;
