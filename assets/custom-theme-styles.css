@@ -694,6 +694,7 @@ STYLES FOR : Amenities
 }
 .Amenities_item_image{
     flex:0.6;
+  	justify-self:flex-end;
 }
 .cstm-next-icon{
     position: absolute;
