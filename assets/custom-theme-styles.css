@@ -1569,7 +1569,10 @@ button.slick-prev.ann-cstm-prev-icon.slick-arrow::before,button.slick-next.ann-c
   
   
   
-  
+  footer .announcement_Text.col-7 {
+    display: flex;
+    align-items: center;
+}
   #shopify-section-template--15117797916860__163540502488940eb4 .video-section{
   	padding:0rem 10rem;
   }
