@@ -1576,6 +1576,9 @@ button.slick-prev.ann-cstm-prev-icon.slick-arrow::before,button.slick-next.ann-c
   footer .icon-with-text-item p{
   	font-size:13px;
   }
+  footer .announcement-bar.row{
+  	padding-bottom:0px;
+  }
   #shopify-section-template--15117797916860__163540502488940eb4 .video-section{
   	padding:0rem 10rem;
   }
