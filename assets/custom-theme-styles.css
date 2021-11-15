@@ -3,6 +3,62 @@
 Custom Theme Styles 
 ==========================================================================
 */
+
+
+
+/*
+	Button Styles
+*/
+
+
+
+ .styled_btn {
+	 padding: 10px 20px;
+	 position: relative;
+	 border: 2px solid #222;
+	 color: #fff;
+	 background-color: #222;
+	 position: relative;
+	 overflow: hidden;
+	 cursor: pointer;
+	 text-transform: uppercase;
+	 font-family: monospace;
+	 letter-spacing: -1px;
+}
+ .styled_btn [class^="btn__text"] {
+	 font-size: 24px;
+}
+ .styled_btn .btn__text-dynamic, .styled_btn .btn__text-dynamic-inner {
+	 display: flex;
+	 justify-content: center;
+	 align-items: center;
+	 position: absolute;
+	 top: 0;
+	 left: 0;
+	 right: 0;
+	 bottom: 0;
+	 z-index: 2;
+	 transition: all ease 0.5s;
+}
+ .styled_btn .btn__text-dynamic {
+	 background-color: #fff;
+	 color: #222;
+	 overflow: hidden;
+}
+ .styled_btn:hover .btn__text-dynamic {
+	 transform: translateX(-100%);
+}
+ .styled_btn:hover .btn__text-dynamic-inner {
+	 transform: translateX(100%);
+}
+
+ 
+
+/*
+==========================================================================
+Announcement Bar
+==========================================================================
+*/
 .announcement-bar {
     --bs-gutter-x: 0px;
     border: 0px;
