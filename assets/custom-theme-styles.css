@@ -1582,6 +1582,10 @@ button.slick-prev.ann-cstm-prev-icon.slick-arrow::before,button.slick-next.ann-c
   footer .icon-with-text{
   	padding-top:0px;
   }
+  footer img.annoucement-bar-icon{
+    width:20px;
+    height:20px;
+  }
   #shopify-section-template--15117797916860__163540502488940eb4 .video-section{
   	padding:0rem 10rem;
   }
