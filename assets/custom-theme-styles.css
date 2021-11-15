@@ -700,7 +700,7 @@ STYLES FOR : Amenities
     left: -100rem;
 }
 button.slick-prev.cstm-prev-icon.slick-arrow{
-    left: 4%;
+    left: 7%;
 /*     top: 92%; */
     transform:translateY(230px); 
     z-index: 1;
@@ -709,7 +709,7 @@ button.slick-prev.cstm-prev-icon.slick-arrow{
 }
   
 button.slick-next.cstm-next-icon.slick-arrow{
-    left: 7%;
+    left: 10%;
 /*     top:   92%; */
   	transform:translateY(230px);
     /* bottom:10%; */
