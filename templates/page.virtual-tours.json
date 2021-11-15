@@ -6,8 +6,8 @@
         "banner-section-content": "half_width_image",
         "overlay_check": true,
         "tagline_banner": "A project by Miraj Housing Scheme",
-        "banner-overlay-image_check": true,
-        "banner-overlay-heading": "",
+        "banner-overlay-image_check": false,
+        "banner-overlay-heading": "Virtual Tours",
         "banner-overlay_image": "shopify:\/\/shop_images\/LOGO_2x_e978eb8f-dc11-4ea9-8c04-4559fccf9d35.png",
         "half_background_image": "shopify:\/\/shop_images\/villa-house-model-key-drawing-retro-desktop-real-estate-sale-concept_2x_e8d70101-34b6-493a-aa77-1e29fb64c3a9.png",
         "banner_video": ""
@@ -42,7 +42,7 @@
       ],
       "settings": {
         "isImageOnLeftSide": false,
-        "bgColor": "#E6E5E2",
+        "bgColor": "#e6e5e2",
         "title": "Take a virtual tour of our Model Houses",
         "description": "",
         "button_text": "Lets Get Started",
@@ -114,7 +114,7 @@
       ],
       "settings": {
         "isImageOnLeftSide": false,
-        "bgColor": "#E6E5E2",
+        "bgColor": "#e6e5e2",
         "title": "Take a virtual tour of our Farm Houses",
         "description": "",
         "button_text": "Lets Get Started",
