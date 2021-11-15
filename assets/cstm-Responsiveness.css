@@ -120,6 +120,9 @@
   	height:325px;
     object-fit:cover;
   }
+  .icon-with-text-item.\31 .d-flex {
+  	padding-left:0px;
+  }
   
 }
 
