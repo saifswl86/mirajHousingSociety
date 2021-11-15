@@ -20,7 +20,6 @@ Custom Theme Styles
 	 overflow: hidden;
 	 cursor: pointer;
 	 text-transform: uppercase;
-	 letter-spacing: -1px;
    	 width:max-content;
 }
  .styled_btn [class^="btn__text"] {
