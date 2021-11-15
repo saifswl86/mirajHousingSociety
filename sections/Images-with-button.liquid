@@ -8,7 +8,13 @@
   {%endif%}
   		{%if section.settings.btn_text!=blank%}
           <div class="iwb_button">
-              <a href="{{section.settings.btn_link}}">{{section.settings.btn_text}}</a>
+ 			 <a href="{{section.settings.btn_link}}" class="styled_btn btn--animation-from-right">
+                <span class="btn__text-static">{{section.settings.btn_text}}</span>
+                <div class="btn__text-dynamic">
+                  <span class="btn__text-dynamic-inner">{{section.settings.btn_text}}</span>
+                </div>
+              </a>          
+             {%comment%} <a href="{{section.settings.btn_link}}">{{section.settings.btn_text}}</a>{%endcomment%}
           </div>
   		{%endif%}
 </div>
