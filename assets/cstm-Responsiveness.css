@@ -30,6 +30,9 @@
   .banner-overlay-tagline-text{
   	fonts-size:21px;
   }
+  div.banner-overlay-tagline::after{
+  	top:70px;
+  }
   
 }
 
