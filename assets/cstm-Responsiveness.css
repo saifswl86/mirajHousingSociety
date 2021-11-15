@@ -171,6 +171,9 @@
   	left:4%;
     }
   button.slick-prev.cstm-prev-icon.slick-arrow{
+  	left:15%;
+  }
+  button.slick-prev.cstm-prev-icon.slick-arrow,button.slick-next.cstm-next-icon.slick-arrow{
   	transform:translateY(380px)
   }
   .Image_with_text-Image-Slider-Area .slick-list.draggable{
