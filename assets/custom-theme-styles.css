@@ -51,6 +51,14 @@ img.annoucement-bar-icon{
     width: 21px;
     height: 21px;
 }
+  img.annoucement-bar-icon.\31 {
+    width: 19
+px
+;
+    height: 19
+px
+;
+}
 .announcement-bar-icon-text{
     text-align: left;
     font: 500 16px Raleway;
