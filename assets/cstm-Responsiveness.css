@@ -117,18 +117,18 @@
   	padding:5rem 1rem 5rem 5rem;
   }
  button.slick-prev.cstm-prev-icon.slick-arrow{
-  	transform:translateY(400px);
-    left:9%;
+  	transform:translateY(330px);
+    left:5%;
   }
   button.slick-next.cstm-next-icon.slick-arrow{
-  	transform:translateY(400px);
-    left:18%;
+  	transform:translateY(330px);
+    left:9%;
   }
   button.slick-next.cstm-next-icon.slick-arrow:hover, button.slick-prev.cstm-prev-icon.slick-arrow:hover{
-  	    transform: translateY(400px) scale(1.1);
+  	    transform: translateY(330px) scale(1.1);
   }
   button.slick-next.cstm-next-icon.slick-arrow:hover, button.slick-prev.cstm-prev-icon.slick-arrow:hover{
-  	  	    transform: translateY(400px) scale(1.1);
+  	  	    transform: translateY(330px) scale(1.1);
 
   }
   .Amenities_item_image img{
