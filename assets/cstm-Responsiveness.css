@@ -95,7 +95,10 @@
   .cstm-blogs-item {
   	margin:1rem 5rem;
   }
-
+  .res{
+  	display:flex;
+    flex-direction:column-reverse;
+  }
 
 }
 
