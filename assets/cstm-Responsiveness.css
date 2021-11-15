@@ -17,14 +17,15 @@
   button.slick-next.cstm-next-icon.slick-arrow{
   	left:6%;
     transform: translateY(210px);
-
-
   }
   .cstm-blogs{
   	padding:0rem 5rem;
   }
   .Amenities_item_about{
   	padding:10rem 3rem;
+  }
+  div.banner-overlay-title{
+  	left:22%;
   }
  
 }
