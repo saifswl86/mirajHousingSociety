@@ -92,6 +92,7 @@ Announcement Bar
   .icon-with-text {
     order:2;
     padding-top:3px;
+    margin-left:-3px;
   }
   .announce-sm-icons{
     order:3;
