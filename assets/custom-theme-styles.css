@@ -68,6 +68,9 @@ a.styled_btn.btn--animation-from-right:hover{
     transform: translateX(-50%);
   	margin-top:25px;
 }
+.images_with_button .styled_btn .btn__text-dynamic{
+	background:#fff;
+}
 
  
 
