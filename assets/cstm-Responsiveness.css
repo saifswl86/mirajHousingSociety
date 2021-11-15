@@ -113,6 +113,9 @@
   .images_with_button, .img-with-text, .res{
   	padding:0rem 5rem;
   }
+  .header__heading, .header__heading-link{
+  	transform:translateX(200%)
+  }
   .cstm-iwt-text-img img{
   	height:325px;
     object-fit:cover;
