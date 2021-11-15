@@ -1582,6 +1582,9 @@ button.slick-prev.ann-cstm-prev-icon.slick-arrow::before,button.slick-next.ann-c
   footer .icon-with-text{
   	padding-top:0px;
   }
+  footer .announcement_Text p{
+  	font-size:11px;
+  }
   footer img.annoucement-bar-icon{
     width:20px;
     height:20px;
