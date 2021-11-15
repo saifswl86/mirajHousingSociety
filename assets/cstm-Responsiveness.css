@@ -33,9 +33,10 @@
   div.banner-overlay-tagline::after{
   	top:70px;
   }
-  .res{
+  .res,.images_with_button,.img-with-text{
   	padding:5rem;
   }
+  
 }
 
 
