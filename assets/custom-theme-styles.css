@@ -731,6 +731,7 @@ button.slick-next.cstm-next-icon.slick-arrow:before{
 .AmenitiesTitle h1{
     letter-spacing: 2.1px;
     color:#2B2B2B;
+  	font-size:30px;
     margin: 10px 0px;
     font-weight: normal;
 }
