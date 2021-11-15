@@ -34,12 +34,12 @@ div.banner-overlay-tagline{
 div.banner-overlay-tagline::after{
 	content: '';
     width: 100%;
-  
-    background: grey;
-    height: 1.5px;
+    background: #000;
+    height: 1px;
     position: absolute;
     bottom: 0px;
     right: 0px;
+  	top:80px;
 }
 /* p.banner-overlay-tagline-text{
 	margin:0px;
