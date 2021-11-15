@@ -62,7 +62,11 @@ a.styled_btn.btn--animation-from-right:hover{
   	font-weight:600;
   	
 }
-
+.images_with_button .styled_btn{
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+}
 
  
 
