@@ -437,8 +437,8 @@ img.annoucement-bar-icon{
 }
 .cstm-desc{
 	font-size:18px;
-	font-weight:200;
-	margin-bottom:300;
+	font-weight:300;
+/* 	margin-bottom:300; */
 	letter-spacing: 1px;
 	line-height: 1.4;
 	color: #2B2B2B;	
