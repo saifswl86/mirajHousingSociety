@@ -33,8 +33,11 @@
   div.banner-overlay-tagline::after{
   	top:70px;
   }
-  .res,.images_with_button,.img-with-text,#shopify-section-template--15117797916860__163540502488940eb4 .video-section{
+  .res,.images_with_button,.img-with-text{
   	padding:5rem;
+  }
+  #shopify-section-template--15117797916860__163540502488940eb4 .video-section{
+  	padding:3rem 5rem;
   }
   
 }
