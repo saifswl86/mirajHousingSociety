@@ -686,8 +686,7 @@ STYLES FOR : Amenities
 }
 .Amenities_item_about{
     flex:0.4;
-    padding:6rem 0rem;
-    padding-left: 6rem;
+    padding:10rem;
     display: flex;
     flex-direction: column;
     justify-content: center;
