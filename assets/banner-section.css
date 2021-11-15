@@ -29,6 +29,8 @@ div.banner-overlay-tagline{
     font-size: 30px;
   	letter-spacing:2.6px;
     left: -140px;
+  	color:#000;
+  	font-weight:300;
     transform: rotate(270deg);
 }
 div.banner-overlay-tagline::after{
