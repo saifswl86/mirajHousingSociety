@@ -14,7 +14,8 @@ Custom Theme Styles
      text-decoration:none;
 	 position: relative;
 	 border: 2px solid #2b2b2b;
-	 color: #fff;
+	 color: #fff;  	letter-spacing:1.6px;
+
 	 background-color: #000;
 	 position: relative;
 	 overflow: hidden;
@@ -42,22 +43,28 @@ Custom Theme Styles
 }
  .styled_btn .btn__text-dynamic {
 	 background-color: #fff;
-	 color: #222;
+	 color: #222;  	letter-spacing:1.6px;
+
      text-decoration:none;
 	 overflow: hidden;
 }
  .styled_btn:hover .btn__text-dynamic {
 	 transform: translateX(-101%);
      text-decoration:none;
-     color:#fff;
+     color:#fff;  	letter-spacing:1.6px;
+
 }
  .styled_btn:hover .btn__text-dynamic-inner {
 	 transform: translateX(100%);
      text-decoration:none;
-   	color:#2b2b2b;
+   	color:#2b2b2b;  	letter-spacing:1.6px;
+
 }
 a.styled_btn.btn--animation-from-right:hover{
-	color:#fff
+	color:#fff;
+  	font-size:16px;
+  	font-weight:600;
+  	letter-spacing:1.6px;
 }
 
 
