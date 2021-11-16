@@ -138,6 +138,12 @@
   .cstm-iwt-text{
   	padding:3rem;
   }
+  .row.cstm-img-with-text {
+  	flex-direction:column-reverse;
+  }
+  .row.cstm-img-with-text .col-12{
+  	margin:15px 0px;
+  }
 }
 
 
