@@ -8,10 +8,9 @@
     {%endif%}
   </div>
   <div class="icon-with-text col-3 d-flex justify-content-lg-center align-items-center"> 
-    
       {%if section.blocks!=blank%}
             {%for block in section.blocks%}
-                <div class="icon-with-text-item d-flex">
+                <div class="icon-with-text-item d-flex {{forloop.index}}">
                     {%if block.settings.announcement_bar_icon_link!=blank%}
                       <a class="d-flex announcement-bar-icon-text justify-content-between align-items-center" href="{{block.settings.announcement_bar_icon_link}}">
                     {%endif%}
