@@ -116,6 +116,9 @@
   .header__heading, .header__heading-link{
   	transform:translateX(115%)
   }
+  .banner-section img{
+  	width:30%;
+  }
   .cstm-iwt-text-img img{
   	height:325px;
     object-fit:cover;
