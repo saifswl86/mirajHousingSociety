@@ -51,8 +51,11 @@
 
 
 @media screen and (max-width:768px)
-{
- 
+
+  {
+    .icon-with-text-item{
+    	width:max-content;
+    }
   .Image_with_text-Image-Slider-Area .slick-list.draggable{
   	padding:0px 140px!important;
   }
