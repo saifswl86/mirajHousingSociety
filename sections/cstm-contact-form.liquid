@@ -25,7 +25,12 @@
                             <label for="cstm_message">Message</label>
                             <textarea rows="5" placeholder="Type here" id="cstm_message" required name="contact[body]"></textarea>
                         </div>
-                        <button type="submit" class="contactForm_btn">Send</button>
+                        <button type="submit" class="styled_btn btn--animation-from-right">
+                            <span class="btn__text-static">Send</span>
+                            <div class="btn__text-dynamic">
+                              <span class="btn__text-dynamic-inner">Send</span>
+                            </div>
+              			</button>
                     {%endform%}
                 </div>
             </div>
