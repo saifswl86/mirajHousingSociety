@@ -42,6 +42,14 @@
                 <a{% if block.settings.button_link != blank %} href="{{ block.settings.button_link }}"{% endif %} class="cstm-btn" {%if block.settings.button_link == blank %} aria-disabled="true"{% endif %} {{ block.shopify_attributes }}>
                   {{ block.settings.button_label | escape }}
                 </a>
+        
+        		<a href="{{section.settings.button_link}}" class="styled_btn btn--animation-from-right">
+                <span class="btn__text-static">{{block.settings.button_text}}</span>
+                <div class="btn__text-dynamic">
+                  <span class="btn__text-dynamic-inner">{{block.settings.button_label}}</span>
+                </div>
+              </a>
+              
               {%- endif -%}
           {%- endcase -%}
         {%- endfor -%}
