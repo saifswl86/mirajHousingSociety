@@ -780,6 +780,9 @@ button.slick-next.cstm-next-icon.slick-arrow:before{
     color: #2b2b2b;
     text-align: center;
     padding: 1.5rem 0rem;
+  	padding-bottom:2.5rem;
+  	letter-spacing:4.6px;
+  	
 }
 .education-desc {
     max-height: 320px;
