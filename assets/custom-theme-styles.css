@@ -1139,6 +1139,9 @@ STYLES FOR : Custom Contact Form
   	padding-left:auto;
   }
 }
+  .cstm-iwt-text-img button.slick-arrow{
+  	display:none;
+  }
   /*
 ==========================================================================
 	Theme Styles For| Text with Image style 4
