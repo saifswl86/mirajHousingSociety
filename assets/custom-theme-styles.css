@@ -23,9 +23,9 @@ Custom Theme Styles
    	 width:max-content;
 }
  .styled_btn [class^="btn__text"] {
-	  font-size: 16px;
-   	  font-weight:400;
-   	  letter-spacing:1.2px;
+	  font-size: 18px;
+   	  font-weight:600;
+   	  letter-spacing:0.9px;
 }
  .styled_btn .btn__text-dynamic, .styled_btn .btn__text-dynamic-inner {
     text-decoration:none;
