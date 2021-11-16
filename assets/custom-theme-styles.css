@@ -1140,7 +1140,10 @@ STYLES FOR : Custom Contact Form
   }
 }
   .cstm-iwt-text-img button.slick-arrow{
-  	display:none;
+  	visibility:hidden;
+  }
+  .cstm-iwt-text-img:hover button.slick-arrow{
+  	visibility:visible;
   }
   /*
 ==========================================================================
