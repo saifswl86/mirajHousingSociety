@@ -623,7 +623,7 @@ img.annoucement-bar-icon{
     font-weight: 400;
   	font-size:22px;
     padding:0px;
-    
+    letter-spacing:2.8px;
 }
 .cstm-project-item-text a:hover{
     color: #2b2b2b;
