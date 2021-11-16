@@ -39,10 +39,11 @@
               <div class=" rte" {{ block.shopify_attributes }}>{{ block.settings.text }}</div>
             {%- when 'button' -%}
               {%- if block.settings.button_label != blank -%}
-                <a{% if block.settings.button_link != blank %} href="{{ block.settings.button_link }}"{% endif %} class="cstm-btn" {%if block.settings.button_link == blank %} aria-disabled="true"{% endif %} {{ block.shopify_attributes }}>
+                {%comment%}
+        		<a{% if block.settings.button_link != blank %} href="{{ block.settings.button_link }}"{% endif %} class="cstm-btn" {%if block.settings.button_link == blank %} aria-disabled="true"{% endif %} {{ block.shopify_attributes }}>
                   {{ block.settings.button_label | escape }}
                 </a>
-        
+        		{%endcomment%}
         		<a href="{{block.settings.button_link}}" class="styled_btn btn--animation-from-right">
                 <span class="btn__text-static">{{block.settings.button_label}}</span>
                 <div class="btn__text-dynamic">
