@@ -116,7 +116,7 @@
   .header__heading, .header__heading-link{
   	transform:translateX(115%)
   }
-  .banner-section img{
+  img.banner-overlay-title_image{
   	width:30%;
   }
   .cstm-iwt-text-img img{
