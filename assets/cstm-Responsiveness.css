@@ -123,6 +123,9 @@
   	height:325px;
     object-fit:cover;
   }
+  .cstm-iwt-text-img .iwt3-cstm-prev-icon img{
+  	height:20px;
+  }
   .icon-with-text-item.\31 .d-flex {
   	padding-left:0px;
   }
