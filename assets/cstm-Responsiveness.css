@@ -138,8 +138,12 @@
   .cstm-iwt-text{
   	padding:3rem;
   }
+  
   .row.cstm-img-with-text {
   	flex-direction:column-reverse;
+  }
+  #shopify-section-template--15117788184764__163631023895bb4fd1 .row.cstm-img-with-text{
+  	flex-direction:column;
   }
   .row.cstm-img-with-text .col-12{
   	margin:10px 0px;
