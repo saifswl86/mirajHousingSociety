@@ -25,7 +25,15 @@
 @media screen and (min-width: 750px) {
   
 }
+@media screen and (max-width:768px){
+.image-with-text__grid--reverse {
+    flex-direction: column;
+  }
+  .grid--2-col-tablet .grid__item{
+    width:100%!important;
 
+  }
+}
 .image-with-text__media {
   background-color: transparent;
   min-height: 100%;
