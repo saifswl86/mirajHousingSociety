@@ -151,6 +151,9 @@
   .iwt4-text {
     padding:1rem 3rem;
   }
+  .iwt4-text-heading h1 {
+  font-size:24px;  
+  }
 }
 
 
