@@ -145,7 +145,7 @@
   .row.cstm-img-with-text {
   	flex-direction:column-reverse;
   }
-  #shopify-section-template--15117788184764__163631023895bb4fd1 .row.cstm-img-with-text{
+  #shopify-section-template--15117788184764__163631023895bb4fd1 .row.cstm-img-with-text, #shopify-section-template--15117802176700__16363117973411b4fd .row.cstm-img-with-text{
   	flex-direction:column;
   }
   .row.cstm-img-with-text .col-12{
