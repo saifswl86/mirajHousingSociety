@@ -877,12 +877,12 @@ STYLES FOR : Custom Blogs
   .cstm-blogs-item-text a:hover{
   	font-weight:600; 
   }
-.cstm-blogs-item-text a span {
+/* .cstm-blogs-item-text a span {
     font-weight: 300;
-}
+} */
 
   .cstm-blogs-item-text span{
-    font-weight: 300;
+    font-weight: 400;
   	font-size:22px;
     color:#2b2b2b;
     padding:0px;
