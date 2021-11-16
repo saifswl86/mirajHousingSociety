@@ -109,8 +109,8 @@ Announcement Bar
 .icon-with-text-item{
     padding: 0px 12px 0px 12px;
     align-items: center;
-    margin-left: 18px;
-    width:170px;
+    margin-left: 26px;
+    width:192px;
 }
 /* .icon-with-text-item{
     width: 20px;
@@ -135,7 +135,7 @@ img.annoucement-bar-icon{
     height: 18px;
 }
   .icon-with-text-item.\31 .d-flex{
-  	padding-left:26px;
+  	padding-left:32px;
   }
   .icon-with-text-item.\32 .d-flex{
   	padding-left:4px;
