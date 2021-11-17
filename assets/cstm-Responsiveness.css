@@ -54,7 +54,10 @@
   .Image_with_text-Image-Slider-Area.iwt-slider.slick-initialized.slick-slider .slick-list.draggable{
   	padding:0px 150px!important;
   }
-
+    .iwt-slide-img{
+    	width:280px;
+    }
+    height:280px;
   .Amenities_item{
   	flex-direction:column-reverse;
   }
