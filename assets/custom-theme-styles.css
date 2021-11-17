@@ -1094,11 +1094,11 @@ STYLES FOR : Custom Contact Form
     letter-spacing: 4.2px;
 }
 .cstm-iwt-text-desc p {
-    letter-spacing: 2.8px;
+    letter-spacing: 2px;
     font-size: 20px;
     color: #2b2b2b;
     font-weight: 300;
-    line-height: 1.2;
+    line-height: 1.15;
 }
 .cstm-iwt-text-img .slick-dots{
     bottom: 10px;
