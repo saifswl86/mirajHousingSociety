@@ -82,18 +82,18 @@
     padding-top:3rem;
   }
   button.slick-prev.cstm-prev-icon.slick-arrow{
-  	transform:translateY(340px);
+  	transform:translateY(310px);
     left:6%;
   }
   button.slick-next.cstm-next-icon.slick-arrow{
-  	transform:translateY(340px);
+  	transform:translateY(310px);
     left:11%;
   }
   button.slick-next.cstm-next-icon.slick-arrow:hover, button.slick-prev.cstm-prev-icon.slick-arrow:hover{
-  	    transform: translateY(340px) scale(1.1);
+  	    transform: translateY(310px) scale(1.1);
   }
   button.slick-next.cstm-next-icon.slick-arrow:hover, button.slick-prev.cstm-prev-icon.slick-arrow:hover{
-  	  	    transform: translateY(340px) scale(1.1);
+  	  	    transform: translateY(310px) scale(1.1);
 
   }
    .blogs-list{
