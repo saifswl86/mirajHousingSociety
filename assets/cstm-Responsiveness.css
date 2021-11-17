@@ -204,6 +204,10 @@
   .Amenities_item_about{
   	padding:2rem 1rem 3rem 2rem;
   }
+  .Amenities_item_about{
+  	padding:5rem;
+  }
+  
  button.slick-prev.cstm-prev-icon.slick-arrow{
   	transform:translateY(355px);
     left:8%;
