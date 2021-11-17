@@ -284,7 +284,8 @@ img.annoucement-bar-icon{
     order: 3;
   }
   footer .announcement_Text {
-  	order:1
+  	order:1;
+    padding-left:3rem;
   }
  
   .header{
