@@ -1,11 +1,11 @@
 <footer>
 <div class="announcement-bar row">
-  <div class="announcement_Text col-7 ">
+  <div class="announcement_Text col-6 col-lg-7 ">
       {%if section.settings.announcement_Text!=blank%}
     	<p>{{section.settings.announcement_Text}}</p>
       {%endif%}
   </div>
-  <div class="icon-with-text col-3 d-flex justify-content-lg-center align-items-center"> 
+  <div class="icon-with-text col-4 col-lg-3 d-flex justify-content-lg-center align-items-center"> 
       {%if section.blocks!=blank%}
             {%for block in section.blocks%}
                 <div class="icon-with-text-item d-flex {{forloop.index}}">
