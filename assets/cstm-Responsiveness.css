@@ -209,7 +209,7 @@
     padding-top:3rem;
   }
   footer .announcement_Text{
-  	padding-left:0rem;
+  	padding-left:1rem;
   }
  button.slick-prev.cstm-prev-icon.slick-arrow{
   	transform:translateY(355px);
