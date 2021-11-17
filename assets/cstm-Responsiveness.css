@@ -153,6 +153,9 @@
     .Amenities_item{
     	flex-direction:column-reverse;
     }  
+    .Amenities_item_image img{
+    	max-height:370px;
+    }
     
     
 }
