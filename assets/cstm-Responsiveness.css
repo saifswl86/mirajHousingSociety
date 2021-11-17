@@ -149,12 +149,8 @@
   }
   .image-with-text{
   	padding:3rem;
-  }
-    
-    
-    
-    
-    .Amenities_itemp{
+  } 
+    .Amenities_item{
     	flex-direction:column-reverse;
     }  
     
