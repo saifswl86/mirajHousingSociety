@@ -1,11 +1,9 @@
 <footer>
 <div class="announcement-bar row">
   <div class="announcement_Text col-7 ">
-    {%if section.settings.announcement_text_check==true%}
       {%if section.settings.announcement_Text!=blank%}
     	<p>{{section.settings.announcement_Text}}</p>
       {%endif%}
-    {%endif%}
   </div>
   <div class="icon-with-text col-3 d-flex justify-content-lg-center align-items-center"> 
       {%if section.blocks!=blank%}
@@ -128,31 +126,19 @@
   "settings":[
     {
       "type": "header",
-      "content": "Announcement Bar"
-    },
-    {
-      "type": "checkbox",
-      "id": "announcement_check",
-      "label": "Show announcement",
-      "default": true,
-      "info": "Check if you want to show annoucemment bar"
-    },
-    {
-      "type": "header",
-      "content": "Announcement Bar Details"
+      "content": "Footer Settings"
     },
     {
       "type": "checkbox",
       "id": "announcement_text_check",
-      "label": "Show announcement Text",
+      "label": "Footer Text",
       "default": false,
       "info": "Check if you want to show annoucemment bar text"
     },
     {
       "type": "text",
       "id": "announcement_Text",
-      "label": "Announcement Text",
-      "info": "Add text for annoucement"
+      "label": "Footer Text"
     },
     {
       "type": "text",
