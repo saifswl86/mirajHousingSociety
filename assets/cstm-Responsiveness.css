@@ -62,10 +62,7 @@
   .Image_with_text-Image-Slider-Area .slick-list.draggable{
   	padding:0px 140px!important;
   }
-  .iwt-slide-img, .slick-active .iwt-slide .iwt-slide-img{
-    width: 300px;
-    object-fit: cover;
-  }
+
   .Amenities_item{
   	flex-direction:column-reverse;
   }
