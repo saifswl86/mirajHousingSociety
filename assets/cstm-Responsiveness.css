@@ -52,6 +52,9 @@
   .iwt_left .Image_with_text-textArea{
   	padding-right:0px;
   }
+  .Amenities_item_about{
+  padding-left:5rem;
+  }
 }
 @media screen and (max-width:768px)
 
@@ -76,7 +79,6 @@
   }
   .Amenities_item_about{
   	padding:5rem 3rem;
-    padding-left:5rem;
   }
   button.slick-prev.cstm-prev-icon.slick-arrow{
   	transform:translateY(340px);
