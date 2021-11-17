@@ -283,6 +283,9 @@ img.annoucement-bar-icon{
   .announcement_Text {
     order: 3;
   }
+  footer .announcement_Text {
+  	order:1
+  }
  
   .header{
     grid-template-columns: 2fr 1fr;
