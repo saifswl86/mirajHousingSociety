@@ -63,7 +63,9 @@ h2.banner-overlay-title_text {
 .banner_gif img{
 	width:100%;
 }
-
+.banner_full_image img{
+	width:100% !important;
+}
 @media screen and (max-width:1024px){
   .banner-overlay-tagline-text{
   	font-size:24px;
