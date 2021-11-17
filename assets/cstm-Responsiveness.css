@@ -241,6 +241,9 @@
   .cstm-blogs-item{
   	margin:1rem 0rem;
   }
+  .styled_btn [class^=btn__text] {
+  	font-size:14px;
+  }
 }
 
 
