@@ -274,9 +274,6 @@
   	padding:0px 50px!important;
   }
   
-  .header__heading, .header__heading-link {
-/*   	transform: translateX(40%); */
-  }
 }
 
 @media screen and (max-width:375px){
