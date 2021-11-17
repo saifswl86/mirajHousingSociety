@@ -413,4 +413,7 @@
   .iwt-slide-img {
   	height:170px;
   }
+  .styled_btn [class^=btn__text]{
+  	font-size:13px;
+  }
 }
