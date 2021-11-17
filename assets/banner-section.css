@@ -38,12 +38,12 @@ div.banner-overlay-tagline{
 div.banner-overlay-tagline::after{
 	content: '';
     width: 100%;
-    background: #2b2b2b;
+    background: #858584;
     height: 1px;
     position: absolute;
     bottom: 0px;
     right: 0px;
-  	top:83px;
+  	top:65px;
 }
 /* p.banner-overlay-tagline-text{
 	margin:0px;
