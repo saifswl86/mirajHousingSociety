@@ -371,10 +371,6 @@
     .Image_with_text-Image-Slider-Area{
     	width:80%;
     }
-    .slick-active .iwt-slide .iwt-slide-img, .iwt-slide-img{
-    	width:250px;
-      	height:auto;
-    }
     .slick-center { 
   	transform: scale(1.2,1.25) 
 	}
