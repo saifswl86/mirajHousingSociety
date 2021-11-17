@@ -208,7 +208,9 @@
   	padding:5rem;
     padding-top:3rem;
   }
-  
+  footer .announcement_Text{
+  	padding-left:0rem;
+  }
  button.slick-prev.cstm-prev-icon.slick-arrow{
   	transform:translateY(355px);
     left:8%;
