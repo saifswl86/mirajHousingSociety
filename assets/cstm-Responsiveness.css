@@ -176,7 +176,8 @@
     .cstm-project-item-img img{
     	height:200px;
     }
-    .cstm-project-item-text a {
+    .cstm-project-item-text a,.cstm-blogs-item-text a {
+ {
     	font-size:16px;  
     }
 }
