@@ -187,6 +187,9 @@
     height:320px;
     object-fit: cover;
     }
+    .testimonial_cmnt{
+    padding-top:6rem;
+    }
 }
 
 
