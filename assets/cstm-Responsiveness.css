@@ -43,7 +43,9 @@
   img.banner-overlay-title_image{
   	width:75%;
   }
-  
+   footer .icon-with-text,.icon-with-text-item.\31 .d-flex{
+    	padding-left:0px;
+    }
 }
 @media screen and (max-width:768px)
 
@@ -157,9 +159,7 @@
     .Amenities_item_image img{
     	max-height:370px;
     }
-    footer .icon-with-text,.icon-with-text-item.\31 .d-flex{
-    	padding-left:0px;
-    }
+   
     
 }
 
