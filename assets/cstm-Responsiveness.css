@@ -78,7 +78,6 @@
   	flex-direction:column-reverse;
   }
   .Amenities_item_about{
-  	padding:5rem 3rem;
   }
   button.slick-prev.cstm-prev-icon.slick-arrow{
   	transform:translateY(340px);
