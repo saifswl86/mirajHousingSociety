@@ -201,6 +201,8 @@ img.annoucement-bar-icon{
   }
   header.header.header--middle-left.page-width.header--has-menu{
     box-shadow: 4px 0 6px 1px #d3d3d3;
+    display:flex;
+    justify-content:space-between;
   }
 }
 .cstm-hero-section{
