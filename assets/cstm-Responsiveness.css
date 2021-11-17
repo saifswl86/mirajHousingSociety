@@ -9,7 +9,7 @@
   	padding:0px 86px!important;
   }
   button.slick-prev.cstm-prev-icon.slick-arrow:hover,button.slick-next.cstm-next-icon.slick-arrow:hover{
-  	transform:translateY(210px )scale(1.1);
+  	transform:translateY(225px )scale(1.1);
   }
   button.slick-prev.cstm-prev-icon.slick-arrow {
     left: 5%;
