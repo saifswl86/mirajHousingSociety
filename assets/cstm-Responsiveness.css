@@ -54,15 +54,15 @@
     	width:max-content;
     }
   .Image_with_text-Image-Slider-Area.iwt-slider.slick-initialized.slick-slider .slick-list.draggable{
-  	padding:0px 150px!important;
+  	padding:0px 170px!important;
   }
     .iwt-slide-img{
-    	width:280px;
+    	width:250px;
       	height:260px;
     }
     .slick-active .iwt-slide .iwt-slide-img {
     	height:300px;
-      	width:210px;
+      	width:270px;
     }
     height:280px;
   .Amenities_item{
