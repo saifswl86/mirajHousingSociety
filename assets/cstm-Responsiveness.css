@@ -299,11 +299,7 @@
       	transform:scale(1.2);
     }
   }
-  @media screen and (max-width:1080px){
-  .Image_with_text-Image-Slider-Area.iwt-slider.slick-initialized.slick-slider .slick-list.draggable{
-    	padding:0px 140px!important;
-    }
-  }
+  
  
 @media screen and (max-width: 980px) {
 	.Image_with_text{
@@ -396,6 +392,11 @@
 	.slick-active .iwt-slide .iwt-slide-img, .iwt-slide-img{
     	width:150px;
       	height:auto;
+    }
+  }
+@media screen and (max-width:1080px){
+  .Image_with_text-Image-Slider-Area.iwt-slider.slick-initialized.slick-slider .slick-list.draggable{
+    	padding:0px 140px!important;
     }
   }
   
