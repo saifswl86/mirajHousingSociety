@@ -323,7 +323,13 @@
 		margin-bottom:20px;
 	}
 }
-  @media screen and (min-width:1320px){
+@media screen and (max-width:1350px){
+  .iwt-slide-img{
+  	height:340px;
+  }
+
+}
+  @media screen and (min-width:1350px){
     .Image_with_text.container-fluid .slick-list.draggable{
     	padding:0px 185px;
     }
