@@ -117,10 +117,6 @@
   img.banner-overlay-title_image{
   	width:30%;
   }
-  .cstm-iwt-text-img img{
-  	height:325px;
-    object-fit:cover;
-  }
   .cstm-iwt-text-img .iwt3-cstm-prev-icon img,.cstm-iwt-text-img .iwt3-cstm-next-icon img{
   	height:20px;
   }
