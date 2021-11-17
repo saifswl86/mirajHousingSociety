@@ -1538,7 +1538,7 @@ button.slick-prev.ann-cstm-prev-icon.slick-arrow::before,button.slick-next.ann-c
     justify-content: space-evenly;
   }
   .res-iconItem img{
-    width: 45px;
+    width: 35px;
     transition:0.2s ease-in-out;
   }
   .res-iconItem:hover img{
