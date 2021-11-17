@@ -265,6 +265,10 @@
   	left:4%;
     transform:translateY(375px);
   }
+  button.slick-next.cstm-next-icon.slick-arrow{
+  	left:15%;
+    transform:translateY(375px);
+  }
   
   .Image_with_text-Image-Slider-Area .slick-list.draggable{
   	padding:0px 50px!important;
