@@ -398,8 +398,5 @@
     .Image_with_text {
     	padding:2rem;
     }
-	.slick-active .iwt-slide .iwt-slide-img, .iwt-slide-img{
-    	width:150px;
-      	height:auto;
-    }
+	
   }
