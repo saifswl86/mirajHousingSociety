@@ -604,6 +604,7 @@ img.annoucement-bar-icon{
     font-weight: 300;
     letter-spacing: 2.2px;
     color: #2B2B2B;
+  	line-height:1.25;
 }
   .cstm-project-item-text a{
   	text-decoration: none;
@@ -668,7 +669,7 @@ img.annoucement-bar-icon{
         font-weight: 300;
         letter-spacing: 2.2px;
         color: #2B2B2B;
-      	line-height:1.25;
+/*       	line-height:1.25; */
     }
     .cstm-project-item-text a{
         text-decoration: none;
