@@ -205,18 +205,18 @@
   	padding:2rem 1rem 3rem 2rem;
   }
  button.slick-prev.cstm-prev-icon.slick-arrow{
-  	transform:translateY(330px);
-    left:3%;
+  	transform:translateY(355px);
+    left:8%;
   }
   button.slick-next.cstm-next-icon.slick-arrow{
-  	transform:translateY(330px);
-    left:9%;
+  	transform:translateY(355px);
+    left:15%;
   }
   button.slick-next.cstm-next-icon.slick-arrow:hover, button.slick-prev.cstm-prev-icon.slick-arrow:hover{
-  	    transform: translateY(330px) scale(1.1);
+  	    transform: translateY(355px) scale(1.1);
   }
   button.slick-next.cstm-next-icon.slick-arrow:hover, button.slick-prev.cstm-prev-icon.slick-arrow:hover{
-  	  	    transform: translateY(330px) scale(1.1);
+  	  	    transform: translateY(355px) scale(1.1);
 
   }
   .Amenities_item_image img{
