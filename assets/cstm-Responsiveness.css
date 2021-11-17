@@ -192,10 +192,10 @@
   	padding:0px 70px!important;
   }
   .slick-active .iwt-slide .iwt-slide-img{
-  	height:275px;
+  	height:170px;
   }
   .iwt-slide-img, .slick-active .iwt-slide .iwt-slide-img{
-  	width:200px;
+  	width:150px;
    	object-fit:cover;
   }
   .iwt-slide-img {
