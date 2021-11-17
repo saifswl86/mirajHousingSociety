@@ -2,11 +2,7 @@
   .Image_with_text-Image-Slider-Area .slick-list.draggable{
   	padding:0px 86px!important;
   }
-  .iwt-slide-img{
- 	width: 300px;
-    height: 350px;
-    object-fit: cover;
-  }
+
   button.slick-prev.cstm-prev-icon.slick-arrow:hover,button.slick-next.cstm-next-icon.slick-arrow:hover{
   	transform:translateY(210px )scale(1.1);
   }
