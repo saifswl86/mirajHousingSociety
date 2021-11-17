@@ -49,6 +49,9 @@
   .iwt_right .Image_with_text-textArea{
   	padding-left:0px;
   }
+  .iwt_left .Image_with_text-textArea{
+  	padding-right:0px;
+  }
 }
 @media screen and (max-width:768px)
 
