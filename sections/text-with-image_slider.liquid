@@ -3,7 +3,7 @@
         <div class="row d-flex {%if section.settings.isImageOnLeftSide==true%} iwt_left {%else %} iwt_right{%endif%}">
           {%if section.settings.isImageOnLeftSide==true%}
           	{%if section.blocks!=blank%}
-            <div class="col-12 col-lg-6 d-flex justify-content-center">
+            <div class="col-12 col-lg-6 d-flex justify-content-lg-center">
                   <div class="Image_with_text-Image-Slider-Area iwt-slider">
                     {%for block in section.blocks%}
                     	{%if block.settings.slider_image!=blank%}
