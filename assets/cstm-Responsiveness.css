@@ -57,6 +57,10 @@
     .iwt-slide-img{
     	width:280px;
     }
+    .slick-active .iwt-slide .iwt-slide-img {
+    	height:300px;
+      	width:210px;
+    }
     height:280px;
   .Amenities_item{
   	flex-direction:column-reverse;
@@ -299,7 +303,7 @@
 		margin-bottom:20px;
 	}
 }
-@media screen and (max-width:1350px){
+@media screen and (min-width:1350px){
   .iwt-slide-img{
   	height:340px;
     width:280px;
