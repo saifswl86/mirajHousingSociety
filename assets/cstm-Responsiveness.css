@@ -179,6 +179,9 @@
     .cstm-project-item-text a,.cstm-blogs-item-text a {
     	font-size:16px;  
     }
+    .contactInfo{
+    padding:0px;
+    }
 }
 
 
@@ -211,6 +214,7 @@
   footer .announcement_Text{
   	padding-left:1rem;
   }
+  
  button.slick-prev.cstm-prev-icon.slick-arrow{
   	transform:translateY(355px);
     left:8%;
