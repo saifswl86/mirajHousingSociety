@@ -150,6 +150,15 @@
   .image-with-text{
   	padding:3rem;
   }
+    
+    
+    
+    
+    .Amenities_itemp{
+    	flex-direction:column-reverse;
+    }  
+    
+    
 }
 
 
