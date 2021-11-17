@@ -396,7 +396,7 @@
   }
 @media screen and (max-width:1080px){
   .Image_with_text-Image-Slider-Area.iwt-slider.slick-initialized.slick-slider .slick-list.draggable{
-    	padding:0px 140px!important;
+    	padding:0px 100px!important;
     }
   }
   
