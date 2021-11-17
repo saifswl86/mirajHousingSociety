@@ -328,7 +328,9 @@
   	height:340px;
     width:280px;
   }
-  
+  .slick-active .iwt-slide .iwt-slide-img{
+  	height:390px;
+  }
 
 }
   @media screen and (min-width:1350px){
