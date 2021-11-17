@@ -241,7 +241,7 @@
   .cstm-blogs-item{
   	margin:1rem 0rem;
   }
-  .styled_btn [class^=btn__text] {
+  .styled_btn [class^=btn__text],.cstm-blogs-item-text a, .cstm-project-item-text a {
   	font-size:14px;
   }
 }
