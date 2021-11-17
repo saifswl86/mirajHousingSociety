@@ -44,7 +44,7 @@
       ],
       "settings": {
         "isImageOnLeftSide": false,
-        "bgColor": "#E6E5E2",
+        "bgColor": "#e6e5e2",
         "title": "About Miraj",
         "description": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt u.",
         "button_text": "Read More",
@@ -129,13 +129,13 @@
         "c4be467a-a640-448d-bb4e-ced9e051ca34": {
           "type": "Image",
           "settings": {
-            "slider_image": "shopify:\/\/shop_images\/pexels-expect-best-323780_2x_a16ddfd0-f4c2-49c5-8d3e-9106bad338a6.png"
+            "slider_image": "shopify:\/\/shop_images\/1_2df47308-0696-46d8-821f-e55ce3df764a.png"
           }
         },
         "c64b1472-d6f5-443b-bd56-f5f38344e086": {
           "type": "Image",
           "settings": {
-            "slider_image": "shopify:\/\/shop_images\/pexels-michael-tuszynski-2157401.png"
+            "slider_image": "shopify:\/\/shop_images\/Untitled_design.png"
           }
         },
         "67766bcf-6b4e-4aec-9100-e8ef4055a7f7": {
@@ -152,7 +152,7 @@
       ],
       "settings": {
         "isImageOnLeftSide": true,
-        "bgColor": "#E6E5E2",
+        "bgColor": "#e6e5e2",
         "title": "Location",
         "description": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt u.",
         "button_text": "Read More",

@@ -152,10 +152,8 @@
           "353694cc-5478-462c-a129-1a69a40e25bf"
         ],
         "settings": {
-          "announcement_check": true,
           "announcement_text_check": true,
           "announcement_Text": "©All rights reserved. <a href=\"#\">Terms of use<\/a> and <a href=\"#\">Privacy Policy<\/a>",
-          "announcement_link": "#",
           "announcement_sm_check": true,
           "announcementbar_bg_color": "#eae9e5",
           "announcementbar_text_color": "#000000"
