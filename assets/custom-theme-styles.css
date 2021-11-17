@@ -1440,8 +1440,10 @@ button.slick-prev.ann-cstm-prev-icon.slick-arrow::before,button.slick-next.ann-c
 */
 
   .cstm-gallery{
-            margin:3rem 0rem;
-        }
+/*             margin:3rem 0rem; */
+    height:590px;
+    overflow:hidden;
+}
         .cstm-gallery-title h1{
             font-weight: 200;
             font-size: 34px;
