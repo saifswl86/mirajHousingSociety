@@ -192,14 +192,14 @@
   	padding:0px 70px!important;
   }
   .slick-active .iwt-slide .iwt-slide-img{
-  	height:200px;
+  	height:275px;
   }
   .iwt-slide-img, .slick-active .iwt-slide .iwt-slide-img{
-  	width:150px;
+  	width:200px;
    	object-fit:cover;
   }
   .iwt-slide-img {
-  	height:170px;
+  	height:240px;
   }
   .Amenities_item_about{
   	padding:2rem 1rem 3rem 2rem;
@@ -400,3 +400,17 @@
     }
 	
   }
+
+@media screen and (max-width:414px){
+
+ .slick-active .iwt-slide .iwt-slide-img{
+  	height:200px;
+  }
+  .iwt-slide-img, .slick-active .iwt-slide .iwt-slide-img{
+  	width:150px;
+   	object-fit:cover;
+  }
+  .iwt-slide-img {
+  	height:170px;
+  }
+}
