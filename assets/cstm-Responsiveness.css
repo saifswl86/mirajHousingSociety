@@ -173,6 +173,9 @@
     .cstm-projects{
     	padding:0rem 5rem;
     }
+    .cstm-project-item-img img{
+    	height:200px;
+    }
 }
 
 
