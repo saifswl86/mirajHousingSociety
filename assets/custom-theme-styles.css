@@ -1472,6 +1472,11 @@ button.slick-prev.ann-cstm-prev-icon.slick-arrow::before,button.slick-next.ann-c
   		.cstm_images_List .slick-slide.slick-current.slick-active img{
   		height:480px;
   		}
+  .cstmImageItem{
+  		height:460px;
+  	}
+  
+  
  /*
 ============================================================================================
   STYLES FOR ====>>Image With Text With Icons
