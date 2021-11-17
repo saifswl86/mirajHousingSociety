@@ -50,8 +50,8 @@ div.banner-overlay-tagline::after{
 } */
 div.banner-overlay-title{
 	position:absolute;
-    top: 46%;
-    left: 30%;
+    top: 39%;
+    left: 27.5%;
 }
 h2.banner-overlay-title_text {
     transform: translateX(0px);
