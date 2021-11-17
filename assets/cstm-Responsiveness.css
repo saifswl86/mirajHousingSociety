@@ -325,11 +325,11 @@
 }
 @media screen and (max-width:1350px){
   .iwt-slide-img{
-  	height:340px;
+  	height:340px!important;
     width:280px;
   }
   .slick-active .iwt-slide .iwt-slide-img{
-  	height:390px;
+  	height:390px!important;
   }
 
 }
