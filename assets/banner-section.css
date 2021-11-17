@@ -5,7 +5,7 @@
 }
 .banner-section img{
 	max-width:100%;
-    width: 98%;
+    width: 95%;
 }
 div.banner_half_image{
 	display:flex;
@@ -51,7 +51,7 @@ div.banner-overlay-tagline::after{
 div.banner-overlay-title{
 	position:absolute;
     top: 39%;
-    left: 27.5%;
+    left: 28%;
 }
 h2.banner-overlay-title_text {
     transform: translateX(0px);
