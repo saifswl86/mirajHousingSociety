@@ -416,7 +416,5 @@
   .styled_btn [class^=btn__text]{
   	font-size:13px;
   }
-  .cstm-blogs{
-  	padding:0rem 5rem;
-  }
+  
 }
