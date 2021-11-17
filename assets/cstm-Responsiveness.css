@@ -144,6 +144,12 @@
   .cstm-iwt-text{
   	padding:1rem;
   }
+    .cstm-iwt-text-heading h1{
+    font-size:36px;
+    }
+    .cstm-iwt-text-desc p{
+    font-size:16px;
+    }
   
   .row.cstm-img-with-text {
   	flex-direction:column-reverse;
