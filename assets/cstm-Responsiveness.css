@@ -273,7 +273,9 @@
   .Image_with_text-Image-Slider-Area .slick-list.draggable{
   	padding:0px 50px!important;
   }
-  
+  .cstm-blogs{
+  padding:0rem 2rem;
+  }
 }
 
 @media screen and (max-width:375px){
