@@ -66,14 +66,6 @@
     width: 300px;
     object-fit: cover;
   }
-  .slick-active .iwt-slide .iwt-slide-img{
-  	height:310px;
-  }
-  .iwt-slide-img{
-  	width:270px;
-    height:270px;
-    object-fit:cover;
-  }
   .Amenities_item{
   	flex-direction:column-reverse;
   }
