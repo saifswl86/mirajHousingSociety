@@ -500,6 +500,9 @@ img.annoucement-bar-icon{
   .Image_with_text-Image-Slider-Area.iwt-slider.slick-initialized.slick-slider .slick-list.draggable{
   	padding:0px 240px!important;
   }
+    .iwt-slide-img{
+    	height:490px;
+    }
   }
  
   @media screen and (max-width:1024px){
