@@ -325,11 +325,11 @@
 }
 @media screen and (max-width:1350px){
   .iwt-slide-img{
-  	height:340px!important;
+  	height:340px;
     width:280px;
   }
   .slick-active .iwt-slide .iwt-slide-img{
-  	height:390px!important;
+  	height:390px;
   }
 
 }
@@ -338,11 +338,7 @@
     	padding:0px 185px;
     }
   }
-  @media screen and (min-width:1240px){
-    .iwt-slide-img{
-    	height:450px;
-    }
-  }
+
   @media screen and (min-width:1720px){
   .Image_with_text-Image-Slider-Area.iwt-slider.slick-initialized.slick-slider .slick-list.draggable{
   	padding:0px 240px!important;
