@@ -236,6 +236,9 @@
     .image-with-text__content>:first-child:is(.image-with-text__heading){
     	font-size:34px!important;
     }
+    .image-with-text__content .rte p{
+    	font-size:16px!important;
+    }
 }
 
 
