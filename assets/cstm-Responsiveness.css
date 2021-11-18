@@ -209,6 +209,14 @@
   #shopify-section-template--15117797916860__163540502488940eb4{
   	margin-bottom:0rem;
   }
+    .iwb_gallery img{
+    	width:31.3%;
+      margin-bottom:1rem;
+      
+    }
+    .iwb_gallery{
+    	flex-wrap:wrap;
+    }
 }
 
 
