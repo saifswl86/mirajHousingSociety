@@ -366,6 +366,9 @@
   .iwb_gallery img{
   	width:46.3%;
   }
+  .res-iconItem{
+  width:140px;
+  }
 }
 
 @media screen and (max-width:320px)
