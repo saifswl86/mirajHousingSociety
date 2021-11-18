@@ -307,6 +307,12 @@
   	padding:0rem!important;
     padding-top:1rem !important;
   }
+  .cstm_images_List .slick-slide.slick-current.slick-active img{
+  	height:280px;
+  }
+  .cstmImageItem{
+  height:250px;
+  }
 }
 
 
