@@ -289,6 +289,12 @@
   	padding:0rem 2rem;
   }
   .res-icons{flex-wrap:wrap}
+   .res-icons{
+  	justify-content:center;
+  }
+  .res-iconItem {
+  	width:170px;
+  }
 }
 
 
@@ -331,12 +337,6 @@
   	font-weight:300;
    	font-size:34px;
     letter-spacing:4.2px;
-  }
-  .res-icons{
-  	justify-content:center;
-  }
-  .res-iconItem {
-  	width:170px;
   }
 }
 
