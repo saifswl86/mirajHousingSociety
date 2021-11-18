@@ -327,6 +327,11 @@
   .iwb_gallery img{
   width:47.3%;
   }
+  .res-info h1{
+  	font-weight:300;
+   	font-size:34px;
+    letter-spacing:4.2px;
+  }
 }
 
 @media screen and (max-width:375px){
