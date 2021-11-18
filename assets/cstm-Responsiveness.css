@@ -466,4 +466,8 @@
    font-size:34px;
    padding-bottom:1rem;
   }
+  .iwt4-img img{
+  	height:200px;
+    object-fit:cover;
+  }
 }
