@@ -372,6 +372,12 @@
   .res-info{
     padding:2rem 0rem;
   }
+  .res-info h1{
+  	font-size:28px;
+  }
+  .res-info p{
+  	font-size:14px;
+  }
 }
 
 @media screen and (max-width:320px)
