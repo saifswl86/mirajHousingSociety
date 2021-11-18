@@ -383,6 +383,10 @@
   	left:36%;
     transform:translateY(65px);
   }
+  button.slick-next.ann-cstm-next-icon.slick-arrow{
+      transform:translateY(65px);
+
+  }
 }
 
 @media screen and (max-width:375px){
