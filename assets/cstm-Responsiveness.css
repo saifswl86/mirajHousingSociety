@@ -230,6 +230,9 @@
   {
   	top:30%;
   }
+    button.slick-prev.ann-cstm-prev-icon.slick-arrow {
+    	left:38%;
+    }
 }
 
 
