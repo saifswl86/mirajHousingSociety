@@ -217,6 +217,9 @@
     .iwb_gallery{
     	flex-wrap:wrap;
     }
+    .cstm_images_List{
+    height:375px;
+    }
       .cstm_images_List .slick-slide.slick-current.slick-active img{
   	height:280px;
   }
