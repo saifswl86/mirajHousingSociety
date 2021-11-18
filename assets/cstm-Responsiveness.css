@@ -282,7 +282,7 @@
   	margin-bottom:10rem;
   }
   .res-iconItem{
-  	width:140px;
+	width:170px;
     margin-bottom:1rem;
   }
   .images_with_button, .img-with-text, .res{
@@ -291,9 +291,6 @@
   .res-icons{flex-wrap:wrap}
    .res-icons{
   	justify-content:center;
-  }
-  .res-iconItem {
-  	width:170px;
   }
 }
 
