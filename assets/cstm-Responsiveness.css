@@ -305,6 +305,7 @@
   }
   .image-with-text__content{
   	padding:0rem!important;
+    padding-top:1rem !important;
   }
 }
 
