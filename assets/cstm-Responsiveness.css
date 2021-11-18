@@ -391,6 +391,9 @@
     font-weight: 300;
     letter-spacing: 2.4px;
   }
+  .image-with-text{
+  	padding:0rem 2rem!important;
+  }
 }
 
 @media screen and (max-width:375px){
