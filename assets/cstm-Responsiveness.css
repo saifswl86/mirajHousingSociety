@@ -304,7 +304,7 @@
   	text-align:center;
   }
   .image-with-text__content{
-  	padding:0rem;
+  	padding:0rem!important;
   }
 }
 
