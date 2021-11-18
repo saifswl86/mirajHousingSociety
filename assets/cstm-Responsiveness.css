@@ -303,6 +303,9 @@
   footer .announcement_Text{
   	text-align:center;
   }
+  .image-with-text__content{
+  	padding:0rem;
+  }
 }
 
 
