@@ -369,6 +369,10 @@
   .res-iconItem{
   width:140px;
   }
+  .res-info{
+    padding:2rem 0rem;
+  	padding-right:0rem;
+  }
 }
 
 @media screen and (max-width:320px)
@@ -395,6 +399,7 @@
   .res-iconItem{
   	width:125px;
   }
+  
 }
   
 
