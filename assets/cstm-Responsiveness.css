@@ -292,6 +292,11 @@
    .res-icons{
   	justify-content:center;
   }
+  .cstm-heading{
+      font-size: 28px;
+    letter-spacing: 2.2px;
+    font-weight: 300;
+  }
 }
 
 
