@@ -60,6 +60,10 @@
   .header__inline-menu{
   	display:none!important;
   }
+  .header--middle-left{
+  	display:flex;
+    justify-content:space-bewteen;
+  }
 }
 @media screen and (max-width:768px)
 
