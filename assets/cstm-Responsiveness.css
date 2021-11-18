@@ -335,6 +335,9 @@
   .res-icons{
   	justify-content:center;
   }
+  .res-iconItem {
+  	width:170px;
+  }
 }
 
 @media screen and (max-width:375px){
