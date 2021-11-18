@@ -297,6 +297,9 @@
     letter-spacing: 2.2px;
     font-weight: 300;
   }
+  .iwt_right .Image_with_text-textArea{
+  	padding:0rem 1rem;
+  }
 }
 
 
