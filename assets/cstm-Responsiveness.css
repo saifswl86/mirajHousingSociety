@@ -217,6 +217,16 @@
     .iwb_gallery{
     	flex-wrap:wrap;
     }
+      .cstm_images_List .slick-slide.slick-current.slick-active img{
+  	height:280px;
+  }
+  .cstmImageItem{
+  height:250px;
+  }
+  button.slick-prev.glry-cstm-prev-icon.slick-arrow,button.slick-next.glry-cstm-next-icon.slick-arrow
+  {
+  	top:30%:
+  }
 }
 
 
@@ -307,16 +317,7 @@
   	padding:0rem!important;
     padding-top:1rem !important;
   }
-  .cstm_images_List .slick-slide.slick-current.slick-active img{
-  	height:280px;
-  }
-  .cstmImageItem{
-  height:250px;
-  }
-  button.slick-prev.glry-cstm-prev-icon.slick-arrow,button.slick-next.glry-cstm-next-icon.slick-arrow
-  {
-  	top:30%:
-  }
+
 }
 
 
