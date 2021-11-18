@@ -379,6 +379,10 @@
    	font-size:34px;
     letter-spacing:4.2px;
   }
+  button.slick-prev.ann-cstm-prev-icon.slick-arrow{
+  	left:36%;
+    transform:translateY(65px);
+  }
 }
 
 @media screen and (max-width:375px){
