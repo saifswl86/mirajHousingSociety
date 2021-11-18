@@ -313,6 +313,10 @@
   .cstmImageItem{
   height:250px;
   }
+  button.slick-prev.glry-cstm-prev-icon.slick-arrow,button.slick-next.glry-cstm-next-icon.slick-arrow
+  {
+  	top:30%:
+  }
 }
 
 
