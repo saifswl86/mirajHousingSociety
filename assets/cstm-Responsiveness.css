@@ -462,4 +462,8 @@
   .iwt4-text{
   padding:2rem 0rem;
   }
+  .iwt4-text-heading h1{
+   font-size:34px;
+   padding-bottom:1rem;
+  }
 }
