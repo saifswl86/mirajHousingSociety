@@ -56,6 +56,11 @@
   padding-left:5rem;
   }
 }
+@media screen and (max-width:990px){
+  .header__inline-menu{
+  	display:none!important;
+  }
+}
 @media screen and (max-width:768px)
 
   {
