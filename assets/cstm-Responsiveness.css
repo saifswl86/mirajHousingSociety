@@ -352,6 +352,9 @@
   	width:165px;
     height:200px;
   }
+  .iwb_gallery img{
+  	width:46.3%;
+  }
 }
 
 @media screen and (max-width:320px)
