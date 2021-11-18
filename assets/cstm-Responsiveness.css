@@ -456,5 +456,7 @@
   .styled_btn [class^=btn__text]{
   	font-size:13px;
   }
-  
+  .images_with_button, .img-with-text, .res{
+  	padding:0rem 2rem;
+  }
 }
