@@ -300,6 +300,9 @@
   .iwt_right .Image_with_text-textArea{
   	padding:0rem 1rem;
   }
+  footer .announcement_Text{
+  	text-align:center;
+  }
 }
 
 
