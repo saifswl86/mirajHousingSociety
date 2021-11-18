@@ -67,7 +67,7 @@
   .menu-drawer__navigation{
   	padding-top:1rem!important;
   }
-  .list list-social list-unstyled{
+  .list list-social .list-unstyled{
   	display:flex;
   }
 }
