@@ -283,6 +283,7 @@
   }
   .res-iconItem{
   	width:140px;
+    margin-bottom:1rem;
   }
   .images_with_button, .img-with-text, .res{
   	padding:0rem 2rem;
