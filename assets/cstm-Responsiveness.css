@@ -350,14 +350,11 @@
   #shopify-section-template--15117797916860__163540502488940eb4{
   	margin-bottom:20rem;
   }
-  .cstm-iwt-text-desc p {
+  .cstm-iwt-text-desc p,.contactInfo_item span, .contactInfo_desc p{
   	font-size:14px;
   }
   .contactInfo_title h1{
   	font-size:18px;
-  }
-  .contactInfo_desc p{
-  	font-size:14px;
   }
 }
   
