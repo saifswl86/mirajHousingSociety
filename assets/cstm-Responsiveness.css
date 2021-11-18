@@ -477,7 +477,7 @@
   	padding:0rem;
   }
   .video-section__poster, .video-section__media iframe{
-    height:320px;
+    height:320px!important;
     object-fit:cover;
   }
 }
