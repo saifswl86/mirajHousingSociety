@@ -459,4 +459,7 @@
   .images_with_button, .img-with-text, .res{
   	padding:0rem 2rem;
   }
+  .iwt4-text{
+  padding:2rem 0rem;
+  }
 }
