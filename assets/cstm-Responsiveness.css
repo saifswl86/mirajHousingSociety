@@ -453,6 +453,14 @@
   .res-iconItem{
   	width:125px;
   }
+   button.slick-prev.ann-cstm-prev-icon.slick-arrow{
+  	left:30%;
+    transform:translateY(90px);
+  }
+  button.slick-next.ann-cstm-next-icon.slick-arrow{
+      transform:translateY(90px);
+
+  }
   
 }
   
