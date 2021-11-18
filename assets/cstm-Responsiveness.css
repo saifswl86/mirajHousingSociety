@@ -69,7 +69,10 @@
   }
   .menu-drawer .list-social{
   	display:flex;
-  }
+    align-items: center;
+    justify-content: center;
+ }
+  
   .menu-drawer__utility-links{
   	padding:0rem 2rem;
   }
