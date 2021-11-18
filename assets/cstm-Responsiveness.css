@@ -62,7 +62,7 @@
   }
   .header--middle-left{
   	display:flex;
-    justify-content:space-bewteen;
+    justify-content:space-between;
   }
 }
 @media screen and (max-width:768px)
