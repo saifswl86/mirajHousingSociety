@@ -199,6 +199,16 @@
     .iwt4{
     padding:0rem 3rem;
     }
+    #shopify-section-template--15117797916860__163540502488940eb4 .video-section{
+  	padding:0rem;
+  }
+  .video-section__poster, .video-section__media iframe{
+    height:320px!important;
+    object-fit:cover;
+  }
+  #shopify-section-template--15117797916860__163540502488940eb4{
+  	margin-bottom:20rem;
+  }
 }
 
 
@@ -473,14 +483,5 @@
   .cstm-iwt-text {
   	padding:2rem 1rem;  
   }
-  #shopify-section-template--15117797916860__163540502488940eb4 .video-section{
-  	padding:0rem;
-  }
-  .video-section__poster, .video-section__media iframe{
-    height:320px!important;
-    object-fit:cover;
-  }
-  #shopify-section-template--15117797916860__163540502488940eb4{
-  	margin-bottom:20rem;
-  }
+  
 }
