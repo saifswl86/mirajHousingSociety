@@ -971,11 +971,8 @@ STYLES FOR : Custom Contact Form
 	background-color: #2B2B2B ;
 }  
   
-  @media screen and (max-width:768px){
-    .cstm_contact_form{
-    	padding:0rem 2rem;
-    }
-  }
+  
+  
   
 /*
 ==========================================================================
