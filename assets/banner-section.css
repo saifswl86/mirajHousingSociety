@@ -56,7 +56,7 @@ div.banner-overlay-title{
 .banner-section.virtual-tours div.banner-overlay-title,.banner-section.overseas-portal div.banner-overlay-title {
 	left:25%;
 }
-.banner-section.residential div.banner-overlay-title, .banner-section.masterplan div.banner-overlay-title {
+.banner-section.residential div.banner-overlay-title, .banner-section.masterplan div.banner-overlay-title,.banner-section.media div.banner-overlay-title {
 	left:26%;
 }
 h2.banner-overlay-title_text {
