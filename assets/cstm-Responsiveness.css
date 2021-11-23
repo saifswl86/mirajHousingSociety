@@ -83,6 +83,9 @@
 @media screen and (max-width:768px)
 
   {
+    .cstm_contact_form{
+    	padding:0rem 5rem;
+    }
     .icon-with-text-item{
     	width:max-content;
     }
