@@ -55,6 +55,9 @@
   .Amenities_item_about{
   padding-left:5rem;
   }
+  .icon-with-text-item.\31 .d-flex{
+  	width:180px;
+  }
 }
 @media screen and (max-width:990px){
   .header__inline-menu{
