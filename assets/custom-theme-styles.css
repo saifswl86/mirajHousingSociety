@@ -337,7 +337,7 @@ img.annoucement-bar-icon{
   }
 }
 
-  .annBarText:hover{
+  .annBarText:hover,footer .icon-with-text-item p:hover{
   	font-weight:600;
     color:#000;
   }
