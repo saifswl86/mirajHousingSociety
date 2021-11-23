@@ -59,6 +59,10 @@ div.banner-overlay-title{
 .banner-section.residential div.banner-overlay-title, .banner-section.masterplan div.banner-overlay-title,.banner-section.media div.banner-overlay-title {
 	left:26%;
 }
+.banner-section.home .banner-overlay-title {
+    left: 28.5%;
+    top: 39.5%;
+}
 h2.banner-overlay-title_text {
     transform: translateX(0px);
     font-size: 42px;
