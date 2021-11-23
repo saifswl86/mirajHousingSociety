@@ -1,5 +1,5 @@
 {% if section.settings.tagline_banner!=blank%}
-  <div class="banner-section {{page.title}}">
+  <div class="banner-section {{page.title |handle}}">
           {%if section.settings.banner-section-content=='half_width_image'%}
               {%if section.settings.half_background_image!=blank%}
 			    <div class="banner_half_image">
