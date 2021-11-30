@@ -121,10 +121,10 @@ Announcement Bar
 } */
   
 .icon-with-text-item p{
-  color:#2b2b2b;
+  color:#555555;
     text-decoration: none;
     padding: 0px 7px;
-    font-weight: 500;
+    font-weight: normal;
     font-size: 14px;
     margin: 0px;
   	transition:0.3s ease-in-out;
