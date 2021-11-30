@@ -24,11 +24,12 @@ Custom Theme Styles
    	 border-radius:5px;
 }
  .styled_btn [class^="btn__text"] {
-	  font-size: 16px;
+	  font-size: 14px;
    	  font-weight:400;
    	  letter-spacing:1.2px;
  	  border-radius:5px;
    	  text-transform: capitalize;
+   	  padding:0rem 1rem;
 }
  .styled_btn .btn__text-dynamic, .styled_btn .btn__text-dynamic-inner {
     text-decoration:none;
