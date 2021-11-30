@@ -552,11 +552,11 @@
 }
 @media screen and (min-width:1350px){
   .iwt-slide-img{
-  	height:340px;
+  	height:370px;
     width:280px;
   }
   .slick-active .iwt-slide .iwt-slide-img{
-  	height:390px;
+  	height:370px;
     width:280px;
   }
     .Image_with_text-Image-Slider-Area.iwt-slider.slick-initialized.slick-slider .slick-list.draggable{
