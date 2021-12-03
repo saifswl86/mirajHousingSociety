@@ -477,6 +477,11 @@
   .Image_with_text-Image-Slider-Area.iwt-slider.slick-initialized.slick-slider .slick-list.draggable{
    padding: 0px 60px!important;
   }
+  .cstm-heading{
+    font-size: 32px;
+    line-height: 1.25;
+    margin-bottom: 1rem;
+  }
 }
 
 @media screen and (max-width:320px)
