@@ -1557,7 +1557,7 @@ button.slick-prev.ann-cstm-prev-icon.slick-arrow::before,button.slick-next.ann-c
     height:18px;
   }
   footer .announcement-bar{
-  	padding:15px;
+  	padding:10px 15px;
   }
   footer announcement_Text{
   	text-align:center;
