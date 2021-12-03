@@ -1429,9 +1429,9 @@ button.slick-prev.ann-cstm-prev-icon.slick-arrow::before,button.slick-next.ann-c
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
+    justify-content: flex-end;
     width: 150px;
-    height: 125px;
+    height:105px;
     cursor:pointer;
     transition:0.2s ease-in-out;
     border-radius:2px;
