@@ -1455,6 +1455,7 @@ button.slick-prev.ann-cstm-prev-icon.slick-arrow::before,button.slick-next.ann-c
     font-weight:300;
     padding: 1rem 0rem;
     color: #2b2b2b;
+    line-height:1.25;
   }
   .res-icons{
     align-self: flex-start;
