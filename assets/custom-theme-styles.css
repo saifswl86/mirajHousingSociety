@@ -425,6 +425,10 @@ img.annoucement-bar-icon{
   	height:100%;
   	padding-right:7rem;
 }
+.Image_with_text-textArea .styled_btn {
+    padding: 3px 20px;
+}  
+  
 .cstm-btn{
   	align-self:flex-start;
 	padding:10px 20px;
