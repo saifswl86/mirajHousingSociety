@@ -777,6 +777,8 @@ STYLES FOR : Custom Blogs
     letter-spacing: 2.2px;
     color: #2B2B2B;
   	text-align:justify;
+      line-height: 1.25;
+
   
 }
   .cstm-blogs-item-text a{
@@ -786,7 +788,6 @@ STYLES FOR : Custom Blogs
     font-size: 16px;
     padding: 0px 5px; 
     transition:0.1s ease-in-out;
-    line-height: 1.25;
   }
 .cstm-blogs-item-text .btn_link{
     text-decoration: none;
