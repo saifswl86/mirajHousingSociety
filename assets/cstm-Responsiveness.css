@@ -1,17 +1,17 @@
 @media screen and (max-width:1080px){
-/*   .Image_with_text-Image-Slider-Area.iwt-slider.slick-initialized.slick-slider .slick-list.draggable{
+  .Image_with_text-Image-Slider-Area.iwt-slider.slick-initialized.slick-slider .slick-list.draggable{
     	padding:0px 100px!important;
-    } */
+    }
   }
   
-@media screen and (max-width:1050px){
-/*   .Image_with_text-Image-Slider-Area .slick-list.draggable{
+@media screen and (max-width:1024px){
+  .Image_with_text-Image-Slider-Area .slick-list.draggable{
   	padding:0px 86px!important;
-  } */
+  }
   button.slick-prev.cstm-prev-icon.slick-arrow:hover,button.slick-next.cstm-next-icon.slick-arrow:hover{
   	transform:translateY(225px )scale(1.1);
   }
-  button.slick-prev.cstm-prev-icon.slick-arrow { 
+  button.slick-prev.cstm-prev-icon.slick-arrow {
     left: 5%;
     transform: translateY(225px);
   }
@@ -98,18 +98,18 @@
     .icon-with-text-item{
     	width:max-content;
     }
-/*   .Image_with_text-Image-Slider-Area.iwt-slider.slick-initialized.slick-slider .slick-list.draggable{
+  .Image_with_text-Image-Slider-Area.iwt-slider.slick-initialized.slick-slider .slick-list.draggable{
   	padding:0px 175px!important;
-  } */
-/*     .iwt-slide-img{
+  }
+    .iwt-slide-img{
     	width:200px;
       	height:260px;
     }
     .slick-active .iwt-slide .iwt-slide-img {
     	height:300px;
       	width:210px;
-    } */
-/*     height:280px; */
+    }
+    height:280px;
   .Amenities_item{
   	flex-direction:column-reverse;
   }
@@ -290,10 +290,10 @@
 .header__heading, .header__heading-link {
 /* 	transform: translateX(65%); */
 }
-/*   .Image_with_text-Image-Slider-Area.iwt-slider.slick-initialized.slick-slider .slick-list.draggable{
+  .Image_with_text-Image-Slider-Area.iwt-slider.slick-initialized.slick-slider .slick-list.draggable{
   	padding:0px 70px!important;
-  } */
-/*   .slick-active .iwt-slide .iwt-slide-img{
+  }
+  .slick-active .iwt-slide .iwt-slide-img{
   	height:275px;
   }
   .iwt-slide-img, .slick-active .iwt-slide .iwt-slide-img{
@@ -302,7 +302,7 @@
   }
   .iwt-slide-img {
   	height:240px;
-  } */
+  }
   .Amenities_item_about{
   	padding:2rem 1rem 3rem 2rem;
   }
@@ -412,9 +412,9 @@
     transform:translateY(375px);
   }
   
-/*   .Image_with_text-Image-Slider-Area .slick-list.draggable{
+  .Image_with_text-Image-Slider-Area .slick-list.draggable{
   	padding:0px 50px!important;
-  } */
+  }
   .cstm-blogs{
   padding:0rem 2rem;
   }
@@ -459,7 +459,7 @@
   button.slick-prev.cstm-prev-icon.slick-arrow,button.slick-next.cstm-next-icon.slick-arrow{
   	transform:translateY(380px)
   }
-/*   .Image_with_text-Image-Slider-Area .slick-list.draggable{
+  .Image_with_text-Image-Slider-Area .slick-list.draggable{
   	padding:0px 55px!important;
   }
   .iwt-slide-img, .slick-active .iwt-slide .iwt-slide-img{
@@ -471,7 +471,7 @@
   .iwt-slide-img{
   	width:165px;
     height:200px;
-  } */
+  }
   .iwb_gallery img{
   	width:46.3%;
   }
@@ -487,9 +487,9 @@
   .res-info p{
   	font-size:14px;
   }
-/*   .Image_with_text-Image-Slider-Area.iwt-slider.slick-initialized.slick-slider .slick-list.draggable{
+  .Image_with_text-Image-Slider-Area.iwt-slider.slick-initialized.slick-slider .slick-list.draggable{
    padding: 0px 60px!important;
-  } */
+  }
   .cstm-heading{
     font-size: 32px;
     line-height: 1.25;
@@ -535,7 +535,7 @@
 
 
    @media screen and (min-width:1440px){
-/*     .iwt-slide-img{
+    .iwt-slide-img{
     	height:370px;
       	width:100%;
     }
@@ -549,7 +549,7 @@
     	height:100%;
       	width:100%;
       	transform:scale(1.2);
-    } */
+    }
   }
   
  
@@ -572,7 +572,7 @@
 	}
 }
 @media screen and (min-width:1350px){
-/*   .iwt-slide-img{
+  .iwt-slide-img{
   	height:385px;
     width:280px;
   }
@@ -582,22 +582,22 @@
   }
     .Image_with_text-Image-Slider-Area.iwt-slider.slick-initialized.slick-slider .slick-list.draggable{
     	padding:0px 170px!important;
-    } */
+    }
 
 }
   @media screen and (min-width:1350px){
-/*     .Image_with_text.container-fluid .slick-list.draggable{
+    .Image_with_text.container-fluid .slick-list.draggable{
     	padding:0px 185px;
-    } */
+    }
   }
 
   @media screen and (min-width:1720px){
-/*   .Image_with_text-Image-Slider-Area.iwt-slider.slick-initialized.slick-slider .slick-list.draggable{
+  .Image_with_text-Image-Slider-Area.iwt-slider.slick-initialized.slick-slider .slick-list.draggable{
   	padding:0px 240px!important;
   }
     .iwt-slide-img{
     	height:490px;
-    } */
+    }
   }
  
   @media screen and (max-width:1024px){
