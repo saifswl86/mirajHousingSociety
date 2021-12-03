@@ -1390,7 +1390,7 @@ button.slick-prev.ann-cstm-prev-icon.slick-arrow::before,button.slick-next.ann-c
             cursor: -webkit-grab;
         }
         .cstm_images_List .slick-slide:hover{
-            transform: scale(1.05);
+            transform: scale(1.1);
         }
         button.slick-prev.glry-cstm-prev-icon.slick-arrow{
             left:15px;
