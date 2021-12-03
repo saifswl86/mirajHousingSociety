@@ -918,6 +918,7 @@ STYLES FOR : Custom Contact Form
     color: #555555; 
     opacity: 0.5;
     padding-bottom: 10px;
+  	font-size:13px;
 }
 .cstm_contact_form_content-item input,.cstm_contact_form_content-item textarea{
     border: 0px;
