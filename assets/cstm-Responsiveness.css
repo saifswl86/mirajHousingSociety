@@ -59,7 +59,7 @@
   	width:180px;
   }
   .image-with-text__content{
-  	padding:0rem 7rem 7rem;
+  	padding:0rem 7rem 7rem!important;
   }
 }
 @media screen and (max-width:990px){
