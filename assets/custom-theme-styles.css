@@ -759,14 +759,14 @@ STYLES FOR : Custom Blogs
     transform: translateY(-10px);
 }
 .cstm-blogs-title{
-    font-size: 36px;
+    font-size: 30px;
     font-weight: 200;
     margin-bottom: 1rem;
     color:#2b2b2b;
     text-align: center;
 /*     padding: 1.5rem 0rem; */
   	padding-bottom:2.5rem;
-  	letter-spacing:4.6px;
+  	letter-spacing:4px;
 }
 .cstm-blogs-item-text{
     padding: 1.5rem;
