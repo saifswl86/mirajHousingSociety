@@ -520,6 +520,7 @@ img.annoucement-bar-icon{
     color: #2B2B2B;
   	line-height:1.25;
   	text-align:justify;
+  	padding-right:2.5rem;
 }
   .cstm-project-item-text a{
   	text-decoration: none;
