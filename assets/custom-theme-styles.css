@@ -1535,8 +1535,12 @@ button.slick-prev.ann-cstm-prev-icon.slick-arrow::before,button.slick-next.ann-c
   .iwb_gallery:last-child(1){
   display:none!important;
 }
-  
-  
+.images_with_button .styled_btn [class^=btn__text] {
+    font-size: 16px;
+}
+  .images_with_button .styled_btn {
+    padding: 7px 30px;
+}
   
   
   footer .announcement_Text.col-7 {
