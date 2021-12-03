@@ -735,7 +735,7 @@ STYLES FOR : Custom Blogs
   
 .cstm-blogs{
     padding: 0rem 10rem;
-    margin:1.5rem 0rem
+    margin:5rem 0rem
 }
 .blogs-list{
     display: flex;
@@ -764,7 +764,7 @@ STYLES FOR : Custom Blogs
     margin-bottom: 1rem;
     color:#2b2b2b;
     text-align: center;
-    padding: 1.5rem 0rem;
+/*     padding: 1.5rem 0rem; */
   	padding-bottom:2.5rem;
   	letter-spacing:4.6px;
 }
