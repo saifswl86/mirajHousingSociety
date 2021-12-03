@@ -1450,8 +1450,9 @@ button.slick-prev.ann-cstm-prev-icon.slick-arrow::before,button.slick-next.ann-c
     font-size: 40px;
   }
   .res-info p{
-    letter-spacing: 2.5px;
-    font-size: 16px;
+    letter-spacing: 2px;
+    font-size: 18px;
+    font-weight:300;
     padding: 1rem 0rem;
     color: #2b2b2b;
   }
