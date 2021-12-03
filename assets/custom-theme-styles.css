@@ -22,6 +22,7 @@ Custom Theme Styles
 	 text-transform: uppercase;
    	 width:max-content;
    	 border-radius:5px;
+   	 float:right;  
 }
  .styled_btn [class^="btn__text"] {
 	  font-size: 14px;
