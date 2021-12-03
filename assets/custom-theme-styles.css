@@ -1389,6 +1389,9 @@ button.slick-prev.ann-cstm-prev-icon.slick-arrow::before,button.slick-next.ann-c
             cursor: -moz-grab;
             cursor: -webkit-grab;
         }
+  .cstm_images_List .slick-slide{
+  	transition:0.2s ease-in-out;
+  }
         .cstm_images_List .slick-slide:hover{
             transform: scale(1.1);
         }
