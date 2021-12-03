@@ -470,7 +470,7 @@ img.annoucement-bar-icon{
   
 .cstm-projects{
     padding: 0rem 10rem;
-    margin:1.5rem 0rem
+    margin:5rem 0rem
 }
 .projects-list{
     display: flex;
@@ -500,7 +500,7 @@ img.annoucement-bar-icon{
     margin-bottom: 1rem;
     color:#2b2b2b;
     text-align: center;
-    padding: 1.5rem 0rem;
+/*     padding: 1.5rem 0rem; */
   	padding-bottom:2.5rem;
     letter-spacing:2.4px;
 }
