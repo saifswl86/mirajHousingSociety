@@ -1473,7 +1473,7 @@ button.slick-prev.ann-cstm-prev-icon.slick-arrow::before,button.slick-next.ann-c
   }
   .res-iconItem p{
     margin: 0px;
-    padding:10px 0px;
+    padding-top:10px;
   }
   .res_img{
     flex: 0.5;
