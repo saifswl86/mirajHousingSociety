@@ -632,7 +632,7 @@ STYLES FOR : Amenities
     object-fit: cover;
 }
 .Amenities{
-    margin: 2rem 0rem;
+    margin: 5rem 0rem;
 }
 .Amenities_item{
     display: flex!important;
@@ -703,7 +703,7 @@ button.slick-next.cstm-next-icon.slick-arrow:before{
     margin-bottom: 1rem;
     color: #2b2b2b;
     text-align: center;
-    padding: 1.5rem 0rem;
+/*     padding: 1.5rem 0rem; */
   	padding-bottom:2.5rem;
   	letter-spacing:4.6px;
   	
