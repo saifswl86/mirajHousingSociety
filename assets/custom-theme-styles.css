@@ -400,20 +400,20 @@ img.annoucement-bar-icon{
 .Image_with_text-Image-Slider-Area{
 	max-width:100%; 
 }
-.iwt-slide-img{
+/* .iwt-slide-img{
 	width:280px;
 	height:330px;
 	object-fit:contain;
-}
+} */
 .slick-active .iwt-slide{
 	margin-top:0px; 
 }
-.slick-active .iwt-slide .iwt-slide-img{
+/* .slick-active .iwt-slide .iwt-slide-img{
 	height:410px;
-}
-.iwt-slider .slick-slide{
+} */
+/* .iwt-slider .slick-slide{
 	margin:20px 0px;
-}
+} */
 .Image_with_text-textArea{
 	padding:3rem 3.5rem;
   	display:flex;
