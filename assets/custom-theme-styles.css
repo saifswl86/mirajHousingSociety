@@ -1481,7 +1481,7 @@ button.slick-prev.ann-cstm-prev-icon.slick-arrow::before,button.slick-next.ann-c
   .images_with_button{
     display: flex;
     flex-direction: column;
-    padding:0rem 10rem;
+    padding:0rem 9.5rem;
   }
   .iwb_gallery{
     
@@ -1492,9 +1492,10 @@ button.slick-prev.ann-cstm-prev-icon.slick-arrow::before,button.slick-next.ann-c
   }
   .iwb_gallery img{
     max-width: 100%;
-    object-fit: cover;
-    margin-right: 1rem;
-    width: 19.3%;
+    object-fit: cover; 
+    padding: 0rem 0.5rem;
+    width: 220px;
+    height: 200px;
   }
   .iwb_button a{
     padding:15px 30px;
