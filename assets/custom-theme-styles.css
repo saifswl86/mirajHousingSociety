@@ -1499,10 +1499,8 @@ button.slick-prev.ann-cstm-prev-icon.slick-arrow::before,button.slick-next.ann-c
     padding:0rem 9.5rem;
   }
   .iwb_gallery{
-    
     display: flex;
-/*     justify-content: space-evenly; */
-    
+    justify-content: center;
     max-width: 100%;
   }
   .iwb_gallery img{
