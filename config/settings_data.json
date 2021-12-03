@@ -10,10 +10,10 @@
     "type_header_font": "assistant_n4",
     "type_body_font": "assistant_n4",
     "page_width": "1200",
-    "social_twitter_link": "https:\/\/twitter.com\/shopify",
-    "social_facebook_link": "https:\/\/twitter.com\/shopify",
-    "social_youtube_link": "https:\/\/twitter.com\/shopify",
-    "social_email_address": "https:\/\/twitter.com\/shopify",
+    "social_twitter_link": "#",
+    "social_facebook_link": "#",
+    "social_youtube_link": "#",
+    "social_email_address": "#",
     "sections": {
       "announcement-bar": {
         "type": "announcement-bar",
