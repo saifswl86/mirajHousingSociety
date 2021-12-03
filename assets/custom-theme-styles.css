@@ -1002,7 +1002,7 @@ STYLES FOR : Custom Contact Form
 }
 .cstm-iwt-text{
 /*     background: #EAE9E5; */
-    padding:1rem 6.5rem;
+    padding:0rem 6.1rem;
     height: 100%;
     display: flex;
     justify-content: center;
@@ -1022,7 +1022,7 @@ STYLES FOR : Custom Contact Form
     font-size: 18px;
     color: #2b2b2b;
     font-weight: 300;
-    line-height: 1.15;
+    line-height: 1.25;
 }
 .cstm-iwt-text-img .slick-dots{
     bottom: 10px;
