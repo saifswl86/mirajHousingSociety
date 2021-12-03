@@ -160,6 +160,8 @@ img.annoucement-bar-icon{
 }
   .announcement_Text{
   	padding-left:10rem;
+    display: flex;
+    align-items: center; 
   }
   .announcement_Text a{
   	text-decoration:none;
