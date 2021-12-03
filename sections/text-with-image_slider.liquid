@@ -128,26 +128,24 @@
 
 {% javascript %}
 $(document).ready(()=>{
-    $('.iwt-slider').slick({  
+    $('.iwt-slider').slick({
       centerMode: true,
 		loop:true, 
 		autoplay:true,
 		speed: 300,
-<!--       centerPadding:'170px',   -->
-      slidesToShow: 3,
-      slideToScroll:1,
+      centerPadding:'170px',  
+      slidesToShow: 1,
       focusOnSelect: true,
       arrows:false,
       dots: false, 
-       responsive: [ 
+       responsive: [
         {
           breakpoint: 1024,
           settings: {
             arrows: false,
             centerMode: true,
-<!--             centerPadding: '150px', -->
-            slidesToShow: 3,
-			slideToScroll:1
+            centerPadding: '150px',
+            slidesToShow: 1
           }
         },
         {
@@ -155,7 +153,7 @@ $(document).ready(()=>{
           settings: {
             arrows: false,
             centerMode: true,
-<!--             centerPadding: '60px', -->
+            centerPadding: '60px',
             slidesToShow: 1
           }
         }
