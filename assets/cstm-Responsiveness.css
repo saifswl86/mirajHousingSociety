@@ -64,6 +64,9 @@
   footer .announcement_Text{
   	text-align:center;
   }
+  footer .announce-sm-icons{
+  	padding-right:0px;
+  }
 }
 @media screen and (max-width:990px){
   .header__inline-menu{
