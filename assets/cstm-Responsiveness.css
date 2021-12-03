@@ -474,6 +474,9 @@
   .res-info p{
   	font-size:14px;
   }
+  .Image_with_text-Image-Slider-Area.iwt-slider.slick-initialized.slick-slider .slick-list.draggable{
+   padding: 0px 60px!important;
+  }
 }
 
 @media screen and (max-width:320px)
