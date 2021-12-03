@@ -804,10 +804,7 @@ STYLES FOR : Custom Blogs
   .cstm-blogs-item-text a:hover{
   	font-weight:600; 
   }
-.cstm-blogs-item-text a span {
-    font-weight: 400;
-}
-
+ 
   .cstm-blogs-item-text span{
     font-weight: 300;
   	font-size:22px;
