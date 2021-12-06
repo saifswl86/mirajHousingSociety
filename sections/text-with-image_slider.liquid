@@ -3,13 +3,13 @@
         <div class="row d-flex {%if section.settings.isImageOnLeftSide==true%} iwt_left {%else %} iwt_right{%endif%}">
           {%if section.settings.isImageOnLeftSide==true%}
           	{%if section.blocks!=blank%}
-            <div class="col-12 col-lg-6 d-flex justify-content-center">
+            <div class="col-12 col-lg-6 d-flex justify-content-center align-items-center">
                   <div class="Image_with_text-Image-Slider-Area iwt-slider">
                     {%for block in section.blocks%}
                     	{%if block.settings.slider_image!=blank%}
                           <div class="iwt-slide">
                               <img src="{{block.settings.slider_image |img_url:'master'}}" class="iwt-slide-img">
-                          </div>
+                          </div> 
                     	{%endif%}
                     {%endfor%}
                   </div>
@@ -119,41 +119,39 @@
 	]
  
   }
-{% endschema %}
-
+{% endschema %} 
+ 
 {% stylesheet %}
-
-
+.iwt-slider{overflow:hidden}.slick-slide img{width:100%}.slick-slide.slick-current.slick-active.slick-center img{transform:scale(1.1)}.slick-slide.slick-current.slick-active.slick-center{transform:scale(1.4);padding-top:0px} 
+.slick-slide.slick-active{padding-top:30px}
 {% endstylesheet %}
 
 {% javascript %}
 $(document).ready(()=>{
-    $('.iwt-slider').slick({
-      centerMode: true,
+    $('.iwt-slider').slick({    
 		loop:true, 
-		autoplay:true,
-		speed: 300,
-      centerPadding:'170px',  
-      slidesToShow: 1,  
-      focusOnSelect: true,
-      arrows:false,
+		autoplay:false, 
+		speed: 300, 
+		centerMode:true,  
+      slidesToShow: 3,
+	  centerPadding:'0px',  
+      slideToScroll:1,
+      arrows:false,  
+	  draggable:true,
       dots: false, 
-       responsive: [
+       responsive: [ 
         {
           breakpoint: 1024,
           settings: {
-            arrows: false,
-            centerMode: true,
-            centerPadding: '150px',
-            slidesToShow: 1
+            arrows: true, 
+            slidesToShow: 3,
+			slideToScroll:1
           }
-        },  
+        },
         {
           breakpoint: 520,
           settings: {
             arrows: false,
-            centerMode: true,
-            centerPadding: '60px',
             slidesToShow: 1
           }
         }
