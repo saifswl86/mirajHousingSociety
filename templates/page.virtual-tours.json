@@ -16,29 +16,36 @@
     "1636312055929e27be": {
       "type": "text-with-image_slider",
       "blocks": {
-        "914813de-7abf-427c-917e-81614a8fbd3d": {
+        "5ee118e7-f448-4894-8fd2-eadca916f66a": {
           "type": "Image",
           "settings": {
-            "slider_image": "shopify:\/\/shop_images\/pexels-zachary-debottis-1838640_2x_c81c5476-0c7a-48a0-8043-dcbf8f7971a0.png"
+            "slider_image": "shopify:\/\/shop_images\/1_af6f6448-de60-40e4-8f4f-a4b38b2c00d9.png"
           }
         },
-        "f56bbc11-e88a-4773-bec5-118af3fed730": {
+        "285d83f8-4c00-469d-b6de-f20fc1c06172": {
           "type": "Image",
           "settings": {
-            "slider_image": "shopify:\/\/shop_images\/pexels-vecislavas-popa-1571470_2x_12ecded4-9b2b-499b-8289-04d5d8d51182.png"
+            "slider_image": "shopify:\/\/shop_images\/2_38b99ae1-328a-4bf4-8a54-35b585ff1ecf.png"
           }
         },
-        "445872de-4f38-4ca3-9292-b3114cc99bb3": {
+        "a3a18720-61b8-4855-9448-bc4b7a60e995": {
           "type": "Image",
           "settings": {
-            "slider_image": "shopify:\/\/shop_images\/after_3_large_2x_68cd6439-312c-4457-bb81-b7e3824eabd2.png"
+            "slider_image": "shopify:\/\/shop_images\/3_f8156782-d78f-457c-aec9-5c1aff4d01f2.png"
+          }
+        },
+        "360ee9cf-b6b4-4cac-8ef8-f33510c31b62": {
+          "type": "Image",
+          "settings": {
+            "slider_image": "shopify:\/\/shop_images\/2_38b99ae1-328a-4bf4-8a54-35b585ff1ecf.png"
           }
         }
       },
       "block_order": [
-        "914813de-7abf-427c-917e-81614a8fbd3d",
-        "f56bbc11-e88a-4773-bec5-118af3fed730",
-        "445872de-4f38-4ca3-9292-b3114cc99bb3"
+        "5ee118e7-f448-4894-8fd2-eadca916f66a",
+        "285d83f8-4c00-469d-b6de-f20fc1c06172",
+        "a3a18720-61b8-4855-9448-bc4b7a60e995",
+        "360ee9cf-b6b4-4cac-8ef8-f33510c31b62"
       ],
       "settings": {
         "isImageOnLeftSide": false,
@@ -52,29 +59,36 @@
     "163631216952e6b15c": {
       "type": "text-with-image_slider",
       "blocks": {
-        "1a563846-3ea8-4aed-a050-da57dc60bef0": {
+        "4d505208-7012-4c2c-94de-a11923b5d5ca": {
           "type": "Image",
           "settings": {
-            "slider_image": "shopify:\/\/shop_images\/pexels-david-mcbee-1486785_2x_36f1a74f-8139-4930-bab0-d11d3fcda79e.png"
+            "slider_image": "shopify:\/\/shop_images\/1_af6f6448-de60-40e4-8f4f-a4b38b2c00d9.png"
           }
         },
-        "dd034ee2-514a-46b3-aeca-1a341c0a958a": {
+        "bed5289a-649d-4524-b5e2-d91f1e09687f": {
           "type": "Image",
           "settings": {
-            "slider_image": "shopify:\/\/shop_images\/pexels-vecislavas-popa-1571470_2x_12ecded4-9b2b-499b-8289-04d5d8d51182.png"
+            "slider_image": "shopify:\/\/shop_images\/2_38b99ae1-328a-4bf4-8a54-35b585ff1ecf.png"
           }
         },
-        "f26ae600-6fd6-4de3-9f33-fc06e03fa229": {
+        "67cabea4-3e70-46ab-a73c-fbf94cef6575": {
           "type": "Image",
           "settings": {
-            "slider_image": "shopify:\/\/shop_images\/after_3_large_2x_68cd6439-312c-4457-bb81-b7e3824eabd2.png"
+            "slider_image": "shopify:\/\/shop_images\/3_f8156782-d78f-457c-aec9-5c1aff4d01f2.png"
+          }
+        },
+        "91e1ba02-2f93-43a0-9aed-a7aa6bc52269": {
+          "type": "Image",
+          "settings": {
+            "slider_image": "shopify:\/\/shop_images\/2_38b99ae1-328a-4bf4-8a54-35b585ff1ecf.png"
           }
         }
       },
       "block_order": [
-        "1a563846-3ea8-4aed-a050-da57dc60bef0",
-        "dd034ee2-514a-46b3-aeca-1a341c0a958a",
-        "f26ae600-6fd6-4de3-9f33-fc06e03fa229"
+        "4d505208-7012-4c2c-94de-a11923b5d5ca",
+        "bed5289a-649d-4524-b5e2-d91f1e09687f",
+        "67cabea4-3e70-46ab-a73c-fbf94cef6575",
+        "91e1ba02-2f93-43a0-9aed-a7aa6bc52269"
       ],
       "settings": {
         "isImageOnLeftSide": true,
@@ -91,26 +105,33 @@
         "84780419-03b3-4000-8096-afc89ab44cdd": {
           "type": "Image",
           "settings": {
-            "slider_image": "shopify:\/\/shop_images\/Untitled_design_1.png"
+            "slider_image": "shopify:\/\/shop_images\/1_af6f6448-de60-40e4-8f4f-a4b38b2c00d9.png"
           }
         },
         "489b7510-b50d-4005-9dee-114b8b286079": {
           "type": "Image",
           "settings": {
-            "slider_image": "shopify:\/\/shop_images\/pexels-vecislavas-popa-1571470_2x_12ecded4-9b2b-499b-8289-04d5d8d51182.png"
+            "slider_image": "shopify:\/\/shop_images\/2_38b99ae1-328a-4bf4-8a54-35b585ff1ecf.png"
           }
         },
         "54e213eb-5983-4237-952a-1c3b4683dff5": {
           "type": "Image",
           "settings": {
-            "slider_image": "shopify:\/\/shop_images\/after_3_large_2x_68cd6439-312c-4457-bb81-b7e3824eabd2.png"
+            "slider_image": "shopify:\/\/shop_images\/3_f8156782-d78f-457c-aec9-5c1aff4d01f2.png"
+          }
+        },
+        "e67279ea-90ba-454f-a330-b4f2ef0ded59": {
+          "type": "Image",
+          "settings": {
+            "slider_image": "shopify:\/\/shop_images\/2_38b99ae1-328a-4bf4-8a54-35b585ff1ecf.png"
           }
         }
       },
       "block_order": [
         "84780419-03b3-4000-8096-afc89ab44cdd",
         "489b7510-b50d-4005-9dee-114b8b286079",
-        "54e213eb-5983-4237-952a-1c3b4683dff5"
+        "54e213eb-5983-4237-952a-1c3b4683dff5",
+        "e67279ea-90ba-454f-a330-b4f2ef0ded59"
       ],
       "settings": {
         "isImageOnLeftSide": false,
@@ -127,26 +148,33 @@
         "9889509b-b085-4510-95ba-848a26cb7d92": {
           "type": "Image",
           "settings": {
-            "slider_image": "shopify:\/\/shop_images\/pexels-david-mcbee-1486785_2x_36f1a74f-8139-4930-bab0-d11d3fcda79e.png"
+            "slider_image": "shopify:\/\/shop_images\/1_af6f6448-de60-40e4-8f4f-a4b38b2c00d9.png"
           }
         },
         "71ef3a68-758c-4466-a182-ecbeaddae4a0": {
           "type": "Image",
           "settings": {
-            "slider_image": "shopify:\/\/shop_images\/pexels-vecislavas-popa-1571470_2x_12ecded4-9b2b-499b-8289-04d5d8d51182.png"
+            "slider_image": "shopify:\/\/shop_images\/2_38b99ae1-328a-4bf4-8a54-35b585ff1ecf.png"
           }
         },
         "50678011-4a51-47ba-82d2-458e7ed7c1c4": {
           "type": "Image",
           "settings": {
-            "slider_image": "shopify:\/\/shop_images\/after_3_large_2x_68cd6439-312c-4457-bb81-b7e3824eabd2.png"
+            "slider_image": "shopify:\/\/shop_images\/3_f8156782-d78f-457c-aec9-5c1aff4d01f2.png"
+          }
+        },
+        "eea3be00-ca42-4388-b358-a0c43b53a85f": {
+          "type": "Image",
+          "settings": {
+            "slider_image": "shopify:\/\/shop_images\/2_38b99ae1-328a-4bf4-8a54-35b585ff1ecf.png"
           }
         }
       },
       "block_order": [
         "9889509b-b085-4510-95ba-848a26cb7d92",
         "71ef3a68-758c-4466-a182-ecbeaddae4a0",
-        "50678011-4a51-47ba-82d2-458e7ed7c1c4"
+        "50678011-4a51-47ba-82d2-458e7ed7c1c4",
+        "eea3be00-ca42-4388-b358-a0c43b53a85f"
       ],
       "settings": {
         "isImageOnLeftSide": true,
