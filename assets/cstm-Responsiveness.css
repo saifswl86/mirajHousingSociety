@@ -676,9 +676,10 @@
 }
 @media screen and (min-width:1280px){
 .Image_with_text.container-fluid .slick-list.draggable{
-    	padding:0px 145px!important;
+    	padding:0px 140px!important;
     }
   .slick-active .iwt-slide .iwt-slide-img{
   	height:390px;
   }
+
 }
