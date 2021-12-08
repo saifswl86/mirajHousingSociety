@@ -127,9 +127,14 @@ overflow:hidden
 }
 .iwt-slider .slick-slide img{ 
 width:100%;
-object-fit:contain;   
-min-height:375px;     
+object-fit:cover;   
+min-height:375px;      
 }
+.iwt-slider .slick-slide.slick-active img{
+	object-fit:contain;
+}
+
+
 .iwt-slider .slick-slide.slick-current.slick-active.slick-center{
 transform:scale(1.5); 
 padding-top:0px
