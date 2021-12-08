@@ -524,7 +524,7 @@ img.annoucement-bar-icon{
 
 .cstm-project-item-text p{
     font-weight: 300;
-    letter-spacing: 2.2px;
+/*     letter-spacing: 2.2px; */ 
     color: #2B2B2B;
   	line-height:1.25;
   	text-align:justify;
