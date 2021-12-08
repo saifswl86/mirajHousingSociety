@@ -132,10 +132,14 @@ min-height:325px;
 object-position:left;  
 } 
 .iwt-slider .slick-slide.slick-current.slick-active.slick-center img{ 
-	object-fit:contain;
+	object-fit:contain; 
 	min-height:355px; 
 }
-
+@media screen and (max-width:1024px){
+.iwt-slider .slick-slide.slick-current.slick-active.slick-center img,.iwt-slider .slick-slide img{ 
+	min-height:100%;
+}
+}
 
 .iwt-slider .slick-slide.slick-current.slick-active.slick-center{
 transform:scale(1.5); 
