@@ -902,6 +902,7 @@ STYLES FOR : Custom Contact Form
 .contact_form_header h3{
     font-weight: 200;
     font-size: 34px;
+  	letter-spacing:2px; 
     color: #2b2b2b;
 }
 .contact_form_header p{
