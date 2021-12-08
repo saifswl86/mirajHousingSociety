@@ -369,6 +369,7 @@
   }
   .iwt_right .Image_with_text-textArea{
   	padding:30px 1rem;
+    margin-top:0px;
   }
   footer .announcement_Text{
   	text-align:center;
