@@ -782,7 +782,7 @@ STYLES FOR : Custom Blogs
 
 .cstm-blogs-item-text p{
     font-weight: 200;
-    letter-spacing: 2.2px;
+/*     letter-spacing: 2.2px; */ 
     color: #555555;
   	text-align:justify;
       line-height: 1.25;
