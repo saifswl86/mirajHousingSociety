@@ -201,6 +201,7 @@
     },
     "163894317799bcb420": {
       "type": "custom-liquid",
+      "disabled": true,
       "settings": {
         "custom_liquid": "<iframe src=\"https:\/\/www.google.com\/maps\/embed?pb=!4v1625772972567!6m8!1m7!1sCAoSLEFGMVFpcE9vZlBsdjN0OWJmdDNyRUhxVVdJWXBWVmdwNk1NRkN2NmQwWWN6!2m2!1d3.163129555011029!2d101.7150764170949!3f176.04!4f23.099999999999994!5f0.4000000000000002\" width=\"1200\" height=\"600\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\"><\/iframe>"
       }
