@@ -1593,5 +1593,8 @@ button.slick-prev.ann-cstm-prev-icon.slick-arrow::before,button.slick-next.ann-c
   }
   div#shopify-section-template--15117802209468__163631216952e6b15c .btn__text-dynamic-inner, #shopify-section-template--15117802209468__1636312401e91e8264 .btn__text-dynamic-inner {
     background: #fff;
+}.tour iframe {
+    width: 100%;
+    height: 650px;
 }
   
