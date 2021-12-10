@@ -1,0 +1,12 @@
+{
+  "sections": {
+    "tour": {
+      "type": "tour",
+      "settings": {
+      }
+    }
+  },
+  "order": [
+    "tour"
+  ]
+}
