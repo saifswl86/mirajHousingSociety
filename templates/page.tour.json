@@ -1,5 +1,17 @@
 {
   "sections": {
+    "163911070503a6c621": {
+      "type": "banner-section",
+      "settings": {
+        "banner-section-content": "half_width_image",
+        "overlay_check": true,
+        "tagline_banner": "A project by Miraj Housing Scheme",
+        "banner-overlay-image_check": false,
+        "banner-overlay-heading": "Tours",
+        "half_background_image": "shopify:\/\/shop_images\/3.png",
+        "banner_video": ""
+      }
+    },
     "tour": {
       "type": "tour",
       "settings": {
@@ -8,6 +20,7 @@
     }
   },
   "order": [
+    "163911070503a6c621",
     "tour"
   ]
 }
