@@ -978,6 +978,7 @@ p.sidebar_subtext {
     letter-spacing: 2px;
     opacity: 1;
   	padding-left:10px;
+	color:#555;
 }
 .contactInfo{
     padding: 20px;
