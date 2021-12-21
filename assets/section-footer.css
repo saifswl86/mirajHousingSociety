@@ -14,7 +14,9 @@
 .footer__copyright.caption .copyright__content{
 	font-size:1em;
 }
-
+.footer-block__details-content.footer-block-image{
+	padding-top:2rem;
+}
 @media screen and (max-width: 749px) {
   .footer .grid {
     display: block;
