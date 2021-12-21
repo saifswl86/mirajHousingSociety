@@ -34,7 +34,7 @@
   div.banner-overlay-tagline::after{
   	top:70px;
   }
-  .res,.images_with_button,.img-with-text{
+  .res,.images_with_button,.img-with-text,.new-ammenities{
   	padding:5rem;
   }
   #shopify-section-template--15117797916860__163540502488940eb4 .video-section{
@@ -144,11 +144,11 @@
   .cstm-blogs-item {
   	margin:1rem 0rem;
   }
-  .res{
+  .res,.new-ammenities{
   	display:flex;
     flex-direction:column-reverse;
   }
-  .res_img img{
+  .res_img img,.ammenities_img img{
   	width:100%;
     height:325px;
     object-fit:cover;
@@ -159,7 +159,7 @@
   .iwt3Left{
   padding:0rem 2rem;
   }
-  .images_with_button, .img-with-text, .res{
+  .images_with_button, .img-with-text, .res,.new-ammenities{
   	padding:0rem 5rem;
   }
   .header__heading, .header__heading-link{
@@ -357,16 +357,16 @@
   #shopify-section-template--15117797916860__163540502488940eb4{
   	margin-bottom:10rem;
   }
-  .res-iconItem{
+  .res-iconItem, .ammenities-iconItem{
 	width:235px;
     margin-bottom:1rem;
   }
-  .images_with_button, .img-with-text, .res{
+  .images_with_button, .img-with-text, .res,.new-ammenities{
   	padding:0rem 2rem;
   }
-  .res-icons{flex-wrap:wrap}
-   .res-icons{
+   .res-icons,.ammenities-icons{
   	justify-content:center;
+    flex-wrap:wrap
   }
   .cstm-heading{
       font-size: 28px;
@@ -444,13 +444,13 @@
   #shopify-section-template--15117797916860__163540502488940eb4{
   	margin-bottom:17rem;
   }
-  .res-iconItem {
+  .res-iconItem,.ammenities-iconItem {
   	width:170px;
   }
   .iwb_gallery img{
   width:47.3%;
   }
-  .res-info h1{
+  .res-info h1, .ammenities-info h1 {
   	font-weight:300;
    	font-size:34px;
     letter-spacing:4.2px;
@@ -498,16 +498,16 @@
   .iwb_gallery img{
   	width:46.3%;
   }
-  .res-iconItem{
+  .res-iconItem,.ammenities-iconItem{
   width:140px;
   }
-  .res-info{
+  .res-info,.ammenities-info{
     padding:2rem 0rem;
   }
-  .res-info h1{
+  .res-info h1,.ammenities-info h1{
   	font-size:28px;
   }
-  .res-info p{
+  .res-info p,.ammenities-info p{
   	font-size:14px;
   }
 /*   .Image_with_text-Image-Slider-Area.iwt-slider.slick-initialized.slick-slider .slick-list.draggable{
@@ -541,7 +541,7 @@
   .contactInfo_title h1{
   	font-size:18px;
   }
-  .res-iconItem{
+  .res-iconItem,.ammenities-iconItem{
   	width:125px;
   }
    button.slick-prev.ann-cstm-prev-icon.slick-arrow{
@@ -678,7 +678,7 @@
   .styled_btn [class^=btn__text]{
   	font-size:13px;
   }
-  .images_with_button, .img-with-text, .res{
+  .images_with_button, .img-with-text, .res,.new-ammenities{
   	padding:0rem 2rem;
   }
   .iwt4-text{
