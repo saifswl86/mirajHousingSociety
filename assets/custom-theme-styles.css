@@ -1535,6 +1535,91 @@ button.slick-prev.ann-cstm-prev-icon.slick-arrow::before,button.slick-next.ann-c
     height: 100%;
   }  
   
+  
+ /*
+============================================================================================
+  STYLES FOR ====>>Image With Text With Icons
+============================================================================================
+*/ 
+  
+  .new-ammenities{
+    display: flex;
+    padding: 0rem 10rem;
+    margin:5rem 0rem;
+  }
+
+  .ammenities-content{
+    /* height: 100%; */
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    flex: 0.5;
+  }
+  .ammenities-iconItem{
+    background: #EAE9E5;
+    margin-right: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+    width: 150px;
+    height:100px;
+    cursor:pointer;
+    transition:0.2s ease-in-out;
+    border-radius:2px;
+  }
+  .ammenities-iconItem:hover{
+  	transform:scale(0.96)
+  }
+  
+  .ammenities-info{
+    padding: 3rem 0rem;
+    padding-right: 3rem;
+  }
+  .ammenities-info h1{
+    letter-spacing: 2.6px;
+    font-weight: 200;
+    font-size: 40px;
+  }
+  .ammenities-info p{
+    letter-spacing: 2px;
+    font-size: 18px;
+    font-weight:300;
+    padding: 1rem 0rem;
+    color: #2b2b2b;
+    line-height:1.25;
+  }
+  .ammenities-icons{
+    align-self: flex-start;
+
+    display: flex;
+    justify-content: space-evenly;
+  }
+  .ammenities-iconItem img{
+    width: 35px;
+    transition:0.2s ease-in-out;
+  }
+  .ammenities-iconItem:hover img{
+  	transform:scale(1.1) translateY(-5px);
+
+  }
+  .ammenities-iconItem p{
+    margin: 0px;
+    padding-top:10px;
+    color: #555555;
+    font-size: 14px;
+    letter-spacing: 1px
+  }
+  .ammenities_img{
+    flex: 0.5;
+  }
+  .ammenities_img img{
+    max-width: 100%;
+    width:100%;
+    max-height:570px;  
+    height: 100%;
+  }  
+  
   /*
 ============================================================================================
   STYLES FOR ====>>Simple Images Gallery
