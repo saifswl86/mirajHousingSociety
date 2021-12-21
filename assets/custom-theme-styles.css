@@ -964,7 +964,11 @@ p.sidebar_subtext {
   }
 .cstm_contact_form_content-item input{
     height: 40px;
+  	width:90%;
 }
+  .cstm_contact_form_content-item textarea{
+  	width:90%;
+  }
 /*   .cstm_contact_form_content-item input:focus{
   	border:0px;
     outline:0px; 
