@@ -72,9 +72,8 @@
 			<div class="footer-block__details-content footer-block-contact {{ block.settings.alignment }}">
                 	<div class="contactInfo">
                   {% if block.settings.contact_title!=blank%}
-                   <div class="contactInfo_title">
-                        <h1>{{block.settings.contact_title}}</h1>
-                   </div>
+						<h2 class="footer-block__heading">{{block.settings.contact_title}}</h2>
+               
                   {%endif%}
                   {%if block.settings.contact_desc!=blank%}
                    <div class="contactInfo_desc">
