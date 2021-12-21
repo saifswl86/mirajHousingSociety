@@ -309,8 +309,9 @@
     .ammenities-info h1{
     	text-align:center;
     }
+    p.sidebar_text{font-size:60px}
 }
-@media screen and (max-width:767px){ .mhs-sidebar{display:none;}p.sidebar_text{font-size:60px}}
+@media screen and (max-width:767px){ .mhs-sidebar{display:none;}}
 
 
 @media screen and (max-width:540px)
