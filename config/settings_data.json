@@ -69,7 +69,7 @@
             "settings": {
               "image": "shopify:\/\/shop_images\/LOGO_2x_e978eb8f-dc11-4ea9-8c04-4559fccf9d35.png",
               "image_width": 145,
-              "alignment": "center"
+              "alignment": ""
             }
           },
           "footer-0": {
