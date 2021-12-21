@@ -175,6 +175,7 @@
     },
     "1636008819cf5258f8": {
       "type": "amenities",
+      "disabled": true,
       "blocks": {
         "dfa1f4a8-3ddf-4e2e-9a4e-08dea02cbd94": {
           "type": "Amenities",
@@ -231,6 +232,50 @@
         "contact_btn_text": "Call: +92 341 3265985",
         "contact_btn_link": "tel:+923413265985"
       }
+    },
+    "16400933577e769f93": {
+      "type": "IWT-Icons",
+      "blocks": {
+        "0700f7bf-f9b4-4949-a271-34e07f997fd5": {
+          "type": "icons",
+          "settings": {
+            "icon": "shopify:\/\/shop_images\/hospital.png",
+            "icon_text": ""
+          }
+        },
+        "0d5c2796-1211-4db8-afa4-f4abb4cd43d8": {
+          "type": "icons",
+          "settings": {
+            "icon": "shopify:\/\/shop_images\/airport.png",
+            "icon_text": ""
+          }
+        },
+        "8de5b82a-d6a3-4d3b-8a6c-bfe8fc559bf6": {
+          "type": "icons",
+          "settings": {
+            "icon": "shopify:\/\/shop_images\/apple.png",
+            "icon_text": ""
+          }
+        },
+        "3b8810b2-da04-4df0-9f0f-d205559bd6e4": {
+          "type": "icons",
+          "settings": {
+            "icon": "shopify:\/\/shop_images\/hospital.png",
+            "icon_text": ""
+          }
+        }
+      },
+      "block_order": [
+        "0700f7bf-f9b4-4949-a271-34e07f997fd5",
+        "0d5c2796-1211-4db8-afa4-f4abb4cd43d8",
+        "8de5b82a-d6a3-4d3b-8a6c-bfe8fc559bf6",
+        "3b8810b2-da04-4df0-9f0f-d205559bd6e4"
+      ],
+      "settings": {
+        "title": "Amenities",
+        "desc": "",
+        "image": "shopify:\/\/shop_images\/01.png"
+      }
     }
   },
   "order": [
@@ -241,6 +286,7 @@
     "1635924263743f36bf",
     "1636008819cf5258f8",
     "1636013166fee5fdff",
-    "163602917372e7d7c8"
+    "163602917372e7d7c8",
+    "16400933577e769f93"
   ]
 }
