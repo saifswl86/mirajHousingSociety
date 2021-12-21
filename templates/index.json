@@ -173,43 +173,61 @@
         "button_link": "#"
       }
     },
-    "16400933577e769f93": {
-      "type": "IWT-Icons",
+    "16400936776818d437": {
+      "type": "new-amenities",
       "blocks": {
-        "0700f7bf-f9b4-4949-a271-34e07f997fd5": {
+        "d85e5f53-491b-4ba3-9a59-193bac5291e9": {
           "type": "icons",
           "settings": {
             "icon": "shopify:\/\/shop_images\/hospital.png",
             "icon_text": ""
           }
         },
-        "0d5c2796-1211-4db8-afa4-f4abb4cd43d8": {
+        "915984a4-87c3-4d81-aea4-4e04f999fb65": {
           "type": "icons",
           "settings": {
-            "icon": "shopify:\/\/shop_images\/airport.png",
             "icon_text": ""
           }
         },
-        "8de5b82a-d6a3-4d3b-8a6c-bfe8fc559bf6": {
+        "cf2a2755-8bc4-42b3-9905-2ac0c0d1cb10": {
           "type": "icons",
           "settings": {
-            "icon": "shopify:\/\/shop_images\/apple.png",
             "icon_text": ""
           }
         },
-        "3b8810b2-da04-4df0-9f0f-d205559bd6e4": {
+        "fdc3f077-67e3-47c4-a9d2-e687a31e94c4": {
           "type": "icons",
           "settings": {
-            "icon": "shopify:\/\/shop_images\/hospital.png",
+            "icon_text": ""
+          }
+        },
+        "ac872b18-2ecb-4741-941e-485b02a5541b": {
+          "type": "icons",
+          "settings": {
+            "icon_text": ""
+          }
+        },
+        "3b12de7a-3e5b-4db5-80d5-4a55df49c366": {
+          "type": "icons",
+          "settings": {
+            "icon_text": ""
+          }
+        },
+        "ae6706c3-00b9-41ca-83ac-4bf569029e2f": {
+          "type": "icons",
+          "settings": {
             "icon_text": ""
           }
         }
       },
       "block_order": [
-        "0700f7bf-f9b4-4949-a271-34e07f997fd5",
-        "0d5c2796-1211-4db8-afa4-f4abb4cd43d8",
-        "8de5b82a-d6a3-4d3b-8a6c-bfe8fc559bf6",
-        "3b8810b2-da04-4df0-9f0f-d205559bd6e4"
+        "d85e5f53-491b-4ba3-9a59-193bac5291e9",
+        "915984a4-87c3-4d81-aea4-4e04f999fb65",
+        "cf2a2755-8bc4-42b3-9905-2ac0c0d1cb10",
+        "fdc3f077-67e3-47c4-a9d2-e687a31e94c4",
+        "ac872b18-2ecb-4741-941e-485b02a5541b",
+        "3b12de7a-3e5b-4db5-80d5-4a55df49c366",
+        "ae6706c3-00b9-41ca-83ac-4bf569029e2f"
       ],
       "settings": {
         "title": "Amenities",
@@ -284,7 +302,7 @@
     "163594017842fe1cab",
     "16354022688ca05399",
     "1635924263743f36bf",
-    "16400933577e769f93",
+    "16400936776818d437",
     "1636008819cf5258f8",
     "1636013166fee5fdff",
     "163602917372e7d7c8"
