@@ -952,7 +952,9 @@ p.sidebar_subtext {
     box-shadow:none;
     outline:0px;
   }  
-  
+  .cstm_contact_form_content-item textarea{
+  	resize:none;
+  }
 .cstm_contact_form_content-item input{
     height: 40px;
 }
