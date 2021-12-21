@@ -49,6 +49,17 @@
         </div>
     </div>
 
+<style>
+  .cstm_contact_form{
+    {% if section.settings.showoverlay %}
+    	{% if section.settings.overlaycolor != blank %}
+    	 background:{{ section.settings.showoverlay }}66 ;
+        {% endif %}
+    {% endif %}
+  } 
+  
+</style>
+
 {% schema %}
   {
     "name": "Contact Form",
