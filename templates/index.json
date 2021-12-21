@@ -224,6 +224,20 @@
             "icon": "shopify:\/\/shop_images\/hospital.png",
             "icon_text": ""
           }
+        },
+        "e8c5dd9e-d027-4dfd-aa33-f87f6e645bff": {
+          "type": "icons",
+          "settings": {
+            "icon": "shopify:\/\/shop_images\/airport.png",
+            "icon_text": ""
+          }
+        },
+        "16bac0bb-67ad-4827-8aad-0c5e3870c5ce": {
+          "type": "icons",
+          "settings": {
+            "icon": "shopify:\/\/shop_images\/apple.png",
+            "icon_text": ""
+          }
         }
       },
       "block_order": [
@@ -233,7 +247,9 @@
         "fdc3f077-67e3-47c4-a9d2-e687a31e94c4",
         "ac872b18-2ecb-4741-941e-485b02a5541b",
         "3b12de7a-3e5b-4db5-80d5-4a55df49c366",
-        "ae6706c3-00b9-41ca-83ac-4bf569029e2f"
+        "ae6706c3-00b9-41ca-83ac-4bf569029e2f",
+        "e8c5dd9e-d027-4dfd-aa33-f87f6e645bff",
+        "16bac0bb-67ad-4827-8aad-0c5e3870c5ce"
       ],
       "settings": {
         "title": "Amenities",
