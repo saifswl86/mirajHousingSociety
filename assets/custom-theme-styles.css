@@ -21,7 +21,7 @@ Custom Theme Styles
 	 cursor: pointer;
 	 text-transform: uppercase;
    	 width:max-content;
-   	 border-radius:5px;
+   	 border-radius:25px;
    	 float:right;  
 }
  .styled_btn [class^="btn__text"] {
