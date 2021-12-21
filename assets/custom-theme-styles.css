@@ -1561,7 +1561,7 @@ button.slick-prev.ann-cstm-prev-icon.slick-arrow::before,button.slick-next.ann-c
     flex-direction: column;
     align-items: center;
 /*     justify-content: flex-end; */
-    width: 200px;
+    width: 180px;
     height:125px;
     cursor:pointer;
     transition:0.2s ease-in-out;
@@ -1596,7 +1596,7 @@ button.slick-prev.ann-cstm-prev-icon.slick-arrow::before,button.slick-next.ann-c
 	flex-wrap: wrap;
   }
   .ammenities-iconItem img{
-    width: 55px;
+    width: 45px;
     transition:0.2s ease-in-out;
   }
   .ammenities-iconItem:hover img{
