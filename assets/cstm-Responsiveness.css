@@ -407,6 +407,9 @@
   	padding:3rem 2rem;
     margin:0rem;
   }
+  .mhs-contact-btns{
+  	padding:0px;
+  }
   .mhs-contact-btns button{
   	margin:10px 0px;
   }
