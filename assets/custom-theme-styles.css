@@ -899,12 +899,12 @@ p.sidebar_text {
     color: #fff;
     text-transform: uppercase;
     letter-spacing: 2.6px;
-    font-size: 64px;
+    font-size: 50px;
     margin-bottom: 0px;
 }
 p.sidebar_subtext {
     text-transform: lowercase;
-    font-size: 60px;
+    font-size: 45px;
     color: #fff;
     text-align: right;
     margin-bottom: 0px;
