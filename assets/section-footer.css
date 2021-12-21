@@ -12,7 +12,7 @@
   display: block;
 }
 .footer__copyright.caption .copyright__content{
-	font-size:1rem;
+	font-size:1em;
 }
 
 @media screen and (max-width: 749px) {
