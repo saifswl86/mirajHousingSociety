@@ -21,23 +21,24 @@
         "0a18bc96-2be1-4eaf-a942-02a84ee5870b": {
           "type": "Image",
           "settings": {
-            "slider_image": "shopify:\/\/shop_images\/1.jpg"
+            "slider_image": "shopify:\/\/shop_images\/Frame_4.jpg"
           }
         },
         "a919a894-4b38-4b23-9bbe-eabc8734117b": {
           "type": "Image",
           "settings": {
-            "slider_image": "shopify:\/\/shop_images\/3.jpg"
+            "slider_image": "shopify:\/\/shop_images\/Frame_5.jpg"
           }
         },
         "26425a41-57c5-47ed-af40-3bfca57a94bf": {
           "type": "Image",
           "settings": {
-            "slider_image": "shopify:\/\/shop_images\/2.jpg"
+            "slider_image": "shopify:\/\/shop_images\/Frame_6.jpg"
           }
         },
         "d9fa4a14-b104-4923-a954-212ca0c5fbf2": {
           "type": "Image",
+          "disabled": true,
           "settings": {
             "slider_image": "shopify:\/\/shop_images\/2.jpg"
           }
@@ -52,8 +53,8 @@
       "settings": {
         "isImageOnLeftSide": false,
         "bgColor": "#e6e5e2",
-        "title": "About Miraj",
-        "description": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt u.",
+        "title": "Welcome to MHS!",
+        "description": "We warmly welcome you all to the Meraj Housing Society’s official website. As you move along & explore the site, we hope you get familiar with the qualities of our company which makes us stand out from other Real Estate developers & construction service companies. We also hope you find this an excellent place to build a career!\n\nWe believe that we have come a long way in a very short period of time, evolving, growing & eventually transforming into a dynamic & commercially minded real estate agency.",
         "button_text": "Read More",
         "button_link": "Button"
       }

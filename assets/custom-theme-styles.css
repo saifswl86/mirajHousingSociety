@@ -940,7 +940,7 @@ p.sidebar_subtext {
   	font-size:13px;
 }
 .cstm_contact_form_content-item input,.cstm_contact_form_content-item textarea{
-    border: 2px solid #2b2b2b;
+    border: 3px solid #2b2b2b;
     outline: 0px;
 /*     background-color: #EAE9E5; */
   	background-color:transparent;
