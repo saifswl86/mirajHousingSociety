@@ -31,11 +31,107 @@
                               <span class="btn__text-dynamic-inner">Send Message</span>
                             </div>
               			</button>
-                    {%endform%}
+                    {% endform %}
                 </div>
             </div>
             <div class="col-12 col-md-5">
-                <div class="contactInfo">
+              {% if section.settings.sidebar_text!=blank or section.settings.sidebar_subtext!=blank %}
+                <div class="mhs-sidebar-headings">
+                  	<span class="sidebar_text">
+                  		{{ section.settings.sidebar_text }}
+                  	</span>
+                    <span class="sidebar_subtext">
+                  		{{ section.settings.sidebar_subtext }}
+                  	</span>
+              	</div>
+              {% endif %}
+            </div>
+        </div>
+    </div>
+
+{% schema %}
+  {
+    "name": "Contact Form",
+    "settings": [
+		{
+			"type":"text",
+			"id":"title",
+			"label":"Title"
+		},
+		{
+			"type":"text",
+			"id":"sub_title",
+			"label":"Sub Title"
+		},
+		{
+			"type":"header",
+			"content":"Background Settings"
+		},		
+		{
+			"type":"header",
+			"content":"Sidebar Heading Settings"
+		},
+		{
+			"type":"text",
+			"label":"Sidebar Title",
+			"id":"sidebar_text"
+		},
+		{
+			"type":"text",
+			"id": "sidebar_subtext",
+			"label":"Sidebar Sub Title"
+		}
+	],
+	"presets":[
+		{
+			"name":"MHS Contact Form "
+		}
+	]
+  }
+{% endschema %}
+
+{% comment %}
+,
+		{
+			"type":"header",
+			"content":"Content Information"
+		},
+		{
+			"type":"text",
+			"id":"contact_title",
+			"label":"Title"
+		},
+		{
+			"type":"textarea",
+			"id":"contact_desc",
+			"label":"Description"
+		},
+		{
+			"type":"text",
+			"id":"address",
+			"label":"Address"
+		},
+		{
+			"type":"text",
+			"id":"phone",
+			"label":"Phone"
+		},
+		{
+			"type":"text",
+			"id":"fax",	
+			"label":"Fax"
+		},
+		{
+			"type":"text",
+			"id":"time",
+			"label":"Working days and hours"
+		},
+		{
+			"type":"text",
+			"id":"email",
+			"label":"Email"
+		}
+	<div class="contactInfo">
                   {% if section.settings.contact_title!=blank%}
                    <div class="contactInfo_title">
                         <h1>{{section.settings.contact_title}}</h1>
@@ -79,74 +175,4 @@
                      	{%endif%}
                    </div>
                 </div>
-            </div>
-        </div>
-    </div>
-
-{% schema %}
-  {
-    "name": "Contact Form",
-    "settings": [
-		{
-			"type":"text",
-			"id":"title",
-			"label":"Title"
-		},
-		{
-			"type":"text",
-			"id":"sub_title",
-			"label":"Sub Title"
-		},
-		{
-			"type":"header",
-			"content":"Content Information"
-		},
-		{
-			"type":"text",
-			"id":"contact_title",
-			"label":"Title"
-		},
-		{
-			"type":"textarea",
-			"id":"contact_desc",
-			"label":"Description"
-		},
-		{
-			"type":"text",
-			"id":"address",
-			"label":"Address"
-		},
-		{
-			"type":"text",
-			"id":"phone",
-			"label":"Phone"
-		},
-		{
-			"type":"text",
-			"id":"fax",	
-			"label":"Fax"
-		},
-		{
-			"type":"text",
-			"id":"time",
-			"label":"Working days and hours"
-		},
-		{
-			"type":"text",
-			"id":"email",
-			"label":"Email"
-		}
-	],
-	"presets":[
-		{
-			"name":"MHS Contact Form "
-		}
-	]
-  }
-{% endschema %}
-
-{% stylesheet %}
-{% endstylesheet %}
-
-{% javascript %}
-{% endjavascript %}
+{% endcomment %}
