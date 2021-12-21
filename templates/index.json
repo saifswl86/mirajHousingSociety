@@ -186,36 +186,42 @@
         "915984a4-87c3-4d81-aea4-4e04f999fb65": {
           "type": "icons",
           "settings": {
+            "icon": "shopify:\/\/shop_images\/airport.png",
             "icon_text": ""
           }
         },
         "cf2a2755-8bc4-42b3-9905-2ac0c0d1cb10": {
           "type": "icons",
           "settings": {
+            "icon": "shopify:\/\/shop_images\/apple.png",
             "icon_text": ""
           }
         },
         "fdc3f077-67e3-47c4-a9d2-e687a31e94c4": {
           "type": "icons",
           "settings": {
+            "icon": "shopify:\/\/shop_images\/hospital.png",
             "icon_text": ""
           }
         },
         "ac872b18-2ecb-4741-941e-485b02a5541b": {
           "type": "icons",
           "settings": {
+            "icon": "shopify:\/\/shop_images\/airport.png",
             "icon_text": ""
           }
         },
         "3b12de7a-3e5b-4db5-80d5-4a55df49c366": {
           "type": "icons",
           "settings": {
+            "icon": "shopify:\/\/shop_images\/apple.png",
             "icon_text": ""
           }
         },
         "ae6706c3-00b9-41ca-83ac-4bf569029e2f": {
           "type": "icons",
           "settings": {
+            "icon": "shopify:\/\/shop_images\/hospital.png",
             "icon_text": ""
           }
         }
