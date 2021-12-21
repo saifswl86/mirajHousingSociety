@@ -1590,8 +1590,8 @@ button.slick-prev.ann-cstm-prev-icon.slick-arrow::before,button.slick-next.ann-c
   }
   .ammenities-icons{
     align-self: flex-start;
-
     display: flex;
+	flex-wrap: wrap;
   }
   .ammenities-iconItem img{
     width: 35px;
