@@ -1,4 +1,4 @@
-<div class="cstm_contact_form">
+<div class="cstm_contact_form {% if section.settings.background_image!=blank %} mhsoverlay {% endif %}">
   		{%if section.settings.title!=blank or section.settings.sub_title!=blank%}
           <div class="contact_form_header">
             	{%if section.settings.title!=blank%}
