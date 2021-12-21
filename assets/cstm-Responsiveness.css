@@ -407,6 +407,9 @@
   	padding:0rem 2rem;
     margin:0rem;
   }
+  .mhs-contact-btns{
+  	flex-direction:column;
+  }
   .announce-sm-icons{
   	padding-right:10px;
   }
