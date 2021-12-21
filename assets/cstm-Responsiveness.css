@@ -79,6 +79,9 @@
   .projects-list{
   	padding:0rem;
   }
+  .mhs-sidebar-headings{
+      transform: rotate(270deg) translatex(-75px);
+  }
 }
 @media screen and (max-width:990px){
   .header__inline-menu{
