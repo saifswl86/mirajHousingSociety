@@ -1,7 +1,7 @@
-<div class="res">
-        <div class="res-content ">
+<div class="new-ammenities">
+        <div class="ammenities-content ">
           {%if section.settings.title!=blank or section.settings.desc!=blank%}
-            <div class="res-info">
+            <div class="ammenities-info">
               {%if section.settings.title!=blank%}
                 <h1>{{section.settings.title}}</h1>
               {%endif%}
@@ -11,9 +11,9 @@
           	</div>
           {%endif%}
           {%if section.blocks!=blank%}
-            <div class="res-icons">
+            <div class="ammenities-icons">
               {%for block in section.blocks%}
-                    <div class="res-iconItem">
+                    <div class="ammenities-iconItem">
                       {%if block.settings.icon!=blank%}
                         <img src="{{block.settings.icon|img_url:'master'}}" alt="">
                       {%endif%}
@@ -26,7 +26,7 @@
           {%endif%}
         </div>
   		{%if section.settings.image!=blank%}
-        <div class="res_img">
+        <div class="ammenities_img">
             <img src="{{section.settings.image|img_url:'master'}}" alt="">
         </div>
   		{%endif%}
