@@ -79,18 +79,23 @@
               "menu": "footer"
             }
           },
-          "6fa65fcb-c4fa-40ba-8bb1-0914353dcb58": {
-            "type": "link_list",
+          "84fe2a77-c6e4-496b-95da-0f082ae398d7": {
+            "type": "contact",
             "settings": {
-              "heading": "Contact",
-              "menu": ""
+              "contact_title": "Contact",
+              "contact_desc": "",
+              "address": "Meraj Housing Scheme Near Daska Sialkot Motorway Interchange Point, Exit No. 5 Daska, Sialkot",
+              "phone": "+923000247777",
+              "fax": "+923000247777",
+              "time": "",
+              "email": "info@merajhousing.com"
             }
           }
         },
         "block_order": [
           "9e0b7f43-bf31-4081-b3eb-e5e4ba07ef0b",
           "footer-0",
-          "6fa65fcb-c4fa-40ba-8bb1-0914353dcb58"
+          "84fe2a77-c6e4-496b-95da-0f082ae398d7"
         ],
         "settings": {
           "color_scheme": "background-2",
