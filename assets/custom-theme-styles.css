@@ -18,6 +18,7 @@ Custom Theme Styles
 	 background-color: #525252;
 	 position: relative;
 	 overflow: hidden;
+   	 height:max-content;
 	 cursor: pointer;
 	 text-transform: uppercase;
    	 width:max-content;
@@ -26,6 +27,7 @@ Custom Theme Styles
 }
 .cstm_contact_form_content .styled_btn{
 	border-radius:25px;
+  	margin-right:10px;
 }
  .styled_btn [class^="btn__text"] {
 	  font-size: 13px;
