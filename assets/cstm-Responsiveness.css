@@ -290,6 +290,9 @@
     .Image_with_text-textArea{
     	margin-top:20px;
     }
+    .mhs-sidebar{
+    	display:none;
+    }
 }
 
 
