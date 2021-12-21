@@ -37,12 +37,12 @@
             <div class="col-12 col-md-5">
               {% if section.settings.sidebar_text!=blank or section.settings.sidebar_subtext!=blank %}
                 <div class="mhs-sidebar-headings">
-                  	<span class="sidebar_text">
+                  	<p class="sidebar_text">
                   		{{ section.settings.sidebar_text }}
-                  	</span>
-                    <span class="sidebar_subtext">
+                  	</p>
+                    <p class="sidebar_subtext">
                   		{{ section.settings.sidebar_subtext }}
-                  	</span>
+                  	</p>
               	</div>
               {% endif %}
             </div>
@@ -61,7 +61,7 @@
     position: absolute;
     transform: rotate(270deg) translatex(-114px);
     right: 0;
-    font-size: 64px;
+/*     font-size: 64px; */
     text-transform: uppercase;
   }
   
