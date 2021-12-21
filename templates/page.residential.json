@@ -176,8 +176,11 @@
       "settings": {
         "title": "Let's get in touch",
         "sub_title": "",
-        "sidebar_text": "",
-        "sidebar_subtext": ""
+        "background_image": "shopify:\/\/shop_images\/PERS_1.png",
+        "sidebar_text": "REDEFINING",
+        "sidebar_subtext": "real states",
+        "contact_btn_text": "Call: +92 341 3265985",
+        "contact_btn_link": "tel:+923413265985"
       }
     }
   },
