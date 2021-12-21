@@ -895,6 +895,21 @@ STYLES FOR : Custom Contact Form
     padding: 3rem 14rem;
     margin:3rem 0rem
 }
+p.sidebar_text {
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: 2.6px;
+    font-size: 64px;
+    margin-bottom: 0px;
+}
+p.sidebar_subtext {
+    text-transform: lowercase;
+    font-size: 60px;
+    color: #fff;
+    text-align: right;
+    margin-bottom: 0px;
+    margin-top: -30px;
+}
 .contact_form_header{
     text-align: center;
     padding: 1rem 0rem;
