@@ -302,9 +302,7 @@
     .Image_with_text-textArea{
     	margin-top:20px;
     }
-    .mhs-sidebar{
-    	display:none;
-    }
+   
      .ammenities-iconItem{
   	width:200px;
   }
@@ -312,7 +310,7 @@
     	text-align:center;
     }
 }
-
+@media screen and (max-width:767px){ .mhs-sidebar{display:none;}
 
 
 @media screen and (max-width:540px)
