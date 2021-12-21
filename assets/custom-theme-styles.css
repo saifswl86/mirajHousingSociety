@@ -914,9 +914,11 @@ p.sidebar_subtext {
 /*     text-align: center; */
   	text-align:left;
     padding: 1rem 0rem;
+  	padding-bottom:0rem;
+
 }
 .contact_form_header h3{
-    font-weight: 200;
+    font-weight: 500;
     font-size: 34px;
   	letter-spacing:2px; 
     color: #2b2b2b;
