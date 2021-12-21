@@ -24,9 +24,7 @@ Custom Theme Styles
    	 border-radius:5px;
    	 float:right;  
 }
-.cstm_contact_form_content .styled_btn{
-	border-radius:25px;
-}
+
  .styled_btn [class^="btn__text"] {
 	  font-size: 13px;
    	  font-weight:500;
