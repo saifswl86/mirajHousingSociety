@@ -76,14 +76,14 @@
             "type": "link_list",
             "settings": {
               "heading": "Table of Contents",
-              "menu": "footer"
+              "menu": "main-menu"
             }
           },
           "6fa65fcb-c4fa-40ba-8bb1-0914353dcb58": {
             "type": "link_list",
             "settings": {
               "heading": "Contact",
-              "menu": "footer"
+              "menu": ""
             }
           }
         },
