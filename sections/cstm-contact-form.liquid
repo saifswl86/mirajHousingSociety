@@ -28,9 +28,9 @@
                   		<div class="mhs-contact-btns">
                          {% if section.settings.contact_btn_text != blank%}
                               <a href="{% if section.settings.contact_btn_link != blank %} {{ section.settings.contact_btn_link }} {% endif %}" class="styled_btn btn--animation-from-right">
-                                  <span class="btn__text-static">{{ section.settigns.contact_btn_text }}</span>
+                                  <span class="btn__text-static">{{ section.settings.contact_btn_text }}</span>
                                   <div class="btn__text-dynamic">
-                                    <span class="btn__text-dynamic-inner">{{ section.settigns.contact_btn_text }}</span>
+                                    <span class="btn__text-dynamic-inner">{{ section.settings.contact_btn_text }}</span>
                                   </div>
                               </a>
                           {% endif %}
