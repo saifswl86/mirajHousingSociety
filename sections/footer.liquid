@@ -67,7 +67,12 @@
                     {%- else -%}
                       {{ 'image' | placeholder_svg_tag: 'placeholder-svg placeholder' }}
                     {%- endif -%}
+                    <div class="footer__copyright caption">
+                    <small class="copyright__content">&copy; {{ 'now' | date: "%Y" }}, {{ shop.name | link_to: routes.root_url }}</small>
+                    <small class="copyright__content">{{ powered_by_link }}</small>
                   </div>
+                  </div>
+              	   
               	{%- when 'contact' %}
 			<div class="footer-block__details-content footer-block-contact {{ block.settings.alignment }}">
                 	<div class="contactInfo">
