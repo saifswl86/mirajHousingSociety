@@ -69,6 +69,7 @@
                     {%- endif -%}
                   </div>
               	{%- when 'contact' %}
+			<div class="footer-block__details-content footer-block-contact {{ block.settings.alignment }}">
                 	<div class="contactInfo">
                   {% if block.settings.contact_title!=blank%}
                    <div class="contactInfo_title">
@@ -113,6 +114,7 @@
                      	{%endif%}
                    </div>
                 </div>
+			  </div>
                 {%- endcase -%}
             </div>
           {%- endfor -%}
