@@ -79,8 +79,8 @@
   .projects-list{
   	padding:0rem;
   }
-  .mhs-sidebar-headings{
-      transform: rotate(270deg) translatex(-75px);
+  .cstm_contact_form_content-item input,.cstm_contact_form_content-item textarea{
+  	width:100%;
   }
 }
 @media screen and (max-width:990px){
