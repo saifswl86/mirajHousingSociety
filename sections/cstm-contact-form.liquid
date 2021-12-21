@@ -26,7 +26,7 @@
                             <textarea rows="7" placeholder="Type here" id="cstm_message" required name="contact[body]"></textarea>
                         </div>
                   		<div class="mhs-contact-btns">
-                         {% if section.settigns.contact_btn_text!=blank%}
+                         {% if section.settings.contact_btn_text != blank%}
                               <a href="{% if section.settings.contact_btn_link != blank %} {{ section.settings.contact_btn_link }} {% endif %}" class="styled_btn btn--animation-from-right">
                                   <span class="btn__text-static">{{ section.settigns.contact_btn_text }}</span>
                                   <div class="btn__text-dynamic">
