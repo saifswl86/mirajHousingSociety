@@ -488,6 +488,7 @@ img.annoucement-bar-icon{
 .projects-list{
     display: flex;
     justify-content: center;
+  	padding:0rem 3rem;
 }
 .cstm-project-item-img img{
     max-width: 100%;
