@@ -64,24 +64,33 @@
       "footer": {
         "type": "footer",
         "blocks": {
+          "9e0b7f43-bf31-4081-b3eb-e5e4ba07ef0b": {
+            "type": "image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/LOGO_2x_e978eb8f-dc11-4ea9-8c04-4559fccf9d35.png",
+              "image_width": 145,
+              "alignment": "center"
+            }
+          },
           "footer-0": {
             "type": "link_list",
             "settings": {
-              "heading": "",
+              "heading": "Table of Contents",
               "menu": "footer"
             }
           },
-          "footer-1": {
-            "type": "text",
+          "6fa65fcb-c4fa-40ba-8bb1-0914353dcb58": {
+            "type": "link_list",
             "settings": {
-              "heading": "",
-              "subtext": ""
+              "heading": "Contact",
+              "menu": "footer"
             }
           }
         },
         "block_order": [
+          "9e0b7f43-bf31-4081-b3eb-e5e4ba07ef0b",
           "footer-0",
-          "footer-1"
+          "6fa65fcb-c4fa-40ba-8bb1-0914353dcb58"
         ],
         "settings": {
           "color_scheme": "background-2",
