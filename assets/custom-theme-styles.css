@@ -947,6 +947,11 @@ p.sidebar_subtext {
     padding: 10px;
   	border-radius:25px;
 }
+  .cstm_contact_form_content-item input:focus-visible,.cstm_contact_form_content-item textarea:focus-visible{
+  	outline-offset:0rem;
+    box-shadow:0rem;
+  }  
+  
 .cstm_contact_form_content-item input{
     height: 40px;
 }
