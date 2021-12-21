@@ -53,7 +53,7 @@
   .cstm_contact_form{
     {% if section.settings.showoverlay %}
     	{% if section.settings.overlaycolor != blank %}
-    	 background:{{ section.settings.overlaycolor }}66 ;
+		    background:url('{{section.settings.background_image |img_url:'master'}}'), {{ section.settings.overlaycolor }}66;
         {% endif %}
     {% endif %}
   } 
