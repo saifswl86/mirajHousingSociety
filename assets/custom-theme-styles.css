@@ -911,7 +911,8 @@ p.sidebar_subtext {
     margin-top: -30px;
 }
 .contact_form_header{
-    text-align: center;
+/*     text-align: center; */
+  	text-align:left;
     padding: 1rem 0rem;
 }
 .contact_form_header h3{
