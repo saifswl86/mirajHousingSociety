@@ -38,7 +38,7 @@
       ],
       "settings": {
         "title": "",
-        "desc": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr,",
+        "desc": "Miraj creates a society which is at the ideal geographical location, located just right next to the Sialkot Lahore Motorway Exchange M11. We want our residents to have the best of everything, therefore in addition to hassle-free travelling, we are providing modern infrastructures inspired by the minimalist trend in a green & serene landscape. Our society is a well-gated society with extensive security & safety measures in place at all times with limitless amenities. Visit Miraj for the ultimate experiences!",
         "imgOnLeft": false,
         "bgColor": "#eae9e5"
       }
@@ -48,13 +48,8 @@
       "settings": {
         "title": "Let's get in touch",
         "sub_title": "",
-        "contact_title": "Information",
-        "contact_desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit officia minima itaque dolorum vero ratione!",
-        "address": "Miraj Housing Society, Lahore",
-        "phone": "+9234582372349",
-        "fax": "Fax: +9234582372349",
-        "time": "Mon - Friday 07:00 AM to 09:00PM",
-        "email": "info@mirajhousingsociety.com"
+        "sidebar_text": "",
+        "sidebar_subtext": ""
       }
     }
   },
