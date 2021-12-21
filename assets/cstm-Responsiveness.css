@@ -70,7 +70,7 @@
   footer .announce-sm-icons{
   	padding-right:0px;
   }
-  .contact_form_header h3{
+  .contact_form_header h3,.cstm_contact_form .col-12.col-md-7{
   	padding:0rem;
   }
 }
