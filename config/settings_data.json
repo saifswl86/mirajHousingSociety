@@ -76,7 +76,7 @@
             "type": "link_list",
             "settings": {
               "heading": "Table of Contents",
-              "menu": "main-menu"
+              "menu": "footer"
             }
           },
           "6fa65fcb-c4fa-40ba-8bb1-0914353dcb58": {
