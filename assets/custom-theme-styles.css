@@ -1599,7 +1599,7 @@ button.slick-prev.ann-cstm-prev-icon.slick-arrow::before,button.slick-next.ann-c
 	flex-wrap: wrap;
   }
   .ammenities-iconItem img{
-    width: 30px;
+    width: 40px;
     transition:0.2s ease-in-out;
   }
   .ammenities-iconItem:hover img{
