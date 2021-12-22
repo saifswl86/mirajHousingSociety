@@ -45,7 +45,8 @@
     margin-left: -3rem;
     row-gap: 6rem;
     margin-bottom: 0;
-    padding-top:10rem;
+    padding-top: 10rem;
+    padding-bottom: 3rem;
   }
 
   .footer__content-top .grid__item {
