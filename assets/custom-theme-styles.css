@@ -1614,6 +1614,9 @@ button.slick-prev.ann-cstm-prev-icon.slick-arrow::before,button.slick-next.ann-c
   }
   .ammenities_img{
     flex: 1;
+    display: flex;
+    justify-content: flex-end;
+    max-width: 100%;
   }
   .ammenities_img img{
     max-width: 100%;
