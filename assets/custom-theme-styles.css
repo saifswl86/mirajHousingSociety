@@ -1613,7 +1613,7 @@ button.slick-prev.ann-cstm-prev-icon.slick-arrow::before,button.slick-next.ann-c
     letter-spacing: 1px
   }
   .ammenities_img{
-    flex: 0.4;
+    flex: 1;
   }
   .ammenities_img img{
     max-width: 100%;
