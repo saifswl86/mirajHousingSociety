@@ -73,6 +73,7 @@ a.styled_btn.btn--animation-from-right:hover{
   	font-weight:600;
   	
 }
+
 .images_with_button .styled_btn{
     position: relative;
     left: 50%;
@@ -1636,6 +1637,7 @@ button.slick-prev.ann-cstm-prev-icon.slick-arrow::before,button.slick-next.ann-c
     display: flex;
     flex-direction: column;
     padding:0rem 9.5rem;
+    margin-bottom:2rem;
   }
   .iwb_gallery{
     display: flex;
