@@ -15,7 +15,7 @@
 	font-size:1.2em;
 }
 .footer-block__details-content.footer-block-image{
-	padding-top:2rem;
+/* 	padding-top:2rem; */
 }
 @media screen and (max-width: 749px) {
   .footer .grid {
