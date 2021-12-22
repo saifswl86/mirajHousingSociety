@@ -1538,7 +1538,7 @@ button.slick-prev.ann-cstm-prev-icon.slick-arrow::before,button.slick-next.ann-c
   
  /*
 ============================================================================================
-  STYLES FOR ====>>Image With Text With Icons
+  STYLES FOR ====>>New Amenities 
 ============================================================================================
 */ 
   
@@ -1553,7 +1553,7 @@ button.slick-prev.ann-cstm-prev-icon.slick-arrow::before,button.slick-next.ann-c
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
-    flex: 0.6;
+    flex: 0.7;
   }
   .ammenities-iconItem{
 /*     background: #EAE9E5; */
