@@ -418,7 +418,12 @@
     object-fit: cover;
     width: 100%;
   }
-
+  .new-ammenities{
+  	margin-bottom:0rem;
+  }
+  .ammenities-iconItem{
+  	height:75px;
+  }
 }
 
 
