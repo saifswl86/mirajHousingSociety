@@ -525,3 +525,13 @@ noscript .localization-selector.link {
 .footer__content-top.page-width{
 	padding:0rem 5rem;
 }
+@media screen and (max-width:768px){
+
+  .footer-block.cstm-block-2.grid__item.footer-block--menu,.footer-block.cstm-block-3.grid__item  {
+    padding-left:3rem
+}
+.footer__content-top.page-width{
+	padding:0rem 3rem;
+}
+  
+}
