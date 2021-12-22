@@ -539,3 +539,8 @@ noscript .localization-selector.link {
   }
   
 }
+@media screen and (max-width:540px){
+  .footer__content-top.page-width{
+  	padding:0rem;
+  }
+}
