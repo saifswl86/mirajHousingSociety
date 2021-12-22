@@ -533,5 +533,9 @@ noscript .localization-selector.link {
 .footer__content-top.page-width{
 	padding:0rem 3rem;
 }
+  .footer__content-top .grid{
+  	padding-top:3rem;
+    padding-bottom:0rem;
+  }
   
 }
