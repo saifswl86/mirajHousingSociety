@@ -518,12 +518,3 @@ noscript .localization-selector.link {
   text-decoration: underline;
 }
 
-.footer-block.cstm-block-1.grid__item {
-    flex: 0.6;
-}
-.footer-block.cstm-block-2.grid__item.footer-block--menu {
-    flex: 0.3;
-}
-.footer-block.cstm-block-3.grid__item {
-    flex: 0.3;
-}
