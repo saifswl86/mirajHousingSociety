@@ -85,6 +85,9 @@
   .cstm_contact_form{
   	padding:5rem;
   }
+  .ammenities-iconItem img{
+  	width:25px;
+  }
 }
 @media screen and (max-width:990px){
   .header__inline-menu{
