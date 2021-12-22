@@ -69,7 +69,7 @@
             "settings": {
               "image": "shopify:\/\/shop_images\/Logo_with_tagline.png",
               "image_width": 200,
-              "alignment": ""
+              "alignment": "center"
             }
           },
           "footer-0": {
