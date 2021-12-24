@@ -14,6 +14,7 @@
     "social_facebook_link": "#",
     "social_youtube_link": "#",
     "social_email_address": "#",
+    "favicon": "shopify:\/\/shop_images\/Logo_with_tagline.png",
     "sections": {
       "announcement-bar": {
         "type": "announcement-bar",
