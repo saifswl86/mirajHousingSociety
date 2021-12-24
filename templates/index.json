@@ -3,14 +3,14 @@
     "1635319388585f341a": {
       "type": "banner-section",
       "settings": {
-        "banner-section-content": "half_width_image",
-        "overlay_check": true,
+        "banner-section-content": "full_width_image",
+        "overlay_check": false,
         "tagline_banner": "A project by Miraj Housing Scheme",
-        "banner-overlay-image_check": true,
+        "banner-overlay-image_check": false,
         "banner-overlay-heading": "About Us",
         "banner-overlay_image": "shopify:\/\/shop_images\/LOGO_2x_e978eb8f-dc11-4ea9-8c04-4559fccf9d35.png",
         "half_background_image": "shopify:\/\/shop_images\/pexels-binyamin-mellish-106399.png",
-        "full_background_image": "shopify:\/\/shop_images\/pexels-binyamin-mellish-106399.png",
+        "full_background_image": "shopify:\/\/shop_images\/Banner_01.jpg",
         "banner_video": "https:\/\/cdn.shopify.com\/s\/files\/1\/0593\/1987\/7820\/files\/Lake_-_67201.mp4?v=1635320476",
         "banner_gif": "shopify:\/\/shop_images\/ezgif-4-ae187100f82c.gif"
       }
