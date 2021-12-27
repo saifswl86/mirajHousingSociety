@@ -14,6 +14,31 @@
         "banner_video": ""
       }
     },
+    "1636541604b1971514": {
+      "type": "Announcements-slider",
+      "blocks": {
+        "ee901c74-c7b0-443e-9e6b-1fb911dca561": {
+          "type": "announcement",
+          "settings": {
+            "announcement": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed eos quod at, itaque voluptates iusto impedit est maiores nisi facilis sunt architecto minima amet obcaecati!"
+          }
+        },
+        "d1494f24-bac4-468b-8306-3a71212c6615": {
+          "type": "announcement",
+          "settings": {
+            "announcement": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed eos quod at, itaque voluptates iusto impedit est maiores nisi facilis sunt architecto minima amet obcaecati!"
+          }
+        }
+      },
+      "block_order": [
+        "ee901c74-c7b0-443e-9e6b-1fb911dca561",
+        "d1494f24-bac4-468b-8306-3a71212c6615"
+      ],
+      "settings": {
+        "title": "Announcemnts",
+        "bg_image": "shopify:\/\/shop_images\/4.png"
+      }
+    },
     "163654258043a9bdf9": {
       "type": "cstm-blogs",
       "settings": {
@@ -73,31 +98,6 @@
         "title": "Gallery"
       }
     },
-    "1636541604b1971514": {
-      "type": "Announcements-slider",
-      "blocks": {
-        "ee901c74-c7b0-443e-9e6b-1fb911dca561": {
-          "type": "announcement",
-          "settings": {
-            "announcement": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed eos quod at, itaque voluptates iusto impedit est maiores nisi facilis sunt architecto minima amet obcaecati!"
-          }
-        },
-        "d1494f24-bac4-468b-8306-3a71212c6615": {
-          "type": "announcement",
-          "settings": {
-            "announcement": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed eos quod at, itaque voluptates iusto impedit est maiores nisi facilis sunt architecto minima amet obcaecati!"
-          }
-        }
-      },
-      "block_order": [
-        "ee901c74-c7b0-443e-9e6b-1fb911dca561",
-        "d1494f24-bac4-468b-8306-3a71212c6615"
-      ],
-      "settings": {
-        "title": "Announcemnts",
-        "bg_image": "shopify:\/\/shop_images\/4.png"
-      }
-    },
     "163671085415c4802c": {
       "type": "image-with-text",
       "blocks": {
@@ -148,9 +148,9 @@
   },
   "order": [
     "banner-section",
+    "1636541604b1971514",
     "163654258043a9bdf9",
     "16365475452874519c",
-    "1636541604b1971514",
     "163671085415c4802c",
     "163654273140f882cf"
   ]
