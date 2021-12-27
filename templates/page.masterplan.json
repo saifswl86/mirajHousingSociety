@@ -13,16 +13,6 @@
         "banner_video": ""
       }
     },
-    "163540502488940eb4": {
-      "type": "video",
-      "settings": {
-        "heading": "",
-        "cover_image": "shopify:\/\/shop_images\/pexels-the-lazy-artist-gallery-1642125_2x_e92653a6-3c4a-421a-8131-4755f92b1a9b.png",
-        "video_url": "",
-        "description": "",
-        "full_width": true
-      }
-    },
     "1636311156b03df062": {
       "type": "Cstm-iwt",
       "blocks": {
@@ -43,6 +33,16 @@
         "bgColor": "#eae9e5"
       }
     },
+    "163540502488940eb4": {
+      "type": "video",
+      "settings": {
+        "heading": "",
+        "cover_image": "shopify:\/\/shop_images\/pexels-the-lazy-artist-gallery-1642125_2x_e92653a6-3c4a-421a-8131-4755f92b1a9b.png",
+        "video_url": "",
+        "description": "",
+        "full_width": true
+      }
+    },
     "1636311236b5e4b205": {
       "type": "cstm-contact-form",
       "settings": {
@@ -58,8 +58,8 @@
   },
   "order": [
     "banner-section",
-    "163540502488940eb4",
     "1636311156b03df062",
+    "163540502488940eb4",
     "1636311236b5e4b205"
   ]
 }
