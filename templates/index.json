@@ -179,64 +179,64 @@
         "d85e5f53-491b-4ba3-9a59-193bac5291e9": {
           "type": "icons",
           "settings": {
-            "icon": "shopify:\/\/shop_images\/Grand_Mosque_copy.png",
+            "icon": "shopify:\/\/shop_images\/Grand_Mosque.png",
             "icon_text": "Grand Mosque"
           }
         },
         "915984a4-87c3-4d81-aea4-4e04f999fb65": {
           "type": "icons",
           "settings": {
-            "icon": "shopify:\/\/shop_images\/hospital.png",
+            "icon": "shopify:\/\/shop_images\/Landscape_Parks.png",
             "icon_text": "Beautiful Landscape Parks"
           }
         },
         "cf2a2755-8bc4-42b3-9905-2ac0c0d1cb10": {
           "type": "icons",
           "settings": {
-            "icon": "shopify:\/\/shop_images\/hospital.png",
+            "icon": "shopify:\/\/shop_images\/commercial_Zone.png",
             "icon_text": "Commercial Zone for Daily Needs"
           }
         },
         "fdc3f077-67e3-47c4-a9d2-e687a31e94c4": {
           "type": "icons",
           "settings": {
-            "icon": "shopify:\/\/shop_images\/hospital.png",
-            "icon_text": "Flawlessly Integrated Security System"
-          }
-        },
-        "ac872b18-2ecb-4741-941e-485b02a5541b": {
-          "type": "icons",
-          "settings": {
-            "icon": "shopify:\/\/shop_images\/hospital.png",
+            "icon": "shopify:\/\/shop_images\/Flawlessly_Integrated_Security_System.png",
             "icon_text": "Flawlessly Integrated Security System"
           }
         },
         "3b12de7a-3e5b-4db5-80d5-4a55df49c366": {
           "type": "icons",
           "settings": {
-            "icon": "shopify:\/\/shop_images\/hospital.png",
+            "icon": "shopify:\/\/shop_images\/CCTV_Surveillance.png",
             "icon_text": "CCTV Surveillance  Cameras"
           }
         },
         "ae6706c3-00b9-41ca-83ac-4bf569029e2f": {
           "type": "icons",
           "settings": {
-            "icon": "shopify:\/\/shop_images\/hospital.png",
+            "icon": "shopify:\/\/shop_images\/Retail_Park.png",
             "icon_text": "World Class Retail Park"
           }
         },
         "e8c5dd9e-d027-4dfd-aa33-f87f6e645bff": {
           "type": "icons",
           "settings": {
-            "icon": "shopify:\/\/shop_images\/hospital.png",
+            "icon": "shopify:\/\/shop_images\/Retail_Park_Free_Wifi_Connectivity.png",
             "icon_text": "Retail Park With Free WIFI Connectivity"
           }
         },
         "16bac0bb-67ad-4827-8aad-0c5e3870c5ce": {
           "type": "icons",
           "settings": {
-            "icon": "shopify:\/\/shop_images\/hospital.png",
-            "icon_text": "Retail Park With Free WIFI Connectivity"
+            "icon": "shopify:\/\/shop_images\/Smat_Tech.png",
+            "icon_text": "Smart Technology Homes"
+          }
+        },
+        "79eae790-08b0-4284-bc3c-92092e23c1e0": {
+          "type": "icons",
+          "settings": {
+            "icon": "shopify:\/\/shop_images\/Open_Play_Area_for_Kids.png",
+            "icon_text": "Open Play Area for Kids"
           }
         }
       },
@@ -245,11 +245,11 @@
         "915984a4-87c3-4d81-aea4-4e04f999fb65",
         "cf2a2755-8bc4-42b3-9905-2ac0c0d1cb10",
         "fdc3f077-67e3-47c4-a9d2-e687a31e94c4",
-        "ac872b18-2ecb-4741-941e-485b02a5541b",
         "3b12de7a-3e5b-4db5-80d5-4a55df49c366",
         "ae6706c3-00b9-41ca-83ac-4bf569029e2f",
         "e8c5dd9e-d027-4dfd-aa33-f87f6e645bff",
-        "16bac0bb-67ad-4827-8aad-0c5e3870c5ce"
+        "16bac0bb-67ad-4827-8aad-0c5e3870c5ce",
+        "79eae790-08b0-4284-bc3c-92092e23c1e0"
       ],
       "settings": {
         "title": "Amenities",
