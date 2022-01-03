@@ -3,13 +3,14 @@
     "banner-section": {
       "type": "banner-section",
       "settings": {
-        "banner-section-content": "half_width_image",
-        "overlay_check": true,
+        "banner-section-content": "full_width_image",
+        "overlay_check": false,
         "tagline_banner": "A project by Miraj Housing Scheme",
         "banner-overlay-image_check": false,
         "banner-overlay-heading": "About Us",
         "banner-overlay_image": "shopify:\/\/shop_images\/LOGO_2x_e978eb8f-dc11-4ea9-8c04-4559fccf9d35.png",
         "half_background_image": "shopify:\/\/shop_images\/pexels-gideon-kong-2561474.png",
+        "full_background_image": "shopify:\/\/shop_images\/About_Us_Banner.jpg",
         "banner_video": ""
       }
     },
@@ -22,7 +23,7 @@
             "name": "John Doe",
             "job_title": "CEO",
             "testimonial": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata",
-            "person_image": "shopify:\/\/shop_images\/5.png",
+            "person_image": "shopify:\/\/shop_images\/CEO_s_Message.jpg",
             "show_quotes": true
           }
         }
@@ -41,7 +42,7 @@
         "a04e1e19-2b5e-4844-a037-e58df442581c": {
           "type": "Image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/pexels-timur-saglambilek-87223.png"
+            "image": "shopify:\/\/shop_images\/Our_Comapany.jpg"
           }
         }
       },
@@ -61,25 +62,25 @@
         "77ad7064-b91c-4748-95ea-395fdb608d6c": {
           "type": "Image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/2_79a8ebd5-fa4c-4ae2-bf82-1d5f0edfa6c0.png"
+            "image": "shopify:\/\/shop_images\/Our_Team.jpg"
           }
         },
         "72dee019-e49e-487f-9578-7f143c87b9e9": {
           "type": "Image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/1_2df47308-0696-46d8-821f-e55ce3df764a.png"
+            "image": "shopify:\/\/shop_images\/Our_Team.jpg"
           }
         },
         "49ff90b5-cd9f-4008-9105-4ab08a718d92": {
           "type": "Image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/3_ea99d26b-d4e2-473f-92aa-789da1273f52.png"
+            "image": "shopify:\/\/shop_images\/Our_Team.jpg"
           }
         },
         "e167ceb5-5267-4241-883d-7d9fa31c2b2c": {
           "type": "Image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/2_79a8ebd5-fa4c-4ae2-bf82-1d5f0edfa6c0.png"
+            "image": "shopify:\/\/shop_images\/Our_Team.jpg"
           }
         }
       },
@@ -101,7 +102,7 @@
       "settings": {
         "title": "Vision & Mission",
         "desc": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr,",
-        "image": "shopify:\/\/shop_images\/pexels-casper-starenda-2224933.png",
+        "image": "shopify:\/\/shop_images\/Vission_and_Mission.jpg",
         "bgColor": ""
       }
     },
@@ -111,7 +112,7 @@
         "6db65a5c-3149-4ca8-838b-b6b45b09d0b4": {
           "type": "Image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/pexels-jonas-ferlin-1963557_2x_2faae8fa-bb01-4cc8-9670-d43d33f3f5e8.png"
+            "image": "shopify:\/\/shop_images\/Values.jpg"
           }
         }
       },
