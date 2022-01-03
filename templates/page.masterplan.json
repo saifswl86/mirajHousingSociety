@@ -3,13 +3,14 @@
     "banner-section": {
       "type": "banner-section",
       "settings": {
-        "banner-section-content": "half_width_image",
-        "overlay_check": true,
+        "banner-section-content": "full_width_image",
+        "overlay_check": false,
         "tagline_banner": "A project by Miraj Housing Scheme",
         "banner-overlay-image_check": false,
         "banner-overlay-heading": "Masterplan",
         "banner-overlay_image": "shopify:\/\/shop_images\/LOGO_2x_e978eb8f-dc11-4ea9-8c04-4559fccf9d35.png",
         "half_background_image": "shopify:\/\/shop_images\/pexels-michael-tuszynski-2157401_544a335e-9690-4a41-8bab-e1fbdbfd27ea.png",
+        "full_background_image": "shopify:\/\/shop_images\/Master_Plan_Banner.jpg",
         "banner_video": ""
       }
     },
@@ -19,7 +20,7 @@
         "5166ed4e-b1e9-4013-85f0-b76d68b14b7f": {
           "type": "Image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/pexels-timur-saglambilek-87223.png"
+            "image": "shopify:\/\/shop_images\/Master_Plan_tab.jpg"
           }
         }
       },
@@ -37,8 +38,8 @@
       "type": "video",
       "settings": {
         "heading": "",
-        "cover_image": "shopify:\/\/shop_images\/pexels-the-lazy-artist-gallery-1642125_2x_e92653a6-3c4a-421a-8131-4755f92b1a9b.png",
-        "video_url": "https:\/\/youtu.be\/c5nhWy7Zoxg?list=PLmUBwxvdqHq-2La24tH5J55DwBdUwZnoI",
+        "cover_image": "shopify:\/\/shop_images\/Master_Plan.jpg",
+        "video_url": "",
         "description": "",
         "full_width": true
       }
